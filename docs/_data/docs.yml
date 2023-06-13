@@ -1,47 +1,103 @@
+# - title: Using GUDMAP/RBK
+#   docs:
+#     - using-the-gudmap-rbk-data-browser
+#     - uploading-files-using-deriva-client-tools
+#     - batch-query
+#     - exporting-data
+
+# - title: Submitting Data
+#   docs:
+#     - standard-files-and-formats-for-submission
+#     - antibodies
+#     - cell-lines
+#     - data-collections
+#     - imaging-data
+#     - protocols
+#     - sequencing-metabolomics-imc-data
+#     - single-cell-visualization-files
+#     - specimens
+#     - bulk-uploading-image-files
+#     - bulk-uploading-specimen-data-from-a-file
+#     - annotating-images
+#     - color-palette-for-image-annotation
+
+
+
+
+---
 - title: Using GUDMAP/RBK
   docs:
-    - using-the-gudmap-rbk-data-browser
-    - uploading-files-using-deriva-client-tools
-    - batch-query
-    - exporting-data
+  - sectionTitle: Using the GUDMAP RBK Data Browser
+    url: using-the-gudmap-rbk-data-browser
+  - sectionTitle: Uploading files via Deriva client tools
+    url: uploading-files-using-deriva-client-tools
+  - sectionTitle: Batch Query
+    url: batch-query
+  - sectionTitle: Exporting Data
+    url: exporting-data
 
 - title: Submitting Data
   docs:
-    - standard-files-and-formats-for-submission
-    - antibodies
-    - cell-lines
-    - data-collections
-    - imaging-data
-    - protocols
-    - sequencing-metabolomics-imc-data
-    - single-cell-visualization-files
-    - specimens
-    - bulk-uploading-image-files
-    - bulk-uploading-specimen-data-from-a-file
-    - annotating-images
-    - color-palette-for-image-annotation
+  - sectionTitle: Standard file formats for data submission
+    url: standard-files-and-formats-for-submission
+  - sectionTitle: Antibodies
+    url: antibodies
+  - sectionTitle: Cell Lines
+    url: cell-lines
+  - sectionTitle: Data Collections
+    url: data-collections
+  - sectionTitle: Protocols
+    url: protocols
+  - sectionTitle: Sequencing/Metabolomics/IMC Data
+    url: sequencing-metabolomics-imc-data
+  - sectionTitle: Single Cell Visualization Files
+    url: single-cell-visualization-files
+  - sectionTitle: Specimens
+    url: specimens
+  - sectionTitle: Bulk uploading image files
+    url: bulk-uploading-image-files
+  - sectionTitle: Bulk uploading Specimen data from a file(DRAFT)
+    url: bulk-uploading-specimen-data-from-a-file
+  - sectionTitle: Annotating images
+    url: annotating-images
+  - sectionTitle: Color palette for image annotation
+    url: color-palette-for-image-annotation
 
-- title: Data Submission Process
+- title: " Data Submission Process"
   docs:
-    - curation-workflow
-    - reviewing-data-for-release
+  - sectionTitle: ''
+    url: curation-workflow
+  - sectionTitle: ''
+    url: reviewing-data-for-release
 
-- title: Images and Videos
-  docs:
-    - thumbnail-creation-guideline
-    - available-video-platforms
 
-- title: Access
+- title: " Images and Videos"
   docs:
-    - accessing-gudmap-and-rbk-resources
-    - uploading-files-via-deriva-client-tools
+  - sectionTitle: ''
+    url: thumbnail-creation-guideline
+  - sectionTitle: ''
+    url: available-video-platforms
 
-- title: Data Publication and Citation
-  docs:
-    - how-to-create-a-collection-and-citation-for-publications
-    - shortcut-urls-for-citation-and-sharing
 
-- title: Data Model
+- title: " Access"
   docs:
-    - data-submission-curation-state-diagram
-    - rbk-data-submission-workshop-2017_06_12
+  - sectionTitle: ''
+    url: accessing-gudmap-and-rbk-resources
+  - sectionTitle: ''
+    url: uploading-files-via-deriva-client-tools
+
+
+- title: " Data Publication and Citation"
+  docs:
+  - sectionTitle: ''
+    url: how-to-create-a-collection-and-citation-for-publications
+  - sectionTitle: ''
+    url: shortcut-urls-for-citation-and-sharing
+
+
+- title: " Data Model"
+  docs:
+  - sectionTitle: ''
+    url: data-submission-curation-state-diagram
+  - sectionTitle: ''
+    url: rbk-data-submission-workshop-2017_06_12
