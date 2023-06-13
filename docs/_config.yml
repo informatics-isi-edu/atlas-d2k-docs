@@ -1,5 +1,5 @@
 # Site settings
-title: Jekyll Doc Theme
+title: ATLAS-D2K Hub
 email: your-email@domain.com
 description: >
   Jekyll Template for Project Websites
@@ -34,12 +34,12 @@ exclude:
   - vendor
 timezone: America/Phoenix
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
+# - scope:
+#     path: _posts
+#     type: posts
+#   values:
+#     layout: post
+#     sectionid: blog
 
 - scope:
     path: _docs
@@ -54,6 +54,6 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+  # posts:
+  #   permalink: /blog/:year/:month/:day/:title/
+  #   output: true

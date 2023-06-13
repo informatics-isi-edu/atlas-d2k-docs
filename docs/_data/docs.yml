@@ -1,11 +1,47 @@
-- title: Getting Started
+- title: Using GUDMAP/RBK
   docs:
-  - home
-  - themes
-  - customization
+    - using-the-gudmap-rbk-data-browser
+    - uploading-files-using-deriva-client-tools
+    - batch-query
+    - exporting-data
 
-- title: Examples
+- title: Submitting Data
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+    - standard-files-and-formats-for-submission
+    - antibodies
+    - cell-lines
+    - data-collections
+    - imaging-data
+    - protocols
+    - sequencing-metabolomics-imc-data
+    - single-cell-visualization-files
+    - specimens
+    - bulk-uploading-image-files
+    - bulk-uploading-specimen-data-from-a-file
+    - annotating-images
+    - color-palette-for-image-annotation
+
+- title: Data Submission Process
+  docs:
+    - curation-workflow
+    - reviewing-data-for-release
+
+- title: Images and Videos
+  docs:
+    - thumbnail-creation-guideline
+    - available-video-platforms
+
+- title: Access
+  docs:
+    - accessing-gudmap-and-rbk-resources
+    - uploading-files-via-deriva-client-tools
+
+- title: Data Publication and Citation
+  docs:
+    - how-to-create-a-collection-and-citation-for-publications
+    - shortcut-urls-for-citation-and-sharing
+
+- title: Data Model
+  docs:
+    - data-submission-curation-state-diagram
+    - rbk-data-submission-workshop-2017_06_12
