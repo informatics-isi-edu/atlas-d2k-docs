@@ -63,11 +63,11 @@
     url: uploading-files-via-deriva-client-tools
 
 # Section 6
-- title: " Data Publication and Citation"
+- title: Data Publication and Citation
   docs:
-  - sectionTitle: ''
+  - sectionTitle: How to create a collection and citation for publications
     url: how-to-create-a-collection-and-citation-for-publications
-  - sectionTitle: ''
+  - sectionTitle: Shortcut URLs for citation and sharing
     url: shortcut-urls-for-citation-and-sharing
 
 # Section 7
