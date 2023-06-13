@@ -47,11 +47,11 @@
     url: reviewing-data-for-release
 
 # Section 4
-- title: " Images and Videos"
+- title: Images and Videos
   docs:
-  - sectionTitle: ''
+  - sectionTitle: Thumbnail creation guideline
     url: thumbnail-creation-guideline
-  - sectionTitle: ''
+  - sectionTitle: Available Video Platforms
     url: available-video-platforms
 
 # Section 5
