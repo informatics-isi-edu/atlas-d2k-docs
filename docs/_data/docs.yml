@@ -1,30 +1,4 @@
-# - title: Using GUDMAP/RBK
-#   docs:
-#     - using-the-gudmap-rbk-data-browser
-#     - uploading-files-using-deriva-client-tools
-#     - batch-query
-#     - exporting-data
-
-# - title: Submitting Data
-#   docs:
-#     - standard-files-and-formats-for-submission
-#     - antibodies
-#     - cell-lines
-#     - data-collections
-#     - imaging-data
-#     - protocols
-#     - sequencing-metabolomics-imc-data
-#     - single-cell-visualization-files
-#     - specimens
-#     - bulk-uploading-image-files
-#     - bulk-uploading-specimen-data-from-a-file
-#     - annotating-images
-#     - color-palette-for-image-annotation
-
-
-
-
----
+# Section 1
 - title: Using GUDMAP/RBK
   docs:
   - sectionTitle: Using the GUDMAP RBK Data Browser
@@ -36,6 +10,7 @@
   - sectionTitle: Exporting Data
     url: exporting-data
 
+# Section 2
 - title: Submitting Data
   docs:
   - sectionTitle: Standard file formats for data submission
@@ -63,14 +38,15 @@
   - sectionTitle: Color palette for image annotation
     url: color-palette-for-image-annotation
 
-- title: " Data Submission Process"
+# Section 3
+- title: Data Submission Process
   docs:
-  - sectionTitle: ''
+  - sectionTitle: Curation Workflow
     url: curation-workflow
-  - sectionTitle: ''
+  - sectionTitle: Reviewing Data for Release
     url: reviewing-data-for-release
 
-
+# Section 4
 - title: " Images and Videos"
   docs:
   - sectionTitle: ''
@@ -78,7 +54,7 @@
   - sectionTitle: ''
     url: available-video-platforms
 
-
+# Section 5
 - title: " Access"
   docs:
   - sectionTitle: ''
@@ -86,7 +62,7 @@
   - sectionTitle: ''
     url: uploading-files-via-deriva-client-tools
 
-
+# Section 6
 - title: " Data Publication and Citation"
   docs:
   - sectionTitle: ''
@@ -94,7 +70,7 @@
   - sectionTitle: ''
     url: shortcut-urls-for-citation-and-sharing
 
-
+# Section 7
 - title: " Data Model"
   docs:
   - sectionTitle: ''
