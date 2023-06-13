@@ -55,11 +55,11 @@
     url: available-video-platforms
 
 # Section 5
-- title: " Access"
+- title: Access
   docs:
-  - sectionTitle: ''
+  - sectionTitle: Accessing GUDMAP and RBK Resources
     url: accessing-gudmap-and-rbk-resources
-  - sectionTitle: ''
+  - sectionTitle: Uploading files via Deriva client tools
     url: uploading-files-via-deriva-client-tools
 
 # Section 6
