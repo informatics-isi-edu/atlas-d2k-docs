@@ -71,9 +71,9 @@
     url: shortcut-urls-for-citation-and-sharing
 
 # Section 7
-- title: " Data Model"
+- title: Data Model
   docs:
-  - sectionTitle: ''
+  - sectionTitle: Data submission curation state diagram
     url: data-submission-curation-state-diagram
-  - sectionTitle: ''
+  - sectionTitle: RBK Data Submission Workshop 2017_06_12
     url: rbk-data-submission-workshop-2017_06_12
