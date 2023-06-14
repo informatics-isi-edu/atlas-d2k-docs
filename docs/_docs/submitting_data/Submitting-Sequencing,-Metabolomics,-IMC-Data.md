@@ -234,7 +234,7 @@ Once you've created your sequencing study and uploaded your data, you can then e
 ## Data Submission Dashboard
 The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the GUDMAP/RBK data browser.
 
-![Monthly Submission Dashboard](wiki_images/Dashboard.png)
+![Monthly Submission Dashboard]/assets/wiki_images/Dashboard.png)
 
 ## Frequently Asked Questions
 **Question**: 10X generates fastq files in the form of `*.R1_001.fastq.gz` (e.g. my_single_cell.R1_001.fastq.gz). How do I rename file names in bulk from `*.R1_001.fastq.gz` to `*.R1.fastq.gz`?

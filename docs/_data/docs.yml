@@ -1,79 +1,127 @@
 # Section 1
 - title: Using GUDMAP/RBK
   docs:
-  - sectionTitle: Using the GUDMAP RBK Data Browser
-    url: using-the-gudmap-rbk-data-browser
-  - sectionTitle: Uploading files via Deriva client tools
-    url: uploading-files-using-deriva-client-tools
-  - sectionTitle: Batch Query
-    url: batch-query
-  - sectionTitle: Exporting Data
-    url: exporting-data
+    - sectionTitle: Using the GUDMAP RBK Data Browser
+      url: using-the-gudmap-rbk-data-browser
+    - sectionTitle: Uploading files via Deriva client tools
+      url: uploading-files-using-deriva-client-tools
+    - sectionTitle: Batch Query
+      url: batch-query
+    - sectionTitle: Exporting Data
+      url: exporting-data
 
 # Section 2
 - title: Submitting Data
   docs:
-  - sectionTitle: Standard file formats for data submission
-    url: standard-files-and-formats-for-submission
-  - sectionTitle: Antibodies
-    url: antibodies
-  - sectionTitle: Cell Lines
-    url: cell-lines
-  - sectionTitle: Data Collections
-    url: data-collections
-  - sectionTitle: Protocols
-    url: protocols
-  - sectionTitle: Sequencing/Metabolomics/IMC Data
-    url: sequencing-metabolomics-imc-data
-  - sectionTitle: Single Cell Visualization Files
-    url: single-cell-visualization-files
-  - sectionTitle: Specimens
-    url: specimens
-  - sectionTitle: Bulk uploading image files
-    url: bulk-uploading-image-files
-  - sectionTitle: Bulk uploading Specimen data from a file(DRAFT)
-    url: bulk-uploading-specimen-data-from-a-file
-  - sectionTitle: Annotating images
-    url: annotating-images
-  - sectionTitle: Color palette for image annotation
-    url: color-palette-for-image-annotation
+    - sectionTitle: Standard file formats for data submission
+      url: standard-files-and-formats-for-submission
+    - sectionTitle: Antibodies
+      url: antibodies
+    - sectionTitle: Cell Lines
+      url: cell-lines
+    - sectionTitle: Data Collections
+      url: data-collections
+    - sectionTitle: Protocols
+      url: protocols
+    - sectionTitle: Sequencing/Metabolomics/IMC Data
+      url: sequencing-metabolomics-imc-data
+    - sectionTitle: Single Cell Visualization Files
+      url: single-cell-visualization-files
+    - sectionTitle: Specimens
+      url: specimens
+    - sectionTitle: Bulk uploading image files
+      url: bulk-uploading-image-files
+    - sectionTitle: Bulk uploading Specimen data from a file(DRAFT)
+      url: bulk-uploading-specimen-data-from-a-file
+    - sectionTitle: Annotating images
+      url: annotating-images
+    - sectionTitle: Color palette for image annotation
+      url: color-palette-for-image-annotation
 
 # Section 3
 - title: Data Submission Process
   docs:
-  - sectionTitle: Curation Workflow
-    url: curation-workflow
-  - sectionTitle: Reviewing Data for Release
-    url: reviewing-data-for-release
+    - sectionTitle: Curation Workflow
+      url: curation-workflow
+    - sectionTitle: Reviewing Data for Release
+      url: reviewing-data-for-release
 
 # Section 4
 - title: Images and Videos
   docs:
-  - sectionTitle: Thumbnail creation guideline
-    url: thumbnail-creation-guideline
-  - sectionTitle: Available Video Platforms
-    url: available-video-platforms
+    - sectionTitle: Thumbnail creation guideline
+      url: thumbnail-creation-guideline
+    - sectionTitle: Available Video Platforms
+      url: available-video-platforms
 
 # Section 5
 - title: Access
   docs:
-  - sectionTitle: Accessing GUDMAP and RBK Resources
-    url: accessing-gudmap-and-rbk-resources
-  - sectionTitle: Uploading files via Deriva client tools
-    url: uploading-files-via-deriva-client-tools
+    - sectionTitle: Accessing GUDMAP and RBK Resources
+      url: accessing-gudmap-and-rbk-resources
+    - sectionTitle: Uploading files via Deriva client tools
+      url: uploading-files-via-deriva-client-tools
 
 # Section 6
 - title: Data Publication and Citation
   docs:
-  - sectionTitle: How to create a collection and citation for publications
-    url: how-to-create-a-collection-and-citation-for-publications
-  - sectionTitle: Shortcut URLs for citation and sharing
-    url: shortcut-urls-for-citation-and-sharing
+    - sectionTitle: How to create a collection and citation for publications
+      url: how-to-create-a-collection-and-citation-for-publications
+    - sectionTitle: Shortcut URLs for citation and sharing
+      url: shortcut-urls-for-citation-and-sharing
 
 # Section 7
 - title: Data Model
   docs:
-  - sectionTitle: Data submission curation state diagram
-    url: data-submission-curation-state-diagram
-  - sectionTitle: RBK Data Submission Workshop 2017_06_12
-    url: rbk-data-submission-workshop-2017_06_12
+    - sectionTitle: Data submission curation state diagram
+      url: data-submission-curation-state-diagram
+    - sectionTitle: RBK Data Submission Workshop 2017_06_12
+      url: rbk-data-submission-workshop-2017_06_12
+
+# Section 8
+- title: Miscellaneous
+  docs:
+    - sectionTitle: Accessing human sequencing data
+      url: accessing-human-sequencing-data
+    - sectionTitle: Advanced Editing Features
+      url: advanced-editing-features
+    - sectionTitle: Bulk Upload with DERIVA Client Tools
+      url: bulk-upload-with-deriva-client-tools
+    - sectionTitle: Command lines and libraries
+      url: command-lines-and-libraries
+    - sectionTitle: Create citable datasets
+      url: create-citable-datasets
+    - sectionTitle: Data Submission Dashboards (Internal only)
+      url: data-submission-dashboards-internal-only
+    - sectionTitle: Educational tutorials
+      url: educational-tutorials
+    - sectionTitle: Export Data
+      url: export-data
+    - sectionTitle: FAQs
+      url: faqs
+    - sectionTitle: Formatting with Markdown
+      url: formatting-with-markdown
+    - sectionTitle: General Data Browser Notes
+      url: general-data-browser-notes
+    - sectionTitle: GUDMAP Requirements Sessions
+      url: gudmap-requirements-sessions
+    - sectionTitle: Possible Directory Structures For Uploading Image Data
+      url: possible-directory-structures-for-uploading-image-data
+    - sectionTitle: Querying the GUDMAP RBK Data Browser
+      url: querying-the-gudmap-rbk-data-browser
+    - sectionTitle: Release Notes (Data Browser)
+      url: release-notes-data-browser
+    - sectionTitle: Requirements for Creating Schematics
+      url: requirements-for-creating-schematics
+    - sectionTitle: Theiler Stage Reference
+      url: theiler-stage-reference
+    - sectionTitle: Tips for Submitting Large or Complex Data
+      url: tips-for-submitting-large-or-complex-data
+    - sectionTitle: Uploading sequencing workflow files
+      url: uploading-sequencing-workflow-files
+    - sectionTitle: User testing scenarios
+      url: user-testing-scenarios
+    - sectionTitle: z Access our server (obsolete)
+      url: z-access-our-server-obsolete
+    - sectionTitle: z Uploading Sequencing Data Files (obsolete)
+      url: z-uploading-sequencing-data-files-obsolete

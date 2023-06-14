@@ -10,7 +10,7 @@ This page provides instructions for adding immunofluorescence image data to the 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
 We also have the following training materials available:
-* [Webinar Slides](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/slides/GUDMAP-RBK-12132017-data_submission_workshop-if.pptx?raw=true)
+* [Webinar Slides](/assets/slides/GUDMAP-RBK-12132017-data_submission_workshop-if.pptx?raw=true)
 * [Webinar Replay (30:41)](https://youtu.be/UrG8vnBE1YQ)
 * Tutorial Videos (Coming Soon)
 
@@ -32,7 +32,7 @@ Adding immunofluorescence slides to the Data Browser involves the following step
 
 The following represents how different tables in the Data Browser are related in order to form the Immunofluorescence data record.
 
-![Screenshot of IF slide record form](wiki_images/submitting-data/if-schema.jpg)
+![Screenshot of IF slide record form]/assets/wiki_images/submitting-data/if-schema.jpg)
 
 <a name="globus"/>
 
@@ -51,13 +51,13 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
 
 * In the top navigation bar, click _Create > Immunofluorescence Images_.
 
-    ![Screenshot of Histological Slide record create form](wiki_images/submitting-data/if-navigation.png)
+    ![Screenshot of Histological Slide record create form]/assets/wiki_images/submitting-data/if-navigation.png)
 
 <div class="page-break"></div>
   
 *  The Create form appears.
   
-    ![Screenshot of IF slide record form](wiki_images/submitting-data/if-slide-record-form.png)
+    ![Screenshot of IF slide record form]/assets/wiki_images/submitting-data/if-slide-record-form.png)
   
   <div class="page-break"></div>
   
@@ -76,7 +76,7 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
 
 * Scroll back up to the top of the page and click the _Submit Data_ button to save the record.
 
-    ![Screenshot of IF slide record form](wiki_images/submitting-data/chaise-submit.png)
+    ![Screenshot of IF slide record form]/assets/wiki_images/submitting-data/chaise-submit.png)
 
 
 <div class="page-break"></div>
@@ -91,16 +91,16 @@ Once you have the basic Slide record, scroll down further to view other types of
   
 * Click the eye icon in the _Actions_ column to view the desired record.
 
-  ![Clicking the eye icon to view](wiki_images/submitting-data/if-viewing.png)
+  ![Clicking the eye icon to view]/assets/wiki_images/submitting-data/if-viewing.png)
   
 * Make sure you are logged in.
 * Scroll down to the desired section and click _Add_ on the right side of the page.
 
-![Clicking the Add link of the gene section](wiki_images/submitting-data/if-add-link.png)
+![Clicking the Add link of the gene section]/assets/wiki_images/submitting-data/if-add-link.png)
 
 * Search for existing data and select it (you may select multiple values). Then click the _Submit_ button (see the following screenshot).
 
-![Search and select window](wiki_images/submitting-data/if-search-select.png)
+![Search and select window]/assets/wiki_images/submitting-data/if-search-select.png)
 
 <div class="page-break"></div>
 
@@ -110,15 +110,15 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 * Scroll down to the **Slide Videos** section and click the _Add_ link on the right side of the page.
 
-![Create Slide Video Record form window](wiki_images/submitting-data/if-add-link-video.png)
+![Create Slide Video Record form window]/assets/wiki_images/submitting-data/if-add-link-video.png)
 
 * Fill out the **Create Slide Video Record** form. 
 
-![Create Slide Video Record form window](wiki_images/submitting-data/if-create-slide-video-record.png)
+![Create Slide Video Record form window]/assets/wiki_images/submitting-data/if-create-slide-video-record.png)
 
 * Upload your video file by clicking on the _Select File_ button in the _Download Link_ field. **Note: At this time, please submit mp4 file format. This allows users to view the movie in the browser window.** For best results, use 16:9 aspect ratio and high resolution (ideally 1080p).
 
-![Download link](wiki_images/submitting-data/if-create-slide-video-record-download.png)
+![Download link]/assets/wiki_images/submitting-data/if-create-slide-video-record-download.png)
 
 
 * Click the _Submit Data_ button.
@@ -154,8 +154,8 @@ To delete an IF Slide record:
 * Scroll down the record to the sections for Genes, Expression Regions, Antibodies and Videos.
 * In each of these sections, unlink the entries by clicking the 'x' icon in the _Actions_ columns.
 
-![Unlink Gene](wiki_images/submitting-data/if-unlink-gene.png)
+![Unlink Gene]/assets/wiki_images/submitting-data/if-unlink-gene.png)
 
 * Once all of the related records have been unlinked (deleted), then scroll up to the top of the record and click _Delete_.
 
-![Delete button](wiki_images/submitting-data/chaise-delete-option.png)
+![Delete button]/assets/wiki_images/submitting-data/chaise-delete-option.png)

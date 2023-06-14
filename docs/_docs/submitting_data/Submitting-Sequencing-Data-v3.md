@@ -180,7 +180,7 @@ When the Hub is satisfied all requirements are met, they will change the status 
 
 The [monthly data submission dashboard](https://www.gudmap.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the GUDMAP/RBK data browser. 
 
-![Monthly Submission Dashboard](wiki_images/Dashboard.png)
+![Monthly Submission Dashboard]/assets/wiki_images/Dashboard.png)
 
 ## Frequently Asked Questions
 
