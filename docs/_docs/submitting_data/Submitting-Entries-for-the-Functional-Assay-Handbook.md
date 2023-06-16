@@ -1,4 +1,8 @@
-Submitting Entries for the Functional Assay Handbook
+---
+title: Submitting Entries for the Functional Assay Handbook
+permalink: /docs/entries-for-the-functional-assay-handbook/
+---
+
 
 ## Requirement:
 
@@ -122,7 +126,7 @@ Overview of steps:
 
 4. Upload Figures and/or Videos (Optional)
 
-Protocol records are based on the *[Nature Protocols](https://www.nature.com/nprot/for-authors/preparing-your-submission#protocol)* format. Text fields accept [Markdown formatting](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Formatting-with-Markdown).
+Protocol records are based on the *[Nature Protocols](https://www.nature.com/nprot/for-authors/preparing-your-submission#protocol)* format. Text fields accept [Markdown formatting](/docs/formatting-with-markdown).
 
 ### Note on Version field
 
@@ -177,7 +181,7 @@ To embed image files in your protocol: add the file to the Attachments section, 
 
     * Click Save
 
-* Embed Image: Note you can only embed an image file (in .jpg or .png format). For video files, you may only add a link to the URI for the figure (for information on how to add a link, see [Formatting with Markdown](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Formatting-with-Markdown)).
+* Embed Image: Note you can only embed an image file (in .jpg or .png format). For video files, you may only add a link to the URI for the figure (for information on how to add a link, see [Formatting with Markdown](/docs/formatting-with-markdown)).
 
     * In the record you just added, copy the *URI* field (the link to the image on our system).
 

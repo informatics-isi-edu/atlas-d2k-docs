@@ -13,7 +13,7 @@ Our continually expanding [Educational Tutorials](https://www.gudmap.org/tutoria
 
 To see our current offerings, go to [https://www.gudmap.org/tutorials/](/tutorials/). You can also find it by going to [www.gudmap.org](/) and clicking *Education* in the menu navigation.
 
-![Navigating to the Education section of the GUDMAP website](wiki_images/gu-1.png)
+![Navigating to the Education section of the GUDMAP website](/assets/wiki_images/gu-1.png)
 
 Current tutorials include:
 

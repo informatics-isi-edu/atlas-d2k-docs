@@ -1,10 +1,8 @@
 ---
-title: FAQs
+title: Frequently Asked Questions
 permalink: /docs/faqs/
 ---
 
-
-# Frequently Asked Questions
 
 (Note: This page is a draft in progress)
 
@@ -16,7 +14,7 @@ To reference this data, you would use `GUDMAP:{RID}` or `http://gudmap.org/id/RI
 
 ## What is a data collection?
 
-A data collection is a customized set of data that you can create to cite data for a publication, share an experiment with a collaborator or otherwise create a specific set of data that can be permanently cited. For more information, see [Create citable datasets](Create-citable-datasets).
+A data collection is a customized set of data that you can create to cite data for a publication, share an experiment with a collaborator or otherwise create a specific set of data that can be permanently cited. For more information, see [Create citable datasets](/docs/create-citable-datasets/).
 
 ## What is Globus?
 
@@ -26,12 +24,12 @@ We are using their very secure authentication system that also works securely wi
 
 You can find [more information about Globus  here](https://docs.globus.org/faq/security/#what_is_globus_id). 
 
-You can find specific information about [accessing GUDMAP/RBK resources here](Accessing-GUDMAP-and-RBK-Resources).
+You can find specific information about [accessing GUDMAP/RBK resources here](/docs/accessing-gudmap-and-rbk-resources).
 
 
 ## How do I perform a batch search?
 
-A batch search (or batch query) allows you to do things like filter the data for a whole set of genes. For instructions, go to the [Batch Query page](Batch-Query).
+A batch search (or batch query) allows you to do things like filter the data for a whole set of genes. For instructions, go to the [Batch Query page](/docs/batch-query).
 
 ## How should I include data citation in my GUDMAP or RBK papers?
 

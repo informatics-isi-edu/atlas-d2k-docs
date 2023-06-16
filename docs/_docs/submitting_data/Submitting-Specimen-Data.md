@@ -7,7 +7,7 @@ permalink: /docs/specimens/
 # Submitting Specimen and Imaging Data (H&E, IF, ISH, etc)
 -->
 <!-- comment out when generating PDF in Atom
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Specimen-Data.pdf)**
+**[PDF version](/docs/specimens/.pdf)**
 -->
 
 This page provides instructions for adding specimen and imaging data (such as histology, immunohistochemical, in situ hybridization images, etc) to the GUDMAP/RBK Data Explorer.
@@ -16,7 +16,7 @@ If you have any questions or feedback, please send them to your consortium's hel
 
 ## Related materials
 
-- [Tutorial slides from 5/30/2019 - Model V2](slides/Specimen-Training-20190530-slides.pptx)
+- [Tutorial slides from 5/30/2019 - Model V2](/assets/slides/Specimen-Training-20190530-slides.pptx)
 - [Webinar from 5/30/2019](https://youtu.be/J9v8N1brHcY)
 
 ## Overview of specimen data submission process
@@ -88,7 +88,7 @@ Required fields - click the dropdown field and choose the appropriate value:
 
     * **Embedding**
 
-* **Curation Status**: The default is *In Preparation* which is draft mode and will only be viewable by other Consortium members who are logged in. *PI Review* is also available if your internal process would like to indicate records ready for the PI to review. Once you are finished and ready for the Hub to review for further curation, change this field to *Submitted*. For more information, see [Curation Workflow](Curation-Workflow)
+* **Curation Status**: The default is *In Preparation* which is draft mode and will only be viewable by other Consortium members who are logged in. *PI Review* is also available if your internal process would like to indicate records ready for the PI to review. Once you are finished and ready for the Hub to review for further curation, change this field to *Submitted*. For more information, see [Curation Workflow](/docs/curation-workflow)
 
 * **Principal Investigator**: Choose the appropriate Principal Investigator. If your PI is not on the list, click the plus sign just to the top right of the list to create a new record for them.
 
@@ -116,7 +116,7 @@ These fields may not be required but are useful:
 
 * **Parent Specimen:** If you've subdivided a biological sample, you can create a Specimen record for the original sample and designate it as the "parent" of the Specimen records for all the subdivided samples.
 
-* **Representative Image**: This is an optional thumbnail of the image. If you do not add one, the system will automatically select the thumbnail from the first image record. [Read this doc for our thumbnail guidelines.](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Thumbnail-creation-guideline)
+* **Representative Image**: This is an optional thumbnail of the image. If you do not add one, the system will automatically select the thumbnail from the first image record. [Read this doc for our thumbnail guidelines.](/docs/thumbnail-creation-guideline)
 
 Once you have filled out the fields, click the **Submit** button at the top of the form to save the record.
 
@@ -162,11 +162,11 @@ The following sections describe how to add these types of records.
 
 ## 4. Add at least one imaging data record
 
-The system will accept images (2D and 3D) and videos (see [Available Video Platforms](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Video-Players)).
+The system will accept images (2D and 3D) and videos (see [Available Video Platforms](/docs/available-video-platforms)).
 
-For each image, you will need to add an Image record. Please consult this list of accepted file formats for GUDMAP/RBK data: [Standard file formats for data submission](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Standard-file-formats-for-data-submission#high-resolution-image-formats).
+For each image, you will need to add an Image record. Please consult this list of accepted file formats for GUDMAP/RBK data: [Standard file formats for data submission](/docs/standard-files-and-formats-for-submission).
 
-Note: these instructions specify how to add Image records using our web-based GUI. If you have many image files, you can also [upload them using our bulk-upload client tool](Bulk-uploading-image-files).
+Note: these instructions specify how to add Image records using our web-based GUI. If you have many image files, you can also [upload them using our bulk-upload client tool](/docs/bulk-uploading-image-files).
 
 From your base Specimen record, scroll down and find the **Image** section (for 2-D files), **Image 3D** section (for 3-D files), or **Video** section (for videos) and click the `Add record` button to the right.
 
@@ -178,7 +178,7 @@ This will open a form.
 
 Fill out the fields on this form. Use the **Original File** field to upload your data file and click `Submit` to save the record.
 
-We also recommend adding a thumbnail for this record. [Read this doc for our thumbnail guidelines.](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Thumbnail-creation-guideline)
+We also recommend adding a thumbnail for this record. [Read this doc for our thumbnail guidelines.](/docs/thumbnail-creation-guideline)
 
 ### 4.1. Processing CZI files
 

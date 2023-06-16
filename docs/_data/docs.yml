@@ -23,10 +23,16 @@
       url: data-collections
     - sectionTitle: Protocols
       url: protocols
+    - sectionTitle: Histological Data
+      url: histological-data
+    - sectionTitle: Immunofluorescence Images
+      url: immunofluorescence-images
     - sectionTitle: Sequencing/Metabolomics/IMC Data
       url: sequencing-metabolomics-imc-data
     - sectionTitle: Single Cell Visualization Files
       url: single-cell-visualization-files
+    - sectionTitle: Sequencing Data
+      url: submitting-sequencing-data-v3
     - sectionTitle: Specimens
       url: specimens
     - sectionTitle: Bulk uploading image files
@@ -37,6 +43,8 @@
       url: annotating-images
     - sectionTitle: Color palette for image annotation
       url: color-palette-for-image-annotation
+    - sectionTitle: Entries for the Functional Assay Handbook
+      url: entries-for-the-functional-assay-handbook
 
 # Section 3
 - title: Data Submission Process
@@ -60,7 +68,7 @@
     - sectionTitle: Accessing GUDMAP and RBK Resources
       url: accessing-gudmap-and-rbk-resources
     - sectionTitle: Uploading files via Deriva client tools
-      url: uploading-files-via-deriva-client-tools
+      url: uploading-files-using-deriva-client-tools
 
 # Section 6
 - title: Data Publication and Citation

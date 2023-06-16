@@ -40,7 +40,7 @@ The data model has been updated on 02/01/2019 to unify the replicate and biosamp
 
 ### 2. Sequencing data model
 
-![Sequencing Data Model V3](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V3.png)
+![Sequencing Data Model V3](/assets/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V3.png)
 
 * Green boxes are the records directly related to this assay type.
 * Yellow boxes indicate links to other assay types (in this case _Specimen_ and _Antibody_, which have their own metadata requirements).
@@ -49,12 +49,12 @@ A **Study** describes high-level objectives and overall design of the experiment
 
 
 **Old Data Models**: The sequencing data model was updated to V3 on 02/01/19. Deprecated data models can be found here:
-- [Sequencing Data Model V2](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V2.png)
+- [Sequencing Data Model V2](/assets/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V2.png)
 
 ### 3. Create metadata associated with bio-samples and sequencing assays using data explorer
 
-* [Create **specimens**](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen?pcid=static/wiki) for each biological replicates involved in the study. Fill in the detail in the `Specimen` form. Provide as much information as you can related to your bio-samples. A `Specimen` record is needed for each biological replicate. A specimen record has an `Internal ID` field that you can use to keep track of different samples; this ID might be handy when you choose a `Specimen` to associate with a `Replicate` later. Note that the plus sign at the upper right corner of the `Specimen` record entry page allows you to create many specimen records simultaneously.  [Specimen Data Submission Guide](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Specimen-Data) provides more detail on how to create a proper `Specimen` record.
-  * After a specimen is created, make sure that `Anatomical Sources`, `Specimen Allele` and `Specimen Mouse Strain Contributing to Specimens` are added (if applicable) by clicking `Add` on top of the corresponding tables. Section 3.1 under [Specimen Data Submission Guide](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Specimen-Data) provides short cut on how to assign the same Anatomical Source to multiple specimens.
+* [Create **specimens**](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen?pcid=static/wiki) for each biological replicates involved in the study. Fill in the detail in the `Specimen` form. Provide as much information as you can related to your bio-samples. A `Specimen` record is needed for each biological replicate. A specimen record has an `Internal ID` field that you can use to keep track of different samples; this ID might be handy when you choose a `Specimen` to associate with a `Replicate` later. Note that the plus sign at the upper right corner of the `Specimen` record entry page allows you to create many specimen records simultaneously.  [Specimen Data Submission Guide](/docs/specimens/) provides more detail on how to create a proper `Specimen` record.
+  * After a specimen is created, make sure that `Anatomical Sources`, `Specimen Allele` and `Specimen Mouse Strain Contributing to Specimens` are added (if applicable) by clicking `Add` on top of the corresponding tables. Section 3.1 under [Specimen Data Submission Guide](/docs/specimens/) provides short cut on how to assign the same Anatomical Source to multiple specimens.
   * For kidney organoid specimens, specify the age of the organoid (e.g. "Organoid day 10") in the `Chronological Age` field, and the cell line name (e.g. BJFF6) in the Specimen's `Cell Line` field. Please choose "kidney organoid" as well as "hIPSC" or "hESC" as anatomical sources.
 * [Create **studies**](https://www.rebuildingakidney.org/chaise/recordedit/#2/RNASeq:Study). Fill in the detail in the `Study` form. Please make sure to fill in all the mandatory fields including `Summary` and `Overall Design` of the study. Hover over the field names on that left that have dotted lines underneath for description of the fields. Once all the fields are filled in, click submit to create a study.  
 * Create **experiments**. On the detail page of the study, click `Add` on top of the `Experiment` table section to add new experiments. If you don't see any table listed on the page, please click `Show All Related Records` at the upper right corner of the page. Fill in the detail of your experiment, then click submit to create an experiment. Note that multiple experiments can be created simultaneously by clicking the plus button at the upper right corner.
@@ -74,16 +74,16 @@ A **Study** describes high-level objectives and overall design of the experiment
 
 According to the consortium, the fastq files and bam files are mandatory. However, data submitters are encouraged to upload corresponding analysis files if they are available.   
 
-For sequencing files, there should be one R1 (and one R2/I1 if appropriate). This constraint is required for our QC analysis. If a data submitter conducts multiple runs which generates multiple sequencing files per replicate, those fastq's should be concatenated prior to upload.  See [FAQ's](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/_edit#frequently-asked-questions) for example code to do that. Contact the data hub for further help, if needed.
+For sequencing files, there should be one R1 (and one R2/I1 if appropriate). This constraint is required for our QC analysis. If a data submitter conducts multiple runs which generates multiple sequencing files per replicate, those fastq's should be concatenated prior to upload.  See [FAQ's](/docs/submitting-sequencing-data-v3/#frequently-asked-questions) for example code to do that. Contact the data hub for further help, if needed.
 
-https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data#frequently-asked-questions
+<!-- [FAQs](/docs/submitting-sequencing-data-v3#frequently-asked-questions) -->
 
 There are 2 different ways to upload files to our data repository:
 1. Through the browser GUI.
   * Replicate-level files: On the `Replicate` detail page, click `Add` on top of the `File` table section to add sequencing and analysis files associated with a specific replicate. Normally, users will need to upload the actual files to the Hub. For sequencing files that are archived in other permanent repositories (e.g. GEO), a URL to get to the archive can be provided. For human-protected sequencing file stored in dbGaP, please provide `dbGaP Accession ID`.   
   * Study-level files: On the `Study` detail page, click `Add` on top of the `Study Analysis File` table section to add new analysis files associated with your study.
 
-2. Through [DERIVA client tools](Uploading-files-via-Deriva-client-tools). This approach is recommended in the case that there are many very large files (e.g. bigger than 5 GB) to upload. You will need to [install the client tool](Uploading-files-via-Deriva-client-tools) on your system and prepare your directory structure.   
+2. Through [DERIVA client tools](/docs/uploading-files-using-deriva-client-tools). This approach is recommended in the case that there are many very large files (e.g. bigger than 5 GB) to upload. You will need to [install the client tool](/docs/uploading-files-using-deriva-client-tools) on your system and prepare your directory structure.   
 
 #### 4.1. Supported file extensions
 
@@ -105,8 +105,8 @@ Please follow the following file extension convention below. Remember the fastq 
 #### 4.2. Preparing your files on disk
 
 The upload tools will use the names of files and directories (folders) to determine what kind of files you're uploading and which data records to attach them to. We support the following conventions:  
-* 4.2.1. [Sequencing or analysis files associated with a replicate](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#421-preparing-replicate-level-sequencing-files)
-* 4.2.2. [Study analysis files](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data#422-preparing-study-level-analysis-files)
+* 4.2.1. [Sequencing or analysis files associated with a replicate](#421-preparing-replicate-level-sequencing-files)
+* 4.2.2. [Study analysis files](#422-preparing-study-level-analysis-files)
 
 ##### 4.2.1. Preparing replicate-level sequencing files
 
@@ -225,16 +225,16 @@ $userid
 
 ### 4.3. Install and Run Deriva Client Tools
 
-Follow the directions for [Uploading files via Deriva client tools](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Uploading-files-via-Deriva-client-tools). The tools expect the file and directory naming conventions described above.  
+Follow the directions for [Uploading files via Deriva client tools](/docs/uploading-files-using-deriva-client-tools). The tools expect the file and directory naming conventions described above.  
 
 ## 5. Export for GEO submission
 
-Once you've created your sequencing study and uploaded your data, you can then export to a file for submission to GEO. See the [Exporting to submit to GEO](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Exporting-Data#4-exporting-to-submit-to-geo-for-data-submitters) section of the [Exporting Data page](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Exporting-Data).
+Once you've created your sequencing study and uploaded your data, you can then export to a file for submission to GEO. See the [Exporting to submit to GEO](/docs/exporting-data#4-exporting-to-submit-to-geo-for-data-submitters) section of the [Exporting Data page](/docs/exporting-data).
 
 ## Data Submission Dashboard
 The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the GUDMAP/RBK data browser.
 
-![Monthly Submission Dashboard]/assets/wiki_images/Dashboard.png)
+![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
 
 ## Frequently Asked Questions
 **Question**: 10X generates fastq files in the form of `*.R1_001.fastq.gz` (e.g. my_single_cell.R1_001.fastq.gz). How do I rename file names in bulk from `*.R1_001.fastq.gz` to `*.R1.fastq.gz`?

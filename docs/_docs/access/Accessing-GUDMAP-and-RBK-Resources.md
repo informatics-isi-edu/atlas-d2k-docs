@@ -27,35 +27,35 @@ When you click the link, you’ll see a Globus login page where you choose your 
 * Google
 * ORCID iD
 
-![Login page]/assets/wiki_images/globus_signup/globus_signup0.jpeg)
+![Login page](/assets/wiki_images/globus_signup/globus_signup0.jpeg)
 
 **NOTE:** If you see a page like the screenshot below and have an account you've used before with Globus, go ahead and click "Link to existing account". If not, click "No thanks, continue." (Note that if you have logged into Globus before and login with the same credentials, you’ll skip directly to Step 5.)
 
-![Linking accounts page]/assets/wiki_images/globus_signup/globus_signup1_short.jpeg)
+![Linking accounts page](/assets/wiki_images/globus_signup/globus_signup1_short.jpeg)
 
 ## Step 3: Complete short signup form
 
 A page appears asking you to complete your signup by providing your institution, agreeing to terms of service, etc.
 
-![Globus signup form page]/assets/wiki_images/globus_signup/globus_signup2.jpeg)
+![Globus signup form page](/assets/wiki_images/globus_signup/globus_signup2.jpeg)
 
 ## Step 4: Provide consent for access to your credentials
 
 A consent page appears. Click "Allow".
 
-![Globus consent page]/assets/wiki_images/globus_signup/globus_signup3.jpeg)
+![Globus consent page](/assets/wiki_images/globus_signup/globus_signup3.jpeg)
 
 ## Step 5: Join Group
 
 You will now see the group page. Click "Join Group”.
 
-![Group page before join request]/assets/wiki_images/globus_signup/globus_signup4.jpeg)
+![Group page before join request](/assets/wiki_images/globus_signup/globus_signup4.jpeg)
 
 ## Step 6: Submit Application to Join
 
 Fill in some informational fields and click "Submit Application to Join”.
 
-![Group signup form]/assets/wiki_images/globus_signup/globus_signup5.jpeg)
+![Group signup form](/assets/wiki_images/globus_signup/globus_signup5.jpeg)
 
 You’ll receive an email notification that your membership is pending. 
 

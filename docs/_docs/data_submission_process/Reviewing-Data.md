@@ -14,5 +14,5 @@ The curation statuses that apply are:
 * _PI Review_ - When the data is ready for internal reviewer, the submitter should use this status. Although it specifies the PI, the PI may determine whomever they wish to fill this "Internal Reviewer" mode. The PI may also determine they don't require an internal review and let the submitter go directly to the next stage. It's all up to the project PIs' discretion.
 * _Submitted_ - When the data is approved internally, change to this status. This will submit the data to the Hub where it will go through further review if necessary.
 
-For more information on the full Curation workflow, see [Curation Workflow](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow/).
+For more information on the full Curation workflow, see [Curation Workflow](/docs/curation-workflow/).
 

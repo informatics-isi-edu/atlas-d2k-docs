@@ -1,3 +1,8 @@
+---
+title: Submitting Histology Data
+permalink: /docs/histological-data/
+---
+
 <!-- uncomment when generating PDF in Atom 
 # Submitting Histology Data
 -->
@@ -9,7 +14,7 @@ This page provides instructions for adding histological (H&E) images to the GUDM
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
 We also have the following training materials available:
-* [Webinar Slides](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/slides/GUDMAP-RBK-12122017-data_submission_workshop-he.pptx?raw=true)
+* [Webinar Slides](/asssets/slides/GUDMAP-RBK-12122017-data_submission_workshop-he.pptx?raw=true)
 * [Webinar Replay (18:40)](https://youtu.be/fY9wQmn4KE0)
 * Tutorial Videos (Coming Soon)
 
@@ -19,7 +24,7 @@ We also have the following training materials available:
 
 Adding histological slides involve the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Protocols#1-join-the-kidney-writers-group), and that you are logged in.
+* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
 * Create a new Histological Slide record.
 * Fill out the form and upload your CZI file. 
 * Once the slide is submitted to the Hub (via the _Curation Status_ field), the system will process the image. 
@@ -31,7 +36,7 @@ Adding histological slides involve the following steps:
 
 ## Schema
 
-![Histological Slide schema diagram]/assets/wiki_images/submitting-data/hist-schema.png)
+![Histological Slide schema diagram](/assets/wiki_images/submitting-data/hist-schema.png)
 
 The schema for histological slides is very simple - the record for the slide and then the system-generated image.
 
@@ -43,7 +48,7 @@ The schema for histological slides is very simple - the record for the slide and
 
 If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Accessing-GUDMAP-and-RBK-Resources).
+You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 <a name="create slide"/>
 
@@ -51,7 +56,7 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
 
 * In the top navigation bar, click _Create > Histological Images_.
 
-    ![Screenshot of Histological Slide record create form]/assets/wiki_images/submitting-data/create-he-slide.png)
+    ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/create-he-slide.png)
   
 
 <div class="page-break"></div>
@@ -59,7 +64,7 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
   
 * The "Create Histological Slide Record" form appears:
     
-    ![Screenshot of Histological Slide record create form]/assets/wiki_images/submitting-data/hist-create-form.png)
+    ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/hist-create-form.png)
 
 
 <div class="page-break"></div>
@@ -76,7 +81,7 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
     * _In Preparation_: Use this status while still drafting the data.
     * _PI Review_: Use this status when your data is ready for internal review. 
     * _Submitted_: Use this status when your data is ready for Hub review. 
-    * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)
+    * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Principal Investigator_
   * _Data Provider_
   * _Consortium_
@@ -98,22 +103,22 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
 
 * In the faceting sidebar, scroll to **Principal Investigator** and choose your project's PI. Now you should see the data you need to review.
 
-* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)).
+* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)).
 
 <!--
 * From the navigation bar, click _Search > Gene Expression Data > Histological Images_.
 
-    ![Screenshot of using navbar to search histological slides]/assets/wiki_images/submitting-data/search-he-slide.png)
+    ![Screenshot of using navbar to search histological slides](/assets/wiki_images/submitting-data/search-he-slide.png)
     
 * Use the filtering sidebar to narrow down the results by an attribute such as Principal Investigator.
 
-    ![Screenshot of filtering for PIs]/assets/wiki_images/submitting-data/hist-filter-records-pi.png)
+    ![Screenshot of filtering for PIs](/assets/wiki_images/submitting-data/hist-filter-records-pi.png)
 
     OR
 
     Type an identifying attribute into the search field above the search results.
 
-    ![Screenshot of using search field to search for histological slides]/assets/wiki_images/submitting-data/hist-filter-records-search.png)
+    ![Screenshot of using search field to search for histological slides](/assets/wiki_images/submitting-data/hist-filter-records-search.png)
 -->
 
 <div class="page-break"></div>
@@ -126,7 +131,7 @@ The system runs a script every hour that looks in the queue and processes the CZ
 
 Here is an example of a processed CZI file within the viewer:
 
-![Screenshot of Histological image]/assets/wiki_images/submitting-data/hist-image-example.png)
+![Screenshot of Histological image](/assets/wiki_images/submitting-data/hist-image-example.png)
 
 
 <!--
@@ -165,15 +170,15 @@ To delete the Histological slide record, you must first delete the system-genera
 
 * Scroll down to the "Images" section and click "Table Display" (a link to the right side of the section).
 
-    ![Screenshot of the "Table Display" link next to the Histological Slides Image]/assets/wiki_images/submitting-data/hist-delete-table.png)
+    ![Screenshot of the "Table Display" link next to the Histological Slides Image](/assets/wiki_images/submitting-data/hist-delete-table.png)
 
 * For each image, click the trashcan (Delete) icon in the "Actions" column. A confirmation window will open - click "Confirm".
 
-    ![Screenshot of the Trashcan icon]/assets/wiki_images/submitting-data/hist-delete-unlink.png) 
+    ![Screenshot of the Trashcan icon](/assets/wiki_images/submitting-data/hist-delete-unlink.png) 
 
 * Once all the images in this table are deleted, scroll back up to the top of the record and click "Delete" in the record header.
 
-    ![Screenshot of the "Delete" link in the record header]/assets/wiki_images/submitting-data/chaise-delete-option.png) 
+    ![Screenshot of the "Delete" link in the record header](/assets/wiki_images/submitting-data/chaise-delete-option.png) 
 
 
 

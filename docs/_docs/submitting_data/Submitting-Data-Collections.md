@@ -7,7 +7,7 @@ permalink: /docs/data-collections/
 # Submitting Collections
 -->
 <!-- comment out when generating PDF in Atom
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Data-Collections.pdf)**
+**[PDF version](/docs/data-collections.pdf)**
 -->
 
 This page provides instructions for citing data by submitting Data Collections to the GUDMAP/RBK Data Explorer.
@@ -26,7 +26,7 @@ We also have the following training materials available:
 
 Adding data Collections involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Protocols#1-join-the-kidney-writers-group), and that you are **logged in**.
+* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are **logged in**.
 * Create the base Collection record (contains the metadata).
 * Then on the new Collection record, for each type of data you would like to include, scroll down to the appropriate section and add the data records you want to include.
 
@@ -81,7 +81,7 @@ A collection is useful anytime you want to group data under one DOI or citation.
       * While you're working on the record, choose either _In Preparation_ (still drafting) or _PI Review_ (if your lab wants to indicate the PI should review it).
       * When you are ready to submit to the Hub, change this to _Submitted_ and send email to the Hub that it is ready for review.
       * If you want to delay release of the Collection (ie, until the related paper is published), change this to _Embargoed_.
-      * Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)
+      * Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Principal Investigator_: Choose the name of your project's contact PI.
   * _Data Provider_: Choose your institution.
   * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP consortium.
@@ -121,7 +121,7 @@ Here is how to find your project's data with a Curation Status of "In Preparatio
     * Under **Curation Status**, choose _PI Review_ and _In Preparation_.
     * Under **Principal Investigator**, choose your project's PI. Now you should see the data you need to review.
 
-* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)).
+* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)).
 
 
 <div class="page-break"></div>

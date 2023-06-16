@@ -1,8 +1,13 @@
+---
+title: Submitting Sequencing Data
+permalink: /docs/submitting-sequencing-data-v3/
+---
+
 <!-- uncomment when generating PDF in Atom 
 # Submitting Sequencing Data v3
 -->
 <!-- comment out when generating PDF in Atom -->
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data-v3.pdf)**
+**[PDF version](/docs/submitting_data/Submitting-Sequencing-Data-v3.pdf)**
 
 This page provides instructions for adding sequencing data (mRNA-Seq, scRNA-Seq, etc.) to the GUDMAP/RBK Data Explorer.
 
@@ -16,7 +21,7 @@ Note that we only require as few fields as possible but have many optional field
 
 The following are the minimum requirements:
 
-1. [Join (if you haven’t already) the `kidney-writers` access group.]((#1-join-the-kidney-writers-group))
+1. [Join (if you haven’t already) the `kidney-writers` access group.](#1-join-the-kidney-writers-group)
 2. [Organize your data by Study, Experiments and Replicates](#2-organize-your-data-by-study-experiments-and-replicates)
 3. [Add Specimen records](#3-add-specimen-records). You will link them to your replicates.
 4. [Create metadata records associated with sequencing assays](#4-create-metadata-records-associated-with-sequencing-assays)
@@ -35,7 +40,7 @@ The following are the minimum requirements:
 These are some other training materials and other documentation you may find useful:
 
 * [Tutorial slides containing screenshots (Sequencing Model V3---latest)](https://docs.google.com/presentation/d/1dHg9LmThF7vXFYcUDmZ1s0IgmRhIT8qHAGnxkue1TCE/edit#slide=id.g3cef0a6f7b_0_412)
-* [Advanced Editing Features](Advanced-Editing-Features)
+* [Advanced Editing Features](/docs/advanced-editing-features)
 * [Tips for Submitting Large or Complex Data](Tips-for-Submitting-Large-or-Complex-Data)
 
 Here are the details for each step:
@@ -44,7 +49,7 @@ Here are the details for each step:
 
 * Join the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about). 
 * When you click the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about) link, if you have never used Globus before, you will be given various choices for logging in: via existing credentials (your institution, Google, or ORCID ID) or by creating a new Globus ID. We recommend using an existing credential if that is available. If you decide to use a login with an email different from the one we invited you with - Globus may ask you to link the two emails/accounts. 
-* For detailed instruction on how to join different GUDMAP/RBK group, visit [Accessing GUDMAP and RBK Resources](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Accessing-GUDMAP-and-RBK-Resources). If you have _any_ problems, please email [rbk-ops@rebuildingakidney.org](mailto:rbk-ops@rebuildingakidney.org).
+* For detailed instruction on how to join different GUDMAP/RBK group, visit [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources). If you have _any_ problems, please email [rbk-ops@rebuildingakidney.org](mailto:rbk-ops@rebuildingakidney.org).
 
 Make sure you are logged in before attempting any of the data submissions steps.
 
@@ -61,11 +66,11 @@ The following describes how the metadata records for sequencing data are organiz
           * A link to a **Specimen** record.  
           * For single cell RNA-Seq, you may also add a **Single Cell Metrics** record summarizing the statistics of a replicate.
           
-You can view a [complete sequencing metadata model here](https://raw.githubusercontent.com/wiki/informatics-isi-edu/gudmap-rbk/wiki_images/submitting-data/Sequencing_Data_Model_V3.png).
+You can view a [complete sequencing metadata model here](/assets/wiki_images/submitting-data/Sequencing_Data_Model_V3.png).
 
 ## 3. Add Specimen records
 
-For each slide of tissue used in your sequencing experiments, you will need to link it to a corresponding **Specimen** record. Create your Specimen records now and note the RID numbers to make it easier to link them to your Replicates later. If the Specimen records are already created, just make a note of their RID numbers. You can find the [full documentation for submitting Specimen data here](Submitting-Specimen-Data), but here's an overview:
+For each slide of tissue used in your sequencing experiments, you will need to link it to a corresponding **Specimen** record. Create your Specimen records now and note the RID numbers to make it easier to link them to your Replicates later. If the Specimen records are already created, just make a note of their RID numbers. You can find the [full documentation for submitting Specimen data here](/docs/specimens), but here's an overview:
 
 1. Create one or more **Specimen** records: use this link to go directly to the create form: [For GUDMAP](https://www.gudmap.org/chaise/recordedit/#2/Gene_Expression:Specimen) | [For RBK](https://www.rebuildingakidney.org/chaise/recordedit/#2/Gene_Expression:Specimen). If creating multiple Specimen records, click the plus (+) button in the upper right to add more forms. Fill in the fields that make sense for your experiment. After you fill in the form(s), click _Submit_. A new Specimen record is created.
     * You can also go to any Specimen page and click `Create` in the record header (_Search > Sequencing Data > Specimen_). 
@@ -100,7 +105,7 @@ If you need to add the same Anatomical Source to multiple Specimen records:
 
 ### 4.3. Create Replicate records
 
-1. While still on the Experiment record, go to the **Replicate** table and click `Add` to fill out the fields relevant to your replicate. If you are creating multiple replicates, click the plus (+) button at the upper right corner to add more forms that may be submitted simultaneously ([see Multi-create](Advanced-Editing-Features#multi-create)).
+1. While still on the Experiment record, go to the **Replicate** table and click `Add` to fill out the fields relevant to your replicate. If you are creating multiple replicates, click the plus (+) button at the upper right corner to add more forms that may be submitted simultaneously ([see Multi-create](/docs/advanced-editing-features#multi-create)).
 2. Click the field for **Specimen RID** to link to one of the **Specimens** [you already created](#3-add-specimen-records) for the bio-sample. This will pop up a window where you can search for the specimen (you can type the RID number into the search field) and select it. If you did not create one yet, click the plus sign (+) at the upper right corner to [create a new Specimen record](#3-add-specimen-records).
 3. Enter Biological and Technical Replicate Numbers. For example, the first replicate of an experiment will use the number `1` for both Biological and Technical Replicate numbers.
 4. The other fields are optional, but fill out the ones that make sense for the replicate and can help others reproduce the experiment. 
@@ -162,13 +167,13 @@ This is a very secure and stable service, but if the job is interrupted, the pro
 
 If your directory structure and naming convention are correct, the files will be automatically attached to the correct Replicate records. 
 
-For full instructions, go to [Bulk Upload with DERIVA Client Tools](Bulk-Upload-with-DERIVA-Client-Tools).
+For full instructions, go to [Bulk Upload with DERIVA Client Tools](/docs/bulk-upload-with-deriva-client-tools).
 
 (Note that DERIVA is the underlying software of the Data Browser.)  
 
 ## 6. Review internally and then submit to the Hub
 
-The _Curation Status_ field controls the visibility of your record and describes where it is in the [Curation Workflow](Curation-Workflow).
+The _Curation Status_ field controls the visibility of your record and describes where it is in the [Curation Workflow](/docs/curation-workflow).
 
 By default, new records have a _Curation Status_ of "In Preparation" (ie, draft mode). There is also a status of "PI Review" you may use internally if your lab wants final sign off by your PI or other designated reviewer. 
 
@@ -180,7 +185,7 @@ When the Hub is satisfied all requirements are met, they will change the status 
 
 The [monthly data submission dashboard](https://www.gudmap.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the GUDMAP/RBK data browser. 
 
-![Monthly Submission Dashboard]/assets/wiki_images/Dashboard.png)
+![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
 
 ## Frequently Asked Questions
 

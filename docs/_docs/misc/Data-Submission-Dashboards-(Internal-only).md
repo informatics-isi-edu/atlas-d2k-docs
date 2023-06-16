@@ -5,7 +5,7 @@ permalink: /docs/data-submission-dashboards-internal-only/
 
 Note this page describes a feature only available to those with the proper permissions.
 
-In the GUDMAP/RBK data browser, there is a menu item "Dashboards (requires login)" that offers views for GUDMAP or RBK. When you click either of those links (and login if you're not already - requires membership in the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)), you'll be taken to a matrix of data records by PI and Data Type and indicating [curation status](Curation-Workflow) (_In Preparation_, _Hub Attention_, _Released_, etc).
+In the GUDMAP/RBK data browser, there is a menu item "Dashboards (requires login)" that offers views for GUDMAP or RBK. When you click either of those links (and login if you're not already - requires membership in the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)), you'll be taken to a matrix of data records by PI and Data Type and indicating [curation status](/docs/curation-workflow) (_In Preparation_, _Hub Attention_, _Released_, etc).
 
 This data works like other data where you can use the filtering sidebar to narrow down the results. 
 

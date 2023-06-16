@@ -4,17 +4,15 @@ permalink: /docs/protocols/
 ---
 
 <!-- uncomment when generating PDF in Atom -->
-# Submitting Protocols
-
 <!-- comment out when generating PDF in Atom 
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Protocols.pdf)**
+**[PDF version](/docs/protocols.pdf)**
 -->
 This page provides instructions for adding protocols to the GUDMAP/RBK Data Explorer, based on the _Nature Protocols_ format.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
 We also have the following training materials available:
-* [Webinar Slides](slides/GUDMAP-RBK-12062017-data_submission_workshop-protocols-final.pptx)
+* [Webinar Slides](/assets/slides/GUDMAP-RBK-12062017-data_submission_workshop-protocols-final.pptx)
 * [Webinar Replay 12/6/17 (41:12)](https://youtu.be/n-Z8O-ldoyk)
 * Tutorial Videos (Coming Soon)
 
@@ -23,7 +21,7 @@ We also have the following training materials available:
 
 ## Schema
 
-![Diagram of protocol model]/assets/wiki_images/submitting-data/protocol-schema.png)
+![Diagram of protocol model](/assets/wiki_images/submitting-data/protocol-schema.png)
 
 <div class="page-break"></div>
 
@@ -34,7 +32,7 @@ We also have the following training materials available:
 
 Adding protocols involves the following steps:
 
-1. Make sure you are in the correct Globus authentication group, [kidney-writers](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Protocols#1-join-the-kidney-writers-group), and that you are logged in.
+1. Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
 2. Create a base Protocol record (Required).
 3. Add at least one Subject Term (Required)
 4. Add at least one Keyword (Required)
@@ -49,7 +47,7 @@ Adding protocols involves the following steps:
 
 If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Accessing-GUDMAP-and-RBK-Resources).
+You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 <a name="base-record"/>
 
@@ -59,17 +57,17 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
 
 * In the top navigation bar, click _Create > Protocol > Protocols_.
 
-    ![Screenshot of navigating to create protocols]/assets/wiki_images/submitting-data/create-protocols-nav.png)
+    ![Screenshot of navigating to create protocols](/assets/wiki_images/submitting-data/create-protocols-nav.png)
 
 <div class="page-break"></div>
 
 * The _Create Protocols Record_ form appears (see excerpt below):
 
-    ![Screenshot of navigating to create protocols]/assets/wiki_images/submitting-data/create-protocols-record-form.png)
+    ![Screenshot of navigating to create protocols](/assets/wiki_images/submitting-data/create-protocols-record-form.png)
 
-    See screenhot of [full length form here](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/wiki_images/submitting-data/create-protocols-record-form-full.png).
+    See screenhot of [full length form here](/assets/wiki_images/submitting-data/create-protocols-record-form-full.png).
 
-* Fill in the fields. Note that the following fields are **required**: (You can format text using Markdown. [Find more information about formatting your larger text fields here](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Formatting-with-Markdown).)
+* Fill in the fields. Note that the following fields are **required**: (You can format text using Markdown. [Find more information about formatting your larger text fields here](/docs/formatting-with-markdown).)
 
   * _Title_: Please provide a concise but informative title that describes the protocol to unfamiliar users.
   * _Abstract_: Add a short paragraph describing the protocol further
@@ -78,7 +76,7 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
   * _Curation Status_: Choose either
     * _In Preparation_ (still drafting), 
     * _PI Review_ (ready for internal approval), or 
-    * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)
+    * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
 * We encourage you to fill out the _Anticipated Results_ field in your protocol to help users know if it worked as intended.
 * When finished, scroll back to the top of the page and click _Submit Data_.
 
@@ -92,17 +90,17 @@ Although only one Subject Term is required for a protocol, we **highly recommend
 
 * From the base protocol record you just created, scroll down until you see the section "Protocol Subject"
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-record-sections.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections.png)
 
 * Click the `Add` link in the upper right corner of the "Protocol Subject" section. 
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-record-sections-choose-add.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-choose-add.png)
 
 <div class="page-break"></div>
 
 * In the modal window, scroll through the list or start typing a term in the search box to narrow the results. 
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-search-and-select.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-search-and-select.png)
 
 * Click the checkboxes of your desired subject terms.
 
@@ -112,7 +110,7 @@ Although only one Subject Term is required for a protocol, we **highly recommend
 
 * You can always navigate back to the record and click _Edit_ and make changes to your record.
 
-![Screenshot of Edit link in records header]/assets/wiki_images/submitting-data/chaise-edit-option.png)
+![Screenshot of Edit link in records header](/assets/wiki_images/submitting-data/chaise-edit-option.png)
 
 <div class="page-break"></div>
 
@@ -128,29 +126,29 @@ Although only one Keyword is required for a protocol, we **highly recommend addi
 
 * From the base protocol record, scroll down until you see the section "Protocol Keyword"
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-record-sections-key.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-key.png)
 
 * Click the `Add` link in the upper right corner of the "Protocol Keyword" section. 
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-record-sections-choose-add-keywords.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-choose-add-keywords.png)
 
 <div class="page-break"></div>
 
 * In the modal window, scroll through the list...  
 
-![Screenshot of search and select window]/assets/wiki_images/submitting-data/chaise-search-and-select-keywords.png)
+![Screenshot of search and select window](/assets/wiki_images/submitting-data/chaise-search-and-select-keywords.png)
 
 OR
 
 ...start typing a term in the search box to narrow the results.
 
-![Screenshot of search and select window]/assets/wiki_images/submitting-data/search-keyword.png)
+![Screenshot of search and select window](/assets/wiki_images/submitting-data/search-keyword.png)
 
 * Click the checkboxes of your desired keywords.
 
 * When finished, click _Submit_ in the upper right corner to save your data.
 
-![Screenshot of submit button]/assets/wiki_images/submitting-data/search-and-select-submit.png)
+![Screenshot of submit button](/assets/wiki_images/submitting-data/search-and-select-submit.png)
 
 * Note that until you change the _Curation Status_ field to _Submitted_, you can keep going back to a record to edit and submit (save) as much as you like. 
 
@@ -162,37 +160,37 @@ OR
 
 * From your new protocol record, scroll down until you see the section "Protocol Authors".
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-record-sections-authors.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-authors.png)
 
 * Click the `Add` link in the upper right corner of the "Protocol Authors" section. 
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-record-sections-author-add.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-author-add.png)
 
 <div class="page-break"></div>
 
 The 'Create Protocol Author Record' tab appears.
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-create-author-record.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-author-record.png)
 
 * Fill out the fields. 
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-create-author-record-req-fields.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-author-record-req-fields.png)
 
 * In the _Correspondence Author_ field, select 'false' or 'true' to indicate whether this author is the contact person for this protocol.
 
 * In the _Author_ field, click "Select a value". In the modal window (next image), Search for the person you want to add and select them.
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-choose-person.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-choose-person.png)
 
 * If you cannot find the author, click the "+" button to create a new author record. 
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-add-person.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-add-person.png)
 
 <div class="page-break"></div>
 
 A "Create Person Record' tab appears.
 
-![Screenshot of related records section]/assets/wiki_images/submitting-data/chaise-create-person-record.png)
+![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-person-record.png)
 
 - Add the author's full name and email address at the minimum.
 - Click **Submit Data**. Close this tab.
@@ -210,17 +208,17 @@ The process of adding image files to a protocol is two-fold: you add the file to
 
 * Make sure you are logged in, then navigate to the protocol where you want to add the figure (in the navigation bar, click _Search > Protocol > Protocol_).
 
-![Screenshot of using navbar to search histological slides]/assets/wiki_images/submitting-data/search-protocol-nav.png)
+![Screenshot of using navbar to search histological slides](/assets/wiki_images/submitting-data/search-protocol-nav.png)
 
 * Scroll down to the _Figures_ section and click `Add`. A new tab appears with a form.
 
-![Screenshot of clicking to add a figure]/assets/wiki_images/submitting-data/chaise-record-add-figures.png)
+![Screenshot of clicking to add a figure](/assets/wiki_images/submitting-data/chaise-record-add-figures.png)
 
 <div class="page-break"></div>
 
 * Fill in the fields and then upload your figure in the _URI_ field by clicking **Submit File**, navigating to your file and clicking **Open**. 
 
-![Screenshot of clicking to upload a figure file]/assets/wiki_images/submitting-data/chaise-record-upload-figures.png)
+![Screenshot of clicking to upload a figure file](/assets/wiki_images/submitting-data/chaise-record-upload-figures.png)
 
 * Save the record by clicking _Submit Data_. Your figure now appears in the _Figures_ section. 
 
@@ -230,15 +228,15 @@ The process of adding image files to a protocol is two-fold: you add the file to
 
 ### 6. Embed Figure in the Protocol
 
-Note you can only embed an image file. For video files, you may only add a link to the URI for the figure (for information on how to add a link, see [Formatting with Markdown](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Formatting-with-Markdown)).
+Note you can only embed an image file. For video files, you may only add a link to the URI for the figure (for information on how to add a link, see [Formatting with Markdown](/docs/formatting-with-markdown)).
 
 * In the _Figures_ section, copy the _URI_ field (the link to the image on our system).
 
-![Screenshot displaying where to copy the URI]/assets/wiki_images/submitting-data/chaise-copy-uri.png)
+![Screenshot displaying where to copy the URI](/assets/wiki_images/submitting-data/chaise-copy-uri.png)
 
 * Scroll back up to the top of the protocol and click **Edit**.
 
-![Screenshot of Edit link in record header]/assets/wiki_images/submitting-data/chaise-edit-option.png)
+![Screenshot of Edit link in record header](/assets/wiki_images/submitting-data/chaise-edit-option.png)
 
 <div class="page-break"></div>
 
@@ -246,15 +244,15 @@ Note you can only embed an image file. For video files, you may only add a link 
 
 `![alt text](URI-of-image-you-uploaded)`
 
-![Example of Markdown markup for embedding a figure]/assets/wiki_images/submitting-data/chaise-record-embed-figures.png)
+![Example of Markdown markup for embedding a figure](/assets/wiki_images/submitting-data/chaise-record-embed-figures.png)
 
 You can also click the Images icon in the formatting toolbar and paste the URL in the popup window.
 
-![Example of Images icon for embedding a figure]/assets/wiki_images/submitting-data/chaise-images-icon.png)
+![Example of Images icon for embedding a figure](/assets/wiki_images/submitting-data/chaise-images-icon.png)
 
 * Your figure now appears in the text field.
 
-![Results of markup]/assets/wiki_images/submitting-data/chaise-record-figure-appears.png)
+![Results of markup](/assets/wiki_images/submitting-data/chaise-record-figure-appears.png)
 
 <div class="page-break"></div>
 
@@ -272,7 +270,7 @@ You can also click the Images icon in the formatting toolbar and paste the URL i
 
 * In the faceting sidebar, scroll to **Principal Investigator** and choose your project's PI. Now you should see the data you need to review.
 
-* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)). It's a good idea to also send email to the Hub to let them know your protocol has been submitted (help@gudmap.org or help@rebuildingakidney.org).
+* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)). It's a good idea to also send email to the Hub to let them know your protocol has been submitted (help@gudmap.org or help@rebuildingakidney.org).
 
 
 <div class="page-break"></div>
@@ -301,21 +299,21 @@ Before you can delete a protocol, you must first unlink (delete) any records ass
 
 * Scroll down below the base protocol until you see the 'Protocol Subject', 'Protocol Keywords', 'Protocol Authors' and 'Figures' sections.
 
-![Records sections]/assets/wiki_images/submitting-data/chaise-record-sections.png)
+![Records sections](/assets/wiki_images/submitting-data/chaise-record-sections.png)
 
 * For the 'Protocol Subject' and 'Protocol Keywords' sections, click _Edit_ in the upper right corner of the section. 
     
-    ![Choose Edit]/assets/wiki_images/submitting-data/chaise-record-sections-choose-edit.png)
+    ![Choose Edit](/assets/wiki_images/submitting-data/chaise-record-sections-choose-edit.png)
     
     Then click the "x" icon in the Actions columns to delete (un-link) each and every record in that section.
     
-    ![Un-link Subject]/assets/wiki_images/submitting-data/chaise-record-sections-unlink-subject.png)
+    ![Un-link Subject](/assets/wiki_images/submitting-data/chaise-record-sections-unlink-subject.png)
 
 * For the 'Protocol Authors' and 'Figures' sections, click the 'garbage can' icon to delete each and every record in that section.
 
-![Delete authors]/assets/wiki_images/submitting-data/chaise-record-sections-unlink-authors.png)
+![Delete authors](/assets/wiki_images/submitting-data/chaise-record-sections-unlink-authors.png)
 
 * Once all of the related records are deleted, scroll back up to the top of the protocol and click the "Delete" link.
 
-![Delete base protocol]/assets/wiki_images/submitting-data/chaise-delete-option.png)
+![Delete base protocol](/assets/wiki_images/submitting-data/chaise-delete-option.png)
 

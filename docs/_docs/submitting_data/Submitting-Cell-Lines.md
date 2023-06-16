@@ -25,7 +25,7 @@ We also have the following training materials available:
 
 Adding cell lines involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Protocols#1-join-the-kidney-writers-group), and that you are logged in.
+* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
 * Create the base Cell Line record.
 * Then you will add related records (or tables) to the base record, including validation assets and reporter vector maps.
 
@@ -35,7 +35,7 @@ Note: Make sure the parental cell line is in the system (_Search > Cell &amp; An
 
 From anywhere within the GUDMAP/RBK data repository, go to the top navigation bar and click _Create > Cell &amp; Animal Models > Reporter Cell Lines_. (You must be logged in.)
 
-![Form to create the base record]/assets/wiki_images/submitting-data/cell-lines-base-create.png)
+![Form to create the base record](/assets/wiki_images/submitting-data/cell-lines-base-create.png)
 
 Tip: Enter as many fields as you can. The more fields you enter, the more details are available in the filter sidebar for users to search by.
 
@@ -71,11 +71,11 @@ Add related records in the following tables:
 
 Click the `Add` link to the right of the table.
 
-![Add Cell Type]/assets/wiki_images/submitting-data/cell-lines-types-add.png)
+![Add Cell Type](/assets/wiki_images/submitting-data/cell-lines-types-add.png)
 
 A new browser tab will open with the Create Record form.
 
-![Form to create the cell type]/assets/wiki_images/submitting-data/cell-lines-types-create.png)
+![Form to create the cell type](/assets/wiki_images/submitting-data/cell-lines-types-create.png)
 
 In the form, choose values for the following fields:
 
@@ -90,11 +90,11 @@ When you are finished, click the "Submit" button and close the browser tab.
 
 There are three types of validation asset records that you may link to this record: _pluripotency_, _report_ and _targeting_. For each of these, click the `Add` link.
 
-![Add Validation asset record]/assets/wiki_images/submitting-data/cell-lines-validation-add.png)
+![Add Validation asset record](/assets/wiki_images/submitting-data/cell-lines-validation-add.png)
 
 A new browser tab will open with the Create Record form (using Pluripotency Validation Asset as an example).
 
-![Create Validation asset record]/assets/wiki_images/submitting-data/cell-lines-validation-create.png)
+![Create Validation asset record](/assets/wiki_images/submitting-data/cell-lines-validation-create.png)
 
 In the form, enter the following fields.
 
@@ -109,11 +109,11 @@ Click the "Submit" button at the top of the page and then close the browser tab.
 
 Towards the bottom of the page, you'll find the Reporter Vector Map section. Click the `Add` link.
 
-![Add vector map record]/assets/wiki_images/submitting-data/cell-lines-vector-map-add.png)
+![Add vector map record](/assets/wiki_images/submitting-data/cell-lines-vector-map-add.png)
 
 A new browser tab opens with the Create Record form.
 
-![Create vector map record]/assets/wiki_images/submitting-data/cell-lines-vector-map-create.png)
+![Create vector map record](/assets/wiki_images/submitting-data/cell-lines-vector-map-create.png)
 
 Select values for the following fields:
 
@@ -130,7 +130,7 @@ If you do not see the parental cell line already in the system (by choosing _Sea
 
 From the navigation bar, choose _Create > Cell &amp; Animal Models > Parental Cell Lines_. The Create Form for the parental cell line appears.
 
-![Create parental cell line record]/assets/wiki_images/submitting-data/cell-lines-parental-create.png)
+![Create parental cell line record](/assets/wiki_images/submitting-data/cell-lines-parental-create.png)
 
 Tip: Fill out as many fields as you can. This improves the ability for users to find this record in the filtering sidebar or other methods of search.
 

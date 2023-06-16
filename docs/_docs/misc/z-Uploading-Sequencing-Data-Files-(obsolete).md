@@ -36,7 +36,7 @@ Before uploading a sequencing data file:
 Once you've done that, you can create the database records, lay out your files on disk, and then run the uploader.
 
 ## Creating database records (or gathering data from existing ones)
-Before you can upload your file, the Study, Single Cell Metrics, or Replicate record that you want to attach it to must already exist in the database. Detailed instructions for creating those records can be found [here](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data)), but the parts that are pertinent to data file uploads are:
+Before you can upload your file, the Study, Single Cell Metrics, or Replicate record that you want to attach it to must already exist in the database. Detailed instructions for creating those records can be found [here](/docs/submitting-sequencing-data-v3)), but the parts that are pertinent to data file uploads are:
 * In general, you'll create a Study first, then an Experiment (which will be associated with the Study), then a Replicate or Single Cell Metric (which will be associated with that Experiment). The only real requirement is that the records exist; you can attach files to records that someone else has created.
 * A Study may have multiple Experiments associated with it. An Experiment may have multiple Replicate and/or Single Cell Metrics records associated with it. Each Study, Replicate, and Single Cell Metric may have multiple files associated with it.
 * When creating a Study, you'll be asked to assign it an Internal ID. This should be a unique identifier that's meaningful to you. You'll need to know this identifier before you upload; we'll refer to it as the _study\_internal\_id_.
@@ -187,7 +187,7 @@ First download and install the latest version of DERIVA-Upload [here](https://gi
 
 The first time you launch deriva-upload (through the applications menu on Windows or MacOS, or with the `deriva-upload` command on Linux), the tool will ask you if you want to add a server configuration. Click "yes" to bring up the "Options" screen (you can also do this at any time by clicking the "Options" button at the top of the page).
 
-![Initial server configuration window](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/server-config.blank.png)
+![Initial server configuration window](/assets/wiki_images/submitting-data/sequencing_uploader/server-config.blank.png)
 
 Click `Add` to bring up the "Server Configuration" form and enter these values:
 Host: www.gudmap.org (or www.rebuildingakidney.org)
@@ -195,17 +195,17 @@ Description: GUDMAP (or RBK)
 Catalog ID: 2
 check the "Set as Default" and "Confirm configuration updates" buttons, and click "OK"
 
-![Server configuration window](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/server-config.gudmap.png)
+![Server configuration window](/assets/wiki_images/submitting-data/sequencing_uploader/server-config.gudmap.png)
 
 #### Uploading files
 
 In the main Deriva-Upload window, click the "Login" button at the top to log in. This will pop up a login dialog window. Once you've logged in, you may see a window notifying you that an updated configuration is available and asking if you'd like to apply it; you should click "Yes" to update your configuration and dismiss the window.
 
-![Configuration update window](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/update-config.gudmap.png)
+![Configuration update window](/assets/wiki_images/submitting-data/sequencing_uploader/update-config.gudmap.png)
 
 
 Next, in the main Deriva-Upload window, click the "Browse" button and select the `deriva` directory you created above. You'll see all the files you created, listed as "Pending".
-![Before upload](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/pending.png)
+![Before upload](/assets/wiki_images/submitting-data/sequencing_uploader/pending.png)
 
 Click the "Upload" button to start the upload process. The status of each file will change as it's uploaded; for successful uploads, the status will change from "Pending" to "Complete".
 
@@ -229,15 +229,15 @@ pip3 install --upgrade git+https://github.com/informatics-isi-edu/deriva-py.git
 #### Getting an authentication token
 
 The uploader requires an authentication token to communicate with the server. Running the DERIVA-Auth tool on your desktop (through the applications menu on Windows or Mac, or with `deriva-auth` on Linux) will bring up an authentication window similar to the one used in the data browser. The first time you log in, you'll see a mostly-empty window:
-![Initial DERIVA-Auth run](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png)
+![Initial DERIVA-Auth run](/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png)
 
 In the "Server:" area, type in the name of the server (www.gudmap.org or www.rebuildingakidney.org) and click on `Add`. You should now see something that looks similar to the data browser login screen
-![Login window](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png)
+![Login window](/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png)
 
 Note: in subsequent runs, DERIVA-Auth might take you directly to this window (skipping the blank screen at the beginning). It's always a good idea to look at the hostname before you log in.
 
 After logging in, you'll see an "Authentication Successful" message. Click the "Show Token" button; this will bring up another dialog box to verify that you really want to view the token (XXX - show-details.png). Click on "Show Details" to display the token.
-!["Show Details" window](https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/submitting-data/sequencing_uploader/show-details.png)
+!["Show Details" window](/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png)
 
 #### Uploading files
 

@@ -10,13 +10,13 @@ This is the home of public documentation for the GUDMAP/RBK Consortiums. If you 
 - For RBK: [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
 ## Accessing the GUDMAP/RBK Data 
-- Data Browser: Here are links to the videos we're making about [using the new data browser](docs/Using-the-GUDMAP-RBK-Data-Browser). 
+- Data Browser: Here are links to the videos we're making about [using the new data browser](/docs/using-the-gudmap-rbk-data-browser). 
   - Note, that the description is focusing on the GUDMAP site right now, but the instructions for the Data Browser are the same for both GUDMAP and RBK websites.
-- [Accessing protected human sequencing data (fastq and bam)](misc/Accessing-human-sequencing-data)
-- [Command lines and libraries](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Command-lines-and-libraries)
+- [Accessing protected human sequencing data (fastq and bam)](/docs/accessing-human-sequencing-data)
+- [Command lines and libraries](/docs/command-lines-and-libraries)
 
 ## Exporting Data
-- [How to export data (includes how to export to a GEO-compliant file)](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Exporting-Data)
+- [How to export data (includes how to export to a GEO-compliant file)](/docs/exporting-data)
 
 ## Submitting Data (for members of GUDMAP and RBK)
 
@@ -27,32 +27,32 @@ For members of GUDMAP and RBK to submit data, use our self-curation tools to add
 **If you are publishing a paper using GUDMAP or RBK data,** it's a good idea to contact us as well to make sure you have an appropriate [Data Collection](Submitting-Data-Collections) for optimal citation.
 
 **To add or edit data:**
-- [Standard files and formats for submission](Standard-file-formats-for-data-submission)
-- [Antibodies](Submitting-Antibodies)
-- [Cell Lines](Submitting-Cell-Lines)
-- [Data Collections (esp for publications!)](Submitting-Data-Collections)
-- [Imaging Data (Histology, Immunofluorescence/Immunohistochemistry, In Situ Hybridization)](Submitting-Specimen-Data)
-- [Protocols](Submitting-Protocols)
-- [Sequencing, Metabolomics, and Image Mass Cytometry Data](Submitting-Sequencing,-Metabolomics,-IMC-Data)
-- [Single Cell Visualization Files](Submitting-Single-Cell-Visualization-Files) (DRAFT)
-- [Specimen Data](Submitting-Specimen-Data)
-- [Color Palette for Image Annotation](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Color-palette-for-annotating-histological-images)
+- [Standard files and formats for submission](/docs/standard-files-and-formats-for-submission)
+- [Antibodies](/docs/antibodies)
+- [Cell Lines](/docs/cell-lines)
+- [Data Collections (esp for publications!)](/docs/data-collections)
+- [Imaging Data (Histology, Immunofluorescence/Immunohistochemistry, In Situ Hybridization)](/docs/specimens)
+- [Protocols](/docs/protocols)
+- [Sequencing, Metabolomics, and Image Mass Cytometry Data](/docs/sequencing-metabolomics-imc-data)
+- [Single Cell Visualization Files](/docs/single-cell-visualization-files) (draft)
+- [Specimen Data](/docs/specimens)
+- [Color Palette for Image Annotation](/docs/color-palette-for-image-annotation)
 
 **For uploading your data files:**
-- [Uploading Files via the DERIVA Client Tools](Uploading-files-via-Deriva-client-tools)
+- [Uploading Files via the DERIVA Client Tools](/docs/uploading-files-using-deriva-client-tools)
 
-**Note that [you must have the correct access](Accessing-GUDMAP-and-RBK-Resources) before you are able to submit any data.**
+**Note that [you must have the correct access](/docs/accessing-gudmap-and-rbk-resources) before you are able to submit any data.**
 
 ## Images and Videos
-- [Thumbnail creation guideline](Thumbnail-creation-guideline)
-- [Supported Video Platforms](Video-Players) 
+- [Thumbnail creation guideline](/docs/thumbnail-creation-guideline)
+- [Supported Video Platforms](/docs/available-video-platforms)
 
 ## Data Publication and Citation 
-- [How to create a collection and citation for publications](Data-publication-and-citation)
-- [Shortcut urls for citation and sharing](Shortcut-URLs-for-citation-and-sharing) - good for sharing any data record.
+- [How to create a collection and citation for publications](/docs/how-to-create-a-collection-and-citation-for-publications)
+- [Shortcut urls for citation and sharing](/docs/shortcut-urls-for-citation-and-sharing) - good for sharing any data record.
 
 ## Access to Internal Resources
 
-If you need access to GUDMAP/RBK resources such as the ability to submit/curate data or access the Internal site, go to [Accessing GUDMAP and RBK Resources](Accessing-GUDMAP-and-RBK-Resources).
+If you need access to GUDMAP/RBK resources such as the ability to submit/curate data or access the Internal site, go to [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 

@@ -12,9 +12,9 @@ permalink: /docs/tips-for-submitting-large-or-complex-data/
 
 The following is a recommended workflow when you are submitting specimen or sequencing data with many files, large files (over 5GB or so) or you have a complex organization (ie, many experiments with many replicates each).
 
-Read [Submitting Sequencing Data](Submitting-Sequencing-Data-v3) and [Submitting Specimen Data](Submitting-Specimen-Data) for full details about the process. The following is a more concise version with helpful shortcuts.
+Read [Submitting Sequencing Data](/docs/submitting-sequencing-data-v3) and [Submitting Specimen Data](/docs/specimens) for full details about the process. The following is a more concise version with helpful shortcuts.
 
-We also recommend reading [Advanced Editing Features](Advanced-Editing-Features) for more features that make the data entry process much faster and more efficient.
+We also recommend reading [Advanced Editing Features](/docs/advanced-editing-features) for more features that make the data entry process much faster and more efficient.
 
 **Features:**
 
@@ -35,7 +35,7 @@ For example, if you use a similar prefix for Internal IDs of all your Specimen t
 
 For each slide of tissue used in your sequencing experiments, you will need to create a corresponding Specimen record. Create your Specimen records now and note the RID numbers so you can link them to your Sequencing data later.
 
-  - Use [multi-create](Advanced-Editing-Features#1-multi-create) to create batches of specimen for each slide of tissue (up to 10 records at a time is recommended according to your network strength). Use your **Internal ID** to keep track of them. 
+  - Use [multi-create](/docs/advanced-editing-features#1-multi-create) to create batches of specimen for each slide of tissue (up to 10 records at a time is recommended according to your network strength). Use your **Internal ID** to keep track of them. 
       - Go to a Specimen search page and click `Create`. 
       - Add any common values that you'll be using across all Specimen records.
       - Click the plus sign (+) to add more records. The values you entered in the first record will also be copied.
@@ -60,7 +60,7 @@ At this point, you can go to the **Files** section of a Replicate, click `Add` a
 
 But if you have many files or some large files to upload, it will be much more efficient to use our client tools on the command-line.
 
-You can find the documentation on [Bulk Uploading here](Bulk-Upload-with-DERIVA-Client-Tools). The major steps are:
+You can find the documentation on [Bulk Uploading here](/docs/bulk-upload-with-deriva-client-tools). The major steps are:
 
 - Follow the instruction on how to create a folder structure and name your files. 
 - Then download the software and follow the instructions to submit an upload job for all of the files. 

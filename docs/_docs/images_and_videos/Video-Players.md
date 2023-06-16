@@ -3,7 +3,7 @@ title: Video Players
 permalink: /docs/available-video-platforms/
 ---
 
-<sub>[<- Back to Documentation Home](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/)</sub>
+<sub>[<- Back to Documentation Home](/docs/home)</sub>
 
 # Available Platforms
 

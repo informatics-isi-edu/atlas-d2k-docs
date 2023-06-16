@@ -7,7 +7,7 @@ This page describes the approved curation workflow for both GUDMAP and RBK data 
 
 * [Tutorial slides](https://docs.google.com/presentation/d/1KPkiTwhDhJ73hr7A6mlKc-1bN27--4SxsHntloXc7Qg/edit?usp=sharing)
 
-![diagram of Curation Workflow]/assets/wiki_images/submitting-data/curation-workflow-v2.png)
+![diagram of Curation Workflow](/assets/wiki_images/submitting-data/curation-workflow-v2.png)
 
 <a name="curation-status"/>
 

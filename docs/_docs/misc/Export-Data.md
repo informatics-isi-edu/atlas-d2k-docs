@@ -6,15 +6,15 @@ permalink: /docs/export-data/
 
 ## 1. Obtain the exported BDBAG. 
 
-The BDBAG export is available on the detail page of the data of your interest on [www.gudmap.org](https://www.gudmap.org) and  [www.rebuildingakidney.org](https://www.rebuildingakidney.org). For example, navigate to the record of interest e.g. https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-DW82, 
+The BDBAG export is available on the detail page of the data of your interest on [www.gudmap.org](https://www.gudmap.org) and  [www.rebuildingakidney.org](https://www.rebuildingakidney.org). For example, navigate to the record of interest e.g. [https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-DW82](https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-DW82), 
 then click the "Export" link towards the upper right part of the screen and choose BAG.
 
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/export_bdbag.PNG" alt="export bdbag" width="600"/>
+<img src="/assets/wiki_images/export_data/export_bdbag.PNG" alt="export bdbag" width="600"/>
 
 
 A progress window appears saying that the BAG is being created.
 
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/export_progress_bar.PNG" alt="export progress" width="600" />
+<img src="/assets/wiki_images/export_data/export_progress_bar.PNG" alt="export progress" width="600" />
 
 
 Then a ZIP file is downloaded to your current directory with the metadata files describing the data (including appropriate MD5 checksums). e.g. Study_16-DW82.zip
@@ -23,7 +23,7 @@ Then a ZIP file is downloaded to your current directory with the metadata files 
 If you unzip the file, you will see a list of dbbag manifest files and folders. The "data" folder contains the exported metadata in the csv format relevant to the dataset of your interest e.g. Study.csv, Experiment.csv, etc. 
 The actual asset files are listed in the BDBAG manifest and can be downloaded using bdbag commands showing the next step.
 
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/export_unzipped.PNG" alt="export file unzipped" width="800"/>
+<img src="/assets/wiki_images/export_data/export_unzipped.PNG" alt="export file unzipped" width="800"/>
 
  
 ## 2. Download and install DERIVA Client Tools on the local computer.
@@ -56,13 +56,13 @@ deriva-auth
 
 Type in the server name i.e. www.gudmap.org or www.rebuildingakidney.org to login using different types of accounts through Globus.
 
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/login_deriva_auth.PNG" alt="deriva login page" width="800"/>
+<img src="/assets/wiki_images/export_data/login_deriva_auth.PNG" alt="deriva login page" width="800"/>
 
 
 After login successfully.
 
 
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/login_deriva_success.PNG" alt="deriva login success" width="800"/>
+<img src="/assets/wiki_images/export_data/login_deriva_success.PNG" alt="deriva login success" width="800"/>
 
 
 ## 4. Export source files using bdbag

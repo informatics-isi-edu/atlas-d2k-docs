@@ -5,7 +5,7 @@ permalink: /docs/advanced-editing-features/
 
 <!-- uncomment when generating PDF in Atom -->
 <!-- comment out when generating PDF in Atom 
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Advanced-Editing-Features.pdf)**
+**[PDF version](/docs/misc/Advanced-Editing-Features.pdf)**
 -->
 
 The following are some very useful features of editing in the Data Browser that can make data entry much faster and easier.
@@ -81,7 +81,7 @@ Note that the metadata models still apply, so if you copy a record that is conta
 
 We have client tools available that can make the uploading of many or large files much easier than the browser method. This method is more involved in the sense that you need to download and install the tools once and set up your directory structure and file naming convention so that the tool can automatically relate the data files to the correct metadata records. But once it's set up you can submit your upload job for all of the files at once.
 
-For more information, go to: [Bulk Upload with DERIVA Client Tools](Bulk-Upload-with-DERIVA-Client-Tools).
+For more information, go to: [Bulk Upload with DERIVA Client Tools](/docs/bulk-upload-with-deriva-client-tools).
 
 
 

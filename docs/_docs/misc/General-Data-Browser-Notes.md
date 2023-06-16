@@ -46,15 +46,15 @@ image
 
 First, if you haven't already done so, **you must ask to join the `kidney-writers` authentication group**: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing GUDMAP and RBK Resources](Accessing-GUDMAP-and-RBK-Resources).
+Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 You can find instructions for submitting  for how to submit, edit, even delete data from the Data Browser per data types below or in the wiki sidebar to your right:
 
-* [Submitting Sequencing Data](Submitting-Sequencing-Data)
-* [Submitting Protocols](Submitting-Protocols)
-* [Submitting Antibodies](Submitting-Antibodies)
-* [Submitting Histology Data](Submitting-Histology-Data)
-* [Submitting Immunofluorescence Images](Submitting-Immunofluorescence-Images)
+* [Submitting Sequencing Data](/docs/submitting-sequencing-data-v3)
+* [Submitting Protocols](/docs/protocols)
+* [Submitting Antibodies](/docs/antibodies)
+* [Submitting Histology Data](/docs/histological-data)
+* [Submitting Immunofluorescence Images](/docs/immunofluorescence-images)
 * Submitting Cell Lines (Coming soon)
 
 ## Other Helpful Notes

@@ -52,13 +52,13 @@ To export the initial "BDBAG", go to the detail page with the data you want, cli
 We'll use this study as an example: [https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M](https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M)
 <br />
 <br />
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/export-button-new.png" alt="export button" width="750"/>
+<img src="/assets/wiki_images/export_data/export-button-new.png" alt="export button" width="750"/>
 <br />
 <br />
 A progress window appears saying that the BDBAG is being created.
   <br/>
   <br/>
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/export_progress_bar_2.png" alt="export progress" width="750" />
+<img src="/assets/wiki_images/export_data/export_progress_bar_2.png" alt="export progress" width="750" />
   <br/>
   <br/>
 Then a ZIP file downloads to your local environment with the metadata files describing the data (including appropriate MD5 checksums), e.g. `Study_16-WW2M.zip`. This will *not* include the actual data files themselves.
@@ -115,7 +115,7 @@ Open the DERIVA Authentication application:
 The first time you log in, you'll see a mostly-empty window:
   <br/>
   <br/>
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/login_deriva_auth_2.png" alt="deriva login page" width="750"/>
+<img src="/assets/wiki_images/export_data/login_deriva_auth_2.png" alt="deriva login page" width="750"/>
   <br/>
   <br/>
 In the "Server:" field, type in `www.gudmap.org` or `www.rebuildingakidney.org` and click _Enter_ or click the _Add_ button.
@@ -123,7 +123,7 @@ In the "Server:" field, type in `www.gudmap.org` or `www.rebuildingakidney.org` 
 You should now see the following screen:
   <br/>
   <br/>
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/blank-auth.png" alt="deriva login page" width="750"/>
+<img src="/assets/wiki_images/export_data/blank-auth.png" alt="deriva login page" width="750"/>
   <br/>
   <br/>
 Use the log in method of your choice (i.e., your institution's credentials if available).
@@ -131,7 +131,7 @@ Use the log in method of your choice (i.e., your institution's credentials if av
 After logging in, you'll see an "Authentication Successful" message:
   <br/>
   <br/>
-<img src="https://github.com/informatics-isi-edu/gudmap-rbk/blob/master/wiki_images/export_data/login_deriva_success.PNG" alt="deriva login page" width="750"/>
+<img src="/assets/wiki_images/export_data/login_deriva_success.PNG" alt="deriva login page" width="750"/>
   <br/>
   <br/>
 
@@ -155,11 +155,11 @@ The downloaded files are located in one or more sub-folders under `./data` such 
 
 #### 3.3.2.2 Download to a remote cluster/server
 
-If you want to download data files to a remote cluster or server, you will need to install the DERIVA Client tools on the remote environment as well as locally (as described in [3.2 Download and install DERIVA Client](#32-download-and-install-deriva-client)).
+If you want to download data files to a remote cluster or server, you will need to install the DERIVA Client tools on the remote environment as well as locally (as described in [3.1 Download and install DERIVA Client](#31-download-and-install-deriva-client)).
 
 A Python 3.5.4 or greater system installation is required to use the client tools. The latest stable version of Python is recommended.
 
-1. [Install DERIVA Client](#32-download-and-install-deriva-client) on the remote cluster/server as well as locally. We recommend using the instructions for [Installing `deriva-client` from PyPi via `pip`](https://github.com/informatics-isi-edu/deriva-client#installing-deriva-client-from-pypi-via-pip).
+1. [Install DERIVA Client](#31-download-and-install-deriva-client) on the remote cluster/server as well as locally. We recommend using the instructions for [Installing `deriva-client` from PyPi via `pip`](https://github.com/informatics-isi-edu/deriva-client#installing-deriva-client-from-pypi-via-pip).
 
 2. Get a token: On your local computer, run:
     ```

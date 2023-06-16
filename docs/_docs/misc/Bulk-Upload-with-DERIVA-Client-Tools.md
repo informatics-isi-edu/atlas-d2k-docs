@@ -7,13 +7,13 @@ permalink: /docs/bulk-upload-with-deriva-client-tools/
 # Bulk Upload with DERIVA Client Tools
 -->
 <!-- comment out when generating PDF in Atom -->
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Bulk-Upload-with-DERIVA-Client-Tools.pdf)**
+**[PDF version](/docs/misc/Bulk-Upload-with-DERIVA-Client-Tools.pdf)**
 
 Our underlying software system, DERIVA, has client tools for authenticating (DERIVA-Auth) and performing a bulk upload of sequencing data files (DERIVA-Upload). This is recommended if you have a large or complex sequencing data submission.
 
 There are two versions of the client tool: 
 * [a graphical interface that can be run to upload files from your desktop system](#4-using-the-gui-from-a-desktop), and 
-* [a command-line interface that can be used to upload files from a remote server](#5-using-the-deriva-upload-cli-command-from-a-remote-server).
+* [a command-line interface that can be used to upload files from a remote server](#5-using-the-deriva-upload-cli-command-on-a-remote-server).
 
 Although the process for downloading and running the above tools are different, they both use the same directory structure designed for different data types. So make sure you've read the [Organize files for bulk upload](#2-organize-files-for-bulk-upload) section first.
 
@@ -49,7 +49,7 @@ Here are the details for each step.
 * When you click the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about) link, if you have never used Globus before, you will be given various choices for logging in: via existing credentials (your institution, Google, or ORCID ID) or by creating a new Globus ID. 
 We recommend using an existing credential if that is available. 
 
-* For detailed instruction on how to join different GUDMAP/RBK group, visit [Accessing GUDMAP and RBK Resources](Accessing-GUDMAP-and-RBK-Resources). If you have *any* problems, please email [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
+* For detailed instruction on how to join different GUDMAP/RBK group, visit [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources). If you have *any* problems, please email [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
 
 ## 2. Organize files for bulk upload
 

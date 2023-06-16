@@ -1,3 +1,8 @@
+---
+title: Submitting Immunofluorescence Images
+permalink: /docs/immunofluorescence-images/
+---
+
 <!-- uncomment when generating PDF in Atom 
 # Submitting Immunofluorescence Images
 -->
@@ -20,7 +25,7 @@ We also have the following training materials available:
 
 Adding immunofluorescence slides to the Data Browser involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Protocols#1-join-the-kidney-writers-group), and that you are logged in.
+* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
 * Create a base "Slide Record" with basic metadata and uploaded image file. 
 * Optionally, link other data to this record: genes, expression regions, antibodies and videos.
 
@@ -32,7 +37,7 @@ Adding immunofluorescence slides to the Data Browser involves the following step
 
 The following represents how different tables in the Data Browser are related in order to form the Immunofluorescence data record.
 
-![Screenshot of IF slide record form]/assets/wiki_images/submitting-data/if-schema.jpg)
+![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/if-schema.jpg)
 
 <a name="globus"/>
 
@@ -40,7 +45,7 @@ The following represents how different tables in the Data Browser are related in
 
 If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Accessing-GUDMAP-and-RBK-Resources).
+You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 
 <div class="page-break"></div>
@@ -51,13 +56,13 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
 
 * In the top navigation bar, click _Create > Immunofluorescence Images_.
 
-    ![Screenshot of Histological Slide record create form]/assets/wiki_images/submitting-data/if-navigation.png)
+    ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/if-navigation.png)
 
 <div class="page-break"></div>
   
 *  The Create form appears.
   
-    ![Screenshot of IF slide record form]/assets/wiki_images/submitting-data/if-slide-record-form.png)
+    ![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/if-slide-record-form.png)
   
   <div class="page-break"></div>
   
@@ -69,14 +74,14 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
       * _In Preparation_: Use this status while still drafting the data.
       * _PI Review_: Use this status when your data is ready for internal review. 
       * _Submitted_: Use this status when your data is ready for Hub review. 
-      * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)
+      * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
     * _Principal Investigator_: Choose the name of your project's contact PI.
     * _Data Provider_: Choose the lab/institution associated with this data.
     * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP consortium.
 
 * Scroll back up to the top of the page and click the _Submit Data_ button to save the record.
 
-    ![Screenshot of IF slide record form]/assets/wiki_images/submitting-data/chaise-submit.png)
+    ![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/chaise-submit.png)
 
 
 <div class="page-break"></div>
@@ -91,16 +96,16 @@ Once you have the basic Slide record, scroll down further to view other types of
   
 * Click the eye icon in the _Actions_ column to view the desired record.
 
-  ![Clicking the eye icon to view]/assets/wiki_images/submitting-data/if-viewing.png)
+  ![Clicking the eye icon to view](/assets/wiki_images/submitting-data/if-viewing.png)
   
 * Make sure you are logged in.
 * Scroll down to the desired section and click _Add_ on the right side of the page.
 
-![Clicking the Add link of the gene section]/assets/wiki_images/submitting-data/if-add-link.png)
+![Clicking the Add link of the gene section](/assets/wiki_images/submitting-data/if-add-link.png)
 
 * Search for existing data and select it (you may select multiple values). Then click the _Submit_ button (see the following screenshot).
 
-![Search and select window]/assets/wiki_images/submitting-data/if-search-select.png)
+![Search and select window](/assets/wiki_images/submitting-data/if-search-select.png)
 
 <div class="page-break"></div>
 
@@ -110,15 +115,15 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 * Scroll down to the **Slide Videos** section and click the _Add_ link on the right side of the page.
 
-![Create Slide Video Record form window]/assets/wiki_images/submitting-data/if-add-link-video.png)
+![Create Slide Video Record form window](/assets/wiki_images/submitting-data/if-add-link-video.png)
 
 * Fill out the **Create Slide Video Record** form. 
 
-![Create Slide Video Record form window]/assets/wiki_images/submitting-data/if-create-slide-video-record.png)
+![Create Slide Video Record form window](/assets/wiki_images/submitting-data/if-create-slide-video-record.png)
 
 * Upload your video file by clicking on the _Select File_ button in the _Download Link_ field. **Note: At this time, please submit mp4 file format. This allows users to view the movie in the browser window.** For best results, use 16:9 aspect ratio and high resolution (ideally 1080p).
 
-![Download link]/assets/wiki_images/submitting-data/if-create-slide-video-record-download.png)
+![Download link](/assets/wiki_images/submitting-data/if-create-slide-video-record-download.png)
 
 
 * Click the _Submit Data_ button.
@@ -139,7 +144,7 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 * In the faceting sidebar, scroll to **Principal Investigator** and choose your project's PI. Now you should see the data you need to review.
 
-* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Curation-Workflow)).
+* When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)).
 
 <div class="page-break"></div>
 
@@ -154,8 +159,8 @@ To delete an IF Slide record:
 * Scroll down the record to the sections for Genes, Expression Regions, Antibodies and Videos.
 * In each of these sections, unlink the entries by clicking the 'x' icon in the _Actions_ columns.
 
-![Unlink Gene]/assets/wiki_images/submitting-data/if-unlink-gene.png)
+![Unlink Gene](/assets/wiki_images/submitting-data/if-unlink-gene.png)
 
 * Once all of the related records have been unlinked (deleted), then scroll up to the top of the record and click _Delete_.
 
-![Delete button]/assets/wiki_images/submitting-data/chaise-delete-option.png)
+![Delete button](/assets/wiki_images/submitting-data/chaise-delete-option.png)
