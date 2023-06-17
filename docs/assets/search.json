@@ -4,7 +4,7 @@ permalink: search.json
 [
 {% for section in site.data.docs %}
   {% for item in section.docs %}
-    {% assign item_url = item | prepend:"/docs/" | append:"/" %}
+    {% assign item_url = item.url | prepend:"/docs/" | append:"/" %}
     {% assign p = site.docs | where:"url", item_url | first %}
     {
       "title": "{{ p.title }}",
