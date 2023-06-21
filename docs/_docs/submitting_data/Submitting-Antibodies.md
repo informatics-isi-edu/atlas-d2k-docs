@@ -9,7 +9,7 @@ permalink: /docs/antibodies/
 <!-- comment out when generating PDF in Atom -->
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Antibodies.pdf)**
 
-This page provides instructions for adding antibody validation data to the GUDMAP/RBK Data Explorer.
+This page provides instructions for adding antibody validation data to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
@@ -57,7 +57,7 @@ Other related tables include:
 
 If you haven't already done so, go to this link to join the Globus group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
+You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 **NOTE: We only use Globus for authentication, not for file or data management.**
 
@@ -98,7 +98,7 @@ If you did find the antibody, move on to the next step.
     * _In Preparation_ (still drafting), 
     * _PI Review_ (ready for internal approval), or 
     * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
-  * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP Consortium.
+  * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K Consortium.
   
 * When finished, click `Submit Data` to save your new antibody record. You can now close this tab.
 
@@ -126,7 +126,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
     * _PI Review_ (ready for internal approval), or 
     * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Principal Investigator_: Choose the name of your project's contact PI.
-  * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP consortium.
+  * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
   
 * Note: If you are creating multiple antibody test records, you may click the `+` button (under the `Submit Data` button) to copy over the record form. Each time you click `+` will display a copy of the most recent form that you can edit as needed.
 
@@ -216,7 +216,7 @@ To add a test-related files:
         * _PI Review_ (ready for internal approval), or 
         * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
       * _Data Provider_: This is your lab's institution. If you need to add an institution, please contact the Hub.
-      * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP consortium.
+      * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
       * _Description_: This is not required - however, this field is useful for test images if you want to describe what different colors represent, etc.
 
 * Click `Submit Data` to complete the upload.

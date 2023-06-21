@@ -4,9 +4,9 @@ permalink: /docs/create-citable-datasets/
 ---
 
 
-Create citable datasets or data collections promotes **FAIR**ness (i.e. data that is **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable), which is one of the overarching goals of NIH. GUDMAP/RBK provides a mechanism to support citable data collection especially for your up-coming/recent publications. Here is the instruction. 
+Create citable datasets or data collections promotes **FAIR**ness (i.e. data that is **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable), which is one of the overarching goals of NIH. ATLAS-D2K provides a mechanism to support citable data collection especially for your up-coming/recent publications. Here is the instruction. 
 
-### 1. Create a citable collection in the GUDMAP/RBK site ###
+### 1. Create a citable collection in the ATLAS-D2K site ###
 1. Create a collection by following the [submitting collection instruction](/docs/data-collections). Please fill in as much information as you can as some of the attributes as used to issue a DOI ID. As part of the form, set "Required DOI?" to true.   
 2. Add all the relevant data involved in your experiment methods or figures in the collection.
 3. Edit your collection. Fill in the "Details" section with the content that you want to emphasize to your readers. A common practice is to list images/specimens involved in the figures, so the users can directly get to the high-resolution images or relevant data. 

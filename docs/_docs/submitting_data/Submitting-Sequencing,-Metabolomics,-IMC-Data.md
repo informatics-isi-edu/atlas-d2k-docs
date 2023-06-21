@@ -232,7 +232,7 @@ Follow the directions for [Uploading files via Deriva client tools](/docs/upload
 Once you've created your sequencing study and uploaded your data, you can then export to a file for submission to GEO. See the [Exporting to submit to GEO](/docs/exporting-data#4-exporting-to-submit-to-geo-for-data-submitters) section of the [Exporting Data page](/docs/exporting-data).
 
 ## Data Submission Dashboard
-The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the GUDMAP/RBK data browser.
+The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the ATLAS-D2K data browser.
 
 ![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
 

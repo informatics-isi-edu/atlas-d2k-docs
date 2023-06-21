@@ -80,7 +80,7 @@ Updates to the user interface:
 
 - When you use the Gene search form on the homepage, it now searches only on the NCBI Symbol and its synonyms. This will reduce false positives in the search results.
 
-- When you click Search by Gene link, the results will by default only display genes with GUDMAP/RBK gene expression data. We have also added a few more facets on this page in the left sidebar. 
+- When you click Search by Gene link, the results will by default only display genes with ATLAS-D2K gene expression data. We have also added a few more facets on this page in the left sidebar. 
 
 - Searching by Anatomical Terms will by default only display terms with gene expression data. We have also added a few more facets on this page in the left sidebar.
 

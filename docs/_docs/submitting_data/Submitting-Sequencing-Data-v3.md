@@ -9,7 +9,7 @@ permalink: /docs/submitting-sequencing-data-v3/
 <!-- comment out when generating PDF in Atom -->
 **[PDF version](/docs/submitting_data/Submitting-Sequencing-Data-v3.pdf)**
 
-This page provides instructions for adding sequencing data (mRNA-Seq, scRNA-Seq, etc.) to the GUDMAP/RBK Data Explorer.
+This page provides instructions for adding sequencing data (mRNA-Seq, scRNA-Seq, etc.) to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your Consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
         
@@ -49,7 +49,7 @@ Here are the details for each step:
 
 * Join the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about). 
 * When you click the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about) link, if you have never used Globus before, you will be given various choices for logging in: via existing credentials (your institution, Google, or ORCID ID) or by creating a new Globus ID. We recommend using an existing credential if that is available. If you decide to use a login with an email different from the one we invited you with - Globus may ask you to link the two emails/accounts. 
-* For detailed instruction on how to join different GUDMAP/RBK group, visit [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources). If you have _any_ problems, please email [rbk-ops@rebuildingakidney.org](mailto:rbk-ops@rebuildingakidney.org).
+* For detailed instruction on how to join different ATLAS-D2K group, visit [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources). If you have _any_ problems, please email [rbk-ops@rebuildingakidney.org](mailto:rbk-ops@rebuildingakidney.org).
 
 Make sure you are logged in before attempting any of the data submissions steps.
 
@@ -183,7 +183,7 @@ When the Hub is satisfied all requirements are met, they will change the status 
 
 ### 6.1. Data Submission Dashboard
 
-The [monthly data submission dashboard](https://www.gudmap.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the GUDMAP/RBK data browser. 
+The [monthly data submission dashboard](https://www.gudmap.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the ATLAS-D2K data browser. 
 
 ![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
 

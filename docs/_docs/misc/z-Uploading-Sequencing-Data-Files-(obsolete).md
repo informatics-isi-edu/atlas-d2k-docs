@@ -27,7 +27,7 @@ permalink: /docs/z-uploading-sequencing-data-files-obsolete/
 ## Prerequisites
 Before uploading a sequencing data file:
 1. You'll need to download the appropriate client tool (more detail on that later on this page).
-2. You must be a member of the `kidney-writers` group (if you've created records in the RBK or GUDMAP data browser, you're already in the group. If not, you can request membership [here](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)).
+2. You must be a member of the `kidney-writers` group (if you've created records in the ATLAS-D2K data browser, you're already in the group. If not, you can request membership [here](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)).
 3. You should decide which data element in the data browser to attach the file to (you may want to review the [data model](https://docs.google.com/presentation/d/1Ee4seF4fgGMH5OuB_N6npaH_tGfUT7yFKKS64I9vbzE/edit#slide=id.g30b0a47b91_0_0) first):
 * Single-cell data file are associated with Single Cell Metrics records.
 * Other sequencing data files are associated with Replicate records.

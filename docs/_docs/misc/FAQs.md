@@ -24,14 +24,14 @@ We are using their very secure authentication system that also works securely wi
 
 You can find [more information about Globus  here](https://docs.globus.org/faq/security/#what_is_globus_id). 
 
-You can find specific information about [accessing GUDMAP/RBK resources here](/docs/accessing-gudmap-and-rbk-resources).
+You can find specific information about [accessing ATLAS-D2K resources here](/docs/accessing-gudmap-and-rbk-resources).
 
 
 ## How do I perform a batch search?
 
 A batch search (or batch query) allows you to do things like filter the data for a whole set of genes. For instructions, go to the [Batch Query page](/docs/batch-query).
 
-## How should I include data citation in my GUDMAP or RBK papers?
+## How should I include data citation in my ATLAS-D2K papers?
 
 The data citations in this paper follow current best practice by providing  actionable,  permanent global identifier, a DOI.  The resolver for this DOI is maintained by DataCite, which also maintains basic citation metadata about the referenced data collection.  The DOI is guaranteed to never change, and to alway have the citation metadata and is supported by a business model that these conditions will hold even if DataCite ceases to exist.
  

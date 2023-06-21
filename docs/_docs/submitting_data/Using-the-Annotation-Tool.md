@@ -3,7 +3,7 @@ title: Using the Annotation Tool
 permalink: /docs/annotating-images/
 ---
 
-This capability allows GUDMAP/RBK members to annotate imaging data to visually indicate specific anatomical regions relating to ontological terms. These annotations then link out to the corresponding anatomy page for that region which displays more information on the region and lists any related data in the GUDMAP/RBK repository.
+This capability allows ATLAS-D2K members to annotate imaging data to visually indicate specific anatomical regions relating to ontological terms. These annotations then link out to the corresponding anatomy page for that region which displays more information on the region and lists any related data in the ATLAS-D2K repository.
 
 We offer two paths for annotation: online from your web browser or offline via a third-party tool called [QuPath](https://qupath.github.io/).
 
@@ -26,7 +26,7 @@ Note about "Curation Status": The default "In Preparation" will keep it hidden i
 
 ## Offline annotation with QuPath
 
- [QuPath](https://qupath.github.io/) is a useful tool to use for more complex annotations or if you just prefer to work offline. Now you can take your image (or download one from the GUDMAP/RBK repository), annotate it in QuPath (with x, y, z caveats) and then upload it back to the website where it will be available for viewing by the public along with the original file.
+ [QuPath](https://qupath.github.io/) is a useful tool to use for more complex annotations or if you just prefer to work offline. Now you can take your image (or download one from the ATLAS-D2K repository), annotate it in QuPath (with x, y, z caveats) and then upload it back to the website where it will be available for viewing by the public along with the original file.
 
 ## How to Annotate an Image
 

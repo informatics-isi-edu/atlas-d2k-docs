@@ -10,7 +10,7 @@ permalink: /docs/specimens/
 **[PDF version](/docs/specimens/.pdf)**
 -->
 
-This page provides instructions for adding specimen and imaging data (such as histology, immunohistochemical, in situ hybridization images, etc) to the GUDMAP/RBK Data Explorer.
+This page provides instructions for adding specimen and imaging data (such as histology, immunohistochemical, in situ hybridization images, etc) to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
 
@@ -164,7 +164,7 @@ The following sections describe how to add these types of records.
 
 The system will accept images (2D and 3D) and videos (see [Available Video Platforms](/docs/available-video-platforms)).
 
-For each image, you will need to add an Image record. Please consult this list of accepted file formats for GUDMAP/RBK data: [Standard file formats for data submission](/docs/standard-files-and-formats-for-submission).
+For each image, you will need to add an Image record. Please consult this list of accepted file formats for ATLAS-D2K data: [Standard file formats for data submission](/docs/standard-files-and-formats-for-submission).
 
 Note: these instructions specify how to add Image records using our web-based GUI. If you have many image files, you can also [upload them using our bulk-upload client tool](/docs/bulk-uploading-image-files).
 

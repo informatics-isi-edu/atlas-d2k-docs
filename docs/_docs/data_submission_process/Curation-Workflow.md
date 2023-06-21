@@ -3,7 +3,7 @@ title: Curation Workflow
 permalink: /docs/curation-workflow/
 ---
 
-This page describes the approved curation workflow for both GUDMAP and RBK data submissions.
+This page describes the approved curation workflow for both ATLAS-D2K data submissions.
 
 * [Tutorial slides](https://docs.google.com/presentation/d/1KPkiTwhDhJ73hr7A6mlKc-1bN27--4SxsHntloXc7Qg/edit?usp=sharing)
 

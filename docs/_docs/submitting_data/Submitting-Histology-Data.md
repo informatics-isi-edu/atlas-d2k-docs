@@ -9,7 +9,7 @@ permalink: /docs/histological-data/
 <!-- comment out when generating PDF in Atom  -->
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Histology-Data.pdf)**
 
-This page provides instructions for adding histological (H&E) images to the GUDMAP/RBK Data Explorer.
+This page provides instructions for adding histological (H&E) images to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
@@ -48,7 +48,7 @@ The schema for histological slides is very simple - the record for the slide and
 
 If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
+You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 <a name="create slide"/>
 

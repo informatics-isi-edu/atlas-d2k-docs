@@ -10,7 +10,7 @@ permalink: /docs/data-collections/
 **[PDF version](/docs/data-collections.pdf)**
 -->
 
-This page provides instructions for citing data by submitting Data Collections to the GUDMAP/RBK Data Explorer.
+This page provides instructions for citing data by submitting Data Collections to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
@@ -84,7 +84,7 @@ A collection is useful anytime you want to group data under one DOI or citation.
       * Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Principal Investigator_: Choose the name of your project's contact PI.
   * _Data Provider_: Choose your institution.
-  * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP consortium.
+  * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
 * Click _Save_ (scroll to the top of the page) to save the record.
 
 **You can come back at any time and click "Edit" in the record header to modify this record.**

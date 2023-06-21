@@ -227,9 +227,9 @@ https://github.com/fair-research/bdbag/blob/master/doc/cli.md#bdbag-command-line
 
 ## 4. Exporting to submit to GEO (for Data Submitters)
 
-GUDMAP/RBK members can upload their study to GUDMAP/RBK and then export the study in a GEO-compliant package. This requires [downloading and installing DERIVA Client](#31-download-and-install-deriva-client) to your local environment if you haven't done so already.
+ATLAS-D2K members can upload their study to ATLAS-D2K and then export the study in a GEO-compliant package. This requires [downloading and installing DERIVA Client](#31-download-and-install-deriva-client) to your local environment if you haven't done so already.
 
-1. Create the study in GUDMAP/RBK.
+1. Create the study in ATLAS-D2K.
 2. From the Study page, click Export and choose `GEO BDBAG (GEO excel and sequencing files)`. This will create a zip folder that has an Excel spreadsheet containing metadata and file locations. Export `GEO Excel` to check the excel content that will be included in the `GEO BDBAG`.
 3. Use the `bdbag` command to export all those files:
     ```

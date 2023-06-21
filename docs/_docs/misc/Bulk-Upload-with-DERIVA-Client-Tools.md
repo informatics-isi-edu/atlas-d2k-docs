@@ -49,7 +49,7 @@ Here are the details for each step.
 * When you click the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about) link, if you have never used Globus before, you will be given various choices for logging in: via existing credentials (your institution, Google, or ORCID ID) or by creating a new Globus ID. 
 We recommend using an existing credential if that is available. 
 
-* For detailed instruction on how to join different GUDMAP/RBK group, visit [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources). If you have *any* problems, please email [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
+* For detailed instruction on how to join different ATLAS-D2K group, visit [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources). If you have *any* problems, please email [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
 
 ## 2. Organize files for bulk upload
 
@@ -57,7 +57,7 @@ The upload tools will use the names of the directories and files (ie, folders) t
 
 ### 2.1. Supported file types
 
-The following sequencing data file types are supported for uploading to the GUDMAP/RBK repository:
+The following sequencing data file types are supported for uploading to the ATLAS-D2K repository:
 
 | Extension | File Type | Description (will appear in file caption) | mandatory |
 |---|---|---|---|

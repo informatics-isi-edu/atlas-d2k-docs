@@ -10,7 +10,7 @@ permalink: /docs/immunofluorescence-images/
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Immunofluorescence-Images.pdf)**
 
 
-This page provides instructions for adding immunofluorescence image data to the GUDMAP/RBK Data Explorer.
+This page provides instructions for adding immunofluorescence image data to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
@@ -45,7 +45,7 @@ The following represents how different tables in the Data Browser are related in
 
 If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
+You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 
 <div class="page-break"></div>
@@ -77,7 +77,7 @@ You can find more details about this process at [Accessing GUDMAP and RBK Resour
       * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
     * _Principal Investigator_: Choose the name of your project's contact PI.
     * _Data Provider_: Choose the lab/institution associated with this data.
-    * _Consortium_: Make sure you indicate whether this is from the RBK or GUDMAP consortium.
+    * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
 
 * Scroll back up to the top of the page and click the _Submit Data_ button to save the record.
 

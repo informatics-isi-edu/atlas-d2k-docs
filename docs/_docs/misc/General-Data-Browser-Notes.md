@@ -3,17 +3,17 @@ title: General Data Browser Notes
 permalink: /docs/general-data-browser-notes/
 ---
 
-If you are new to using the GUDMAP/RBK Data Browser, it will be useful to review the following notes about the interface:
+If you are new to using the ATLAS-D2K Data Browser, it will be useful to review the following notes about the interface:
 
 ## What is the Data Browser?
 
-When we talk about the Data Browser, we refer to the RBK/GUDMAP data repository pages with the blue header saying "RBK/GUDMAP Resources" that look like this:
+When we talk about the Data Browser, we refer to the ATLAS-D2K data repository pages with the blue header saying "ATLAS-D2K Resources" that look like this:
 
 ![Screenshot of typical Data Browser header](wiki_images/submitting-data/data-browser-header.png)
 
-This is where actual data submitted by the GUDMAP/RBK projects are shared.
+This is where actual data submitted by the ATLAS-D2K projects are shared.
 
-* **GUDMAP and RBK share the same Data Browser** which allows for the best inter-linking between both consortiums' data. 
+* **ATLAS-D2K share the same Data Browser** which allows for the best inter-linking between both consortiums' data. 
 
 ## How do I access the Data Browser?
 
@@ -46,7 +46,7 @@ image
 
 First, if you haven't already done so, **you must ask to join the `kidney-writers` authentication group**: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
+Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 You can find instructions for submitting  for how to submit, edit, even delete data from the Data Browser per data types below or in the wiki sidebar to your right:
 

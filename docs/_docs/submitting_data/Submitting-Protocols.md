@@ -7,7 +7,7 @@ permalink: /docs/protocols/
 <!-- comment out when generating PDF in Atom 
 **[PDF version](/docs/protocols.pdf)**
 -->
-This page provides instructions for adding protocols to the GUDMAP/RBK Data Explorer, based on the _Nature Protocols_ format.
+This page provides instructions for adding protocols to the ATLAS-D2K Data Explorer, based on the _Nature Protocols_ format.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
@@ -47,7 +47,7 @@ Adding protocols involves the following steps:
 
 If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
 
-You can find more details about this process at [Accessing GUDMAP and RBK Resources](/docs/accessing-gudmap-and-rbk-resources).
+You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
 
 <a name="base-record"/>
 
@@ -283,7 +283,7 @@ Sometimes a protocol needs to be updated due to things like cheaper reagents or 
 
 Protocols include a _Version_ field to help distinguish between these. Here are some guidelines for using this field.
 
-If the investigator feels their protocol is a significant difference from the original, AND data on the GUDMAP or RBK website that links to the protocol cannot be replicated with the old version, create a brand new protocol and update the _Version_ field by one "whole" number (ie, from "1" to "2").
+If the investigator feels their protocol is a significant difference from the original, AND data on the ATLAS-D2K website that links to the protocol cannot be replicated with the old version, create a brand new protocol and update the _Version_ field by one "whole" number (ie, from "1" to "2").
 
 If you only need to add a clarification or a note, or if a reagent source is substituted that does not change the outcome of the protocol (but saves money, for example), then edit the existing protocol and update the _Version_ field by a "point" number, (ie, from "1" to "1.1").
 

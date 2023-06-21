@@ -5,7 +5,7 @@ permalink: /docs/data-submission-dashboards-internal-only/
 
 Note this page describes a feature only available to those with the proper permissions.
 
-In the GUDMAP/RBK data browser, there is a menu item "Dashboards (requires login)" that offers views for GUDMAP or RBK. When you click either of those links (and login if you're not already - requires membership in the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)), you'll be taken to a matrix of data records by PI and Data Type and indicating [curation status](/docs/curation-workflow) (_In Preparation_, _Hub Attention_, _Released_, etc).
+In the ATLAS-D2K data browser, there is a menu item "Dashboards (requires login)" that offers views for ATLAS-D2K. When you click either of those links (and login if you're not already - requires membership in the [kidney-writers group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)), you'll be taken to a matrix of data records by PI and Data Type and indicating [curation status](/docs/curation-workflow) (_In Preparation_, _Hub Attention_, _Released_, etc).
 
 This data works like other data where you can use the filtering sidebar to narrow down the results. 
 
@@ -19,7 +19,7 @@ If you are not already signed in, you'll see a popup window with "Item Not Found
 
 ## To view all data released by a particular lab (requires knowing the contact PI):
 
-We'll use Andy McMahon's lab as an example. His lab has data in both GUDMAP and RBK, so let's say you wanted to know about the data he released on GUDMAP. 
+We'll use Andy McMahon's lab as an example. His lab has data in both ATLAS-D2K, so let's say you wanted to know about the data he released on GUDMAP. 
 
 First, make sure that the Consortium is chosen (it should be, but you'll see the facet for "Consortium: GUDMAP" above the search results).
 

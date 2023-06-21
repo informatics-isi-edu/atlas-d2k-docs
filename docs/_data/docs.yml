@@ -1,7 +1,7 @@
 # Section 1
-- title: Using GUDMAP/RBK
+- title: Using ATLAS-D2K
   docs:
-    - sectionTitle: Using the GUDMAP RBK Data Browser
+    - sectionTitle: Using the ATLAS-D2K Data Browser
       url: using-the-gudmap-rbk-data-browser
     - sectionTitle: Uploading files via Deriva client tools
       url: uploading-files-using-deriva-client-tools
@@ -65,7 +65,7 @@
 # Section 5
 - title: Access
   docs:
-    - sectionTitle: Accessing GUDMAP and RBK Resources
+    - sectionTitle: Accessing ATLAS-D2K Resources
       url: accessing-gudmap-and-rbk-resources
     - sectionTitle: Uploading files via Deriva client tools
       url: uploading-files-using-deriva-client-tools
@@ -115,7 +115,7 @@
       url: gudmap-requirements-sessions
     - sectionTitle: Possible Directory Structures For Uploading Image Data
       url: possible-directory-structures-for-uploading-image-data
-    - sectionTitle: Querying the GUDMAP RBK Data Browser
+    - sectionTitle: Querying the ATLAS-D2K Data Browser
       url: querying-the-gudmap-rbk-data-browser
     - sectionTitle: Release Notes (Data Browser)
       url: release-notes-data-browser

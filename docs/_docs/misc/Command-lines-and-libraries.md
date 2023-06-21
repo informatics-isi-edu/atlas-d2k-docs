@@ -3,7 +3,7 @@ title: Command lines and libraries
 permalink: /docs/command-lines-and-libraries/
 ---
 
-The GUDMAP/RBK repository can be accessed programmatically through command line interfaces and libraries.
+The ATLAS-D2K repository can be accessed programmatically through command line interfaces and libraries.
 
 ## Libraries 
 * python client library

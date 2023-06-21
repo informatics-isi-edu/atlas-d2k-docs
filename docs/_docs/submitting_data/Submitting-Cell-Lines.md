@@ -9,7 +9,7 @@ permalink: /docs/cell-lines/
 <!-- comment out when generating PDF in Atom -->
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Cell-Lines.pdf)**
 
-This page provides instructions for submitting cell lines to the GUDMAP/RBK Data Explorer.
+This page provides instructions for submitting cell lines to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
@@ -33,7 +33,7 @@ Note: Make sure the parental cell line is in the system (_Search > Cell &amp; An
 
 ## Create base record
 
-From anywhere within the GUDMAP/RBK data repository, go to the top navigation bar and click _Create > Cell &amp; Animal Models > Reporter Cell Lines_. (You must be logged in.)
+From anywhere within the ATLAS-D2K data repository, go to the top navigation bar and click _Create > Cell &amp; Animal Models > Reporter Cell Lines_. (You must be logged in.)
 
 ![Form to create the base record](/assets/wiki_images/submitting-data/cell-lines-base-create.png)
 

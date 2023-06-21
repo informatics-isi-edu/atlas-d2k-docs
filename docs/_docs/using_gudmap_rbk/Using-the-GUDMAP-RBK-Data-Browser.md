@@ -1,15 +1,15 @@
 ---
-title: Using the GUDMAP RBK Data Browser
+title: Using the ATLAS-D2K Data Browser
 permalink: /docs/using-the-gudmap-rbk-data-browser/
 ---
 
-Learn the basics of search, browsing and filtering for genitourinary and kidney data in the GUDMAP/RBK Data Browser. 
+Learn the basics of search, browsing and filtering for genitourinary and kidney data in the ATLAS-D2K Data Browser. 
 
 As of April 13, 2018, we have launched the new GUDMAP3 website. The GUDMAP repository has been integrated with the new kidney repository from the ReBuilding a Kidney (RBK) Consortium, with more new protocols, antibody validation data and sequencing data. Although the videos below are specifically mentioning GUDMAP for the launch, the instructions also apply to RBK users.
 
 **[Here are new instructions for performing a batch query in GUDMAP.](/docs/batch-query)**
 
-### How to find data in the GUDMAP/RBK Data Browser
+### How to find data in the ATLAS-D2K Data Browser
 
 [![How to find data](https://img.youtube.com/vi/sBgHkdFLfp4/0.jpg)](https://www.youtube.com/watch?v=sBgHkdFLfp4)
 

@@ -3,7 +3,7 @@ title: Standard file formats for data submission
 permalink: /docs/standard-files-and-formats-for-submission/
 ---
 
-On this page, you'll find the standard files and formats agreed upon by the GUDMAP and RBK Consortium for data submissions:
+On this page, you'll find the standard files and formats agreed upon by the ATLAS-D2K Consortium for data submissions:
 
 Table of contents:
 - [General file format requirements](#general-file-format-requirements)

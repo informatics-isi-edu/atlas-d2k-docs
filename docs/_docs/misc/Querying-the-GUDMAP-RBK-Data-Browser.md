@@ -1,9 +1,9 @@
 ---
-title: Querying the GUDMAP RBK Data Browser
+title: Querying the ATLAS-D2K Data Browser
 permalink: /docs/querying-the-gudmap-rbk-data-browser/
 ---
 
-This section describes how to use the filtering/faceting sidebar to search GUDMAP/RBK data by gene, anatomy and data attributes. Coming soon, you'll be able to search by function and disease.
+This section describes how to use the filtering/faceting sidebar to search ATLAS-D2K data by gene, anatomy and data attributes. Coming soon, you'll be able to search by function and disease.
 
 # What is a GUDMAP entry?
 
@@ -105,7 +105,7 @@ The numbers to the right of the names indicate how many instances of these types
 
 ### To search for genes annotated with expression *present*, *uncertain* or *not detected* in a given structure(s)
 
-Choose "Specimen Expression Rollup" in the *Contents* list. This table includes GUDMAP/RBK entries that include annotated in situ expression data and microarray data.
+Choose "Specimen Expression Rollup" in the *Contents* list. This table includes ATLAS-D2K entries that include annotated in situ expression data and microarray data.
 
 * For Specimen (ISH/IHC) 
 that contain either a **direct annotation** for the anatomical term specified (whether it is *present*, *uncertain* or *possible*) or an **inferred annotation** for the anatomical term (see below). 
