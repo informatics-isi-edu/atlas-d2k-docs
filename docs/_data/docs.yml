@@ -13,6 +13,8 @@
 # Section 2
 - title: Submitting Data
   docs:
+    - sectionTitle: Joining a Globus Group
+      url: joining-a-globus-group
     - sectionTitle: Standard file formats for data submission
       url: standard-files-and-formats-for-submission
     - sectionTitle: Antibodies
@@ -33,8 +35,8 @@
       url: single-cell-visualization-files
     - sectionTitle: Sequencing Data
       url: submitting-sequencing-data-v3
-    - sectionTitle: Specimens
-      url: specimens
+    - sectionTitle: Specimen
+      url: specimen
     - sectionTitle: Bulk uploading image files
       url: bulk-uploading-image-files
     - sectionTitle: Bulk uploading Specimen data from a file(DRAFT)
