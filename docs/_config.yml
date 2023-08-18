@@ -1,9 +1,8 @@
 # Site settings
-title: ATLAS-D2K Hub
-email: your-email@domain.com
+title: ATLAS-D2K Center
+email: help@atlas-d2k.org
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  Documentation site for the ATLAS-D2K Center (www.atlas-d2k.org)
 lang: en-US
 
 # baseurl: "" # the subpath of your site, e.g. /blog/

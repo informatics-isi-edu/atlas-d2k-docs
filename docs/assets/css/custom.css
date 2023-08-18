@@ -67,6 +67,10 @@ form.navbar-form.navbar-left {
 .navbar-inverse .navbar-nav>li>a:hover {color:#FFF;}
 .navbar-inverse .navbar-nav>li>a:visited {color:#fff;}
 
+.navbar-header a.navbar-brand {
+    color: #fff;
+}
+
 
 .tt-input,
 .tt-hint {
