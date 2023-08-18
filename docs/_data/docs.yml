@@ -3,8 +3,6 @@
   docs:
     - sectionTitle: Using the ATLAS-D2K Data Browser
       url: using-the-gudmap-rbk-data-browser
-    - sectionTitle: Uploading files via Deriva client tools
-      url: uploading-files-using-deriva-client-tools
     - sectionTitle: Batch Query
       url: batch-query
     - sectionTitle: Exporting Data
@@ -85,8 +83,6 @@
   docs:
     - sectionTitle: Data submission curation state diagram
       url: data-submission-curation-state-diagram
-    - sectionTitle: RBK Data Submission Workshop 2017_06_12
-      url: rbk-data-submission-workshop-2017_06_12
 
 # Section 8
 - title: Miscellaneous
@@ -131,7 +127,3 @@
       url: uploading-sequencing-workflow-files
     - sectionTitle: User testing scenarios
       url: user-testing-scenarios
-    - sectionTitle: z Access our server (obsolete)
-      url: z-access-our-server-obsolete
-    - sectionTitle: z Uploading Sequencing Data Files (obsolete)
-      url: z-uploading-sequencing-data-files-obsolete
