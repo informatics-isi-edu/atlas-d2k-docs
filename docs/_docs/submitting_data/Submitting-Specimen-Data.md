@@ -1,6 +1,6 @@
 ---
 title: Submitting Specimen Data
-permalink: ../specimen/
+permalink: /docs/specimen/
 ---
 
 <!-- uncomment when generating PDF in Atom
