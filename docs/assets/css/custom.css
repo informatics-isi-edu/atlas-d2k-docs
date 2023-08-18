@@ -1,3 +1,73 @@
+
+body, p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #000;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+.navbar-default {
+  background-color: #255F8C;
+  border-color: #255F8C;
+}
+
+.panel-title>a, .panel-title>small, .panel-title>.small, .panel-title>small>a, .panel-title>.small>a {
+  font-weight: 500;
+}
+
+.container.navbar-container {
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.page-content {
+  padding-top: 21px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+form.navbar-form.navbar-left {
+    margin-top: 14px;
+}
+
+.tt-suggestion.tt-selectable {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #CCC;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {color:#FFF;}
+.navbar-inverse .navbar-nav>li>a:visited {color:#CCC;}
+
+
 .tt-input,
 .tt-hint {
     /* UPDATE: newer versions use tt-input instead of tt-query */
