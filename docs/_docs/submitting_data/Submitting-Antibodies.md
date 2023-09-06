@@ -3,11 +3,12 @@ title: Submitting Antibodies
 permalink: /docs/antibodies/
 ---
 
-<!-- uncomment when generating PDF in Atom 
+<!-- uncomment when generating PDF in Atom
 # Submitting Antibody Data
 -->
-<!-- comment out when generating PDF in Atom -->
+<!-- comment out when generating PDF in Atom
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Antibodies.pdf)**
+-->
 
 This page provides instructions for adding antibody validation data to the ATLAS-D2K Data Explorer.
 
@@ -23,7 +24,7 @@ We also have the following training materials available:
 
 Adding antibody validation data involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
+* Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
 * Search that antibody data already exists for your test.
 * If it doesn't, then create an antibody record.
 * Create an antibody test record.
@@ -53,13 +54,9 @@ Other related tables include:
 
 <div class="page-break"></div>
 
-## 0. Are you in the `kidney-writers` group? (Required)
+## 0. Are you in the correct group? (Required)
 
-If you haven't already done so, go to this link to join the Globus group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
-
-You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
-
-**NOTE: We only use Globus for authentication, not for file or data management.**
+[Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 <a name="search-antibody"/>
 
@@ -84,22 +81,22 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
 If you did find the antibody, move on to the next step.
 
 * From the navigation bar, click _Create > Antibody > Antibodies_.
-  
+
   The `Create Antibodies Record` form opens in a new browser tab.
-  
+
   ![Screenshot of the Create Antibodies form](/assets/wiki_images/submitting-data/create-antibody.png)
-  
+
 * Select the values for each relevant field. The **required** fields are:
-  * _Company ID_ 
+  * _Company ID_
   * _Catalog Number_
   * _Host Species_
-  * _Protein Target_: Note that this list comes from the NCBI Gene List and should include all proteins. Also, you will soon be able to search on synonyms. 
+  * _Protein Target_: Note that this list comes from the NCBI Gene List and should include all proteins. Also, you will soon be able to search on synonyms.
   * _Curation Status_: Choose either
-    * _In Preparation_ (still drafting), 
-    * _PI Review_ (ready for internal approval), or 
+    * _In Preparation_ (still drafting),
+    * _PI Review_ (ready for internal approval), or
     * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K Consortium.
-  
+
 * When finished, click `Submit Data` to save your new antibody record. You can now close this tab.
 
 ### What if my antibody is not from a vendor?
@@ -112,7 +109,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 ## 3. Create your new antibody test record
 
-* From the navigation bar, click _Create > Antibody > Antibody Test_. 
+* From the navigation bar, click _Create > Antibody > Antibody Test_.
 
     The `Create Antibody Test Record` form appears in a new browser tab.
 
@@ -120,21 +117,21 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 * Select the values for each relevant field. The required fields are:
   * _Antibody Product ID_
-  * _Protein Target_: Note that this list comes from the NCBI Gene List and should include all proteins. Also, you will soon be able to search on synonyms. 
+  * _Protein Target_: Note that this list comes from the NCBI Gene List and should include all proteins. Also, you will soon be able to search on synonyms.
   * _Curation Status_: Choose either
-    * _In Preparation_ (still drafting), 
-    * _PI Review_ (ready for internal approval), or 
+    * _In Preparation_ (still drafting),
+    * _PI Review_ (ready for internal approval), or
     * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Principal Investigator_: Choose the name of your project's contact PI.
   * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
-  
+
 * Note: If you are creating multiple antibody test records, you may click the `+` button (under the `Submit Data` button) to copy over the record form. Each time you click `+` will display a copy of the most recent form that you can edit as needed.
 
 ![Screenshot of the multiple antibody test records](/assets/wiki_images/submitting-data/create-antibody-test-batch.png)
-  
+
 * When finished, click `Submit Data` to save your new antibody test record(s).
 
-* If you are not finished with your submission, you may still save your work by clicking the `Submit Data` button. Then you may go back to the record, log in and click `Edit` to resume filling it out. 
+* If you are not finished with your submission, you may still save your work by clicking the `Submit Data` button. Then you may go back to the record, log in and click `Edit` to resume filling it out.
 
 ![Screenshot of the Edit button](/assets/wiki_images/submitting-data/general-record-header-edit.png)
 
@@ -147,14 +144,14 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 * Scroll to the bottom of the antibody test record until you see a section labelled `Distribution`. This is our term for cell types / anatomical regions relevant to this antibody test.
 
-* Click `Add` in the `Distributions` section. 
+* Click `Add` in the `Distributions` section.
 
 ![Screenshot pointing out the Add link in the Distribution section](/assets/wiki_images/submitting-data/antibody-test-example-distribution-add.png)
 
   This will bring up a `Create Antibody Test Distribution Record` window.
-  
+
   <div class="page-break"></div>
-  
+
 * Start typing the anatomical term in the search term to narrow your results.
 
 ![Screenshot of searching for distribution terms](/assets/wiki_images/submitting-data/antibody-test-example-distribution-search.png)
@@ -178,14 +175,14 @@ Near the bottom of the newly-created antibody test record, you'll see empty sect
 
 To add a test-related files:
 
-* Click `Add` in the `Test Images` or `Test Summary Sheets` section. 
+* Click `Add` in the `Test Images` or `Test Summary Sheets` section.
 
 ![Screenshot of Add links](/assets/wiki_images/submitting-data/antibody-test-example-files-add.png)
 
 <div class="page-break"></div>
 
   This will bring up the `Choose Antibody Media Files` window.
-  
+
 ![Screenshot of the Choose Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-choose-media-files.png)
 
 * If the desired file has already been uploaded, select it.
@@ -194,26 +191,26 @@ To add a test-related files:
 
 * If not, upload your file:
 
-    * Click the `+` at the top right-hand side of the `Choose Antibody Media Files` window. 
-    
+    * Click the `+` at the top right-hand side of the `Choose Antibody Media Files` window.
+
     ![Screenshot of the add button in the Choose Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-choose-media-files-add.png)
-    
+
     <div class="page-break"></div>
-    
+
     This will open a `Create Antibody Media Files Record` page in a separate browser tab.
-    
+
     ![Screenshot of the Create Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-create-media-files.png)
-    
+
     * Click on `Select File` to select a file from your computer. Either an image file if you're adding a test image or a PDF for the test summary.
-    
+
     ![Screenshot of the Select File button in the Create Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-create-media-files-select.png)
-    
+
 * Please use the _Comment_ Field to paste in the summary of the test result doc from the PDF.    
 * Fill in the rest of the fields on the form. Required fields are:
       * _Principal Investigator_: Choose the name of the contact PI for your project. If their name isn't available, please contact the Hub.
       * _Curation Status_: Choose either
-        * _In Preparation_ (still drafting), 
-        * _PI Review_ (ready for internal approval), or 
+        * _In Preparation_ (still drafting),
+        * _PI Review_ (ready for internal approval), or
         * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
       * _Data Provider_: This is your lab's institution. If you need to add an institution, please contact the Hub.
       * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
@@ -250,7 +247,7 @@ If you've done several tests that are mostly the same (e.g., two tests that diff
 * Make sure you are logged in.
 
 * From the navigation bar, click _Search > Antibody Data > Antibody Tests_.
-    
+
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 
 * In the faceting sidebar, scroll to **Principal Investigator** and choose your project's PI. Now you should see the data you need to review.
@@ -259,7 +256,7 @@ If you've done several tests that are mostly the same (e.g., two tests that diff
 
 ## 7. Deleting Antibody Data
 
-Before you can delete Antibody Test record, you must delete (unlink) any distributions, test summary sheets  or test images associated with it. 
+Before you can delete Antibody Test record, you must delete (unlink) any distributions, test summary sheets  or test images associated with it.
 
 To delete an antibody test record:
 

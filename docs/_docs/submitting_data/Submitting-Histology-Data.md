@@ -3,12 +3,12 @@ title: Submitting Histology Data
 permalink: /docs/histological-data/
 ---
 
-<!-- uncomment when generating PDF in Atom 
+<!-- uncomment when generating PDF in Atom
 # Submitting Histology Data
 -->
-<!-- comment out when generating PDF in Atom  -->
+<!-- comment out when generating PDF in Atom  
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Histology-Data.pdf)**
-
+-->
 This page provides instructions for adding histological (H&E) images to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
@@ -24,10 +24,10 @@ We also have the following training materials available:
 
 Adding histological slides involve the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
+* Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
 * Create a new Histological Slide record.
-* Fill out the form and upload your CZI file. 
-* Once the slide is submitted to the Hub (via the _Curation Status_ field), the system will process the image. 
+* Fill out the form and upload your CZI file.
+* Once the slide is submitted to the Hub (via the _Curation Status_ field), the system will process the image.
 * The image is then displayed in the browser via a special viewer that displays channels, a scale bar, and allows you to zoom in and out and create annotations.
 
 
@@ -44,11 +44,9 @@ The schema for histological slides is very simple - the record for the slide and
 <div class="page-break"></div>
 <a name="globus"/>
 
-## Are you in the `kidney-writers` group?
+## Join the correct group
 
-If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
-
-You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
+[Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 <a name="create slide"/>
 
@@ -57,13 +55,13 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
 * In the top navigation bar, click _Create > Histological Images_.
 
     ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/create-he-slide.png)
-  
+
 
 <div class="page-break"></div>
 
-  
+
 * The "Create Histological Slide Record" form appears:
-    
+
     ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/hist-create-form.png)
 
 
@@ -79,8 +77,8 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
   * _Staining Protocol_
   * _Curation Status_: Choose either:
     * _In Preparation_: Use this status while still drafting the data.
-    * _PI Review_: Use this status when your data is ready for internal review. 
-    * _Submitted_: Use this status when your data is ready for Hub review. 
+    * _PI Review_: Use this status when your data is ready for internal review.
+    * _Submitted_: Use this status when your data is ready for Hub review.
     * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Principal Investigator_
   * _Data Provider_
@@ -98,7 +96,7 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
 * Make sure you are logged in.
 
 * From the navigation bar, click _Search > Gene Expression Data > Histological Images_.
-    
+
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 
 * In the faceting sidebar, scroll to **Principal Investigator** and choose your project's PI. Now you should see the data you need to review.
@@ -109,7 +107,7 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
 * From the navigation bar, click _Search > Gene Expression Data > Histological Images_.
 
     ![Screenshot of using navbar to search histological slides](/assets/wiki_images/submitting-data/search-he-slide.png)
-    
+
 * Use the filtering sidebar to narrow down the results by an attribute such as Principal Investigator.
 
     ![Screenshot of filtering for PIs](/assets/wiki_images/submitting-data/hist-filter-records-pi.png)
@@ -125,7 +123,7 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
 
 ## 3. Processing the CZI file
 
-Once you have finished any internal review designated by your lab and you set the _Curation Status_ to _Submitted_, the CZI file will be added to the system queue for processing. 
+Once you have finished any internal review designated by your lab and you set the _Curation Status_ to _Submitted_, the CZI file will be added to the system queue for processing.
 
 The system runs a script every hour that looks in the queue and processes the CZI files there, which will take an additional 30 minutes per file. So it may take up to 1-2 hours for your CZI file to be processed and available in the viewer. The raw file is then immediately available.
 
@@ -141,11 +139,11 @@ Here is an example of a processed CZI file within the viewer:
 
 To add annotations to the processed CZI file:
 
-* Go to the slide record and make sure you are logged in. 
+* Go to the slide record and make sure you are logged in.
 
 * Scroll down to the "Images" section and click the "Annotations" button above the image you want to annotate.
 
-images 
+images
 
 * Click the "Create Annotation" button and click and drag the part of the image you want to annotate.
 
@@ -153,7 +151,7 @@ images
 
 A new small form appears: "New Rectangle Annotation".
 
-images 
+images
 
 * Add a description, choose the appropriate anatomical term from the dropdown list and click Submit.
 -->
@@ -174,11 +172,8 @@ To delete the Histological slide record, you must first delete the system-genera
 
 * For each image, click the trashcan (Delete) icon in the "Actions" column. A confirmation window will open - click "Confirm".
 
-    ![Screenshot of the Trashcan icon](/assets/wiki_images/submitting-data/hist-delete-unlink.png) 
+    ![Screenshot of the Trashcan icon](/assets/wiki_images/submitting-data/hist-delete-unlink.png)
 
 * Once all the images in this table are deleted, scroll back up to the top of the record and click "Delete" in the record header.
 
-    ![Screenshot of the "Delete" link in the record header](/assets/wiki_images/submitting-data/chaise-delete-option.png) 
-
-
-
+    ![Screenshot of the "Delete" link in the record header](/assets/wiki_images/submitting-data/chaise-delete-option.png)

@@ -10,33 +10,22 @@ permalink: /docs/sequencing-metabolomics-imc-data/
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data.pdf)**
 -->
 
-<!-- This needs total update 
-Table of contents:
-* [Submitting sequencing data](#submitting-sequencing-data-rna-seq-chip-seq-atac-seq-scrna-seq)
-  1. [Join the kidney-writers group](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#1-join-the-kidney-writers-group)
-  2. [Review Sequencing Data Model](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#2-sequencing-data-model)
-  3. [Create metadata records](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#3-create-metadata-associated-with-bio-samples-and-sequencing-assays-using-data-explorer)
-  4. [Upload files](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#4-uploading-sequencing-and-analysis-files)
-  5. [Export for GEO submission](#5-export-for-geo-submission)
-* [Submission Dashboard](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#data-submission-dashboard)
-* [FAQ](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Sequencing-Data/#frequently-asked-questions)
--->
-
 Related Material:
 * [Tutorial slides containing screenshots (Sequencing Model V3---latest)](https://docs.google.com/presentation/d/1Ayg8or0c0bO_5D4Z3lpYughXfqkBRWF7USIbzx_J3io)
 * [Tutorial Slides containing screenshots (Sequencing Model 2)](https://docs.google.com/presentation/d/1skkjqLZAbjp6Q2Vcws5tamU-1KBLovof8WFfCjq1UAQ). Most content is applicable to the latest model except: 1) Replicates should be used for bulk and single cell RNA, and 2) Single Cell Metrics is attached to Replicate instead of Experiment.
 * [Video of Webinar from 7/11/2018 (1 hour, 5 min), Sequencing Model 2](https://www.youtube.com/watch?v=HiWwYXLWk8Y&feature=youtu.be). Most content is applicable to the latest model except: 1) Replicates should be used for bulk and single cell RNA, and 2) Single Cell Metrics is attached to Replicate instead of Experiment.
-
+<!--
 ## Updates to the unify replicate and biosample metadata
 
 The data model has been updated on 02/01/2019 to unify the replicate and biosample metadata among the bulk and single cell RNASeq data. Users can use the same process to submit all sequencing type. The main difference is that single cell data will have "Single Cell Metrics" associated with a replicate. This is not the case for bulk RNASeq data.
-
+-->
 ## Submitting sequencing data (RNA-Seq, ChIP-Seq, ATAC-Seq, scRNA-seq)
 
-### 1. Join the Globus group
-* Click the link according to your consortium: [gudmap-writers](https://app.globus.org/groups/3fdf9a4b-6219-11ed-9869-776b7a2f040e/about) or [rbk-writers](https://app.globus.org/groups/6bc69f77-6216-11ed-a6fc-ad4deb8212bc/about)
-* If you have never used Globus before, choose your method for logging in: via existing credentials (your institution, Google, or ORCID ID) or by creating a new Globus ID. We recommend using an existing credential if that is available. If you decide to use a login with an email different from the one we invited you with - Globus may ask you to link the two emails/accounts.
-* If you have _any_ problems, please email [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org) or [help@gudmap.org](mailto:help@gudmap.org).
+## 1. Join the correct group
+
+[Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
+
+Make sure you are logged in before uploading/editing data.
 
 ### 2. Sequencing data model
 

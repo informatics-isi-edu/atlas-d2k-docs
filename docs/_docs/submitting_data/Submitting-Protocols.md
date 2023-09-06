@@ -4,7 +4,7 @@ permalink: /docs/protocols/
 ---
 
 <!-- uncomment when generating PDF in Atom -->
-<!-- comment out when generating PDF in Atom 
+<!-- comment out when generating PDF in Atom
 **[PDF version](/docs/protocols.pdf)**
 -->
 This page provides instructions for adding protocols to the ATLAS-D2K Data Explorer, based on the _Nature Protocols_ format.
@@ -32,7 +32,7 @@ We also have the following training materials available:
 
 Adding protocols involves the following steps:
 
-1. Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
+1. Make sure you are in the correct Globus authentication group.
 2. Create a base Protocol record (Required).
 3. Add at least one Subject Term (Required)
 4. Add at least one Keyword (Required)
@@ -43,11 +43,9 @@ Adding protocols involves the following steps:
 
 <a name="globus"/>
 
-## Are you in the `kidney-writers` group? (Required)
+## 1. Join the correct group
 
-If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
-
-You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
+[Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 <a name="base-record"/>
 
@@ -74,8 +72,8 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
   * _Procedure_: Enter the actual steps to perform the protocol.
   * _Data Provider_: This is your lab's institution. If you need to add an institution, please contact the Hub.
   * _Curation Status_: Choose either
-    * _In Preparation_ (still drafting), 
-    * _PI Review_ (ready for internal approval), or 
+    * _In Preparation_ (still drafting),
+    * _PI Review_ (ready for internal approval), or
     * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
 * We encourage you to fill out the _Anticipated Results_ field in your protocol to help users know if it worked as intended.
 * When finished, scroll back to the top of the page and click _Submit Data_.
@@ -92,13 +90,13 @@ Although only one Subject Term is required for a protocol, we **highly recommend
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections.png)
 
-* Click the `Add` link in the upper right corner of the "Protocol Subject" section. 
+* Click the `Add` link in the upper right corner of the "Protocol Subject" section.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-choose-add.png)
 
 <div class="page-break"></div>
 
-* In the modal window, scroll through the list or start typing a term in the search box to narrow the results. 
+* In the modal window, scroll through the list or start typing a term in the search box to narrow the results.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-search-and-select.png)
 
@@ -118,7 +116,7 @@ Although only one Subject Term is required for a protocol, we **highly recommend
 
 ## 3. Add Keywords
 
-The process for adding Keywords is basically the same as for Subject Terms. 
+The process for adding Keywords is basically the same as for Subject Terms.
 
 Although only one Keyword is required for a protocol, we **highly recommend adding two or three** to make your protocol easier to search.
 
@@ -128,7 +126,7 @@ Although only one Keyword is required for a protocol, we **highly recommend addi
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-key.png)
 
-* Click the `Add` link in the upper right corner of the "Protocol Keyword" section. 
+* Click the `Add` link in the upper right corner of the "Protocol Keyword" section.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-choose-add-keywords.png)
 
@@ -150,7 +148,7 @@ OR
 
 ![Screenshot of submit button](/assets/wiki_images/submitting-data/search-and-select-submit.png)
 
-* Note that until you change the _Curation Status_ field to _Submitted_, you can keep going back to a record to edit and submit (save) as much as you like. 
+* Note that until you change the _Curation Status_ field to _Submitted_, you can keep going back to a record to edit and submit (save) as much as you like.
 
 <div class="page-break"></div>
 
@@ -162,7 +160,7 @@ OR
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-authors.png)
 
-* Click the `Add` link in the upper right corner of the "Protocol Authors" section. 
+* Click the `Add` link in the upper right corner of the "Protocol Authors" section.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-author-add.png)
 
@@ -172,7 +170,7 @@ The 'Create Protocol Author Record' tab appears.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-author-record.png)
 
-* Fill out the fields. 
+* Fill out the fields.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-author-record-req-fields.png)
 
@@ -182,7 +180,7 @@ The 'Create Protocol Author Record' tab appears.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-choose-person.png)
 
-* If you cannot find the author, click the "+" button to create a new author record. 
+* If you cannot find the author, click the "+" button to create a new author record.
 
 ![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-add-person.png)
 
@@ -194,7 +192,7 @@ A "Create Person Record' tab appears.
 
 - Add the author's full name and email address at the minimum.
 - Click **Submit Data**. Close this tab.
-- In the previous tab and click the checkbox to select the new author, and click **Submit Data**. 
+- In the previous tab and click the checkbox to select the new author, and click **Submit Data**.
 
 <div class="page-break"></div>
 
@@ -216,11 +214,11 @@ The process of adding image files to a protocol is two-fold: you add the file to
 
 <div class="page-break"></div>
 
-* Fill in the fields and then upload your figure in the _URI_ field by clicking **Submit File**, navigating to your file and clicking **Open**. 
+* Fill in the fields and then upload your figure in the _URI_ field by clicking **Submit File**, navigating to your file and clicking **Open**.
 
 ![Screenshot of clicking to upload a figure file](/assets/wiki_images/submitting-data/chaise-record-upload-figures.png)
 
-* Save the record by clicking _Submit Data_. Your figure now appears in the _Figures_ section. 
+* Save the record by clicking _Submit Data_. Your figure now appears in the _Figures_ section.
 
 <div class="page-break"></div>
 
@@ -258,14 +256,14 @@ You can also click the Images icon in the formatting toolbar and paste the URL i
 
 <a name="reviewing"/>
 
-## 7. Reviewing and Submitting Protocols 
+## 7. Reviewing and Submitting Protocols
 
 **Note: Here is how a project's PI or designated reviewer can find their project's data with a Curation Status of "PI Review"**
 
 * Make sure you are logged in.
 
 * From the navigation bar, click _Search > Protocol > Protocols_.
-    
+
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 
 * In the faceting sidebar, scroll to **Principal Investigator** and choose your project's PI. Now you should see the data you need to review.
@@ -301,12 +299,12 @@ Before you can delete a protocol, you must first unlink (delete) any records ass
 
 ![Records sections](/assets/wiki_images/submitting-data/chaise-record-sections.png)
 
-* For the 'Protocol Subject' and 'Protocol Keywords' sections, click _Edit_ in the upper right corner of the section. 
-    
+* For the 'Protocol Subject' and 'Protocol Keywords' sections, click _Edit_ in the upper right corner of the section.
+
     ![Choose Edit](/assets/wiki_images/submitting-data/chaise-record-sections-choose-edit.png)
-    
+
     Then click the "x" icon in the Actions columns to delete (un-link) each and every record in that section.
-    
+
     ![Un-link Subject](/assets/wiki_images/submitting-data/chaise-record-sections-unlink-subject.png)
 
 * For the 'Protocol Authors' and 'Figures' sections, click the 'garbage can' icon to delete each and every record in that section.
@@ -316,4 +314,3 @@ Before you can delete a protocol, you must first unlink (delete) any records ass
 * Once all of the related records are deleted, scroll back up to the top of the protocol and click the "Delete" link.
 
 ![Delete base protocol](/assets/wiki_images/submitting-data/chaise-delete-option.png)
-

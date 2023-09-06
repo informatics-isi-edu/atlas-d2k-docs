@@ -6,8 +6,9 @@ permalink: /docs/cell-lines/
 <!-- uncomment when generating PDF in Atom
 # Submitting Cell Lines
 -->
-<!-- comment out when generating PDF in Atom -->
+<!-- comment out when generating PDF in Atom
 **[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Cell-Lines.pdf)**
+-->
 
 This page provides instructions for submitting cell lines to the ATLAS-D2K Data Explorer.
 
@@ -25,7 +26,7 @@ We also have the following training materials available:
 
 Adding cell lines involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
+* Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
 * Create the base Cell Line record.
 * Then you will add related records (or tables) to the base record, including validation assets and reporter vector maps.
 

@@ -6,7 +6,7 @@ permalink: /docs/entries-for-the-functional-assay-handbook/
 
 ## Requirement:
 
-* You must have editing access via the **kidney-writers** group. If you are not already a member, please [join the **kidney-writers** group](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about) group using this link. Choose to sign in via your institution (use the dropdown list), Google or ORCID and then follow the prompts. When you get to the kidney-writers page, click to **Join this group** button and I’ll approve ASAP.
+* Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
 
 ## Overview
 

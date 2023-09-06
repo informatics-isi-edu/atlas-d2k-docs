@@ -13,7 +13,7 @@ When we talk about the Data Browser, we refer to the ATLAS-D2K data repository p
 
 This is where actual data submitted by the ATLAS-D2K projects are shared.
 
-* **ATLAS-D2K share the same Data Browser** which allows for the best inter-linking between both consortiums' data. 
+* **ATLAS-D2K share the same Data Browser** which allows for the best inter-linking between both consortiums' data.
 
 ## How do I access the Data Browser?
 
@@ -44,7 +44,7 @@ image
 
 ## How do I submit data to the Data Browser?
 
-First, if you haven't already done so, **you must ask to join the `kidney-writers` authentication group**: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
+First, if you haven't already done so, make sure you have joined the correct group. [Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
 

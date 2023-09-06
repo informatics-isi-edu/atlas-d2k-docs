@@ -26,7 +26,7 @@ We also have the following training materials available:
 
 Adding data Collections involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are **logged in**.
+* Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
 * Create the base Collection record (contains the metadata).
 * Then on the new Collection record, for each type of data you would like to include, scroll down to the appropriate section and add the data records you want to include.
 

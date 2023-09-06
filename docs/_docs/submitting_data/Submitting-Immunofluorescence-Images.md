@@ -3,7 +3,7 @@ title: Submitting Immunofluorescence Images
 permalink: /docs/immunofluorescence-images/
 ---
 
-<!-- uncomment when generating PDF in Atom 
+<!-- uncomment when generating PDF in Atom
 # Submitting Immunofluorescence Images
 -->
 <!-- comment out when generating PDF in Atom -->
@@ -25,8 +25,8 @@ We also have the following training materials available:
 
 Adding immunofluorescence slides to the Data Browser involves the following steps:
 
-* Make sure you are in the correct Globus authentication group, [kidney-writers](/docs/protocols#1-join-the-kidney-writers-group), and that you are logged in.
-* Create a base "Slide Record" with basic metadata and uploaded image file. 
+* * Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
+* Create a base "Slide Record" with basic metadata and uploaded image file.
 * Optionally, link other data to this record: genes, expression regions, antibodies and videos.
 
 <div class="page-break"></div>
@@ -41,11 +41,9 @@ The following represents how different tables in the Data Browser are related in
 
 <a name="globus"/>
 
-## Are you in the `kidney-writers` group?
+## 1. Join the correct group
 
-If you haven't already done so, go to this link to join the group: [https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about](https://app.globus.org/groups/af0b4010-5b75-11e6-9575-22000aef184d/about)
-
-You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
+[Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 
 <div class="page-break"></div>
@@ -59,21 +57,21 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
     ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/if-navigation.png)
 
 <div class="page-break"></div>
-  
+
 *  The Create form appears.
-  
+
     ![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/if-slide-record-form.png)
-  
+
   <div class="page-break"></div>
-  
+
   * Select the values for each relevant field. The **required** fields are listed, but the more fields you fill out the easier the data is to find:
     * _Name_: Please use a short descriptive name to help users understand what the image represents.
     * _Download Link_: Upload the slide image.
     * _Slide Type_: Choose whether this slide is wholemount or a section.
     * _Curation Status_: Choose either
       * _In Preparation_: Use this status while still drafting the data.
-      * _PI Review_: Use this status when your data is ready for internal review. 
-      * _Submitted_: Use this status when your data is ready for Hub review. 
+      * _PI Review_: Use this status when your data is ready for internal review.
+      * _Submitted_: Use this status when your data is ready for Hub review.
       * **Note:** Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
     * _Principal Investigator_: Choose the name of your project's contact PI.
     * _Data Provider_: Choose the lab/institution associated with this data.
@@ -85,19 +83,19 @@ You can find more details about this process at [Accessing ATLAS-D2K Resources](
 
 
 <div class="page-break"></div>
-    
+
 <a name="antibodies-genes"/>
 
 ## 3. Adding genes, expression regions and antibodies
 
-Once you have the basic Slide record, scroll down further to view other types of data you may associate (link) with the slide: _Genes, Expression Regions and Antibodies_. For each of these sections, the procedure is basically the same: 
+Once you have the basic Slide record, scroll down further to view other types of data you may associate (link) with the slide: _Genes, Expression Regions and Antibodies_. For each of these sections, the procedure is basically the same:
 
 * Find the Slide record you want to link records to by clicking _Search > Gene Expression Data > Immunofluorescence Slides and Video_ in the navigation bar and searching for the record (per the previous section).
-  
+
 * Click the eye icon in the _Actions_ column to view the desired record.
 
   ![Clicking the eye icon to view](/assets/wiki_images/submitting-data/if-viewing.png)
-  
+
 * Make sure you are logged in.
 * Scroll down to the desired section and click _Add_ on the right side of the page.
 
@@ -117,7 +115,7 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 ![Create Slide Video Record form window](/assets/wiki_images/submitting-data/if-add-link-video.png)
 
-* Fill out the **Create Slide Video Record** form. 
+* Fill out the **Create Slide Video Record** form.
 
 ![Create Slide Video Record form window](/assets/wiki_images/submitting-data/if-create-slide-video-record.png)
 
