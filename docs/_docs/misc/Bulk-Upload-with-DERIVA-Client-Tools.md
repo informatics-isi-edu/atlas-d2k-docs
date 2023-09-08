@@ -121,7 +121,7 @@ In the example below, we use the _Biological Replicate Number_ and _Technical Re
 
 *Both* file naming conventions will be accepted by the client tool.
 
-See actual examples of metadata and files in [the NPC_stability Study](https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=Q-Y4GW).
+See actual examples of metadata and files in [the NPC_stability Study](https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=Q-Y4GW).
 
 <div class="page-break"></div>
 
@@ -160,7 +160,7 @@ In the example below, we use the _Biological Replicate Number_ and _Technical Re
 
 *Both* file naming conventions will be accepted by the client tool.
 
-See actual examples of metadata and files in [the mouse_SC_RNASeq Study](https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=Q-Y4GT).
+See actual examples of metadata and files in [the mouse_SC_RNASeq Study](https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=Q-Y4GT).
 
 <div class="page-break"></div>
 
@@ -246,7 +246,7 @@ Click "Yes" to bring up the "Options" screen. You can also do this at any time b
 ![Initial server configuration window](wiki_images/submitting-data/sequencing_uploader/server-config.blank.png)
 
 Click `Add` to bring up the "Server Configuration" form and enter these values:
-- Host: `www.gudmap.org` or `www.rebuildingakidney.org`
+- Host: `www.atlas-d2k.org`
 - Description: `GUDMAP` or `RBK`
 - Catalog ID: 2
 
@@ -292,7 +292,7 @@ The first time you log in, you'll see a mostly-empty window:
 
 ![Initial DERIVA-Auth run](wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png)
 
-In the "Server:" area, type in the name of the target server (`www.gudmap.org` or `www.rebuildingakidney.org`) and click on `Add`. You should now see something that looks similar to the data browser login screen
+In the "Server:" area, type in the name of the target server (`www.atlas-d2k.org`) and click on `Add`. You should now see something that looks similar to the data browser login screen
 
 ![Login window](wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png)
 
@@ -312,12 +312,12 @@ On the server, run the command:
 
 where:
 * _token_ is the token copy-and-pasted from your DERIVA-Auth session
-* _host_ is `www.gudmap.org` or `www.rebuildingakidney.org`, and
+* _host_ is `www.atlas-d2k.org`, and
 * _/path/to/_/deriva is the path to the `deriva` directory you created above.
 
 For example:
 ```
-deriva-upload-cli --catalog 2 --token xXXxxxxXXxxxxXxXXXxXxxxX www.gudmap.org $HOME/deriva
+deriva-upload-cli --catalog 2 --token xXXxxxxXXxxxxXxXXXxXxxxX www.atlas-d2k.org $HOME/deriva
 ```
 
 ### 5.3 Log out

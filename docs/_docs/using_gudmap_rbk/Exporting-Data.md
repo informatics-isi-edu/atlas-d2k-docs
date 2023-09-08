@@ -49,7 +49,7 @@ A BDBAG consists of a hierarchical directory containing the data files and other
 
 To export the initial "BDBAG", go to the detail page with the data you want, click the *Export* button towards the upper right part of the screen and choose *BDBAG*.
 
-We'll use this study as an example: [https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M](https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M)
+We'll use this study as an example: [https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M](https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M)
 <br />
 <br />
 <img src="/assets/wiki_images/export_data/export-button-new.png" alt="export button" width="750"/>
@@ -118,7 +118,7 @@ The first time you log in, you'll see a mostly-empty window:
 <img src="/assets/wiki_images/export_data/login_deriva_auth_2.png" alt="deriva login page" width="750"/>
   <br/>
   <br/>
-In the "Server:" field, type in `www.gudmap.org` or `www.rebuildingakidney.org` and click _Enter_ or click the _Add_ button.
+In the "Server:" field, type in `www.atlas-d2k.org` and click _Enter_ or click the _Add_ button.
 
 You should now see the following screen:
   <br/>
@@ -165,7 +165,7 @@ A Python 3.5.4 or greater system installation is required to use the client tool
     ```
     deriva-globus-auth-utils login --host <hostname> --no-local-server
     ```
-     where `<hostname>` is the server hosting the data (ie, `www.gudmap.org`).
+     where `<hostname>` is the server hosting the data (ie, `www.atlas-d2k.org`).
 
 3. A browser window will open asking for your consent to authenticate using Globus. Click "Allow".
 

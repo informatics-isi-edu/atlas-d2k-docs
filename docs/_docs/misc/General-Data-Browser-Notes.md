@@ -17,7 +17,7 @@ This is where actual data submitted by the ATLAS-D2K projects are shared.
 
 ## How do I access the Data Browser?
 
-You may access the Data Browser by going to **either** the [GUDMAP website at beta.gudmap.org](https://beta.gudmap.org) or the [RBK website at www.rebuildingakidney.org](https://www.rebuildingakidney.org) and clicking the data links under the _Resources_ menu item.
+You may access the Data Browser by going to the [ATLAS-D2K website at www.atlas-d2k.org](https://www.atlas-d2k.org) and clicking the data links under the _Resources_ menu item.
 
 There are also links on the homepages of both websites that link into the Data Browser.
 

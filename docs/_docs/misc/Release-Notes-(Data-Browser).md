@@ -10,13 +10,13 @@ This page chronicles the updates made to the Data Browser for gudmap.org and reb
 
 * Unified data model for all types of imaging data. Now you can see all images under "Specimen" page. 
 
-* Deployed Treeview visualization to visually display the scored expression annotation associated with a mouse specimen. For example: [Specimen N-GHTR](www.gudmap.org/id/N-GHTR). 
+* Deployed Treeview visualization to visually display the scored expression annotation associated with a mouse specimen. For example: [Specimen N-GHTR](www.atlas-d2k.org/id/N-GHTR). 
 
-* Boolean Anatomy Search ([https://www.gudmap.org/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)[deriva-webapps/boolean-search/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)) is now available on the navigation bar. Click Search, then Boolean Anatomy Search to get to the app. Click an "eye" icon on the page for more information. 
+* Boolean Anatomy Search ([https://www.atlas-d2k.org/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)[deriva-webapps/boolean-search/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)) is now available on the navigation bar. Click Search, then Boolean Anatomy Search to get to the app. Click an "eye" icon on the page for more information. 
 
 * Sequencing Data 
 
-    * Extend the model to support visualization images and applications. Check out [the studies with visualization images](https://www.rebuildingakidney.org/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)).
+    * Extend the model to support visualization images and applications. Check out [the studies with visualization images](https://www.atlas-d2k.org/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)).
 
     * Unified data model for scRNA-Seq and bulk RNA-Seq. All sequencing experiments now require Replicates which capture the information about the bio-specimen. Single_Cell_Metrics will only contain statistic information and will be linked to a specific Replicate.  
 
@@ -53,7 +53,7 @@ This page chronicles the updates made to the Data Browser for gudmap.org and reb
 
     * Linked anatomical terms to developmental stages ("starts-at" and “ends-at” relationships)
 
-* Improved Anatomical Terms Treeview display of mouse anatomical terms, now based on different stages ([https://www.gudmap.org/deriva-webapps/treeview/](https://www.gudmap.org/deriva-webapps/treeview/))
+* Improved Anatomical Terms Treeview display of mouse anatomical terms, now based on different stages ([https://www.atlas-d2k.org/deriva-webapps/treeview/](https://www.atlas-d2k.org/deriva-webapps/treeview/))
 
 * Gene UX improvement
 

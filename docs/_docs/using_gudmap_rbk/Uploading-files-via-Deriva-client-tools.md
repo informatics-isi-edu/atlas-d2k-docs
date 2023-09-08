@@ -44,7 +44,7 @@ The first time you launch deriva-upload (through the applications menu on Window
 ![Initial server configuration window](/assets/wiki_images/submitting-data/sequencing_uploader/server-config.blank.png)
 
 Click `Add` to bring up the "Server Configuration" form and enter these values:
-Host: www.gudmap.org (or www.rebuildingakidney.org)
+Host: www.atlas-d2k.org
 Description: GUDMAP (or RBK)
 Catalog ID: 2
 check the "Set as Default" and "Confirm configuration updates" buttons, and click "OK"
@@ -86,7 +86,7 @@ pip3 install --upgrade git+https://github.com/informatics-isi-edu/deriva-py.git
 The uploader requires an authentication token to communicate with the server. Running the DERIVA-Auth tool on your desktop (through the applications menu on Windows or Mac, or with `deriva-auth` on Linux) will bring up an authentication window similar to the one used in the data browser. The first time you log in, you'll see a mostly-empty window:
 ![Initial DERIVA-Auth run](/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png)
 
-In the "Server:" area, type in the name of the server (www.gudmap.org or www.rebuildingakidney.org) and click on `Add`. You should now see something that looks similar to the data browser login screen
+In the "Server:" area, type in the name of the server (www.atlas-d2k.org) and click on `Add`. You should now see something that looks similar to the data browser login screen
 ![Login window](/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png)
 
 Note: in subsequent runs, DERIVA-Auth might take you directly to this window (skipping the blank screen at the beginning). It's always a good idea to look at the hostname before you log in.
@@ -100,9 +100,9 @@ On the server, run the command:
 
 `deriva-upload-cli` --catalog 2 --token _token_ --catalog 2 _host_ _/path/to/_/deriva
 
-where _token_ is the token cut-and-pasted from your DERIVA-Auth session, _host_ is `www.gudmap.org` or `www.rebuildingakidney.org`, and _/path/to/_/deriva is the path to the `deriva` directory you created above. For example:
+where _token_ is the token cut-and-pasted from your DERIVA-Auth session, _host_ is `www.atlas-d2k.org`, and _/path/to/_/deriva is the path to the `deriva` directory you created above. For example:
 ```
-deriva-upload-cli --catalog 2 --token xXXxxxxXXxxxxXxXXXxXxxxX www.gudmap.org $HOME/deriva
+deriva-upload-cli --catalog 2 --token xXXxxxxXXxxxxXxXXXxXxxxX www.atlas-d2k.org $HOME/deriva
 ```
 
 ### 4. Logging out

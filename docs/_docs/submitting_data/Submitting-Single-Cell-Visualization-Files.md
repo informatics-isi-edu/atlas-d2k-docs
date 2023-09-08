@@ -6,10 +6,10 @@ permalink: /docs/single-cell-visualization-files/
 **DRAFT**
 
 ## Gene Naming Convention 
-Please use numeric NCBI Gene ID when naming your files and metadata. The [Gene Page](https://www.gudmap.org/chaise/recordset/#2/Common:Gene) lists the genes records existing in the Consortium repository.
+Please use numeric NCBI Gene ID when naming your files and metadata. The [Gene Page](https://www.atlas-d2k.org/chaise/recordset/#2/Common:Gene) lists the genes records existing in the Consortium repository.
 
 ## Process
-1. Create the [Visualization Application](https://www.gudmap.org/chaise/recordedit/#2/RNASeq:Visualization_Application) record.
+1. Create the [Visualization Application](https://www.atlas-d2k.org/chaise/recordedit/#2/RNASeq:Visualization_Application) record.
 * In the Create menu, choose "Sequencing Data" and then "Visualization Application". Enter a name, description, and maintainer (e.g., your name or contact email - we will probably expand on this section in the future).
 * Once that has been created, add one or more "Application File Tag" records to it (by clicking `Add` under "Application File Tag"). These tags will later be associated with files that you (or other data providers) upload; they can be [queried by applications ](https://github.com/informatics-isi-edu/rbk-project/wiki/Proposed-process-for-creating-new-RNASeq-visualization-apps) and will be used by our software to determine the order in which the files are displayed. If your application provides image files for our server to display, the tags should probably be things like "T-SNE" or "UMAP".
 
@@ -78,13 +78,13 @@ where
 * `Seq` indicates that the folder contains sequencing data
 * `<Study Internal ID>` is the `Internal_ID` field of an existing `Study` record.
 * `application_files` indicates that the folder contains application files
-* `<Application Name>` is the name of a visualization application (e.g. K.I.T.) registered in our server. Click [Visualization Application](https://www.gudmap.org/chaise/recordset/#2/RNASeq:Visualization_Application) to check for the existing applications. There are 4 different types of files and sub-directory structure that go under this folder: 
+* `<Application Name>` is the name of a visualization application (e.g. K.I.T.) registered in our server. Click [Visualization Application](https://www.atlas-d2k.org/chaise/recordset/#2/RNASeq:Visualization_Application) to check for the existing applications. There are 4 different types of files and sub-directory structure that go under this folder: 
   1. **study-wide files**: The file path is `<Application File Tag> / <file>`
   2. **gene-specific files**: The file path is `<Application File Tag> / genes / <NCBI_ID>_<rank>.png` where "gene" is the exact word.
   3. **cluster-group specific files**: include files that are specific to a cluster group but not a gene. The file path is `<Application File Tag> / <Cluster Group Name> / <file>.png`
   4. **cluster-group and gene specific files**: includes files that are specific to both a cluster group and a gene. The path is 
 `<Application Name> / <File Tag> / <Cluster Group> / genes / <NCBI_ID>_<rank>.png`  where "genes" is the exact word.  
-* `<Application File Tag>` is the name of a tag (e.g. Feature, T-SNE, UMAP, Violin) associated with files produced by the above application. Click [Application File Tag](https://www.gudmap.org/chaise/recordset/#2/RNASeq:Application_File_Tag) to check for the existing application file tags. 
+* `<Application File Tag>` is the name of a tag (e.g. Feature, T-SNE, UMAP, Violin) associated with files produced by the above application. Click [Application File Tag](https://www.atlas-d2k.org/chaise/recordset/#2/RNASeq:Application_File_Tag) to check for the existing application file tags. 
 There are 4 different types of files  and therefore different paths of directory structures that go under this folder:  
 * `<Study-wide File>` corresponds to image or analysis files that are not specific to clusters or genes. 
 * `genes` indicates that the folder contains gene-specific files

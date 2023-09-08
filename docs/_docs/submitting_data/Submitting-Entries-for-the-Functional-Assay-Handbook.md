@@ -26,7 +26,7 @@ We are still developing this documentation. If you have any questions, please re
 
 First you must create the base record which is a container for all data related and linked to this functional assay record.
 
-* Go to the Functional Assay Handbook page and log in: [https://www.rebuildingakidney.org/chaise/recordset/#2/Protocol:Functional_Assay_Handbook](https://www.rebuildingakidney.org/chaise/recordset/#2/Protocol:Functional_Assay_Handbook)
+* Go to the Functional Assay Handbook page and log in: [https://www.atlas-d2k.org/chaise/recordset/#2/Protocol:Functional_Assay_Handbook](https://www.atlas-d2k.org/chaise/recordset/#2/Protocol:Functional_Assay_Handbook)
 
 * Click the **Create** button.
 

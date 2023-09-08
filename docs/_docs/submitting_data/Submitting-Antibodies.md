@@ -62,7 +62,7 @@ Other related tables include:
 
 ## 1. Search for the antibody you're working on
 
-* Go to [https://www.gudmap.org/chaise/recordset/#2/Antibody:Antibodies@sort(Protein_Target,RID)](https://www.gudmap.org/chaise/recordset/#2/Antibody:Antibodies@sort(Protein_Target,RID)) and log in.
+* Go to [https://www.atlas-d2k.org/chaise/recordset/#2/Antibody:Antibodies@sort(Protein_Target,RID)](https://www.atlas-d2k.org/chaise/recordset/#2/Antibody:Antibodies@sort(Protein_Target,RID)) and log in.
 
 * This will take you to the antibody search page, which you can use to find out if the antibody you're working on is already listed in our database. Start typing the name of the antibody in the search field or use the filtering sidebar on the left to narrow down the results.
 
