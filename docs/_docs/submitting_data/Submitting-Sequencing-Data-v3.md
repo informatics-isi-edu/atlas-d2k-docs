@@ -70,7 +70,7 @@ You can view a [complete sequencing metadata model here](/assets/wiki_images/sub
 
 For each slide of tissue used in your sequencing experiments, you will need to link it to a corresponding **Specimen** record. Create your Specimen records now and note the RID numbers to make it easier to link them to your Replicates later. If the Specimen records are already created, just make a note of their RID numbers. You can find the [full documentation for submitting Specimen data here](/docs/specimens), but here's an overview:
 
-1. Create one or more **Specimen** records: use this link to go directly to the create form: [For GUDMAP](https://www.gudmap.org/chaise/recordedit/#2/Gene_Expression:Specimen) | [For RBK](https://www.rebuildingakidney.org/chaise/recordedit/#2/Gene_Expression:Specimen). If creating multiple Specimen records, click the plus (+) button in the upper right to add more forms. Fill in the fields that make sense for your experiment. After you fill in the form(s), click _Submit_. A new Specimen record is created.
+1. Create one or more **Specimen** records: use this link to go directly to the create form: [For GUDMAP](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen) | [For RBK](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen). If creating multiple Specimen records, click the plus (+) button in the upper right to add more forms. Fill in the fields that make sense for your experiment. After you fill in the form(s), click _Submit_. A new Specimen record is created.
     * You can also go to any Specimen page and click `Create` in the record header (_Search > Sequencing Data > Specimen_).
 2. Add an **Anatomical Source**: This is a metadata field on the Specimen record that indicates the anatomical region appearing on the slide as a whole. Click "Anatomical Source" in the right Content sidebar to scroll to it, then click `Add` to the right of the field and choose the region.
 3. Link additional records: As applicable, scroll down the page or the right Contents sidebar to find the following tables and click `Add`.
@@ -88,7 +88,7 @@ If you need to add the same Anatomical Source to multiple Specimen records:
 
 ### 4.1. Create Study records
 
-1. Create one or more **Study** records: use this link to go directly to the create form: [For GUDMAP](https://www.gudmap.org/chaise/recordedit/#2/RNASeq:Study) | [For RBK](https://www.rebuildingakidney.org/chaise/recordedit/#2/RNASeq:Study). If creating multiple Study records, click the plus (+) button in the upper right to add more forms.
+1. Create one or more **Study** records: use this link to go directly to the create form: [For GUDMAP](https://www.atlas-d2k.org/chaise/recordedit/#2/RNASeq:Study) | [For RBK](https://www.atlas-d2k.org/chaise/recordedit/#2/RNASeq:Study). If creating multiple Study records, click the plus (+) button in the upper right to add more forms.
     - You can also go to any Sequencing Study page and click `Create` in the record header (_Search > Gene Expression Data > Sequencing Data > Studies_).
 2. Fill in the fields on the form. Mandatory fields are indicated by an asterisk (\*), including "Summary" and "Overall Design" of the study. When you are finished, click `Submit`.
 3. On the new Study record, scroll to the "Study Analysis File" table and click `Add` to add analysis files associated with your study.
@@ -181,7 +181,7 @@ When the Hub is satisfied all requirements are met, they will change the status 
 
 ### 6.1. Data Submission Dashboard
 
-The [monthly data submission dashboard](https://www.gudmap.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the ATLAS-D2K data browser.
+The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the ATLAS-D2K data browser.
 
 ![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
 

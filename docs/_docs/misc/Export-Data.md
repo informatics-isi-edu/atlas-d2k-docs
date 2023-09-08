@@ -6,7 +6,7 @@ permalink: /docs/export-data/
 
 ## 1. Obtain the exported BDBAG. 
 
-The BDBAG export is available on the detail page of the data of your interest on [www.gudmap.org](https://www.gudmap.org) and  [www.rebuildingakidney.org](https://www.rebuildingakidney.org). For example, navigate to the record of interest e.g. [https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-DW82](https://www.gudmap.org/chaise/record/#2/RNASeq:Study/RID=16-DW82), 
+The BDBAG export is available on the detail page of the data of your interest on [www.atlas-d2k.org](https://www.atlas-d2k.org). For example, navigate to the record of interest e.g. [https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=16-DW82](https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=16-DW82), 
 then click the "Export" link towards the upper right part of the screen and choose BAG.
 
 <img src="/assets/wiki_images/export_data/export_bdbag.PNG" alt="export bdbag" width="600"/>
@@ -54,7 +54,7 @@ Open DERIVA Authentication Agent to log in. Run following command in command lin
 deriva-auth
 ```
 
-Type in the server name i.e. www.gudmap.org or www.rebuildingakidney.org to login using different types of accounts through Globus.
+Type in the server name i.e. www.atlas-d2k.org to login using different types of accounts through Globus.
 
 <img src="/assets/wiki_images/export_data/login_deriva_auth.PNG" alt="deriva login page" width="800"/>
 

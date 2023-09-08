@@ -7,13 +7,13 @@ This section describes how to use the filtering/faceting sidebar to search ATLAS
 
 # What is a GUDMAP entry?
 
-For ISH and IHC specimen data, entries contain the expression data for a single gene, assayed with a defined probe in a single mouse strain of a single mouse sex at a single stage or time in development. Sex can be unknown (e.g. [RID=N-GNB0](https://www.gudmap.org/chaise/record/#2/Gene_Expression:Specimen/RID=N-GNB0)).
+For ISH and IHC specimen data, entries contain the expression data for a single gene, assayed with a defined probe in a single mouse strain of a single mouse sex at a single stage or time in development. Sex can be unknown (e.g. [RID=N-GNB0](https://www.atlas-d2k.org/chaise/record/#2/Gene_Expression:Specimen/RID=N-GNB0)).
 
-For microarray, entries encompass the expression data for many genes sampled from a single stage or time in development. Sex can be unknown (e.g. [RID=R-ZX6Y](https://www.gudmap.org/chaise/record/#2/Microarray:Series/RID=R-ZX6Y)) or both. Each entry relates to a single sample taken from a single microarray series within the database. So if you search by gene, you'll see all microarray entries that contain that gene on the chip.
+For microarray, entries encompass the expression data for many genes sampled from a single stage or time in development. Sex can be unknown (e.g. [RID=R-ZX6Y](https://www.atlas-d2k.org/chaise/record/#2/Microarray:Series/RID=R-ZX6Y)) or both. Each entry relates to a single sample taken from a single microarray series within the database. So if you search by gene, you'll see all microarray entries that contain that gene on the chip.
 
 # Query by Gene
 
-Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.gudmap.org](https://www.gudmap.org)) or by using the menu navigation (_Search > Genes_).
+Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.atlas-d2k.org](https://www.atlas-d2k.org)) or by using the menu navigation (_Search > Genes_).
 
 The results include GUDMAP entries that contain information about the expression of the gene or genes of interest. Columns indicate the presence of *Expression Scoring*, *Array Data* or *Imaging* data from specimen (in situ, etc). The *Imaging* column includes representative thumbnails of the imaging data.
 
@@ -65,7 +65,7 @@ From the menu navigation, go to *Search* > *Anatomy Terms* and choose either *An
 
 ![Navigating to the anatomy tree](wiki_images/anatomy-tree.png)
 
-This option provides a tree structure view of anatomical terms that conform to the [GUDMAP Ontology](https://www.gudmap.org/resources/ontology/).
+This option provides a tree structure view of anatomical terms that conform to the [GUDMAP Ontology](https://www.atlas-d2k.org/resources/ontology/).
 
 Start typing an anatomical region in the search field. In the example below, we're typing "prostate". You may also use the dropdown button to specify a Theiler stage:
 
@@ -110,7 +110,7 @@ Choose "Specimen Expression Rollup" in the *Contents* list. This table includes 
 * For Specimen (ISH/IHC) 
 that contain either a **direct annotation** for the anatomical term specified (whether it is *present*, *uncertain* or *possible*) or an **inferred annotation** for the anatomical term (see below). 
 
-  Each entry includes the relevant symbol for the gene expressed in the queried structure. Symbols are the current standard gene symbols (see NCBI). To better understand the context of your results please see the [tutorial on genitourinary development](https://www.gudmap.org/tutorials/urogenital-dev/).
+  Each entry includes the relevant symbol for the gene expressed in the queried structure. Symbols are the current standard gene symbols (see NCBI). To better understand the context of your results please see the [tutorial on genitourinary development](https://www.atlas-d2k.org/tutorials/urogenital-dev/).
 
 * For Microarray where the anatomical term specified is the sample material or where sub-components of the anatomical term have been used as sample material. 
 

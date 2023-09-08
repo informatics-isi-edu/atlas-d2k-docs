@@ -34,5 +34,5 @@ usage: deriva-download-cli [-h] [--version] [--quiet] [--debug]
 For example:
 ```
 > mkdir deriva-downloads
-> deriva-download-cli www.gudmap.org --catalog 2 ./replicate_export_config.json ./deriva-downloads rid=16-1ZX4
+> deriva-download-cli www.atlas-d2k.org --catalog 2 ./replicate_export_config.json ./deriva-downloads rid=16-1ZX4
 ```

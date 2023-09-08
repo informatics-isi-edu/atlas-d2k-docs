@@ -26,4 +26,4 @@ The dataset citations can be referenced the same was as any other journals or pu
 In the methods section, add text that looks something like this:
  
 >**Data Dissemination.**
->To increase rigor, reproducibility, and transparency, raw image files and other data generated as part of this study were deposited into the GUDMAP data repository (https://www.gudmap.org) and are fully accessible at https://doi.org/10.25548/W-QXXC (25).
+>To increase rigor, reproducibility, and transparency, raw image files and other data generated as part of this study were deposited into the GUDMAP data repository (https://www.atlas-d2k.org) and are fully accessible at https://doi.org/10.25548/W-QXXC (25).

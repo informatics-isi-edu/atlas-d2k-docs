@@ -9,7 +9,7 @@ The following are requirements that the graphic artists must adhere to in order 
 
 * Organization
 
-    * Each region should correspond to a **single term in the [GUDMAP anatomical ontology](https://www.gudmap.org/chaise/recordset/#2/Vocabulary:Anatomy@sort(RID))** (for example, the anatomical region *bladder* corresponds to *EMAPA:18321*). List these in the work order spreadsheet.
+    * Each region should correspond to a **single term in the [GUDMAP anatomical ontology](https://www.atlas-d2k.org/chaise/recordset/#2/Vocabulary:Anatomy@sort(RID))** (for example, the anatomical region *bladder* corresponds to *EMAPA:18321*). List these in the work order spreadsheet.
 
     * In general, we will want overall schematics for each region made up of layers (ie path or group) that represent each of the sub-regions. 
 
@@ -51,7 +51,7 @@ The intent is that we will programmatically show and hide the region that is in 
 
         * Resolution should be 300 dpi
 
-* Use logical names for artboards and use the [Anatomy ID](https://www.gudmap.org/chaise/recordset/#2/Vocabulary:Anatomy/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gDkwBbPAGhCwAsUBLXJOeEAIwBswoocMQKAhDlx4gAugF8yydNhwBrHAE98SHGGxUAtCxQAPPiFXrqTVkO68JEoA@sort(RID)) for layers/groups that represent the colored anatomical regions (more on that below).
+* Use logical names for artboards and use the [Anatomy ID](https://www.atlas-d2k.org/chaise/recordset/#2/Vocabulary:Anatomy/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gDkwBbPAGhCwAsUBLXJOeEAIwBswoocMQKAhDlx4gAugF8yydNhwBrHAE98SHGGxUAtCxQAPPiFXrqTVkO68JEoA@sort(RID)) for layers/groups that represent the colored anatomical regions (more on that below).
 
 * Naming convention:
 
@@ -70,7 +70,7 @@ The intent is that we will programmatically show and hide the region that is in 
 
     * Layers/Groups -  For each active (in color) version of an anatomical region:
 
-        * Use the [Anatomy ID (EMAPA:xxxx)](https://www.gudmap.org/chaise/recordset/#2/Vocabulary:Anatomy/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gDkwBbPAGhCwAsUBLXJOeEAIwBswoocMQKAhDlx4gAugF8yydNhwBrHAE98SHGGxUAtCxQAPPiFXrqTVkO68JEoA@sort(RID)) at the beginning of the name of the layer or group. Note the IDs should be included on the work order spreadsheet.
+        * Use the [Anatomy ID (EMAPA:xxxx)](https://www.atlas-d2k.org/chaise/recordset/#2/Vocabulary:Anatomy/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gDkwBbPAGhCwAsUBLXJOeEAIwBswoocMQKAhDlx4gAugF8yydNhwBrHAE98SHGGxUAtCxQAPPiFXrqTVkO68JEoA@sort(RID)) at the beginning of the name of the layer or group. Note the IDs should be included on the work order spreadsheet.
 
         * For this same group/layer, please add an image map via Attributes (use the "Polygon" shape) and set the URL to a hashtag (#).
 

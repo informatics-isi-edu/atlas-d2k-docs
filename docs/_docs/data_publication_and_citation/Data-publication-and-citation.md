@@ -9,7 +9,7 @@ Here is the guideline on how to aggregate your datasets to have it properly cite
 
 You can find complete documentation for [creating a data collection here](/docs/data-collections). In general, you will:
 
-1. A collection is used to gather all the relevant data involved in your publication. So first [create a collection](https://www.gudmap.org/chaise/recordedit/#2/Common:Collection) and fill in all the metadata (e.g. title, description) associated with the collection. A Digital Object ID (DOI) may be generated for each data collection and can used for citation. Be sure to fill in all the metadata as they are required to mint a DOI. Check the tooltips associated with each field for more information. See an example of [a collection](https://doi.org/10.25548/R-ZD44) used in McMahon JASN 2018 paper.
+1. A collection is used to gather all the relevant data involved in your publication. So first [create a collection](https://www.atlas-d2k.org/chaise/recordedit/#2/Common:Collection) and fill in all the metadata (e.g. title, description) associated with the collection. A Digital Object ID (DOI) may be generated for each data collection and can used for citation. Be sure to fill in all the metadata as they are required to mint a DOI. Check the tooltips associated with each field for more information. See an example of [a collection](https://doi.org/10.25548/R-ZD44) used in McMahon JASN 2018 paper.
 2. Add all the existing data to the collection.
 3. Release your data collection by changing the Curation Status to "Release". You will also need to make sure that the Curation Status associated with the relevant data in your collection are marked as "Release". Please note that only "Release" records will be available to the public. 
  

@@ -14,7 +14,7 @@ This page provides instructions for citing data by submitting Data Collections t
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
-**If you are creating a Collection for an upcoming paper, please make sure you are citing it correctly!** You may find citation instructions here: https://www.rebuildingakidney.org/about/usage.html#citing-data-associated-with-a-publication
+**If you are creating a Collection for an upcoming paper, please make sure you are citing it correctly!** You may find citation instructions here: https://www.atlas-d2k.org/about/usage.html#citing-data-associated-with-a-publication
 
 We also have the following training materials available:
 * [Webinar Slides](https://docs.google.com/presentation/d/1cJBcdiuF67ze1qMSIOykghA569t8gdcALPRR22C5R7s/edit?usp=sharing)
@@ -115,7 +115,7 @@ Here is how to find your project's data with a Curation Status of "In Preparatio
 
 * Make sure you are logged in.
 
-* Go to the [Collections search page](https://www.gudmap.org/chaise/record/#2/Common:Collection/).
+* Go to the [Collections search page](https://www.atlas-d2k.org/chaise/record/#2/Common:Collection/).
 
 * In the faceting sidebar on the left, choose the following filters:
     * Under **Curation Status**, choose _PI Review_ and _In Preparation_.
