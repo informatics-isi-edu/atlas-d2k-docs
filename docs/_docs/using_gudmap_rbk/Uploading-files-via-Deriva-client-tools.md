@@ -44,7 +44,7 @@ The first time you launch deriva-upload (through the applications menu on Window
 ![Initial server configuration window](/assets/wiki_images/submitting-data/sequencing_uploader/server-config.blank.png)
 
 Click `Add` to bring up the "Server Configuration" form and enter these values:
-Host: www.atlas-d2k.org (or www.rebuildingakidney.org)
+Host: www.atlas-d2k.org
 Description: GUDMAP (or RBK)
 Catalog ID: 2
 check the "Set as Default" and "Confirm configuration updates" buttons, and click "OK"
