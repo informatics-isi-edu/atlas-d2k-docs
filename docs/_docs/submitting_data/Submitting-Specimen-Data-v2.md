@@ -69,7 +69,12 @@ The following fields are especially helpful for bringing up your data in search 
 
 From the Specimen record, add at least one *Anatomical Source* from our list of ontology terms. [You can also add specific cell lines or other sources.]
 
-[To find the *Anatomical Source* field, look for the link on the left-hand Summary.]
+In the summary section towards the top of the page, look for "Anatomical Source" and click the link. To the right of page, click the `Add record` button. Start typing a term and choose your term from the list of available ontological terms.
+
+* To indicate stem cell lines, search for iPSC or hiPSC.
+* You may enter more than one anatomical source, for example, if you entered iPSC or hiPSC, add another anatomical source and search for "podocyte", "kidney organoid", etc.
+* To enter the cell line, click "Edit" for the Specimen record, scroll down to the Cell Line field and click the dropdown field to show available lines. Search for the cell line. If it is not available, you can click "Create new", fill in the form and click "Submit" to add it to the list.
+
 
 ### 3.1. To Add the Same Anatomical Source to Several Specimen Records
 
@@ -83,35 +88,61 @@ This shortcut is handy if many Specimen records require the same Anatomical Sour
 
 You can upload 2D images, 3D images, or videos. Check the accepted [file formats](../standard-files-and-formats-for-submission/) and [video platforms](../available-video-platforms/).
 
-Go to the **Image** section for 2-D files, **Image 3D** section for 3-D files, or **Video** section for videos and click the `Add record` button to the right fill out the fields.
+Go to the **Image** section for 2-D files, **Image 3D** section for 3-D files, or **Video** section for videos and click the `Add record` button to the right and fill out the fields.
 
 We highly recommend uploading a thumbnail file for the **Image** and **Image 3D** records. [Read this doc for our thumbnail guidelines.](../thumbnail-creation-guideline/).
 
 ### 4.1. Processing CZI Files
 
-Submit CZI files if possible. These files get converted for in-browser viewing, allowing detailed insights.
+Submit CZI files if possible. These files get converted for in-browser viewing, allowing detailed insights. The browser will allow the user to manipulate channels and zoom in to see details in high resolution.
 
 ### 4.2. Batch Add Image Records
 
-You can upload multiple image records simultaneously, making the process efficient and faster.
+You can upload multiple image records simultaneously.
 
-[add details]
+Fill in the values of the field in the form that will be common across multiple records, then click the `Clone` button to create additional forms and edit individual ones as needed.
 
 ## 5. Add an Antibody Record
 
 If the slide was stained with an antibody, it's essential to record this data.
 
+Go to the *Specimen Antibody* table and click `Add record` to add an antibody.
+
+The important thing to fill out here is the *Antibody RID* to indicate the company. Click the field to see a list of existing companies in the catalog.
+
+If you do not see the antibody company listed, click the **Create New** button to add it.
+
 ## 6. Add Specimen Probe Association
 
 For associating genes with specimens, populate the Specimen Probe Association table.
+
+*Specimen Probe Association* is where you will associate the probe(s) with the data. The *Probe* table will display details of the probe(s) you chose - you do not manually add anything to this table.
+
+Go to the *Specimen Probe Association* section and click the `Add record` link.
 
 ## 7. Add Specimen Expression Record
 
 For In Situ Hybridization data, make sure to add scored expression regions.
 
+Go to the *Specimen Expression* table and click `Add record`.
+
+There are various descriptive fields you may fill out, but at the very least, you’ll need to indicate the anatomical region and its expression score (the strength of expression in that region).
+
+[![Screenshot of the fields for "Expression Region" and "Strength"](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-expression-scored-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-expression-scored.png)
+
+Click the `Expression Region` field to choose the anatomical region.
+
+Click the `Strength` field to choose from *uncertain*, *present*, and *not detected*.
+
 ## 8. Stages/Timing for Human Organoid Specimens
 
 Documenting the organoid development stages ensures data uniformity and comprehension.
+
+Kidney organoids are derived from pluripotent stems cells (ESC or iPSC) using a variety of possible protocols. To help standardize assignment of stages of organoid development, we will adopt the convention found in the published literature. This defines the onset of induction as Day 0.
+
+- Day 0 = Induction of iPSCs or ESCs to begin differentiation (i.e. CHIR99021 added)
+
+Each protocol may vary in the rate of formation subsequent to induction, thus the protocol used for a given experiment must be clearly documented with an entered specimen. This can be a reference to a protocol in the GUDMAP database, or the published paper that details the approach (include PMCID/PMID number).
 
 **REFERENCES:**
 
@@ -121,7 +152,7 @@ Documenting the organoid development stages ensures data uniformity and comprehe
 
 ## 9. Submitting Your Data for Review and Release
 
-Upon finalizing your records and internal reviews, submit them to the Hub by changing the *Curation Status* field to *Submitted*.
+Upon finalizing your records and internal reviews, submit them to the Hub by editing the Specimen record and change the *Curation Status* field to *Submitted*.
 
 The biocurator will review your submission and may have more questions for improving the quality of your submission.
 
