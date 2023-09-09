@@ -19,8 +19,6 @@
 # Section 2
 - title: Submitting Data - Prerequisites
   docs:
-    - sectionTitle: Joining a Globus Group
-      url: joining-a-globus-group
     - sectionTitle: Accessing ATLAS-D2K Resources
       url: accessing-gudmap-and-rbk-resources
     - sectionTitle: Standard file formats for data submission
@@ -52,6 +50,8 @@
   docs:
     - sectionTitle: Specimen
       url: specimen
+    - sectionTitle: Specimen v2
+      url: specimen-v2
     - sectionTitle: Histological Data
       url: histological-data
     - sectionTitle: Immunofluorescence Images

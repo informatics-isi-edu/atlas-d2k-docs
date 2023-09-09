@@ -45,7 +45,7 @@ Here are the details for each step.
 
 ## 1. Join the Globus group.
 
-* You will need to be in the appropriate Globus group for editing access. Please email the ATLAS-D2K Center at [help@atlas-d2k.org](mailto:help@atlas-d2k.org) to ask for help joining the correct group. For more information, see [Joining a Globus Group](../joining-a-globus-group/).
+* You will need to be in the appropriate Globus group for editing access. Please email the ATLAS-D2K Center at [help@atlas-d2k.org](mailto:help@atlas-d2k.org) to ask for help joining the correct group. For more information, see [Accessing ATLAS-D2K Resources](../accessing-gudmap-and-rbk-resources/).
 
 
 
@@ -67,19 +67,19 @@ Make sure you are logged in.
 
 There are a few fields that are required or you may not save the form (these are indicated with the red asterisk *).
 
-However, we recommend filling in as many fields as possible. **The more fields you fill out the more ways users can find your data**. For example, if you include the species and age stage, then this data will show up for Specimen searches for that specific species and age stage.
+However, we recommend filling in as many fields as possible. **The more fields you fill out the more ways users can find your data**. For example, if you include the age stage and sex, then this data will show up for Specimen searches for that specific age stage and sex.
 
-Required fields - click the dropdown field and choose the appropriate value:
+Recommended fields: click the dropdown field and choose the appropriate value:
 
-* **Species**: e.g., *Homo sapiens*, *Mus musculus*
+* **Species**: e.g., *Homo sapiens*, *Mus musculus*.
 
 * **Assay type**: The imaging related types are *IHC*, *ISH*, and *Histology*.
 
 * **Stage**: The Theiler or Carnegie stage (preferred). If you cannot provide the stage, there is also the **Chronological Age** field where you can type in the age using free text.
 
-* **Sex**: Choose a value from the dropdown menu.
+* **Sex**: *Male*, *Female*, *Unknown* or *Both*.
 
-* How the sample was prepared. Your choices are:
+* Describe how the sample was prepared with the following fields:
 
     * **Preparation**
 
@@ -87,13 +87,13 @@ Required fields - click the dropdown field and choose the appropriate value:
 
     * **Embedding**
 
-* **Curation Status**: The default is *In Preparation* which is draft mode and will only be viewable by other Consortium members who are logged in. *PI Review* is also available if your internal process would like to indicate records ready for the PI to review. Once you are finished and ready for the Hub to review for further curation, change this field to *Submitted*. For more information, see [Curation Workflow](../curation-workflow/)
+* **Curation Status**: The default value is *In Preparation* which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. *PI Review* is also available if your internal process would like to indicate records ready for the PI to review. Once you are finished, update this field to *Submitted* to send to the Hub for further curation. The biocurator may contact you with further questions about the data before it is released. For more information, see [Curation Workflow](../curation-workflow/)
 
 * **Principal Investigator**: Choose the appropriate Principal Investigator. If your PI is not on the list, click the plus sign just to the top right of the list to create a new record for them.
 
-* **Consortium**: GUDMAP, RBK, KPMP or External
+* **Consortium**.
 
-These fields may not be required but are useful:
+These fields may be useful:
 
 * **Internal ID**: A useful field for your own lab’s tracking purposes.
 
@@ -113,15 +113,17 @@ These fields may not be required but are useful:
 
     * **Probe Usage Notes**
 
-* **Parent Specimen:** If you've subdivided a biological sample, you can create a Specimen record for the original sample and designate it as the "parent" of the Specimen records for all the subdivided samples.
+* **Parent Specimen:** If you have subdivided a biological sample (created sections from a sample), you can create a Specimen record for the original sample and designate it as the "parent" of the Specimen records for all the subdivided samples. You can continue doing this to show different levels of grandparent/parent/child relationships.
 
 * **Representative Image**: This is an optional thumbnail of the image. If you do not add one, the system will automatically select the thumbnail from the first image record. [Read this doc for our thumbnail guidelines.](../thumbnail-creation-guideline/)
 
-Once you have filled out the fields, click the **Submit** button at the top of the form to save the record.
+Once you have filled out the fields, click the **Save** button at the top of the form to save the record.
+
+You have now created the basic Specimen record. But there's still some more data to add.
 
 ## 3. Add the Anatomical Source
 
-On the new base Specimen record, you can now choose the Anatomical Source. In the summary section towards the top of the page, look for "Anatomical Source". To the right of this field, click the `Add record` button. Start typing a term and choose your term from the list, then click **Submit**.
+From the Specimen record, add at least one *Anatomical Source*. In the summary section towards the top of the page, look for "Anatomical Source" and click the link. To the right of page, click the `Add record` button. Start typing a term and choose your term from the list of available ontological terms, then click **Submit**.
 
 [![Screenshot of the Add button for ](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source.png)
 
@@ -140,54 +142,52 @@ This is a great shortcut **if you have many Specimen records that you want to ad
 
 ## Add related records
 
-To finish, you'll need to add some related records:
+You'll notice that on your Specimen record, after the initial list of metadata you added, there are many other sections underneath. These allow you to add data files and information related to this Specimen record. The following are required:
 
-* For all imaging data types, you must add at least one 'Image' record.
-* If an antibody was used to stain the slide, add an 'Antibody' record.
-* If a probe was used to probe for a gene, add a 'Probe' record.
-* If you examined the slide and scored expression values (_present, not present_, etc.) for a gene, add Specimen Expression records.
+* **For all imaging data types**, you must add at least one `Image` record.
+* **If an antibody was used to stain the slide**, add an `Antibody` record.
+* **If a probe was used to probe for a gene**, add a `Probe` record.
+* **If you examined the slide and scored expression values (_present, not present_, etc.) for a gene**, add `Specimen Expression` records.
 
 The following sections describe how to add these types of records.
 
-## 4. Add at least one imaging data record
+## 4. Add at least one Image, Image 3D or Video record
 
-The system will accept images (2D and 3D) and videos (see [Available Video Platforms](../available-video-platforms/)).
+The system will accept images (2D and 3D) and videos. Please consult the following lists of accepted file formats and video platforms: [Standard file formats for data submission](../standard-files-and-formats-for-submission/) and [Available Video Platforms](../available-video-platforms/)).
 
-For each image, you will need to add an Image record. Please consult this list of accepted file formats for ATLAS-D2K data: [Standard file formats for data submission](../standard-files-and-formats-for-submission/).
+**Note:** these instructions specify how to add `Image` records on the ATLAS-D2K website. If you have many image files, you may also [upload them using our bulk-upload client tool](../bulk-uploading-image-files/).
 
-Note: these instructions specify how to add Image records using our web-based GUI. If you have many image files, you can also [upload them using our bulk-upload client tool](../bulk-uploading-image-files/).
-
-From your base Specimen record, scroll down and find the **Image** section (for 2-D files), **Image 3D** section (for 3-D files), or **Video** section (for videos) and click the `Add record` button to the right.
+Go to the **Image** section (for 2-D files), **Image 3D** section (for 3-D files), or **Video** section (for videos) and click the `Add record` button to the right.
 
 [![Screenshot of the Add button for ](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-new-image-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-new-image.png)
 
-This will open a form.
+This will open a form in a new browser tab.
 
-[![Screenshot of the Add button for ](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-create-image-form-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-create-image-form.png)
+[![Screenshot of Create Image form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-create-image-form-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-create-image-form.png)
 
-Fill out the fields on this form. Use the **Original File** field to upload your data file and click `Submit` to save the record.
+Fill out the fields on this form. Use the **Original File** field to upload your data file and click `Save` to save the record.
 
-We also recommend adding a thumbnail for this record. [Read this doc for our thumbnail guidelines.](../thumbnail-creation-guideline/)
+We also recommend adding a thumbnail for this record. [Read this doc for our thumbnail guidelines.](../thumbnail-creation-guideline/).
 
 ### 4.1. Processing CZI files
 
-Where applicable, we encourage submitting CZI files. The system will convert CZI files for in-browser viewing. This may take a few hours but it will automatically appear once it has been converted.
+Where applicable, we encourage submitting CZI files. The system will convert CZI files for in-browser viewing. This may take a few hours but it will automatically appear once they have been converted.
 
 The browser will allow the user to manipulate channels and zoom in to see details in high resolution.
 
-### Batch Add Image Records
+### 4.2 Batch Add Image Records
 
-If uploading more than one image record, you can click the `Clone` button to open multiple records.
+If uploading more than one image record, you may click the `Clone` button to open multiple records.
 
 [![Screenshot of the Clone button](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-clone-button-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-clone-button.png)
 
 [![Screenshot of examples of cloned forms](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-clone-example-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-clone-example.png)
 
-**Tip:** If you are using similar field values - fill in the values of the field before you click the plus sign and those values will propagate to the duplicate record forms.
+**Tip:** If you are using similar field values - fill in the values of the field before you click the plus sign and those values will propagate to the cloned record forms.
 
 If you decide you do not want one of the records, just click the `X` icon to delete.
 
-When you are finished, click **Submit** to save the record.
+When you are finished, click **Save** to save the record.
 
 ## 5. Add an Antibody record if an antibody was used to stain the slide
 
@@ -195,7 +195,7 @@ Go to the *Specimen Antibody* table and click `Add record` to add an antibody.
 
 [![Screenshot of examples of cloned forms](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-antibody-record-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-antibody-record.png)
 
-The *Create new Specimen Antibody* form appears.
+The *Create New Specimen Antibody* form appears.
 
 Many of the fields on this page are automatically generated. The important thing to fill out here is the *Antibody RID* to indicate the company. Click the field to see a list of existing companies in the catalog.
 
@@ -207,7 +207,7 @@ If you do not see the antibody company listed, click the **Create New** button t
 
 If you want to associate one or more genes with this specimen, you’ll need to populate the *Specimen Probe Association* table. In the following screenshot, two tables are highlighted. Specimen Probe Association is where you will associate the probe(s) with the data. The *Probe* table will display details of the probe(s) you chose - you do not manually add anything to this table.
 
-Of course, to add a record to the Specimen Probe Association section, you’ll click the `Add record` link.
+Go to the *Specimen Probe Association* section and click the `Add record` link.
 
 [![Screenshot of Add Record in the Specimen Probe Association section](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-probe-association-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-probe-association.png)
 
@@ -217,19 +217,21 @@ Here is how it looks after adding a probe to the Specimen Association Table:
 
 ## 7. Add Specimen Expression record if gene expression was scored
 
-For In Situ Hybridization data, you’ll also add scored expression regions. Scroll down to the *Specimen Expression* table and click `Add record`.
+For In Situ Hybridization data, you’ll also add scored expression regions.
+
+Go to the *Specimen Expression* table and click `Add record`.
 
 [![Screenshot of example of new probe record](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-expression-record-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-expression-record.png)
 
-The "Create new Record: Specimen Expression" form appears. There are various descriptive fields you can fill out, but at the very least, you’ll need to indicate the anatomical region and its expression score (the strength of expression in that region).
+The *Create new Record: Specimen Expression* form appears. There are various descriptive fields you may fill out, but at the very least, you’ll need to indicate the anatomical region and its expression score (the strength of expression in that region).
 
 [![Screenshot of the fields for "Expression Region" and "Strength"](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-expression-scored-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-expression-scored.png)
 
-Click the *Expression Region* field to choose the anatomical region.
+Click the `Expression Region` field to choose the anatomical region.
 
-Click the *Strength* field to choose from *uncertain*, *present*, and *not detected*.
+Click the `Strength` field to choose from *uncertain*, *present*, and *not detected*.
 
-The click **Submit** to save the Specimen Expression record.
+The click **Save** to save the Specimen Expression record.
 
 ## 8. Stages/Timing for Human Organoid Specimens
 
@@ -252,6 +254,6 @@ Once you have completed the record and any internal review and are ready to subm
 
 [![Screenshot of where to find the Edit button](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-record-edit-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-record-edit.png)
 
-Scroll down to the *Curation Status* field and change the status to *Submitted*. Then click the **Submit** button to save the record.
+Scroll down to the *Curation Status* field and change the status to *Submitted*. Then click the **Save** button to save the record.
 
 This record will then go to **Biocuration Review** and the biocurator may contact you to clarify something or to correct an aspect of the data before they update the status to **Released**. Only at this point can the public view the data.
