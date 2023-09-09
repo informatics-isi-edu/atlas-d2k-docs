@@ -31,9 +31,9 @@
       url: reviewing-data-for-release
 
 # Section 3
-- title: Submitting Study Records (For transcriptomics data)
+- title: Submitting Study Records (For Omics data)
   docs:
-    - sectionTitle: Sequencing Data
+    - sectionTitle: Submitting Omics Studies
       url: submitting-sequencing-data-v3
     - sectionTitle: Sequencing/Metabolomics/IMC Data
       url: sequencing-metabolomics-imc-data
@@ -48,14 +48,10 @@
 # Section 4
 - title: Submitting Specimen Records (For imaging data - and metadata about bio-specimens)
   docs:
-    - sectionTitle: Specimen
+    - sectionTitle: Submitting Specimen Records
       url: specimen
     - sectionTitle: Specimen v2
       url: specimen-v2
-    - sectionTitle: Histological Data
-      url: histological-data
-    - sectionTitle: Immunofluorescence Images
-      url: immunofluorescence-images
     - sectionTitle: Bulk uploading image files
       url: bulk-uploading-image-files
     - sectionTitle: Bulk uploading Specimen data from a file(DRAFT)
