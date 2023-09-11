@@ -34,8 +34,10 @@ h4, .h4 {
 }
 
 .navbar-default {
-  background-color: #3588C8;
-  border-color: #3588C8;
+  /*background-color: #3588C8;
+  border-color: #3588C8; */
+  background-color: #0A2327;
+  border-color: #0A2327;
 }
 
 .panel-title>a, .panel-title>small, .panel-title>.small, .panel-title>small>a, .panel-title>.small>a {
@@ -78,6 +80,13 @@ form.navbar-form.navbar-left {
 .navbar-header a.navbar-brand {
     color: #fff;
 }
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  background-color: #6992b9;
+  border-color: #6992b9;
+  }
 
 
 .tt-input,

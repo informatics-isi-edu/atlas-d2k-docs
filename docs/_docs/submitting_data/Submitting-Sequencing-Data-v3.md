@@ -9,11 +9,9 @@ permalink: /docs/submitting-sequencing-data-v3/
 <!-- comment out when generating PDF in Atom
 **[PDF version](/docs/submitting_data/Submitting-Sequencing-Data-v3.pdf)** -->
 
-This page provides instructions for adding sequencing data (mRNA-Seq, scRNA-Seq, etc.) to the ATLAS-D2K Data Explorer.
+This page provides instructions for adding sequencing data (mRNA-Seq, scRNA-Seq, etc.) to the ATLAS-D2K Data Explorer. If you have any queries, please reach out to [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
-If you have any questions or feedback, please send them to your Consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org).
-
-## Overview of the sequencing data submission process
+## Overview of the Sequencing Data Submission Process
 
 The following are the basic steps you’ll take to add metadata records and upload files for sequencing data.
 

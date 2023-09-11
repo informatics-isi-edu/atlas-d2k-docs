@@ -48,9 +48,9 @@
 # Section 4
 - title: Submitting Specimen Records (For imaging data - and metadata about bio-specimens)
   docs:
+#    - sectionTitle: Submitting Specimen Records
+#      url: specimen
     - sectionTitle: Submitting Specimen Records
-      url: specimen
-    - sectionTitle: Specimen v2
       url: specimen-v2
     - sectionTitle: Bulk uploading image files
       url: bulk-uploading-image-files

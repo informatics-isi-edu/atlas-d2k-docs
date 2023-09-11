@@ -1,5 +1,5 @@
 ---
-title: Submitting Specimen Data - rewrite
+title: Submitting Specimen Data - updated
 permalink: /docs/specimen-v2/
 ---
 
@@ -7,7 +7,7 @@ This guide will walk you through the steps to submit specimen and imaging data t
 
 ## Table of Contents
 
-- [Overview](#overview-of-the-submission-process)
+- [Data Model for Specimen Records](#data-model-for-specimen-records)
 - [1. Joining the Globus Group](#1-joining-the-globus-group)
 - [2. Creating a Specimen Record](#2-creating-a-specimen-record)
 - [3. Adding the Anatomical Source](#3-adding-the-anatomical-source)
@@ -21,7 +21,6 @@ This guide will walk you through the steps to submit specimen and imaging data t
 - [8. Documenting Stages for Human Organoids](#8-stagestiming-for-human-organoid-specimens)
 - [9. Finalizing Your Submission](#9-submitting-your-data-for-review-and-release)
 
-## Overview of the Submission Process
 
 Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, greater is the ease of discovery.
 
