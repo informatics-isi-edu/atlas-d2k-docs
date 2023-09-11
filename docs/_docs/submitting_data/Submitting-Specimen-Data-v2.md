@@ -73,7 +73,7 @@ The following fields are especially helpful for bringing up your data in search 
 
 From the Specimen record, add at least one *Anatomical Source* from our list of ontology terms.
 
-[![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source.png)
+[![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source.png)
 
 In the summary section towards the top of the page, look for "Anatomical Source" and click the link. To the right of page, click the `Add record` button. Start typing a term and choose your term from the list of available ontological terms.
 
