@@ -25,6 +25,10 @@ This guide will walk you through the steps to submit specimen and imaging data t
 
 Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, greater is the ease of discovery.
 
+## Data Model for Specimen Records
+
+[![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)
+
 ## 1. Joining the Globus Group
 
 To get editing access, join the relevant Globus group. Email [help@atlas-d2k.org](mailto:help@atlas-d2k.org) for assistance. For detailed information, see [Accessing ATLAS-D2K Resources](../accessing-gudmap-and-rbk-resources/).
@@ -67,11 +71,13 @@ The following fields are especially helpful for bringing up your data in search 
 
 ## 3. Adding the Anatomical Source
 
-From the Specimen record, add at least one *Anatomical Source* from our list of ontology terms. [You can also add specific cell lines or other sources.]
+From the Specimen record, add at least one *Anatomical Source* from our list of ontology terms.
+
+[![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source-sm.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/specimen-anatomical-source.png)
 
 In the summary section towards the top of the page, look for "Anatomical Source" and click the link. To the right of page, click the `Add record` button. Start typing a term and choose your term from the list of available ontological terms.
 
-* To indicate stem cell lines, search for iPSC or hiPSC.
+* To indicate stem cell lines, search for `iPSC` or `hiPSC`.
 * You may enter more than one anatomical source, for example, if you entered iPSC or hiPSC, add another anatomical source and search for "podocyte", "kidney organoid", etc.
 * To enter the cell line, click "Edit" for the Specimen record, scroll down to the Cell Line field and click the dropdown field to show available lines. Search for the cell line. If it is not available, you can click "Create new", fill in the form and click "Submit" to add it to the list.
 
