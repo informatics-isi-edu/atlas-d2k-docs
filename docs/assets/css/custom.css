@@ -40,6 +40,19 @@ h4, .h4 {
   border-color: #0A2327;
 }
 
+.navbar {
+  height: 100px;
+}
+
+.navbar-brand {
+  height: 100px;
+  width: 160px;
+}
+
+.navbar-brand img {
+  height: 100px;
+}
+
 .panel-title>a, .panel-title>small, .panel-title>.small, .panel-title>small>a, .panel-title>.small>a {
   font-weight: 500;
 }
@@ -84,8 +97,10 @@ form.navbar-form.navbar-left {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: #6992b9;
-  border-color: #6992b9;
+/*  background-color: #6992b9;
+  border-color: #6992b9;*/
+  background-color: #0A414E;
+  border-color: #0A414E;
   }
 
 

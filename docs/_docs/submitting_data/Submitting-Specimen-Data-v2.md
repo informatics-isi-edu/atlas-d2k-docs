@@ -24,7 +24,7 @@ This guide will walk you through the steps to submit specimen and imaging data t
 
 Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, greater is the ease of discovery.
 
-## Data Model for Specimen Records
+## Metadata Model for Specimen Data
 
 [![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)
 
