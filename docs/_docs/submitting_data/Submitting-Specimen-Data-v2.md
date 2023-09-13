@@ -22,7 +22,7 @@ This guide will walk you through the steps to submit specimen and imaging data t
 - [9. Finalizing Your Submission](#9-submitting-your-data-for-review-and-release)
 
 
-Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, greater is the ease of discovery.
+Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, the greater is the ease of discovery.
 
 ## Metadata Model for Specimen Data
 
