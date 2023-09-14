@@ -34,7 +34,7 @@
 - title: Submitting Sequencing Records (For Omics data)
   docs:
     - sectionTitle: Submitting Sequencing Data
-      url: submitting-sequencing-data-v3
+      url: submitting-sequencing-data-v3-1
 #    - sectionTitle: Sequencing/Metabolomics/IMC Data
 #      url: sequencing-metabolomics-imc-data
 #    - sectionTitle: Uploading sequencing workflow files
