@@ -101,11 +101,18 @@ We highly recommend uploading a thumbnail file for the **Image** and **Image 3D*
 
 Submit CZI files if possible. These files get converted for in-browser viewing, allowing detailed insights. The browser will allow the user to manipulate channels and zoom in to see details in high resolution.
 
-### 4.2. Batch Add Image Records
+### 4.2. Batch Upload Image Records
 
-You can upload multiple image records simultaneously.
+#### 4.2.1. Clone Records
 
-Fill in the values of the field in the form that will be common across multiple records, then click the `Clone` button to create additional forms and edit individual ones as needed.
+If you need to upload multiple image records simultaneously, use the `Clone` button:
+
+- Fill in the values of the field in the form that will be common across multiple records.
+- Click the `Clone` button to create additional forms and edit individual ones as needed.
+
+#### 4.2.2. Use DERIVA Client Tools
+
+If you have many files or your files are very large (over 5GB), then you may need to use our client tools for uploading files programmatically. See [Bulk Uploading Image Files](bulk-uploading-image-files/) for more details.
 
 ## 5. Add an Antibody Record
 

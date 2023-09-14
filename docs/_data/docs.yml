@@ -17,7 +17,7 @@
       url: accessing-human-sequencing-data
 
 # Section 2
-- title: Submitting Data - Prerequisites
+- title: Submitting Data - Before You Begin
   docs:
     - sectionTitle: Accessing ATLAS-D2K Resources
       url: accessing-gudmap-and-rbk-resources
@@ -31,17 +31,17 @@
       url: reviewing-data-for-release
 
 # Section 3
-- title: Submitting Study Records (For Omics data)
+- title: Submitting Sequencing Records (For Omics data)
   docs:
-    - sectionTitle: Submitting Omics Studies
+    - sectionTitle: Submitting Sequencing Data
       url: submitting-sequencing-data-v3
-    - sectionTitle: Sequencing/Metabolomics/IMC Data
-      url: sequencing-metabolomics-imc-data
-    - sectionTitle: Uploading sequencing workflow files
-      url: uploading-sequencing-workflow-files
+#    - sectionTitle: Sequencing/Metabolomics/IMC Data
+#      url: sequencing-metabolomics-imc-data
+#    - sectionTitle: Uploading sequencing workflow files
+#      url: uploading-sequencing-workflow-files
     - sectionTitle: Uploading files via Deriva client tools
       url: uploading-files-using-deriva-client-tools
-    - sectionTitle: Single Cell Visualization Files
+    - sectionTitle: Submitting Single Cell Visualization Files
       url: single-cell-visualization-files
 
 

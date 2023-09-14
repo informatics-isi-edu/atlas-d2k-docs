@@ -6,8 +6,9 @@ permalink: /docs/bulk-upload-with-deriva-client-tools/
 <!-- uncomment when generating PDF in Atom
 # Bulk Upload with DERIVA Client Tools
 -->
-<!-- comment out when generating PDF in Atom -->
+<!-- comment out when generating PDF in Atom
 **[PDF version](/docs/misc/Bulk-Upload-with-DERIVA-Client-Tools.pdf)**
+-->
 
 Our underlying software system, DERIVA, has client tools for authenticating (DERIVA-Auth) and performing a bulk upload of sequencing data files (DERIVA-Upload). This is recommended if you have a large or complex sequencing data submission.
 
