@@ -29,7 +29,9 @@ This guide offers a clear pathway for submitting sequencing data to the ATLAS-D2
 These are some other training materials and other documentation you may find useful:
 
 * [Tutorial slides containing screenshots (Sequencing Model V3---latest)](https://docs.google.com/presentation/d/1dHg9LmThF7vXFYcUDmZ1s0IgmRhIT8qHAGnxkue1TCE/edit#slide=id.g3cef0a6f7b_0_412)
-<!-- * [Advanced Editing Features](/docs/advanced-editing-features)
+
+<!--
+* [Advanced Editing Features](/docs/advanced-editing-features)
 * [Tips for Submitting Large or Complex Data](Tips-for-Submitting-Large-or-Complex-Data)
 -->
 
