@@ -29,12 +29,13 @@ This guide offers a clear pathway for submitting sequencing data to the ATLAS-D2
 These are some other training materials and other documentation you may find useful:
 
 * [Tutorial slides containing screenshots (Sequencing Model V3---latest)](https://docs.google.com/presentation/d/1dHg9LmThF7vXFYcUDmZ1s0IgmRhIT8qHAGnxkue1TCE/edit#slide=id.g3cef0a6f7b_0_412)
-* [Advanced Editing Features](/docs/advanced-editing-features)
+<!-- * [Advanced Editing Features](/docs/advanced-editing-features)
 * [Tips for Submitting Large or Complex Data](Tips-for-Submitting-Large-or-Complex-Data)
+-->
 
 ## 1. Join the Correct Group
 
-- Follow [these instructions](accessing-gudmap-and-rbk-resources/).
+- Follow [these instructions](../accessing-gudmap-and-rbk-resources/).
 - If unsure about the group to join, contact [help@atlas-d2k.org](help@atlas-d2k.org).
 - Remember to log in before submitting data.
 
@@ -57,7 +58,7 @@ Our system structures **metadata records** for efficient data discovery. They ar
 
 ## 3. Create Specimen Records
 
-For each tissue slide used, connect it to a **Specimen** record. Create these now and keep RID numbers handy for linking later. Comprehensive [specimen submission guidelines are available here](specimen-v2/).
+For each tissue slide used, connect it to a **Specimen** record. Create these now and keep RID numbers handy for linking later. Comprehensive [specimen submission guidelines are available here](../specimen-v2/).
 
 To describe the relationships between slides and sections of slides, use the *Parent Specimen* field as described in the documentation.
 
@@ -140,11 +141,11 @@ This is a very secure and stable service, and if the job is interrupted, the pro
 
 If your directory structure and naming convention are correct, the files will be automatically attached to the correct Replicate records.
 
-For full instructions, go to [Upload Using DERIVA Client Tools](uploading-files-using-deriva-client-tools/).
+For full instructions, go to [Upload Using DERIVA Client Tools](../uploading-files-using-deriva-client-tools/).
 
 ## 6. Export for GEO submission
 
-Once you've created your sequencing study and uploaded your data, you can then export to a file for submission to GEO. See the [Exporting to submit to GEO](exporting-data#4-exporting-to-submit-to-geo-for-data-submitters) section of the [Exporting Data page](exporting-data).
+Once you've created your sequencing study and uploaded your data, you can then export to a file for submission to GEO. See the [Exporting to submit to GEO](../exporting-data#4-exporting-to-submit-to-geo-for-data-submitters/) section of the [Exporting Data page](../exporting-data/).
 
 ## 7. Review and Submit
 
@@ -153,8 +154,6 @@ Once you've created your sequencing study and uploaded your data, you can then e
 The dashboard gives an overview of your submitted records. Ensure everything’s complete and accurate.
 
 The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the ATLAS-D2K data browser.
-
-![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
 
 Before public release, the curation team reviews submissions. Once reviewed, the status becomes "Release" and data’s accessible.
 
