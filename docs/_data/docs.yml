@@ -105,17 +105,17 @@
     - sectionTitle: Tips for Submitting Large or Complex Data
       url: tips-for-submitting-large-or-complex-data
 
-# Section 8
-- title: Editing and Uploading Tools and Features
-  docs:
-    - sectionTitle: Data Submission Dashboards (Internal only)
-      url: data-submission-dashboards-internal-only
-    - sectionTitle: User testing scenarios
-      url: user-testing-scenarios
-    - sectionTitle: GUDMAP Requirements Sessions
-      url: gudmap-requirements-sessions
-    - sectionTitle: Release Notes (Data Browser)
-      url: release-notes-data-browser
+# Section 8 - these are truly internal docs and should only be on the github wiki
+#- title: Editing and Uploading Tools and Features
+#  docs:
+#    - sectionTitle: Data Submission Dashboards (Internal only)
+#      url: data-submission-dashboards-internal-only
+#    - sectionTitle: User testing scenarios
+#      url: user-testing-scenarios
+#    - sectionTitle: GUDMAP Requirements Sessions
+#      url: gudmap-requirements-sessions
+#    - sectionTitle: Release Notes (Data Browser)
+#      url: release-notes-data-browser
 
 
 # Section 9

@@ -4,47 +4,55 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+# ATLAS-D2K User and Submitter Guide
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+This is the home of public documentation for the ATLAS-D2K Consortiums. If you find anything that needs correcting or have suggestions for more documentation, please send email to:
 
-1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `assets/img/logonav.png` with your own logo.
+- For GUDMAP: [help@gudmap.org](mailto:help@gudmap.org)
+- For RBK: [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
 
-## Writing content
+## Accessing the ATLAS-D2K Data
+- Data Browser: Here are links to the videos we're making about [using the new data browser](/docs/using-the-gudmap-rbk-data-browser).
+  - Note, that the description is focusing on the GUDMAP site right now, but the instructions for the Data Browser are the same for both ATLAS-D2K websites.
+- [Accessing protected human sequencing data (fastq and bam)](/docs/accessing-human-sequencing-data)
+- [Command lines and libraries](/docs/command-lines-and-libraries)
 
-### Docs
+## Exporting Data
+- [How to export data (includes how to export to a GEO-compliant file)](/docs/exporting-data)
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+## Submitting Data (for members of ATLAS-D2K)
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+For members of ATLAS-D2K to submit data, use our self-curation tools to add or edit data.
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+**If the type of data you need to submit is not listed below**, please contact [help@gudmap.org](help@gudmap.org) or [help@rebuildingakidney.org](help@rebuildingakidney.org).
 
-Hello World!
-```
+**If you are publishing a paper using ATLAS-D2K data,** it's a good idea to contact us as well to make sure you have an appropriate [Data Collection](Submitting-Data-Collections) for optimal citation.
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+**To add or edit data:**
+- [Standard files and formats for submission](/docs/standard-files-and-formats-for-submission)
+- [Antibodies](/docs/antibodies)
+- [Cell Lines](/docs/cell-lines)
+- [Data Collections (esp for publications!)](/docs/data-collections)
+- [Imaging Data (Histology, Immunofluorescence/Immunohistochemistry, In Situ Hybridization)](/docs/specimens)
+- [Protocols](/docs/protocols)
+- [Sequencing, Metabolomics, and Image Mass Cytometry Data](/docs/sequencing-metabolomics-imc-data)
+- [Single Cell Visualization Files](/docs/single-cell-visualization-files) (draft)
+- [Specimen Data](/docs/specimens)
+- [Color Palette for Image Annotation](/docs/color-palette-for-image-annotation)
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+**For uploading your data files:**
+- [Uploading Files via the DERIVA Client Tools](/docs/uploading-files-using-deriva-client-tools)
 
-### Blog posts
+**Note that [you must have the correct access](/docs/accessing-gudmap-and-rbk-resources) before you are able to submit any data.**
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+## Images and Videos
+- [Thumbnail creation guideline](/docs/thumbnail-creation-guideline)
+- [Supported Video Platforms](/docs/available-video-platforms)
 
-### Pages
+## Data Publication and Citation
+- [How to create a collection and citation for publications](/docs/how-to-create-a-collection-and-citation-for-publications)
+- [Shortcut urls for citation and sharing](/docs/shortcut-urls-for-citation-and-sharing) - good for sharing any data record.
 
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
+## Access to Internal Resources
 
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+If you need access to ATLAS-D2K resources such as the ability to submit/curate data or access the Internal site, go to [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
