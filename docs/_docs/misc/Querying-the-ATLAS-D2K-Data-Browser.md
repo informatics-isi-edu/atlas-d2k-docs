@@ -35,7 +35,7 @@ In the left sidebar of the results, you may filter results further by these cate
 
 * Scored Expression Data (present, not present)
 
-* Scored Expression Region 
+* Scored Expression Region
 
 * Assay Type
 
@@ -51,7 +51,7 @@ The search automatically assumes a 'wildcard' at the end of the search string; t
 
 ## Multiple genes (Batch Query)
 
-To search for multiple genes, use the [Batch Query](Batch-Query) method. Use the search method described above but enter multiple genes separated with a pipe character (|) with _no_ spaces in between. 
+To search for multiple genes, use the [Batch Query](Batch-Query) method. Use the search method described above but enter multiple genes separated with a pipe character (|) with _no_ spaces in between.
 
 This list may contain a mixture of different terms (e.g. MGI accession IDs and MCBI Gene Symbols).
 
@@ -75,7 +75,7 @@ Start typing an anatomical region in the search field. In the example below, we'
 
 ![image alt text](wiki_images/querying_3.png)
 
-Click a term to go to the corresponding Anatomy records page (we have more details on this page further down the page). 
+Click a term to go to the corresponding Anatomy records page (we have more details on this page further down the page).
 
 ## Faceted Search
 
@@ -107,12 +107,12 @@ The numbers to the right of the names indicate how many instances of these types
 
 Choose "Specimen Expression Rollup" in the *Contents* list. This table includes ATLAS-D2K entries that include annotated in situ expression data and microarray data.
 
-* For Specimen (ISH/IHC) 
-that contain either a **direct annotation** for the anatomical term specified (whether it is *present*, *uncertain* or *possible*) or an **inferred annotation** for the anatomical term (see below). 
+* For Specimen (ISH/IHC)
+that contain either a **direct annotation** for the anatomical term specified (whether it is *present*, *uncertain* or *possible*) or an **inferred annotation** for the anatomical term (see below).
 
   Each entry includes the relevant symbol for the gene expressed in the queried structure. Symbols are the current standard gene symbols (see NCBI). To better understand the context of your results please see the [tutorial on genitourinary development](https://www.atlas-d2k.org/tutorials/urogenital-dev/).
 
-* For Microarray where the anatomical term specified is the sample material or where sub-components of the anatomical term have been used as sample material. 
+* For Microarray where the anatomical term specified is the sample material or where sub-components of the anatomical term have been used as sample material.
 
   For example, using the term ‘maturing nephron’ for the query will return database entries where the sample was the ‘early proximal tubule’ and entries where the sample was ‘maturing renal corpuscle’. Both these structures are part of the maturing nephron.
 
@@ -126,7 +126,7 @@ Queries can be performed for multiple components by entering terms separated by 
 
 ## Inferred annotation
 
-Suppose, for example, the anatomical term 'superficial cellular layer' has been annotated as expression *present* for a particular gene. 
+Suppose, for example, the anatomical term 'superficial cellular layer' has been annotated as expression *present* for a particular gene.
 
 As a consequence, the anatomical term 'urothelium' has 'inferred present' annotation (even though it has not been annotated directly) because 'superficial cellular layer' is a part of the 'urothelium'. Equally, if 'urothelium' was annotated as 'not detected' then its parts, including 'superficial cellular layer' would have 'inferred not detected' annotation.
 
@@ -134,9 +134,9 @@ The original annotations and original expression images are displayed on the pag
 
 # Boolean Anatomy Search
 
-The Boolean Anatomy Search allows complex queries to be constructed to search for **gene expression** based on **selected anatomical structures**. 
+The Boolean Anatomy Search allows complex queries to be constructed to search for **gene expression** based on **selected anatomical structures**.
 
-The search allows combinations of structures and developmental stages and different combinations of expression found to be *present*, *not detected* and *uncertain*. The search can be applied to a combination of structures or just to one structure. 
+The search allows combinations of structures and developmental stages and different combinations of expression found to be *present*, *not detected* and *uncertain*. The search can be applied to a combination of structures or just to one structure.
 
 For example, to retrieve only genes expressed in a structure, or to compare expression in the same structure at different stages.
 
@@ -144,13 +144,13 @@ For more details, please go to the Boolean Anatomy Search Help Page (LINK).
 
 # Query by Accession ID
 
-Is this still relevant? 
+Is this still relevant?
 
-In the **Specimens** search ([https://gudmap.org/chaise/recordset/#2/Gene_Expression:Specimen](https://gudmap.org/chaise/recordset/#2/Gene_Expression:Specimen) or *Search* > *Specimens* in the top menu navigation) you may type in a variety of different accession IDs in the main search bar to view all GUDMAP entries that contain information about the expression relating to that ID. 
+In the **Specimens** search ([https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen) or *Search* > *Specimens* in the top menu navigation) you may type in a variety of different accession IDs in the main search bar to view all GUDMAP entries that contain information about the expression relating to that ID.
 
 ![image alt text](wiki_images/querying_6.png)
 
-Accession ID's supported by GUDMAP:
+Accession ID's supported by ATLAS-D2K:
 
 * GUDMAP entry ID's (e.g. GUDMAP:8200, GUDMAP:7720). Worked in Specimens search only
 
@@ -182,7 +182,7 @@ NOTE: Searching by function will only return ISH or IHC entries.
 
 # Query by disease (coming soon)
 
-The GUDMAP disease resource is accessible by clicking on Query > Disease or via the Disease menu bar item on the top of the page. This searchable database of associations between genes and diseases of the urogenital system can be queried : 
+The GUDMAP disease resource is accessible by clicking on Query > Disease or via the Disease menu bar item on the top of the page. This searchable database of associations between genes and diseases of the urogenital system can be queried :
 
 * by **Disease-gene** associations: Select a disease to find genes associated with this condition or select a gene to search for potential diseases associated with it.
 
@@ -191,4 +191,3 @@ The GUDMAP disease resource is accessible by clicking on Query > Disease or via 
 For detailed examples on finding genes associated with disease and their location and expression in the genitourinary system, please look at the using GUDMAP tutorial and the GUDMAP demos .
 
 Links to GATACA and ToppGene can be found in the left side bar of the GUDMAP disease resource pages.
-

@@ -11,7 +11,7 @@ This data works like other data where you can use the filtering sidebar to narro
 
 ## Finding and logging in to the Dashboard
 
-First you need to get to the Data Browser part of the site. Note you can enter either from gudmap.org or rebuildingakidney.org. In either site, if you're coming from the homepage, for example, you need to click on one of the data links (ie, Search by Gene or Protocols) to get to the Data Browser part of the site.
+First you need to get to the Data Browser part of the site. If you're coming from the homepage, for example, you need to click on one of the data links (ie, Search by Gene or Protocols) to get to the Data Browser part of the site.
 
 From there, choose "Dashboards (login required)" > "GUDMAP Monthly Submission Dashboard".
 

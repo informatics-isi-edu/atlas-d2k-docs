@@ -1,15 +1,12 @@
 ---
-title: Welcome
+title: ATLAS-D2K User and Submitter Guide
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-# ATLAS-D2K User and Submitter Guide
-
 This is the home of public documentation for the ATLAS-D2K Consortiums. If you find anything that needs correcting or have suggestions for more documentation, please send email to:
 
-- For GUDMAP: [help@gudmap.org](mailto:help@gudmap.org)
-- For RBK: [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
+- [help@atlas-d2k.org](mailto:help@atlas-d2k.org)
 
 ## Accessing the ATLAS-D2K Data
 - Data Browser: Here are links to the videos we're making about [using the new data browser](/docs/using-the-gudmap-rbk-data-browser).
@@ -24,7 +21,7 @@ This is the home of public documentation for the ATLAS-D2K Consortiums. If you f
 
 For members of ATLAS-D2K to submit data, use our self-curation tools to add or edit data.
 
-**If the type of data you need to submit is not listed below**, please contact [help@gudmap.org](help@gudmap.org) or [help@rebuildingakidney.org](help@rebuildingakidney.org).
+**If the type of data you need to submit is not listed below**, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 **If you are publishing a paper using ATLAS-D2K data,** it's a good idea to contact us as well to make sure you have an appropriate [Data Collection](Submitting-Data-Collections) for optimal citation.
 

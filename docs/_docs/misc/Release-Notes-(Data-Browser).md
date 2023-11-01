@@ -4,23 +4,23 @@ permalink: /docs/release-notes-data-browser/
 ---
 
 
-This page chronicles the updates made to the Data Browser for gudmap.org and rebuildingakidney.org - starting with 9/25/2018.
+This page chronicles the updates made to the Data Browser - starting with 9/25/2018.
 
 # Release 2019-03-26
 
-* Unified data model for all types of imaging data. Now you can see all images under "Specimen" page. 
+* Unified data model for all types of imaging data. Now you can see all images under "Specimen" page.
 
-* Deployed Treeview visualization to visually display the scored expression annotation associated with a mouse specimen. For example: [Specimen N-GHTR](www.atlas-d2k.org/id/N-GHTR). 
+* Deployed Treeview visualization to visually display the scored expression annotation associated with a mouse specimen. For example: [Specimen N-GHTR](www.atlas-d2k.org/id/N-GHTR).
 
-* Boolean Anatomy Search ([https://www.atlas-d2k.org/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)[deriva-webapps/boolean-search/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)) is now available on the navigation bar. Click Search, then Boolean Anatomy Search to get to the app. Click an "eye" icon on the page for more information. 
+* Boolean Anatomy Search ([https://www.atlas-d2k.org/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)[deriva-webapps/boolean-search/](https://staging.rebuildingakidney.org/deriva-webapps/boolean-search/)) is now available on the navigation bar. Click Search, then Boolean Anatomy Search to get to the app. Click an "eye" icon on the page for more information.
 
-* Sequencing Data 
+* Sequencing Data
 
     * Extend the model to support visualization images and applications. Check out [the studies with visualization images](https://www.atlas-d2k.org/chaise/recordset/#2/RNASeq:Study/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JAEsIAjdafEAJQDkBBAZRwEcQAaEANUKTTABtCALzAAXQiggB9BqLRQAnlIBmAaxwKQAXQC+bUOlFk0FBNXpNWHbrwHCxE6Tb6CR4yVLoAHL4KwOPNQ1tPWoASQARbQ4IFFEpCDR+fjhRDDQcHV0gA@sort(RMT::desc::,RID)).
 
     * Unified data model for scRNA-Seq and bulk RNA-Seq. All sequencing experiments now require Replicates which capture the information about the bio-specimen. Single_Cell_Metrics will only contain statistic information and will be linked to a specific Replicate.  
 
-    * Extend the model to take dbGaP_Accession_ID for human-protected sequencing files. 
+    * Extend the model to take dbGaP_Accession_ID for human-protected sequencing files.
 
 * Enabled the repository to accept Antibodies and Protocol data from KPMP
 
@@ -28,13 +28,13 @@ This page chronicles the updates made to the Data Browser for gudmap.org and reb
 
     * Added a link from the Array heatmap page to the raw array data, so users can download data if needed.
 
-    * Addressed broken URLs. 
+    * Addressed broken URLs.
 
-    * Changed menu bar navigation from hovering to clicking in order to expand sub menus which will enable touch-screen access. 
+    * Changed menu bar navigation from hovering to clicking in order to expand sub menus which will enable touch-screen access.
 
-    * Automatically scroll to the top after creating/updating records. 
+    * Automatically scroll to the top after creating/updating records.
 
-    * Fixed bugs related to Table of Content on the record detail page. 
+    * Fixed bugs related to Table of Content on the record detail page.
 
     * New and expanded Help section.
 
@@ -80,7 +80,7 @@ Updates to the user interface:
 
 - When you use the Gene search form on the homepage, it now searches only on the NCBI Symbol and its synonyms. This will reduce false positives in the search results.
 
-- When you click Search by Gene link, the results will by default only display genes with ATLAS-D2K gene expression data. We have also added a few more facets on this page in the left sidebar. 
+- When you click Search by Gene link, the results will by default only display genes with ATLAS-D2K gene expression data. We have also added a few more facets on this page in the left sidebar.
 
 - Searching by Anatomical Terms will by default only display terms with gene expression data. We have also added a few more facets on this page in the left sidebar.
 

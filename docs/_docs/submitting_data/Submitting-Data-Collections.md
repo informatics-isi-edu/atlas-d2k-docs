@@ -12,7 +12,7 @@ permalink: /docs/data-collections/
 
 This page provides instructions for citing data by submitting Data Collections to the ATLAS-D2K Data Explorer.
 
-If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
+If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 **If you are creating a Collection for an upcoming paper, please make sure you are citing it correctly!** You may find citation instructions here: https://www.atlas-d2k.org/about/usage.html#citing-data-associated-with-a-publication
 
@@ -95,7 +95,7 @@ A collection is useful anytime you want to group data under one DOI or citation.
 
 Once the base Collection record is created, now you can add the related data. To the left, you'll see a Sections list that will take you further down the page to sections for each type of data you can link.
 
-**If you don't see a section for data you want to include, email [help@gudmap.org](help@gudmap.org) or [help@rebuildingakidney.org](help@rebuildingakidney.org).**
+**If you don't see a section for data you want to include, email [help@atlas-d2k.org](mailto:help@atlas-d2k.org).**
 
 [![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collections-record-blank-update.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collections-record-blank-update.png)
 

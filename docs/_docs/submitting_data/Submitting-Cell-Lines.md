@@ -12,7 +12,7 @@ permalink: /docs/cell-lines/
 
 This page provides instructions for submitting cell lines to the ATLAS-D2K Data Explorer.
 
-If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
+If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 We also have the following training materials available:
 <!--

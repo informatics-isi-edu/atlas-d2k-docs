@@ -3,16 +3,10 @@ title: Submitting Immunofluorescence Images
 permalink: /docs/immunofluorescence-images/
 ---
 
-<!-- uncomment when generating PDF in Atom
-# Submitting Immunofluorescence Images
--->
-<!-- comment out when generating PDF in Atom -->
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Immunofluorescence-Images.pdf)**
-
 
 This page provides instructions for adding immunofluorescence image data to the ATLAS-D2K Data Explorer.
 
-If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
+If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 We also have the following training materials available:
 * [Webinar Slides](/assets/slides/GUDMAP-RBK-12132017-data_submission_workshop-if.pptx?raw=true)

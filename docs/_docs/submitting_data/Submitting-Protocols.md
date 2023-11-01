@@ -9,7 +9,7 @@ permalink: /docs/protocols/
 -->
 This page provides instructions for adding protocols to the ATLAS-D2K Data Explorer, based on the _Nature Protocols_ format.
 
-If you have any questions or feedback, please send them to your consortium's help email: [help@gudmap.org](mailto:help@gudmap.org) or [help@rebuildingakidney.org](mailto:help@rebuildingakidney.org)
+If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 We also have the following training materials available:
 * [Webinar Slides](/assets/slides/GUDMAP-RBK-12062017-data_submission_workshop-protocols-final.pptx)

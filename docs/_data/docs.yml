@@ -2,9 +2,9 @@
 - title: Using ATLAS-D2K
   docs:
     - sectionTitle: Using the ATLAS-D2K Data Browser
-      url: using-the-gudmap-rbk-data-browser
+      url: using-the-atlas-d2k-data-browser
     - sectionTitle: Querying the ATLAS-D2K Data Browser
-      url: querying-the-gudmap-rbk-data-browser
+      url: querying-the-atlas-d2k-data-browser
     - sectionTitle: General Data Browser Notes
       url: general-data-browser-notes
     - sectionTitle: Batch Query
@@ -20,7 +20,7 @@
 - title: Submitting Data - Before You Begin
   docs:
     - sectionTitle: Accessing ATLAS-D2K Resources
-      url: accessing-gudmap-and-rbk-resources
+      url: accessing-atlas-d2k-resources
     - sectionTitle: Standard file formats for data submission
       url: standard-files-and-formats-for-submission
     - sectionTitle: Curation Workflow
@@ -39,7 +39,7 @@
 #      url: sequencing-metabolomics-imc-data
 #    - sectionTitle: Uploading sequencing workflow files
 #      url: uploading-sequencing-workflow-files
-    - sectionTitle: Uploading files via Deriva client tools
+    - sectionTitle: Uploading files via DERIVA client tools
       url: uploading-files-using-deriva-client-tools
     - sectionTitle: Submitting Single Cell Visualization Files
       url: single-cell-visualization-files
@@ -52,7 +52,7 @@
 #      url: specimen
     - sectionTitle: Submitting Specimen Records
       url: specimen-v2
-    - sectionTitle: Bulk uploading image files
+    - sectionTitle: Bulk Uploading Image Files
       url: bulk-uploading-image-files
     - sectionTitle: Bulk uploading Specimen data from a file(DRAFT)
       url: bulk-uploading-specimen-data-from-a-file
@@ -86,11 +86,11 @@
 # Section 6
 - title: Data Publication and Citation
   docs:
-    - sectionTitle: How to create a collection and citation for publications
+    - sectionTitle: Create a Collection and Citation for Publications
       url: how-to-create-a-collection-and-citation-for-publications
-    - sectionTitle: Create citable datasets
+    - sectionTitle: Create Citable Datasets
       url: create-citable-datasets
-    - sectionTitle: Shortcut URLs for citation and sharing
+    - sectionTitle: Shortcut URLs for Citation and Sharing
       url: shortcut-urls-for-citation-and-sharing
 
 # Section 7
@@ -100,7 +100,7 @@
       url: advanced-editing-features
     - sectionTitle: Bulk Upload with DERIVA Client Tools
       url: bulk-upload-with-deriva-client-tools
-    - sectionTitle: Command lines and libraries
+    - sectionTitle: Commandlines and Libraries
       url: command-lines-and-libraries
     - sectionTitle: Tips for Submitting Large or Complex Data
       url: tips-for-submitting-large-or-complex-data
@@ -121,8 +121,6 @@
 # Section 9
 - title: Reference
   docs:
-  - sectionTitle: Theiler Stage Reference
-    url: theiler-stage-reference
   - sectionTitle: Educational tutorials
     url: educational-tutorials
   - sectionTitle: FAQs
