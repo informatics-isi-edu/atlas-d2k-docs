@@ -1,7 +1,9 @@
 ---
 title: ATLAS-D2K User and Submitter Guide
 permalink: /docs/home/
-redirect_from: /docs/index.html
+redirect_from:
+- /docs/index.html
+- /index.html
 ---
 
 This is the home of public documentation for the ATLAS-D2K Consortiums. If you find anything that needs correcting or have suggestions for more documentation, please send email to:

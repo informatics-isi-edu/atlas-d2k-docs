@@ -30,7 +30,8 @@ When you click the link, you will see a Globus login page where you may choose y
 
 If none of the above options are available to you,  click where it says "Then use Globus ID to sign in." to choose your own username/password and follow the instructions.
 
-![Login page](/assets/wiki_images/globus_signup/globus_signup0.jpeg)
+![Login page]({{ "/assets/wiki_images/globus_signup/globus_signup0.jpeg" | relative_url }})
+
 
 **NOTE:** If you see a page like the screenshot below and have an account you've used before with Globus, go ahead and click "Link to existing account". If not, click "No thanks, continue." (Note that if you have logged into Globus before and login with the same credentials, you’ll skip directly to Step 5.)
 

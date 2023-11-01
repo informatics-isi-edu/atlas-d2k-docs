@@ -3,10 +3,6 @@ title: Submitting Protocols
 permalink: /docs/protocols/
 ---
 
-<!-- uncomment when generating PDF in Atom -->
-<!-- comment out when generating PDF in Atom
-**[PDF version](/docs/protocols.pdf)**
--->
 This page provides instructions for adding protocols to the ATLAS-D2K Data Explorer, based on the _Nature Protocols_ format.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
