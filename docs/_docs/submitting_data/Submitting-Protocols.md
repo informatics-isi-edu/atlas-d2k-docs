@@ -17,7 +17,7 @@ We also have the following training materials available:
 
 ## Schema
 
-![Diagram of protocol model](/assets/wiki_images/submitting-data/protocol-schema.png)
+![Diagram of protocol model]({{ "/assets/wiki_images/submitting-data/protocol-schema.png" | relative_url }})
 
 <div class="page-break"></div>
 
@@ -51,13 +51,13 @@ Adding protocols involves the following steps:
 
 * In the top navigation bar, click _Create > Protocol > Protocols_.
 
-    ![Screenshot of navigating to create protocols](/assets/wiki_images/submitting-data/create-protocols-nav.png)
+    ![Screenshot of navigating to create protocols]({{ "/assets/wiki_images/submitting-data/create-protocols-nav.png" | relative_url }})
 
 <div class="page-break"></div>
 
 * The _Create Protocols Record_ form appears (see excerpt below):
 
-    ![Screenshot of navigating to create protocols](/assets/wiki_images/submitting-data/create-protocols-record-form.png)
+    ![Screenshot of navigating to create protocols]({{ "/assets/wiki_images/submitting-data/create-protocols-record-form.png" | relative_url }})
 
     See screenhot of [full length form here](/assets/wiki_images/submitting-data/create-protocols-record-form-full.png).
 
@@ -84,17 +84,17 @@ Although only one Subject Term is required for a protocol, we **highly recommend
 
 * From the base protocol record you just created, scroll down until you see the section "Protocol Subject"
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-record-sections.png" | relative_url }})
 
 * Click the `Add` link in the upper right corner of the "Protocol Subject" section.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-choose-add.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-choose-add.png" | relative_url }})
 
 <div class="page-break"></div>
 
 * In the modal window, scroll through the list or start typing a term in the search box to narrow the results.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-search-and-select.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-search-and-select.png" | relative_url }})
 
 * Click the checkboxes of your desired subject terms.
 
@@ -104,7 +104,7 @@ Although only one Subject Term is required for a protocol, we **highly recommend
 
 * You can always navigate back to the record and click _Edit_ and make changes to your record.
 
-![Screenshot of Edit link in records header](/assets/wiki_images/submitting-data/chaise-edit-option.png)
+![Screenshot of Edit link in records header]({{ "/assets/wiki_images/submitting-data/chaise-edit-option.png" | relative_url }})
 
 <div class="page-break"></div>
 
@@ -120,29 +120,29 @@ Although only one Keyword is required for a protocol, we **highly recommend addi
 
 * From the base protocol record, scroll down until you see the section "Protocol Keyword"
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-key.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-key.png" | relative_url }})
 
 * Click the `Add` link in the upper right corner of the "Protocol Keyword" section.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-choose-add-keywords.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-choose-add-keywords.png" | relative_url }})
 
 <div class="page-break"></div>
 
 * In the modal window, scroll through the list...  
 
-![Screenshot of search and select window](/assets/wiki_images/submitting-data/chaise-search-and-select-keywords.png)
+![Screenshot of search and select window]({{ "/assets/wiki_images/submitting-data/chaise-search-and-select-keywords.png" | relative_url }})
 
 OR
 
 ...start typing a term in the search box to narrow the results.
 
-![Screenshot of search and select window](/assets/wiki_images/submitting-data/search-keyword.png)
+![Screenshot of search and select window]({{ "/assets/wiki_images/submitting-data/search-keyword.png" | relative_url }})
 
 * Click the checkboxes of your desired keywords.
 
 * When finished, click _Submit_ in the upper right corner to save your data.
 
-![Screenshot of submit button](/assets/wiki_images/submitting-data/search-and-select-submit.png)
+![Screenshot of submit button]({{ "/assets/wiki_images/submitting-data/search-and-select-submit.png" | relative_url }})
 
 * Note that until you change the _Curation Status_ field to _Submitted_, you can keep going back to a record to edit and submit (save) as much as you like.
 
@@ -154,37 +154,37 @@ OR
 
 * From your new protocol record, scroll down until you see the section "Protocol Authors".
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-authors.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-authors.png" | relative_url }})
 
 * Click the `Add` link in the upper right corner of the "Protocol Authors" section.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-record-sections-author-add.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-author-add.png" | relative_url }})
 
 <div class="page-break"></div>
 
 The 'Create Protocol Author Record' tab appears.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-author-record.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-create-author-record.png" | relative_url }})
 
 * Fill out the fields.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-author-record-req-fields.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-create-author-record-req-fields.png" | relative_url }})
 
 * In the _Correspondence Author_ field, select 'false' or 'true' to indicate whether this author is the contact person for this protocol.
 
 * In the _Author_ field, click "Select a value". In the modal window (next image), Search for the person you want to add and select them.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-choose-person.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-choose-person.png" | relative_url }})
 
 * If you cannot find the author, click the "+" button to create a new author record.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-add-person.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-add-person.png" | relative_url }})
 
 <div class="page-break"></div>
 
 A "Create Person Record' tab appears.
 
-![Screenshot of related records section](/assets/wiki_images/submitting-data/chaise-create-person-record.png)
+![Screenshot of related records section]({{ "/assets/wiki_images/submitting-data/chaise-create-person-record.png" | relative_url }})
 
 - Add the author's full name and email address at the minimum.
 - Click **Submit Data**. Close this tab.
@@ -202,17 +202,17 @@ The process of adding image files to a protocol is two-fold: you add the file to
 
 * Make sure you are logged in, then navigate to the protocol where you want to add the figure (in the navigation bar, click _Search > Protocol > Protocol_).
 
-![Screenshot of using navbar to search histological slides](/assets/wiki_images/submitting-data/search-protocol-nav.png)
+![Screenshot of using navbar to search histological slides]({{ "/assets/wiki_images/submitting-data/search-protocol-nav.png" | relative_url }})
 
 * Scroll down to the _Figures_ section and click `Add`. A new tab appears with a form.
 
-![Screenshot of clicking to add a figure](/assets/wiki_images/submitting-data/chaise-record-add-figures.png)
+![Screenshot of clicking to add a figure]({{ "/assets/wiki_images/submitting-data/chaise-record-add-figures.png" | relative_url }})
 
 <div class="page-break"></div>
 
 * Fill in the fields and then upload your figure in the _URI_ field by clicking **Submit File**, navigating to your file and clicking **Open**.
 
-![Screenshot of clicking to upload a figure file](/assets/wiki_images/submitting-data/chaise-record-upload-figures.png)
+![Screenshot of clicking to upload a figure file]({{ "/assets/wiki_images/submitting-data/chaise-record-upload-figures.png" | relative_url }})
 
 * Save the record by clicking _Submit Data_. Your figure now appears in the _Figures_ section.
 
@@ -226,11 +226,11 @@ Note you can only embed an image file. For video files, you may only add a link 
 
 * In the _Figures_ section, copy the _URI_ field (the link to the image on our system).
 
-![Screenshot displaying where to copy the URI](/assets/wiki_images/submitting-data/chaise-copy-uri.png)
+![Screenshot displaying where to copy the URI]({{ "/assets/wiki_images/submitting-data/chaise-copy-uri.png" | relative_url }})
 
 * Scroll back up to the top of the protocol and click **Edit**.
 
-![Screenshot of Edit link in record header](/assets/wiki_images/submitting-data/chaise-edit-option.png)
+![Screenshot of Edit link in record header]({{ "/assets/wiki_images/submitting-data/chaise-edit-option.png" | relative_url }})
 
 <div class="page-break"></div>
 
@@ -238,15 +238,15 @@ Note you can only embed an image file. For video files, you may only add a link 
 
 `![alt text](URI-of-image-you-uploaded)`
 
-![Example of Markdown markup for embedding a figure](/assets/wiki_images/submitting-data/chaise-record-embed-figures.png)
+![Example of Markdown markup for embedding a figure]({{ "/assets/wiki_images/submitting-data/chaise-record-embed-figures.png" | relative_url }})
 
 You can also click the Images icon in the formatting toolbar and paste the URL in the popup window.
 
-![Example of Images icon for embedding a figure](/assets/wiki_images/submitting-data/chaise-images-icon.png)
+![Example of Images icon for embedding a figure]({{ "/assets/wiki_images/submitting-data/chaise-images-icon.png" | relative_url }})
 
 * Your figure now appears in the text field.
 
-![Results of markup](/assets/wiki_images/submitting-data/chaise-record-figure-appears.png)
+![Results of markup]({{ "/assets/wiki_images/submitting-data/chaise-record-figure-appears.png" | relative_url }})
 
 <div class="page-break"></div>
 
@@ -293,20 +293,20 @@ Before you can delete a protocol, you must first unlink (delete) any records ass
 
 * Scroll down below the base protocol until you see the 'Protocol Subject', 'Protocol Keywords', 'Protocol Authors' and 'Figures' sections.
 
-![Records sections](/assets/wiki_images/submitting-data/chaise-record-sections.png)
+![Records sections]({{ "/assets/wiki_images/submitting-data/chaise-record-sections.png" | relative_url }})
 
 * For the 'Protocol Subject' and 'Protocol Keywords' sections, click _Edit_ in the upper right corner of the section.
 
-    ![Choose Edit](/assets/wiki_images/submitting-data/chaise-record-sections-choose-edit.png)
+    ![Choose Edit]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-choose-edit.png" | relative_url }})
 
     Then click the "x" icon in the Actions columns to delete (un-link) each and every record in that section.
 
-    ![Un-link Subject](/assets/wiki_images/submitting-data/chaise-record-sections-unlink-subject.png)
+    ![Un-link Subject]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-unlink-subject.png" | relative_url }})
 
 * For the 'Protocol Authors' and 'Figures' sections, click the 'garbage can' icon to delete each and every record in that section.
 
-![Delete authors](/assets/wiki_images/submitting-data/chaise-record-sections-unlink-authors.png)
+![Delete authors]({{ "/assets/wiki_images/submitting-data/chaise-record-sections-unlink-authors.png" | relative_url }})
 
 * Once all of the related records are deleted, scroll back up to the top of the protocol and click the "Delete" link.
 
-![Delete base protocol](/assets/wiki_images/submitting-data/chaise-delete-option.png)
+![Delete base protocol]({{ "/assets/wiki_images/submitting-data/chaise-delete-option.png" | relative_url }})

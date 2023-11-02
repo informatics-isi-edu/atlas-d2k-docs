@@ -29,7 +29,7 @@ Make sure you are logged in before uploading/editing data.
 
 ### 2. Sequencing data model
 
-![Sequencing Data Model V3](/assets/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V3.png)
+![Sequencing Data Model V3]({{ "/assets/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V3.png" | relative_url }})
 
 * Green boxes are the records directly related to this assay type.
 * Yellow boxes indicate links to other assay types (in this case _Specimen_ and _Antibody_, which have their own metadata requirements).
@@ -223,7 +223,7 @@ Once you've created your sequencing study and uploaded your data, you can then e
 ## Data Submission Dashboard
 The [monthly data submission dashboard](https://www.atlas-d2k.org/chaise/recordset/#2/Dashboard:Monthly_Submission_Dashboard) is available on the ATLAS-D2K data browser.
 
-![Monthly Submission Dashboard](/assets/wiki_images/Dashboard.png)
+![Monthly Submission Dashboard]({{ "/assets/wiki_images/Dashboard.png" | relative_url }})
 
 ## Frequently Asked Questions
 **Question**: 10X generates fastq files in the form of `*.R1_001.fastq.gz` (e.g. my_single_cell.R1_001.fastq.gz). How do I rename file names in bulk from `*.R1_001.fastq.gz` to `*.R1.fastq.gz`?

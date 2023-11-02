@@ -31,7 +31,7 @@ Adding immunofluorescence slides to the Data Browser involves the following step
 
 The following represents how different tables in the Data Browser are related in order to form the Immunofluorescence data record.
 
-![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/if-schema.jpg)
+![Screenshot of IF slide record form]({{ "/assets/wiki_images/submitting-data/if-schema.jpg" | relative_url }})
 
 <a name="globus"/>
 
@@ -48,13 +48,13 @@ The following represents how different tables in the Data Browser are related in
 
 * In the top navigation bar, click _Create > Immunofluorescence Images_.
 
-    ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/if-navigation.png)
+    ![Screenshot of Histological Slide record create form]({{ "/assets/wiki_images/submitting-data/if-navigation.png" | relative_url }})
 
 <div class="page-break"></div>
 
 *  The Create form appears.
 
-    ![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/if-slide-record-form.png)
+    ![Screenshot of IF slide record form]({{ "/assets/wiki_images/submitting-data/if-slide-record-form.png" | relative_url }})
 
   <div class="page-break"></div>
 
@@ -73,7 +73,7 @@ The following represents how different tables in the Data Browser are related in
 
 * Scroll back up to the top of the page and click the _Submit Data_ button to save the record.
 
-    ![Screenshot of IF slide record form](/assets/wiki_images/submitting-data/chaise-submit.png)
+    ![Screenshot of IF slide record form]({{ "/assets/wiki_images/submitting-data/chaise-submit.png" | relative_url }})
 
 
 <div class="page-break"></div>
@@ -88,16 +88,16 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 * Click the eye icon in the _Actions_ column to view the desired record.
 
-  ![Clicking the eye icon to view](/assets/wiki_images/submitting-data/if-viewing.png)
+  ![Clicking the eye icon to view]({{ "/assets/wiki_images/submitting-data/if-viewing.png" | relative_url }})
 
 * Make sure you are logged in.
 * Scroll down to the desired section and click _Add_ on the right side of the page.
 
-![Clicking the Add link of the gene section](/assets/wiki_images/submitting-data/if-add-link.png)
+![Clicking the Add link of the gene section]({{ "/assets/wiki_images/submitting-data/if-add-link.png" | relative_url }})
 
 * Search for existing data and select it (you may select multiple values). Then click the _Submit_ button (see the following screenshot).
 
-![Search and select window](/assets/wiki_images/submitting-data/if-search-select.png)
+![Search and select window]({{ "/assets/wiki_images/submitting-data/if-search-select.png" | relative_url }})
 
 <div class="page-break"></div>
 
@@ -107,15 +107,15 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 * Scroll down to the **Slide Videos** section and click the _Add_ link on the right side of the page.
 
-![Create Slide Video Record form window](/assets/wiki_images/submitting-data/if-add-link-video.png)
+![Create Slide Video Record form window]({{ "/assets/wiki_images/submitting-data/if-add-link-video.png" | relative_url }})
 
 * Fill out the **Create Slide Video Record** form.
 
-![Create Slide Video Record form window](/assets/wiki_images/submitting-data/if-create-slide-video-record.png)
+![Create Slide Video Record form window]({{ "/assets/wiki_images/submitting-data/if-create-slide-video-record.png" | relative_url }})
 
 * Upload your video file by clicking on the _Select File_ button in the _Download Link_ field. **Note: At this time, please submit mp4 file format. This allows users to view the movie in the browser window.** For best results, use 16:9 aspect ratio and high resolution (ideally 1080p).
 
-![Download link](/assets/wiki_images/submitting-data/if-create-slide-video-record-download.png)
+![Download link]({{ "/assets/wiki_images/submitting-data/if-create-slide-video-record-download.png" | relative_url }})
 
 
 * Click the _Submit Data_ button.
@@ -151,8 +151,8 @@ To delete an IF Slide record:
 * Scroll down the record to the sections for Genes, Expression Regions, Antibodies and Videos.
 * In each of these sections, unlink the entries by clicking the 'x' icon in the _Actions_ columns.
 
-![Unlink Gene](/assets/wiki_images/submitting-data/if-unlink-gene.png)
+![Unlink Gene]({{ "/assets/wiki_images/submitting-data/if-unlink-gene.png" | relative_url }})
 
 * Once all of the related records have been unlinked (deleted), then scroll up to the top of the record and click _Delete_.
 
-![Delete button](/assets/wiki_images/submitting-data/chaise-delete-option.png)
+![Delete button]({{ "/assets/wiki_images/submitting-data/chaise-delete-option.png" | relative_url }})

@@ -39,7 +39,7 @@ Adding antibody validation data involves the following steps:
 
 ## Schema
 
-![Antibody schema diagram](/assets/wiki_images/submitting-data/antibody_schema.jpg)
+![Antibody schema diagram]({{ "/assets/wiki_images/submitting-data/antibody_schema.jpg" | relative_url }})
 
 The Antibody schema contains two main tables:
 * Antibodies: General product information about each antibody, similar to what might be found on the manufacturer's website.
@@ -66,7 +66,7 @@ Other related tables include:
 
 * This will take you to the antibody search page, which you can use to find out if the antibody you're working on is already listed in our database. Start typing the name of the antibody in the search field or use the filtering sidebar on the left to narrow down the results.
 
-![Screenshot of antibodies search page](/assets/wiki_images/submitting-data/antibody-search-page.png)
+![Screenshot of antibodies search page]({{ "/assets/wiki_images/submitting-data/antibody-search-page.png" | relative_url }})
 
 
 * If your antibody is there, you can go ahead and create the antibody test record (See next section). If not, move on to the next step below.
@@ -84,7 +84,7 @@ If you did find the antibody, move on to the next step.
 
   The `Create Antibodies Record` form opens in a new browser tab.
 
-  ![Screenshot of the Create Antibodies form](/assets/wiki_images/submitting-data/create-antibody.png)
+  ![Screenshot of the Create Antibodies form]({{ "/assets/wiki_images/submitting-data/create-antibody.png" | relative_url }})
 
 * Select the values for each relevant field. The **required** fields are:
   * _Company ID_
@@ -113,7 +113,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
     The `Create Antibody Test Record` form appears in a new browser tab.
 
-    ![Screenshot of the Create Antibody Test Record form](/assets/wiki_images/submitting-data/create-antibody-test.png)
+    ![Screenshot of the Create Antibody Test Record form]({{ "/assets/wiki_images/submitting-data/create-antibody-test.png" | relative_url }})
 
 * Select the values for each relevant field. The required fields are:
   * _Antibody Product ID_
@@ -127,13 +127,13 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 * Note: If you are creating multiple antibody test records, you may click the `+` button (under the `Submit Data` button) to copy over the record form. Each time you click `+` will display a copy of the most recent form that you can edit as needed.
 
-![Screenshot of the multiple antibody test records](/assets/wiki_images/submitting-data/create-antibody-test-batch.png)
+![Screenshot of the multiple antibody test records]({{ "/assets/wiki_images/submitting-data/create-antibody-test-batch.png" | relative_url }})
 
 * When finished, click `Submit Data` to save your new antibody test record(s).
 
 * If you are not finished with your submission, you may still save your work by clicking the `Submit Data` button. Then you may go back to the record, log in and click `Edit` to resume filling it out.
 
-![Screenshot of the Edit button](/assets/wiki_images/submitting-data/general-record-header-edit.png)
+![Screenshot of the Edit button]({{ "/assets/wiki_images/submitting-data/general-record-header-edit.png" | relative_url }})
 
 
 <div class="page-break"></div>
@@ -146,7 +146,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 * Click `Add` in the `Distributions` section.
 
-![Screenshot pointing out the Add link in the Distribution section](/assets/wiki_images/submitting-data/antibody-test-example-distribution-add.png)
+![Screenshot pointing out the Add link in the Distribution section]({{ "/assets/wiki_images/submitting-data/antibody-test-example-distribution-add.png" | relative_url }})
 
   This will bring up a `Create Antibody Test Distribution Record` window.
 
@@ -154,7 +154,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 * Start typing the anatomical term in the search term to narrow your results.
 
-![Screenshot of searching for distribution terms](/assets/wiki_images/submitting-data/antibody-test-example-distribution-search.png)
+![Screenshot of searching for distribution terms]({{ "/assets/wiki_images/submitting-data/antibody-test-example-distribution-search.png" | relative_url }})
 
 * Click `Select a value`
 * Click the checkmark to the left of your desired distribution value.
@@ -169,7 +169,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 Near the bottom of the newly-created antibody test record, you'll see empty sections labelled `Test Summary Sheets` for PDF summaries of the test, and `Test Images` for slide images relevant to the test.
 
-![Screenshot of Test Summary Sheets and Test Images sections](/assets/wiki_images/submitting-data/antibody-test-example-media-files-sections.png)
+![Screenshot of Test Summary Sheets and Test Images sections]({{ "/assets/wiki_images/submitting-data/antibody-test-example-media-files-sections.png" | relative_url }})
 
 <div class="page-break"></div>
 
@@ -177,13 +177,13 @@ To add a test-related files:
 
 * Click `Add` in the `Test Images` or `Test Summary Sheets` section.
 
-![Screenshot of Add links](/assets/wiki_images/submitting-data/antibody-test-example-files-add.png)
+![Screenshot of Add links]({{ "/assets/wiki_images/submitting-data/antibody-test-example-files-add.png" | relative_url }})
 
 <div class="page-break"></div>
 
   This will bring up the `Choose Antibody Media Files` window.
 
-![Screenshot of the Choose Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-choose-media-files.png)
+![Screenshot of the Choose Antibody Media Files window]({{ "/assets/wiki_images/submitting-data/antibody-choose-media-files.png" | relative_url }})
 
 * If the desired file has already been uploaded, select it.
 
@@ -193,17 +193,17 @@ To add a test-related files:
 
     * Click the `+` at the top right-hand side of the `Choose Antibody Media Files` window.
 
-    ![Screenshot of the add button in the Choose Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-choose-media-files-add.png)
+    ![Screenshot of the add button in the Choose Antibody Media Files window]({{ "/assets/wiki_images/submitting-data/antibody-choose-media-files-add.png" | relative_url }})
 
     <div class="page-break"></div>
 
     This will open a `Create Antibody Media Files Record` page in a separate browser tab.
 
-    ![Screenshot of the Create Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-create-media-files.png)
+    ![Screenshot of the Create Antibody Media Files window]({{ "/assets/wiki_images/submitting-data/antibody-create-media-files.png" | relative_url }})
 
     * Click on `Select File` to select a file from your computer. Either an image file if you're adding a test image or a PDF for the test summary.
 
-    ![Screenshot of the Select File button in the Create Antibody Media Files window](/assets/wiki_images/submitting-data/antibody-create-media-files-select.png)
+    ![Screenshot of the Select File button in the Create Antibody Media Files window]({{ "/assets/wiki_images/submitting-data/antibody-create-media-files-select.png" | relative_url }})
 
 * Please use the _Comment_ Field to paste in the summary of the test result doc from the PDF.    
 * Fill in the rest of the fields on the form. Required fields are:
@@ -235,7 +235,7 @@ If you've done several tests that are mostly the same (e.g., two tests that diff
 
 * Click `Copy` at the top of the page (if you don't see the `Copy` button, you're probably not logged in).
 
-![Screenshot of the Copy button](/assets/wiki_images/submitting-data/antibody-test-example-base-copy.png)
+![Screenshot of the Copy button]({{ "/assets/wiki_images/submitting-data/antibody-test-example-base-copy.png" | relative_url }})
 
 * Make the desired changes to the new record and click the `Submit Data` button.
 -->
@@ -267,4 +267,4 @@ To delete an antibody test record:
 
 * Once all of the related records have been deleted (unlinked), then scroll up to the top of the record and click _Delete_.
 
-![Delete button](/assets/wiki_images/submitting-data/chaise-delete-option.png)
+![Delete button]({{ "/assets/wiki_images/submitting-data/chaise-delete-option.png" | relative_url }})

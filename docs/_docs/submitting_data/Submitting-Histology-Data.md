@@ -36,7 +36,7 @@ Adding histological slides involve the following steps:
 
 ## Schema
 
-![Histological Slide schema diagram](/assets/wiki_images/submitting-data/hist-schema.png)
+![Histological Slide schema diagram]({{ "/assets/wiki_images/submitting-data/hist-schema.png" | relative_url }})
 
 The schema for histological slides is very simple - the record for the slide and then the system-generated image.
 
@@ -54,7 +54,7 @@ The schema for histological slides is very simple - the record for the slide and
 
 * In the top navigation bar, click _Create > Histological Images_.
 
-    ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/create-he-slide.png)
+    ![Screenshot of Histological Slide record create form]({{ "/assets/wiki_images/submitting-data/create-he-slide.png" | relative_url }})
 
 
 <div class="page-break"></div>
@@ -62,7 +62,7 @@ The schema for histological slides is very simple - the record for the slide and
 
 * The "Create Histological Slide Record" form appears:
 
-    ![Screenshot of Histological Slide record create form](/assets/wiki_images/submitting-data/hist-create-form.png)
+    ![Screenshot of Histological Slide record create form]({{ "/assets/wiki_images/submitting-data/hist-create-form.png" | relative_url }})
 
 
 <div class="page-break"></div>
@@ -106,17 +106,17 @@ The schema for histological slides is very simple - the record for the slide and
 <!--
 * From the navigation bar, click _Search > Gene Expression Data > Histological Images_.
 
-    ![Screenshot of using navbar to search histological slides](/assets/wiki_images/submitting-data/search-he-slide.png)
+    ![Screenshot of using navbar to search histological slides]({{ "/assets/wiki_images/submitting-data/search-he-slide.png" | relative_url }})
 
 * Use the filtering sidebar to narrow down the results by an attribute such as Principal Investigator.
 
-    ![Screenshot of filtering for PIs](/assets/wiki_images/submitting-data/hist-filter-records-pi.png)
+    ![Screenshot of filtering for PIs]({{ "/assets/wiki_images/submitting-data/hist-filter-records-pi.png" | relative_url }})
 
     OR
 
     Type an identifying attribute into the search field above the search results.
 
-    ![Screenshot of using search field to search for histological slides](/assets/wiki_images/submitting-data/hist-filter-records-search.png)
+    ![Screenshot of using search field to search for histological slides]({{ "/assets/wiki_images/submitting-data/hist-filter-records-search.png" | relative_url }})
 -->
 
 <div class="page-break"></div>
@@ -129,7 +129,7 @@ The system runs a script every hour that looks in the queue and processes the CZ
 
 Here is an example of a processed CZI file within the viewer:
 
-![Screenshot of Histological image](/assets/wiki_images/submitting-data/hist-image-example.png)
+![Screenshot of Histological image]({{ "/assets/wiki_images/submitting-data/hist-image-example.png" | relative_url }})
 
 
 <!--
@@ -168,12 +168,12 @@ To delete the Histological slide record, you must first delete the system-genera
 
 * Scroll down to the "Images" section and click "Table Display" (a link to the right side of the section).
 
-    ![Screenshot of the "Table Display" link next to the Histological Slides Image](/assets/wiki_images/submitting-data/hist-delete-table.png)
+    ![Screenshot of the "Table Display" link next to the Histological Slides Image]({{ "/assets/wiki_images/submitting-data/hist-delete-table.png" | relative_url }})
 
 * For each image, click the trashcan (Delete) icon in the "Actions" column. A confirmation window will open - click "Confirm".
 
-    ![Screenshot of the Trashcan icon](/assets/wiki_images/submitting-data/hist-delete-unlink.png)
+    ![Screenshot of the Trashcan icon]({{ "/assets/wiki_images/submitting-data/hist-delete-unlink.png" | relative_url }})
 
 * Once all the images in this table are deleted, scroll back up to the top of the record and click "Delete" in the record header.
 
-    ![Screenshot of the "Delete" link in the record header](/assets/wiki_images/submitting-data/chaise-delete-option.png)
+    ![Screenshot of the "Delete" link in the record header]({{ "/assets/wiki_images/submitting-data/chaise-delete-option.png" | relative_url }})
