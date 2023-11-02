@@ -52,7 +52,7 @@ For each slide of tissue used in your sequencing experiments, you will need to c
   - On the Study record, go to the Experiment section and click `Add`. In the form, use multi-create (the plus sign) to create many experiments together. 
   - Create batches of replicates: 2 options
      - Go to each individual Experiment record, scroll to the Replicate section, then click `Add`. Multi-create all replicates per experiment at once. This option will automatically link the replicates to the experiment. 
-     - From the navbar, click _Create -> Sequencing Data -> Replicate_. Multi-create replicates, but you will have to specify which Experiments they should be linked to yourself. In this case, you could fill in the experiment RID on the first replicate form (search using the RID or Internal ID), then click the plus sign to add as many replicates for that experiment as you need.
+     - From the navbar, click _Internal -> Sequencing Data -> Replicate_. Multi-create replicates, but you will have to specify which Experiments they should be linked to yourself. In this case, you could fill in the experiment RID on the first replicate form (search using the RID or Internal ID), then click the plus sign to add as many replicates for that experiment as you need.
 
 ## 4. Uploading Multiple Files
 

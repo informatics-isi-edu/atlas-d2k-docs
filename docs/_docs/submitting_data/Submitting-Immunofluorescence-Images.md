@@ -46,7 +46,7 @@ The following represents how different tables in the Data Browser are related in
 
 ## 1. Create the IF slide record
 
-* In the top navigation bar, click _Create > Immunofluorescence Images_.
+* In the top navigation bar, click _Internal > Immunofluorescence Images_.
 
     ![Screenshot of Histological Slide record create form]({{ "/assets/wiki_images/submitting-data/if-navigation.png" | relative_url }})
 

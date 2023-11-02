@@ -34,7 +34,7 @@ Note: Make sure the parental cell line is in the system (_Data > Cell &amp; Anim
 
 ## Create base record
 
-From anywhere within the ATLAS-D2K data repository, go to the top navigation bar and click _Create > Cell &amp; Animal Models > Reporter Cell Lines_. (You must be logged in.)
+From anywhere within the ATLAS-D2K data repository, go to the top navigation bar and click _Internal > Cell &amp; Animal Models > Reporter Cell Lines_. (You must be logged in.)
 
 ![Form to create the base record]({{ "/assets/wiki_images/submitting-data/cell-lines-base-create.png" | relative_url }})
 
@@ -129,7 +129,7 @@ Click the "Submit" button at the top of the page and then close the browser tab.
 
 If you do not see the parental cell line already in the system (by choosing _Data > Cell &amp; Animal Models > Parental Cell Lines_), you'll need to add it.
 
-From the navigation bar, choose _Create > Cell &amp; Animal Models > Parental Cell Lines_. The Create Form for the parental cell line appears.
+From the navigation bar, choose _Internal > Cell &amp; Animal Models > Parental Cell Lines_. The Create Form for the parental cell line appears.
 
 ![Create parental cell line record]({{ "/assets/wiki_images/submitting-data/cell-lines-parental-create.png" | relative_url }})
 

@@ -80,7 +80,7 @@ Other related tables include:
 
 If you did find the antibody, move on to the next step.
 
-* From the navigation bar, click _Create > Antibody > Antibodies_.
+* From the navigation bar, click _Internal > Antibody > Antibodies_.
 
   The `Create Antibodies Record` form opens in a new browser tab.
 
@@ -109,7 +109,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 ## 3. Create your new antibody test record
 
-* From the navigation bar, click _Create > Antibody > Antibody Test_.
+* From the navigation bar, click _Internal > Antibody > Antibody Test_.
 
     The `Create Antibody Test Record` form appears in a new browser tab.
 

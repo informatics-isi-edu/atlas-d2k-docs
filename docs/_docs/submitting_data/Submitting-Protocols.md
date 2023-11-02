@@ -49,13 +49,13 @@ Adding protocols involves the following steps:
 
 * Make sure you are logged in.
 
-* In the top navigation bar, click _Create > Protocol > Protocols_.
+* In the top navigation bar, click _Internal > Protocol > Protocols_.
 
     ![Screenshot of navigating to create protocols]({{ "/assets/wiki_images/submitting-data/create-protocols-nav.png" | relative_url }})
 
 <div class="page-break"></div>
 
-* The _Create Protocols Record_ form appears (see excerpt below):
+* The "Create Protocols Record" form appears (see excerpt below):
 
     ![Screenshot of navigating to create protocols]({{ "/assets/wiki_images/submitting-data/create-protocols-record-form.png" | relative_url }})
 

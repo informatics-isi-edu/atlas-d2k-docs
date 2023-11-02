@@ -52,7 +52,7 @@ The schema for histological slides is very simple - the record for the slide and
 
 ## 1. Create Histological Slide record
 
-* In the top navigation bar, click _Create > Histological Images_.
+* In the top navigation bar, click _Internal > Histological Images_.
 
     ![Screenshot of Histological Slide record create form]({{ "/assets/wiki_images/submitting-data/create-he-slide.png" | relative_url }})
 
