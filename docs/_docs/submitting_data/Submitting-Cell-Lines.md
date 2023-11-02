@@ -3,160 +3,73 @@ title: Submitting Cell Lines
 permalink: /docs/cell-lines/
 ---
 
-<!-- uncomment when generating PDF in Atom
-# Submitting Cell Lines
--->
-<!-- comment out when generating PDF in Atom
-**[PDF version](https://github.com/informatics-isi-edu/gudmap-rbk/wiki/Submitting-Cell-Lines.pdf)**
--->
+If you require assistance or wish to provide feedback, contact us at [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
-This page provides instructions for submitting cell lines to the ATLAS-D2K Data Explorer.
+Access our training resource here: [Webinar Replay (Duration 17:06)](https://youtu.be/OCHq4GwzEFc)
 
-If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
+## Quick Guide
 
-We also have the following training materials available:
-<!--
-* [Webinar Slides](/assets/slides/GUDMAP-RBK-02082018-data_submission_workshop-collections.pptx)
--->
-* [Webinar Replay 02/08/2018 (17:06)](https://youtu.be/OCHq4GwzEFc)
+**Before You Start:**
+Ensure you're a member of the necessary Globus group by following these [access instructions](../accessing-gudmap-and-rbk-resources/) and that you are logged into the system.
 
-<a name="overview"/>
+**Steps to Add Cell Lines:**
 
-## Overview
+1. Confirm the parental cell line is listed under _Data > Cell & Animal Models > Parental Cell Lines_ in the top navigation menu. If it's not, add it following the steps outlined below.
+2. Create a new Reporter Cell Line entry:
+   - Navigate to _Internal > Cell & Animal Models > Reporter Cell Lines_ from the top menu.
+   - Fill out the form, paying special attention to **bolded** fields which are mandatory.
+   - Submit to create the base record.
+3. Append related records (e.g., validation assets, reporter vector maps) to the base record.
 
-Adding cell lines involves the following steps:
+## Detailed Instructions
 
-* Make sure you are in the correct Globus authentication group ([follow the instructions on this page](accessing-gudmap-and-rbk-resources/)), and that you are logged in.
-* Create the base Cell Line record.
-* Then you will add related records (or tables) to the base record, including validation assets and reporter vector maps.
+### Step 1: Creating the Base Cell Line Record
 
-Note: Make sure the parental cell line is in the system (_Data > Cell &amp; Animal Models > Parental Cell Lines_). If it's not there, you will need to add it (see [Adding a Parental Cell Line](#adding-a-parental-cell-line)).
+1. Select _Internal > Cell & Animal Models > Reporter Cell Lines_ from the top navigation bar.
 
-## Create base record
+   ![Create Base Record]({{ "/assets/wiki_images/submitting-data/cell-lines-base-create.png" | relative_url }})
 
-From anywhere within the ATLAS-D2K data repository, go to the top navigation bar and click _Internal > Cell &amp; Animal Models > Reporter Cell Lines_. (You must be logged in.)
+   **Form Fields (required in **bold**):**
+   - **Name**
+   - Gene
+   - Genotype
+   - Source Line
+   - **Parental Line**
+   - Reporter Category
+   - Donor Status
+   - Sex
+   - Organism
+   - Cell Line Type
+   - And more...
 
-![Form to create the base record]({{ "/assets/wiki_images/submitting-data/cell-lines-base-create.png" | relative_url }})
+   **Note**: For the **Principal Investigator** and **Consortium** fields, if your entry is not listed, add a new record using the "+" sign.
 
-Tip: Enter as many fields as you can. The more fields you enter, the more details are available in the filter sidebar for users to search by.
+   After entering the details, click "Submit" at the top to save your base record.
 
-All of the available fields are listed below and required fields are in **bold**:
+### Step 2: Adding Related Records
 
-* **Name**
-* Gene
-* Genotype
-* Source Line
-* **Parental Line**
-* Reporter Category
-* Donor Status
-* Sex
-* Organism
-* Cell Line Type
-* Reprogramming Method Reference
-* Targeting Approach
-* Reporter
-* Cas9 Protospacer
-* Pluripotency
-* Karyotype
-* Karyotype File	(Upload file)
-* **Principal Investigator** - Note: Add the PI for your project. When you click the field, a modal window will open. If the name of your PI is not available, add them using "+" sign (Create new record) button.
-* **Consortium**
+For each related record, click the `Add records` link next to the appropriate table and complete the forms with the necessary information. Remember to set _Curation Status_ to "Biocurator Review" and leave it unchanged.
 
-Once you have entered your information, scroll back up to the top of the page and click "Submit". Your base record is now created.
+**Related Record Categories:**
 
-## Add related records
+- Cell Type Marked
+- Validation Assets (Pluripotency, Reporter, Targeting)
+- Reporter Vector Map
 
-Add related records in the following tables:
-
-### Cell Type Marked
-
-Click the `Add` link to the right of the table.
-
-![Add Cell Type]({{ "/assets/wiki_images/submitting-data/cell-lines-types-add.png" | relative_url }})
-
-A new browser tab will open with the Create Record form.
-
-![Form to create the cell type]({{ "/assets/wiki_images/submitting-data/cell-lines-types-create.png" | relative_url }})
-
-In the form, choose values for the following fields:
-
-* Kidney Lineage
-* Cell Type
-
-If the value you need is not available, you can add it using the "+" plus sign button.
-
-When you are finished, click the "Submit" button and close the browser tab.
-
-###  Pluripotency, Reporter, Targeting Validation Asset Records
-
-There are three types of validation asset records that you may link to this record: _pluripotency_, _report_ and _targeting_. For each of these, click the `Add` link.
-
-![Add Validation asset record]({{ "/assets/wiki_images/submitting-data/cell-lines-validation-add.png" | relative_url }})
-
-A new browser tab will open with the Create Record form (using Pluripotency Validation Asset as an example).
-
-![Create Validation asset record]({{ "/assets/wiki_images/submitting-data/cell-lines-validation-create.png" | relative_url }})
-
-In the form, enter the following fields.
-
-* Validation Asset
-* Asset Type	- Choose "microscopy" or "array".
-
-Note that the last field is _Curation Status_. This field should be set initially to "Biocurator Review". Don't change this value. The biocurator will review this record and make sure it's correct.
-
-Click the "Submit" button at the top of the page and then close the browser tab.
-
-###  Reporter Vector Map
-
-Towards the bottom of the page, you'll find the Reporter Vector Map section. Click the `Add` link.
-
-![Add vector map record]({{ "/assets/wiki_images/submitting-data/cell-lines-vector-map-add.png" | relative_url }})
-
-A new browser tab opens with the Create Record form.
-
-![Create vector map record]({{ "/assets/wiki_images/submitting-data/cell-lines-vector-map-create.png" | relative_url }})
-
-Select values for the following fields:
-
-* Vector Map - If the system does not already include the Vector Map you need, use the "+" button to create a new value and then select it.
-* Map Type
-
-Note that the last field is _Curation Status_. This field should be set initially to "Biocurator Review". Don't change this value. The biocurator will review this record and make sure it's correct.
-
-Click the "Submit" button at the top of the page and then close the browser tab.
+Once completed, submit and close the form.
 
 ## Adding a Parental Cell Line
 
-If you do not see the parental cell line already in the system (by choosing _Data > Cell &amp; Animal Models > Parental Cell Lines_), you'll need to add it.
+If the parental cell line is missing:
 
-From the navigation bar, choose _Internal > Cell &amp; Animal Models > Parental Cell Lines_. The Create Form for the parental cell line appears.
+1. Choose _Internal > Cell & Animal Models > Parental Cell Lines_ from the navigation bar.
+2. Complete the form with as much detail as possible (required fields in **bold**):
 
-![Create parental cell line record]({{ "/assets/wiki_images/submitting-data/cell-lines-parental-create.png" | relative_url }})
+   - **Name**
+   - Organism
+   - Cell Line Type
+   - And more...
 
-Tip: Fill out as many fields as you can. This improves the ability for users to find this record in the filtering sidebar or other methods of search.
+   **Note**: Ensure you add the correct **Principal Investigator** and **Consortium**. If the Principal Investigator is not listed, create a new entry with the `Create new` button.
 
-The following are all of the fields available. Required fields are in **bold**.
-
-* **Name**
-* Organism
-* Cell Line Type
-* Transient Modification
-* Donor Ethnicity
-* Donor Stage
-* Donor Sex
-* Donor Age
-* Pluripotency
-* Germ Layer Staining
-* Sequenced
-* Tissue
-* Organ
-* Reference Source
-* Precursor Cell Name
-* Passage Number
-* Cell Line Made At
-* Kidney Organoids Status
-* Comments - Optional text box if you want to add additional information.
-* **Principal Investigator** - Note: Add the PI for your project. When you click the field, a modal window will open. If the name of your PI is not available, add them using "+" sign (Create new record) button.
-* **Consortium**
-
-When you are finished, click the "Submit" button at the top of the page.
+3. Click "Save" to add the parental cell line.
