@@ -69,7 +69,7 @@ You can view a [complete sequencing metadata model here](/assets/wiki_images/sub
 For each slide of tissue used in your sequencing experiments, you will need to link it to a corresponding **Specimen** record. Create your Specimen records now and note the RID numbers to make it easier to link them to your Replicates later. If the Specimen records are already created, just make a note of their RID numbers. You can find the [full documentation for submitting Specimen data here](/docs/specimens), but here's an overview:
 
 1. Create one or more **Specimen** records: use this link to go directly to the create form: [For GUDMAP](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen) | [For RBK](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen). If creating multiple Specimen records, click the plus (+) button in the upper right to add more forms. Fill in the fields that make sense for your experiment. After you fill in the form(s), click _Submit_. A new Specimen record is created.
-    * You can also go to any Specimen page and click `Create` in the record header (_Search > Sequencing Data > Specimen_).
+    * You can also go to any Specimen page and click `Create` in the record header (_Data > Sequencing Data > Specimen_).
 2. Add an **Anatomical Source**: This is a metadata field on the Specimen record that indicates the anatomical region appearing on the slide as a whole. Click "Anatomical Source" in the right Content sidebar to scroll to it, then click `Add` to the right of the field and choose the region.
 3. Link additional records: As applicable, scroll down the page or the right Contents sidebar to find the following tables and click `Add`.
     - **Specimen Allele**: Click the "Allele RID" field to search for and select an existing allele in the system. If it doesn't exist, click the plus sign (+) to add the allele.
@@ -77,7 +77,7 @@ For each slide of tissue used in your sequencing experiments, you will need to l
 
 If you need to add the same Anatomical Source to multiple Specimen records:
 
-1. Go to _Search > Anatomy Terms > Faceted Search_ in the menu.
+1. Go to _Data > Anatomy Terms > Faceted Search_ in the menu.
 2. Search or filter to find the anatomical region and click its eye icon.
 3. Click `Specimens` in the right Content sidebar or scroll down to that table, then click `Add` to the right of the table.
 4. In this window, you can filter or search for your Specimens, check their boxes, click `Submit` and now they will be associated with this Anatomical Term for their Anatomical Source.
@@ -87,7 +87,7 @@ If you need to add the same Anatomical Source to multiple Specimen records:
 ### 4.1. Create Study records
 
 1. Create one or more **Study** records: use this link to go directly to the create form: [For GUDMAP](https://www.atlas-d2k.org/chaise/recordedit/#2/RNASeq:Study) | [For RBK](https://www.atlas-d2k.org/chaise/recordedit/#2/RNASeq:Study). If creating multiple Study records, click the plus (+) button in the upper right to add more forms.
-    - You can also go to any Sequencing Study page and click `Create` in the record header (_Search > Gene Expression Data > Sequencing Data > Studies_).
+    - You can also go to any Sequencing Study page and click `Create` in the record header (_Data > Gene Expression Data > Sequencing Data > Studies_).
 2. Fill in the fields on the form. Mandatory fields are indicated by an asterisk (\*), including "Summary" and "Overall Design" of the study. When you are finished, click `Submit`.
 3. On the new Study record, scroll to the "Study Analysis File" table and click `Add` to add analysis files associated with your study.
 

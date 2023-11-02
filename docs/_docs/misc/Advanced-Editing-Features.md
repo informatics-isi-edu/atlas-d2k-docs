@@ -46,7 +46,7 @@ To multi-edit:
 
 Here's an example for editing all of the experiments within a study:
 
-1. In the menu, go to _Search > Gene Expression > Sequencing Data > Studies_.
+1. In the menu, go to _Data > Gene Expression > Sequencing Data > Studies_.
 2. In the **Title** filter (in the lefthand filtering sidebar) type one of the words you know is in the title of the study you want to pull it up. Or use one of the other filters in the sidebar or search field to find a particular Study.
 3. Click the eye for that Study to go to its record page. 
 4. Scroll down to the Experiments table and click `View More` to the right side of the table:

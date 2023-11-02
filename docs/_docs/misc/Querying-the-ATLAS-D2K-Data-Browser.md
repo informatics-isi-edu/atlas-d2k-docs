@@ -13,7 +13,7 @@ For microarray, entries encompass the expression data for many genes sampled fro
 
 # Query by Gene
 
-Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.atlas-d2k.org](https://www.atlas-d2k.org)) or by using the menu navigation (_Search > Genes_).
+Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.atlas-d2k.org](https://www.atlas-d2k.org)) or by using the menu navigation (_Data > Genes_).
 
 The results include GUDMAP entries that contain information about the expression of the gene or genes of interest. Columns indicate the presence of *Expression Scoring*, *Array Data* or *Imaging* data from specimen (in situ, etc). The *Imaging* column includes representative thumbnails of the imaging data.
 

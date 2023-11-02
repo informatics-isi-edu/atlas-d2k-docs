@@ -84,7 +84,7 @@ The following represents how different tables in the Data Browser are related in
 
 Once you have the basic Slide record, scroll down further to view other types of data you may associate (link) with the slide: _Genes, Expression Regions and Antibodies_. For each of these sections, the procedure is basically the same:
 
-* Find the Slide record you want to link records to by clicking _Search > Gene Expression Data > Immunofluorescence Slides and Video_ in the navigation bar and searching for the record (per the previous section).
+* Find the Slide record you want to link records to by clicking _Data > Gene Expression Data > Immunofluorescence Slides and Video_ in the navigation bar and searching for the record (per the previous section).
 
 * Click the eye icon in the _Actions_ column to view the desired record.
 
@@ -130,7 +130,7 @@ Once you have the basic Slide record, scroll down further to view other types of
 
 * Make sure you are logged in.
 
-* From the navigation bar, click _Search > Gene Expression Data > Immunofluorescence Images and Video_.
+* From the navigation bar, click _Data > Gene Expression Data > Immunofluorescence Images and Video_.
 
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 

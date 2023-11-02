@@ -95,7 +95,7 @@ The schema for histological slides is very simple - the record for the slide and
 
 * Make sure you are logged in.
 
-* From the navigation bar, click _Search > Gene Expression Data > Histological Images_.
+* From the navigation bar, click _Data > Gene Expression Data > Histological Images_.
 
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 
@@ -104,7 +104,7 @@ The schema for histological slides is very simple - the record for the slide and
 * When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)).
 
 <!--
-* From the navigation bar, click _Search > Gene Expression Data > Histological Images_.
+* From the navigation bar, click _Data > Gene Expression Data > Histological Images_.
 
     ![Screenshot of using navbar to search histological slides]({{ "/assets/wiki_images/submitting-data/search-he-slide.png" | relative_url }})
 

@@ -30,7 +30,7 @@ Adding cell lines involves the following steps:
 * Create the base Cell Line record.
 * Then you will add related records (or tables) to the base record, including validation assets and reporter vector maps.
 
-Note: Make sure the parental cell line is in the system (_Search > Cell &amp; Animal Models > Parental Cell Lines_). If it's not there, you will need to add it (see [Adding a Parental Cell Line](#adding-a-parental-cell-line)).
+Note: Make sure the parental cell line is in the system (_Data > Cell &amp; Animal Models > Parental Cell Lines_). If it's not there, you will need to add it (see [Adding a Parental Cell Line](#adding-a-parental-cell-line)).
 
 ## Create base record
 
@@ -127,7 +127,7 @@ Click the "Submit" button at the top of the page and then close the browser tab.
 
 ## Adding a Parental Cell Line
 
-If you do not see the parental cell line already in the system (by choosing _Search > Cell &amp; Animal Models > Parental Cell Lines_), you'll need to add it.
+If you do not see the parental cell line already in the system (by choosing _Data > Cell &amp; Animal Models > Parental Cell Lines_), you'll need to add it.
 
 From the navigation bar, choose _Create > Cell &amp; Animal Models > Parental Cell Lines_. The Create Form for the parental cell line appears.
 

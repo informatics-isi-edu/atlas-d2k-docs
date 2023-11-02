@@ -41,7 +41,7 @@ For each slide of tissue used in your sequencing experiments, you will need to c
       - Click the plus sign (+) to add more records. The values you entered in the first record will also be copied.
       - You may only want to add up to 10 at a time (depending on the strength and stability of your network).
   - Add **Anatomical Source** to each Specimen record. Here's the fast way to add the same Anatomical Source to multiple Specimen records:
-      1. Go to _Search > Anatomy Terms > Faceted Search_ in the menu. 
+      1. Go to _Data > Anatomy Terms > Faceted Search_ in the menu. 
       2. Search or filter to find the anatomical term and click its eye icon.
       3. Click `Specimens` in the right Content sidebar or scroll down to that section, then click `Add` to the right of the table.
       4. In this window, you can filter or search for your Specimens, check their boxes, click Submit and now they will be associated with this Anatomical Term. 

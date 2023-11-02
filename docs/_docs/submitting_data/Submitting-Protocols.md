@@ -200,7 +200,7 @@ Note: The 'Figures' section was primarily intended for adding images to a protoc
 
 The process of adding image files to a protocol is two-fold: you add the file to the _Figures_ section and then embed it where desired in the base protocol.
 
-* Make sure you are logged in, then navigate to the protocol where you want to add the figure (in the navigation bar, click _Search > Protocol > Protocol_).
+* Make sure you are logged in, then navigate to the protocol where you want to add the figure (in the navigation bar, click _Data > Protocol > Protocol_).
 
 ![Screenshot of using navbar to search histological slides]({{ "/assets/wiki_images/submitting-data/search-protocol-nav.png" | relative_url }})
 
@@ -258,7 +258,7 @@ You can also click the Images icon in the formatting toolbar and paste the URL i
 
 * Make sure you are logged in.
 
-* From the navigation bar, click _Search > Protocol > Protocols_.
+* From the navigation bar, click _Data > Protocol > Protocols_.
 
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 

@@ -246,7 +246,7 @@ If you've done several tests that are mostly the same (e.g., two tests that diff
 
 * Make sure you are logged in.
 
-* From the navigation bar, click _Search > Antibody Data > Antibody Tests_.
+* From the navigation bar, click _Data > Antibody Data > Antibody Tests_.
 
 * In the faceting sidebar on the left, scroll to **Curation Status** and choose _PI Review_. Note: Keep in mind that the data submitter may have forgotten to set the Curation Status field, in which case the status would still be _In Preparation_.
 
