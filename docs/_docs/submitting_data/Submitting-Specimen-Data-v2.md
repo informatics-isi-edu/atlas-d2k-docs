@@ -30,7 +30,7 @@ Follow the steps outlined to enhance the discoverability of your specimen and im
 
 ## 1. Joining the Globus Group
 
-To get editing access, join the relevant Globus group. Email [help@atlas-d2k.org](mailto:help@atlas-d2k.org) for assistance. For detailed information, see [Accessing ATLAS-D2K Resources](../accessing-gudmap-and-rbk-resources/).
+To get editing access, join the relevant Globus group. Email [help@atlas-d2k.org](mailto:help@atlas-d2k.org) for assistance. For detailed information, see [Accessing ATLAS-D2K Resources](../accessing-atlas-resources/).
 
 ## 2. Creating a Specimen Record
 

@@ -45,7 +45,7 @@ Here are the details for each step.
 
 ## 1. Join the Globus group.
 
-* You will need to be in the appropriate Globus group for editing access. Please email the ATLAS-D2K Center at [help@atlas-d2k.org](mailto:help@atlas-d2k.org) to ask for help joining the correct group. For more information, see [Accessing ATLAS-D2K Resources](../accessing-gudmap-and-rbk-resources/).
+* You will need to be in the appropriate Globus group for editing access. Please email the ATLAS-D2K Center at [help@atlas-d2k.org](mailto:help@atlas-d2k.org) to ask for help joining the correct group. For more information, see [Accessing ATLAS-D2K Resources](../accessing-atlas-resources/).
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Accessing ATLAS-D2K Resources
-permalink: /docs/accessing-gudmap-and-rbk-resources/
+permalink: /docs/accessing-atlas-resources/
 ---
 
-This page describes how to get editing/viewing access to GUDMAP and RBK data by joining the correct Globus group.
+This page describes how to get editing/viewing access to GUDMAP and RBK data in ATLAS-D2K by joining the correct Globus group.
 
 **NOTE: We only use Globus for authentication, not for file or data management.**
 

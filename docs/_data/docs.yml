@@ -20,7 +20,7 @@
 - title: Submitting Data - Before You Begin
   docs:
     - sectionTitle: Accessing ATLAS-D2K Resources
-      url: accessing-atlas-d2k-resources
+      url: accessing-atlas-resources
     - sectionTitle: Standard file formats for data submission
       url: standard-files-and-formats-for-submission
     - sectionTitle: Curation Workflow

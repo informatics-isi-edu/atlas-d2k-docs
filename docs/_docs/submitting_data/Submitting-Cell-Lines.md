@@ -10,7 +10,7 @@ Access our training resource here: [Webinar Replay (Duration 17:06)](https://you
 ## Quick Guide
 
 **Before You Start:**
-Ensure you're a member of the necessary Globus group by following these [access instructions](../accessing-gudmap-and-rbk-resources/) and that you are logged into the system.
+Ensure you're a member of the necessary Globus group by following these [access instructions](../accessing-atlas-resources/) and that you are logged into the system.
 
 **Steps to Add Cell Lines:**
 

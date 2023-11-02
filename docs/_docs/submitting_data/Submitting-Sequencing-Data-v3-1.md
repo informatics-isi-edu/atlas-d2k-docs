@@ -37,7 +37,7 @@ These are some other training materials and other documentation you may find use
 
 ## 1. Join the Correct Group
 
-- Follow [these instructions](../accessing-gudmap-and-rbk-resources/).
+- Follow [these instructions](../accessing-atlas-resources/).
 - If unsure about the group to join, contact [help@atlas-d2k.org](help@atlas-d2k.org).
 - Remember to log in before submitting data.
 
