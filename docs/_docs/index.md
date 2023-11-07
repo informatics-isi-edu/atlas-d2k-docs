@@ -46,7 +46,7 @@ For members of ATLAS-D2K to submit data, use our self-curation tools to add or e
 - [Supported Video Platforms](../available-video-platforms)
 
 ## Data Publication and Citation
-- [How to create a collection and citation for publications](../how-to-create-a-collection-and-citation-for-publications)
+- [How to create a collection and citation for publications](../create-citable-datasets)
 - [Shortcut urls for citation and sharing](../shortcut-urls-for-citation-and-sharing) - good for sharing any data record.
 
 ## Access to Internal Resources
