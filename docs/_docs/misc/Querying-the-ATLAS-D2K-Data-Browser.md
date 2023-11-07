@@ -51,7 +51,7 @@ The search automatically assumes a 'wildcard' at the end of the search string; t
 
 ### Multiple genes (Batch Query)
 
-To search for multiple genes, use the [Batch Query](../batch-query) method. Use the search method described above but enter multiple genes separated with a pipe character (&#124;) with _no_ spaces in between.
+To search for multiple genes, use the [Batch Query](../batch-query) method. Use the search method described above but enter multiple genes separated with a pipe character ( &#124; ) with _no_ spaces in between.
 
 This list may contain a mixture of different terms (e.g. MGI accession IDs and MCBI Gene Symbols).
 
