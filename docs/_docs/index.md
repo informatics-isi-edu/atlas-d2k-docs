@@ -11,8 +11,8 @@ This is the home of public documentation for the ATLAS-D2K Center. If you find a
 - [help@atlas-d2k.org](mailto:help@atlas-d2k.org)
 
 ## Accessing the ATLAS-D2K Data
-- Data Browser: Here are links to the videos we're making about [using the data browser](../using-the-atlas-d2k-data-browser).
-  - Note, that the description is focusing on the GUDMAP site right now, but the instructions for the Data Browser are the same for both ATLAS-D2K websites.
+- Data Browser: Here are links to the videos about [using the data browser](../using-the-atlas-d2k-data-browser).
+  - Note, that the description is focusing on the GUDMAP site right now, but the instructions for the Data Browser are the same for the ATLAS-D2K website.
 - [Accessing protected human sequencing data (fastq and bam)](../accessing-human-sequencing-data)
 - [Command lines and libraries](../command-lines-and-libraries)
 
@@ -21,28 +21,25 @@ This is the home of public documentation for the ATLAS-D2K Center. If you find a
 
 ## Submitting Data (for members of ATLAS-D2K)
 
-For members of ATLAS-D2K to submit data, use our self-curation tools to add or edit data.
+For members of ATLAS-D2K to submit data, use our self-curation tools to add or edit data. **Note that [you must have the correct access](../accessing-atlas-resources) before you are able to submit any data.**
 
-**If the type of data you need to submit is not listed below**, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
-
-**If you are publishing a paper using ATLAS-D2K data,** it's a good idea to contact us as well to make sure you have an appropriate [Data Collection](../submitting-data-collections) for optimal citation.
+- **If the type of data you need to submit is not listed below**, please contact [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
+- **If you are publishing a paper using ATLAS-D2K data,** it's a good idea to contact us as well to make sure you have an appropriate [Data Collection](../data-collections) for optimal citation.
 
 **To add or edit data:**
 - [Standard files and formats for submission](../standard-files-and-formats-for-submission)
 - [Antibodies](../antibodies)
 - [Cell Lines](../cell-lines)
 - [Data Collections (esp for publications!)](../data-collections)
-- [Imaging Data (Histology, Immunofluorescence/Immunohistochemistry, In Situ Hybridization)](../specimens)
+- [Imaging Data/Specimen (Histology, Immunofluorescence/Immunohistochemistry, In Situ Hybridization)](../specimen-v2)
 - [Protocols](../protocols)
-- [Sequencing, Metabolomics, and Image Mass Cytometry Data](../sequencing-metabolomics-imc-data)
+- [Sequencing, Metabolomics, and Image Mass Cytometry Data](../submitting-sequencing-data-v3-1)
 - [Single Cell Visualization Files](../single-cell-visualization-files) (draft)
-- [Specimen Data](../specimens)
 - [Color Palette for Image Annotation](../color-palette-for-image-annotation)
 
-**For uploading your data files:**
-- [Uploading Files via the DERIVA Client Tools](../uploading-files-using-deriva-client-tools)
+**To upload your data files in bulk:**
+- [Uploading Files via the DERIVA Client Tools (commmandline and GUI versions available)](../uploading-files-using-deriva-client-tools)
 
-**Note that [you must have the correct access](../accessing-gudmap-and-rbk-resources) before you are able to submit any data.**
 
 ## Images and Videos
 - [Thumbnail creation guideline](../thumbnail-creation-guideline)
