@@ -84,10 +84,8 @@
       url: requirements-for-creating-schematics
 
 # Section 6
-- title: Data Publication and Citation
+- title: Data Citation
   docs:
-    - sectionTitle: Create a Collection and Citation for Publications
-      url: how-to-create-a-collection-and-citation-for-publications
     - sectionTitle: Create Citable Datasets
       url: create-citable-datasets
     - sectionTitle: Shortcut URLs for Citation and Sharing
