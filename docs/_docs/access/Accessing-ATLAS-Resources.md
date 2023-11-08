@@ -30,23 +30,16 @@ When you click the link, you will see a Globus login page where you may choose y
 
 If none of the above options are available to you,  click where it says "Then use Globus ID to sign in." to choose your own username/password and follow the instructions.
 
-![Login page]({{ "/assets/wiki_images/globus_signup/globus_signup0.jpeg" | relative_url }})
-
-
 **NOTE:** If you see a page like the screenshot below and have an account you've used before with Globus, go ahead and click "Link to existing account". If not, click "No thanks, continue." (Note that if you have logged into Globus before and login with the same credentials, you’ll skip directly to Step 5.)
 
-![Linking accounts page](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/globus_signup/globus_signup1_short.jpeg)
+![Linking accounts page]({{ "/assets/wiki_images/globus_signup/globus_signup1_short.jpeg" | relative_url }})
 
 ## Step 3: Request group membership
 
 Once you’ve signed in, click the  “Join Group” button (towards the right side of the page) to request membership. There will be a short form to fill out.
 
-![Group page before join request](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/globus_signup/globus_signup4.jpeg)
-
 You will then receive an email notification that your membership is pending.
 
 **Once the administrator approves your application, you’ll receive email confirmation that your membership has been approved.**
 
-Note that the "About" tab of the group's page should include a description of what you may access.
-
-**If you have any problems or questions, please email us at help@atlas-d2k.org.**
+If you have any problems or questions, please email us at help@atlas-d2k.org.
