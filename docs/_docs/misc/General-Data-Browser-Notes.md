@@ -9,15 +9,13 @@ If you are new to using the ATLAS-D2K Data Browser, it will be useful to review 
 
 When we talk about the Data Browser, we refer to the ATLAS-D2K data repository pages with the blue header saying "ATLAS-D2K Resources" that look like this:
 
-![Screenshot of typical Data Browser header](wiki_images/submitting-data/data-browser-header.png)
+![Screenshot of typical Data Browser header]({{ "/assets/wiki_images/submitting-data/data-browser-header.png" | relative_url }})
 
 This is where actual data submitted by the ATLAS-D2K projects are shared.
 
-* **ATLAS-D2K share the same Data Browser** which allows for the best inter-linking between both consortiums' data.
-
 ## How do I access the Data Browser?
 
-You may access the Data Browser by going to the [ATLAS-D2K website at www.atlas-d2k.org](https://www.atlas-d2k.org) and clicking the data links under the _Resources_ menu item.
+You may access the Data Browser by going to the [ATLAS-D2K website at www.atlas-d2k.org](https://www.atlas-d2k.org) and clicking the links under the _Data_ top-level menu item or use the shortcut links on the homepage.
 
 There are also links on the homepages of both websites that link into the Data Browser.
 
@@ -44,17 +42,17 @@ image
 
 ## How do I submit data to the Data Browser?
 
-First, if you haven't already done so, make sure you have joined the correct group. [Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
+First, if you haven't already done so, make sure you have joined the correct group. [Follow the instructions on this page](../accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
-Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing ATLAS-D2K Resources](/docs/accessing-gudmap-and-rbk-resources).
+Once you are approved, you will be able to login to the Data Browser with editing access. You can find more details about this process at [Accessing ATLAS-D2K Resources](../accessing-gudmap-and-rbk-resources).
 
 You can find instructions for submitting  for how to submit, edit, even delete data from the Data Browser per data types below or in the wiki sidebar to your right:
 
-* [Submitting Sequencing Data](/docs/submitting-sequencing-data-v3)
-* [Submitting Protocols](/docs/protocols)
-* [Submitting Antibodies](/docs/antibodies)
-* [Submitting Histology Data](/docs/histological-data)
-* [Submitting Immunofluorescence Images](/docs/immunofluorescence-images)
+* [Submitting Sequencing Data](../submitting-sequencing-data-v3)
+* [Submitting Protocols](../protocols)
+* [Submitting Antibodies](../antibodies)
+* [Submitting Histology Data](../histological-data)
+* [Submitting Immunofluorescence Images](../immunofluorescence-images)
 * Submitting Cell Lines (Coming soon)
 
 ## Other Helpful Notes

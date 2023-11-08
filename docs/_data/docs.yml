@@ -7,12 +7,10 @@
       url: querying-the-atlas-d2k-data-browser
     - sectionTitle: General Data Browser Notes
       url: general-data-browser-notes
-    - sectionTitle: Batch Query
+    - sectionTitle: Batch Querying Data
       url: batch-query
     - sectionTitle: Exporting Data
       url: exporting-data
-    - sectionTitle: Export Data
-      url: export-data
     - sectionTitle: Accessing Human Sequencing Data
       url: accessing-human-sequencing-data
 
