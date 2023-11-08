@@ -7,7 +7,7 @@ If you are new to using the ATLAS-D2K Data Browser, it will be useful to review 
 
 ## What is the Data Browser?
 
-When we talk about the Data Browser, we refer to the ATLAS-D2K data repository pages with the blue header saying "ATLAS-D2K Resources" that look like this:
+When we talk about the Data Browser, we refer to the ATLAS-D2K data repository pages with that look like this:
 
 ![Screenshot of typical Data Browser header]({{ "/assets/wiki_images/submitting-data/data-browser-header.png" | relative_url }})
 
@@ -19,13 +19,7 @@ You may access the Data Browser by going to the [ATLAS-D2K website at www.atlas-
 
 There are also links on the homepages of both websites that link into the Data Browser.
 
-## Interface overview
-
-### Navigation Header
-
 ### Filtering sidebar
-
-### Selection menus
 
 Most of our data entry forms will include menus from which you'll choose from pre-defined values.
 

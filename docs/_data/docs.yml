@@ -5,8 +5,6 @@
       url: using-the-atlas-d2k-data-browser
     - sectionTitle: Querying the ATLAS-D2K Data Browser
       url: querying-the-atlas-d2k-data-browser
-    - sectionTitle: General Data Browser Notes
-      url: general-data-browser-notes
     - sectionTitle: Batch Querying Data
       url: batch-query
     - sectionTitle: Exporting Data
