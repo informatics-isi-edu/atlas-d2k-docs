@@ -22,15 +22,17 @@ Table of contents:
 
 ## General file format requirements
 
+Here are the general file formats the ATLAS-D2K Center request for the following types of data to provide the most reproducibility and best user experience.
+
 ### Sequencing formats
 
 * .fastq
 * .bam
 
 
-### High resolution image formats 
+### High resolution image formats
 
-These are in order of desirability (providing the best user experience):
+These are in order of desirability:
 
 * Native file formats: CZI, LIF, LSM, VSI, Panaroma
 
@@ -208,5 +210,3 @@ For RNA-Seq, CHIP-Seq, ATAC-Seq and scRNA-seq data:
     <td>If available</td>
   </tr>
 </table>
-
-
