@@ -15,11 +15,13 @@ This guide will walk you through the steps to submit specimen and imaging data t
 - [4. Uploading Image Records](#4-upload-image-records)
   - [4.1. CZI File Processing](#41-processing-czi-files)
   - [4.2. Batch Upload Image Records](#42-batch-add-image-records)
-- [5. Incorporating Antibody Data](#5-add-an-antibody-record)
-- [6. Associating Probes to Genes](#6-add-specimen-probe-association)
-- [7. Documenting Gene Expression Scores](#7-add-specimen-expression-record)
-- [8. Documenting Stages for Human Organoids](#8-stagestiming-for-human-organoid-specimens)
-- [9. Finalizing Your Submission](#9-submitting-your-data-for-review-and-release)
+- [5. Add a new HRA 3D coordinate](#5-add-a-new-hra-3d-coordinate)
+  - [5.1 Editing an existing HRA 3D coordinate](#51-editing-an-existing-hra-3d-coordinate)
+- [6. Add an Antibody Record](#6-add-an-antibody-record) CHANGED TO 6!
+- [7. Associating Probes to Genes](#7-add-specimen-probe-association)
+- [8. Documenting Gene Expression Scores](#8-add-specimen-expression-record)
+- [9. Documenting Stages for Human Organoids](#9-stagestiming-for-human-organoid-specimens)
+- [10. Finalizing Your Submission](#10-submitting-your-data-for-review-and-release)
 
 
 Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, the greater is the ease of discovery.
@@ -114,7 +116,41 @@ If you need to upload multiple image records simultaneously, use the `Clone` but
 
 If you have many files or your files are very large (over 5GB), then you may need to use our client tools for uploading files programmatically. See [Bulk Uploading Image Files](bulk-uploading-image-files/) for more details.
 
-## 5. Add an Antibody Record
+## 5. Add a new Human Reference Atlas (HRA) 3D coordinate
+
+If your specimen record is for human data, please use the following directions to register it with HuBMAP's RUI tool integrated into ATLAS-D2K. The Registration User Interface (RUI) supports spatially registering human tissue blocks to a 3D reference organ in the HRA using the Common Coordinate Framework (CCF) Registration User Interface (RUI) from HuBMAP.
+
+1. With your Specimen record in edit mode, scroll down to find the _HRA 3D Coordinate_ field and click "Select a value" to choose an “HRA 3D Coordinate”.
+2. Click the _Create new_ button on the top right of the table.
+3. In the "Name" field, add a logical name for the coordinate.
+4. Click "Select a value" in the Registration UI field to open the **CCF-RUI** tool.
+
+![Linking accounts page]({{ "/assets/img/rui-start-registration.jpg" | relative_url }})
+
+4. Fill in the fields and click "Start Registration".
+5. Enter the values in the RUI tool: set the Anatomical Structure, and indicate the location of the sample by dragging the square into the correct location of the organ.
+
+![Linking accounts page]({{ "/assets/img/rui-registration-interface.jpg" | relative_url }})
+
+Once you are finished, click "Review and Register" and then "Register". This will close the popup and display the ID of your registry.
+
+6. After choosing the appropriate values for other fields, click the Save button to save the record. If there weren’t any errors, you will be redirected to the record page of the HRA 3D Coordinate you created.
+7. Find the Specimen form tab that you were working on. Upon focusing on the page, the displayed option on the popup should update so you can see the newly created record.
+8. Click the "Select" button (the blue button with the checkmark icon) on the row corresponding to the newly created HRA 3D Coordinate. The popup should close, and you should see the name of your registry on the HRA 3D Coordinate field.
+
+You can now click on the Save button to save your changes. If there weren’t any errors, you will be redirected to the record page of the Specimen.
+
+### 5.1 Editing an existing HRA 3D coordinate
+
+1. Go to the Specimen page and make sure you are logged in.
+2. From the "Refine search" sidebar, find the "HRA 3D Coordinate" filter and open it (it’s the second to last option).
+3. Choose the "All records with value" option. The results table will now only display Specimen records that include HRA 3D Coordinate data.
+4. You can choose a specific coordinate you want to edit instead of "All records with value".
+5. Open any Specimen records by clicking on the “View” icon (document with magnifying glass icon).
+6. In the opened Specimen record page, you should see the "HRA 3D Coordinate" field. Click on the field value, which is a link to the HRA 3D Coordinate record.
+7. In the opened HRA 3D Coordinate record page, use the Edit button to navigate to the edit mode.
+
+## 6. Add an Antibody Record
 
 If the slide was stained with an antibody, it's essential to record this data.
 
@@ -124,7 +160,7 @@ The important thing to fill out here is the *Antibody RID* to indicate the compa
 
 If you do not see the antibody company listed, click the **Create New** button to add it.
 
-## 6. Add Specimen Probe Association
+## 7. Add Specimen Probe Association
 
 For associating genes with specimens, populate the Specimen Probe Association table.
 
@@ -132,7 +168,7 @@ For associating genes with specimens, populate the Specimen Probe Association ta
 
 Go to the *Specimen Probe Association* section and click the `Add record` link.
 
-## 7. Add Specimen Expression Record
+## 8. Add Specimen Expression Record
 
 For In Situ Hybridization data, make sure to add scored expression regions.
 
@@ -146,7 +182,7 @@ Click the `Expression Region` field to choose the anatomical region.
 
 Click the `Strength` field to choose from *uncertain*, *present*, and *not detected*.
 
-## 8. Stages/Timing for Human Organoid Specimens
+## 9. Stages/Timing for Human Organoid Specimens
 
 Documenting the organoid development stages ensures data uniformity and comprehension.
 
@@ -162,7 +198,7 @@ Each protocol may vary in the rate of formation subsequent to induction, thus th
 
 >Morizane R, Lam AQ, Freedman BS, Kishi S, Valerius MT, Bonventre JV, 2015. Nephron organoids derived from human pluripotent stem cells model kidney development and injury. Nat Biotechnol 33, 1193–1200. PMCID: PMC4747858
 
-## 9. Submitting Your Data for Review and Release
+## 10. Submitting Your Data for Review and Release
 
 Upon finalizing your records and internal reviews, submit them to the Hub by editing the Specimen record and change the *Curation Status* field to *Submitted*.
 
