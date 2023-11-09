@@ -15,9 +15,9 @@ This guide will walk you through the steps to submit specimen and imaging data t
 - [4. Uploading Image Records](#4-upload-image-records)
   - [4.1. CZI File Processing](#41-processing-czi-files)
   - [4.2. Batch Upload Image Records](#42-batch-add-image-records)
-- [5. Add a new HRA 3D coordinate](#5-add-a-new-hra-3d-coordinate)
+- [5. Add a new Human Reference Atlas (HRA) 3D coordinate](#5-add-a-new-human-reference-atlas-hra-3d-coordinate)
   - [5.1 Editing an existing HRA 3D coordinate](#51-editing-an-existing-hra-3d-coordinate)
-- [6. Add an Antibody Record](#6-add-an-antibody-record) CHANGED TO 6!
+- [6. Add an Antibody Record](#6-add-an-antibody-record)
 - [7. Associating Probes to Genes](#7-add-specimen-probe-association)
 - [8. Documenting Gene Expression Scores](#8-add-specimen-expression-record)
 - [9. Documenting Stages for Human Organoids](#9-stagestiming-for-human-organoid-specimens)
