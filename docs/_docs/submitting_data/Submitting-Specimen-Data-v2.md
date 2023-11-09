@@ -15,6 +15,8 @@ This guide will walk you through the steps to submit specimen and imaging data t
 - [4. Uploading Image Records](#4-upload-image-records)
   - [4.1. CZI File Processing](#41-processing-czi-files)
   - [4.2. Batch Upload Image Records](#42-batch-add-image-records)
+    - [4.2.1 Clone Records](#421-clone-records)
+    - [4.2.2. Use DERIVA Client Tools](#422-use-deriva-client-tools)
 - [5. Add a new Human Reference Atlas (HRA) 3D coordinate](#5-add-a-new-human-reference-atlas-hra-3d-coordinate)
   - [5.1 Editing an existing HRA 3D coordinate](#51-editing-an-existing-hra-3d-coordinate)
 - [6. Add an Antibody Record](#6-add-an-antibody-record)
