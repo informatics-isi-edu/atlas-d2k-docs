@@ -133,9 +133,9 @@ _The main RUI registration interface_
 3. In the "Name" field, add a logical name for the coordinate.
 4. Click "Select a value" in the Registration UI field to open the **CCF-RUI** tool.
 5. Fill in the fields and click "Start Registration".
-6. Enter the values in the RUI tool: set the Anatomical Structure, and indicate the location of the sample by dragging the square into the correct location of the organ. The RUI interface offers two ways of navigation: 2D and 3D:
-    1. Under the 2D option, Register, you can switch between four different views of the organ (Left, Right, Anterior, Posterior) and use your mouse to drag and drop the virtual square to the correct location.
-    2. Under the 3D Preview option, you can use your mouse to rotate the organ in three dimensions and use keyboard shortcuts to move the block (W and S for up-down, D and A for right-left, and Q-E for anterior-posterior).<br/>Once you are finished, click "Review and Register" and then "Register". This will close the popup and display the ID of your registry.
+6. Enter the values in the RUI tool: set the Anatomical Structure, and indicate the location of the sample by dragging the square into the correct location of the organ. The RUI interface offers two ways of navigation: 2D (**Register**) and 3D (**3D Preview**):
+    1. Under the 2D option, which is the default option named **Register**, you can switch between four different views of the organ (Left, Right, Anterior, Posterior) and use your mouse to drag and drop the virtual square to the correct location.
+    2. Under the **3D Preview** option, you can use your mouse to rotate the organ in three dimensions and use keyboard shortcuts to move the block ("W" and "S" for up-down, "D" and "A" for right-left, and "Q" and "E" for anterior-posterior).<br/>Once you are finished, click "Review and Register" and then "Register". This will close the popup and display the ID of your registry.
 7. After choosing the appropriate values for other fields, click the _Save_ button. If there weren’t any errors, you will be redirected to the record page of the HRA 3D Coordinate you created.
 8. Find the Specimen form tab that you were working on. Upon focusing on the page, the displayed option on the popup should update so you can see the newly created record.
 9. Click the "Select" button (the blue button with the checkmark icon) on the row corresponding to the newly created HRA 3D Coordinate. The popup should close, and you should see the name of your registry on the HRA 3D Coordinate field.
