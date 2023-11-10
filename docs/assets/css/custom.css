@@ -137,6 +137,7 @@ form.navbar-form.navbar-left {
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
+    color: #000;
 }
 
 .tt-selectable:not(:first-child):before {
