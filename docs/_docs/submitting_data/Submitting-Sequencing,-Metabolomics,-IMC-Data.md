@@ -72,7 +72,7 @@ There are 2 different ways to upload files to our data repository:
   * Replicate-level files: On the `Replicate` detail page, click `Add` on top of the `File` table section to add sequencing and analysis files associated with a specific replicate. Normally, users will need to upload the actual files to the Hub. For sequencing files that are archived in other permanent repositories (e.g. GEO), a URL to get to the archive can be provided. For human-protected sequencing file stored in dbGaP, please provide `dbGaP Accession ID`.   
   * Study-level files: On the `Study` detail page, click `Add` on top of the `Study Analysis File` table section to add new analysis files associated with your study.
 
-2. Through [DERIVA client tools](/docs/uploading-files-using-deriva-client-tools). This approach is recommended in the case that there are many very large files (e.g. bigger than 5 GB) to upload. You will need to [install the client tool](/docs/uploading-files-using-deriva-client-tools) on your system and prepare your directory structure.   
+2. Through [DERIVA client tools](../uploading-files-using-deriva-client-tools). This approach is recommended in the case that there are many very large files (e.g. bigger than 5 GB) to upload. You will need to [install the client tool](../uploading-files-using-deriva-client-tools) on your system and prepare your directory structure.   
 
 #### 4.1. Supported file extensions
 

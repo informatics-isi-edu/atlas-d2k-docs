@@ -44,6 +44,8 @@ A specimen refers to tissue from an organism like humans, mice, or zebrafish. Be
 - Fill out the essential fields marked with a red asterisk (*). However, providing more details enhances data discoverability.
 - Upon completion, save the record.
 
+Alternatively, you can create specimen records using a CSV file or spreadsheet. See [Adding specimen records from a file](../adding-specimen-records-from-a-file/) for more details.
+
 ### 2.1 Field descriptions
 
 The following are required fields:
@@ -64,7 +66,7 @@ The following fields are especially helpful for bringing up your data in search 
 | **Sex**               | *Male*, *Female*, *Unknown* or *Both*.                                                                                                                                                                                                                                                                                                                                  |
 | **Preparation**, **Fixation** and **Embedding** | These fields describe how the sample was prepared.                                                                                                                                                                                                                                                            |
 
-| **Internal ID**       | A useful field for your own lab’s tracking purposes. This can be very useful to help you search for your Specimen records later.                                                                                                                                                                                                                                       |
+| **Internal ID**       | An important field for your own lab’s tracking purposes. This can be very useful to help you search for your Specimen records later and is critical if [using the DERIVA client tools](../uploading-files-using-deriva-client-tools/) to bulk upload data.                                                                                                                |
 | **Strain**, **Wild Type**, **Phenotype**, **Cell Line**     | Use these fields to provide helpful information about the specimen.                                                                                                                                                                                                                                                                               |
 | **Upload Notes**, **Probe Usage Notes** | These fields are an opportunity to provide more context about the data.                                                                                                                                                                                                                                                                                                                               |
 | **Parent Specimen**   | If you have subdivided a biological sample (e.g., you created sections from a sample), you can create a Specimen record for the original sample. Then for each section (child), designate the original sample as the "parent". You can continue doing this to show different levels of grandparent/parent/child relationships.                                             |
@@ -109,14 +111,14 @@ Submit CZI files if possible. These files get converted for in-browser viewing, 
 
 #### 4.2.1. Clone Records
 
-If you need to upload multiple image records simultaneously, use the `Clone` button:
+If you need to upload multiple image records simultaneously through the web interface, use the `Clone` button:
 
 - Fill in the values of the field in the form that will be common across multiple records.
 - Click the `Clone` button to create additional forms and edit individual ones as needed.
 
 #### 4.2.2. Use DERIVA Client Tools
 
-If you have many files or your files are very large (over 5GB), then you may need to use our client tools for uploading files programmatically. See [Bulk Uploading Image Files](bulk-uploading-image-files/) for more details.
+If you have many files or your files are very large (over 5GB), then you may need to use our client tools for uploading files programmatically. See [Bulk Uploading Image Files](../bulk-uploading-image-files/) for more details.
 
 ## 5. Add a new Human Reference Atlas (HRA) 3D coordinate
 

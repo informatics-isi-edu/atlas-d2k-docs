@@ -1,16 +1,18 @@
 ---
-title: Bulk uploading image files
+title: Bulk Uploading Image Files
 permalink: /docs/bulk-uploading-image-files/
 ---
 
-The easiest way to add imaging data is via the web interface, using the method described in [Submitting Specimen Data](/docs/specimens/). If you have many files to upload, however, it may be more convenient to use the Deriva bulk uploader tool.
+The easiest way to add imaging data is via the web interface, using the method described in [Submitting Specimen Data](../specimen-v2/). If you have many files to upload, however, it may be more convenient to use the DERIVA bulk uploader tool.
 
-If you're not already familiar with the concepts and steps described in the [Submitting Specimen Data](/docs/specimens/) page, please review it and/or the tutorials linked there. The bulk upload tool is a replacement for Step 4 (Add Image Records) from that page.
+If you're not already familiar with the concepts and steps described in the [Submitting Specimen Data](../specimen-v2/) page, please review them. The bulk upload tool is a replacement for Step 4 (Add Image Records) from that page.
 
 ## Step 1: Create Specimen records
-Create specimen records using either the the web interface, as described in [Submitting Specimen Data](/docs/specimens/), or the bulk upload process described in [Adding specimen records from a spreadsheet or CSV](/docs/bulk-uploading-specimen-data-from-a-file). Make sure you assign each record a unique Internal ID; the Internal ID is used to link image files with the corresponding Specimen records.
+Create specimen records using either the the web interface, as described in [Submitting Specimen Data](../specimen-v2/), or the CSV process described in [Adding specimen records from a file](../adding-specimen-records-from-a-file/).
 
-## Step 2: Create image files, and put them where the upload tool can find them.
+**Make sure you assign each record a unique Internal ID**; the Internal ID is used to link image files with the corresponding Specimen records.
+
+## Step 2: Put images where the upload tool can find them
 In order for the upload tool to find your image files, you'll need to organize your files as follows:
 
 ### For 2D files:
@@ -50,10 +52,10 @@ Where:
 * Note that a hyphen (`-`) is used to separate the `{internal_id}` and the `{image-type}` in the image filename.
 
 ## Step 3: Upload the files
-Follow [these instructions](/docs/uploading-files-using-deriva-client-tools) to upload your file, pointing the uploader at the `images` subfolder.
+Follow [these instructions](../uploading-files-using-deriva-client-tools/) to upload your file, pointing the uploader at the `images` subfolder.
 
 ## Step 4: Fill in any missing data
-Follow the instructions at [Submitting Specimen Data](/docs/specimens/) to add anatomical sites, antibodies, etc.
+Follow the instructions at [Submitting Specimen Data](../specimen-v2/) to add anatomical sites, antibodies, etc.
 
 ## Step 5: Update the curation status
 Your new records will initially be marked "In Preparation" and will be visible only to consortium members. Change the Specimen records' status to "Submitted" to forward them on to the biocurator for review and release.
