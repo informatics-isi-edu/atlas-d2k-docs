@@ -1,6 +1,6 @@
 ---
 title: Bulk Uploading Files with DERIVA Client Tools
-permalink: ../uploading-files-using-deriva-client-tools/
+permalink: /docs/uploading-files-using-deriva-client-tools/
 ---
 
 **On this page:**
