@@ -121,7 +121,7 @@ Choose "Specimen Expression Rollup" in the *Sections* list. This table includes 
 
 ### Notes on searching by anatomical terms
 
-Structures are often referred to with a variety of different terms. {{The predictive text in the "Tissue (Anatomical Source)" filter on the Specimen page will help you enter the correct term. - where is this in the current browser? Specimen page}}  
+Structures are often referred to with a variety of different terms. The predictive text in the "Tissue (Anatomical Source)" filter on the Specimen page will help you enter the correct term. (Where is this in the current browser? Specimen page)
 
 However, some structures have common names that begin with different text from the ontology name. For example, "proximal tubule" is represented by the term ‘renal proximal tubule’ in the ontology.  You can easily find the ontology term for a structure by viewing the interactive anatomy ontology tree on the left side of the Boolean Anatomy Search page. This tree is supported by a text string search that will find terms containing a given string. For example, typing ‘proximal’ in the ‘find anatomy component’ box will highlight ‘renal proximal tubule’ in the tree.  If you wish to use a term in the anatomy query on the GUDMAP Gene Expression page, for convenience click on the desired term in the anatomy tree; this will be presented in red on the right; copy the term from here and paste into the anatomy query box on the GUDMAP Gene Expression page. The anatomy query on the GUDMAP Gene Expression page will use this term simply as a text string; this is in contrast to the more advanced Boolean search which distinguishes different items in the tree with the same name as different entities (see help for Boolean Anatomy Search).
 
