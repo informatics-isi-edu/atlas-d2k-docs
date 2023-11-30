@@ -35,7 +35,7 @@ For members of ATLAS-D2K (specifically members of GUDMAP and RBK) to submit data
 - [Color Palette for Image Annotation](../color-palette-for-image-annotation)
 
 **To upload your data files in bulk:**
-- [Bulk Uploading Files with DERIVA Client Tools (commmandline and GUI versions available)](../uploading-files-using-deriva-client-tools)
+- [Bulk Uploading Files with DERIVA Client Tools (commmandline and GUI versions available)](../bulk-upload-with-deriva-client-tools)
 
 ## Images and Videos
 - [Thumbnail creation guideline](../thumbnail-creation-guideline)

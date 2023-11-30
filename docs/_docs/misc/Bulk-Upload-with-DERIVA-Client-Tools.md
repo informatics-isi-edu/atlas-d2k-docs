@@ -3,13 +3,6 @@ title: Bulk Upload with DERIVA Client Tools
 permalink: /docs/bulk-upload-with-deriva-client-tools/
 ---
 
-<!-- uncomment when generating PDF in Atom
-# Bulk Upload with DERIVA Client Tools
--->
-<!-- comment out when generating PDF in Atom
-**[PDF version](/docs/misc/Bulk-Upload-with-DERIVA-Client-Tools.pdf)**
--->
-
 Our underlying software system, DERIVA, has client tools for authenticating (DERIVA-Auth) and performing a bulk upload of sequencing data files (DERIVA-Upload). This is recommended if you have a large or complex sequencing data submission.
 
 There are two versions of the client tool:
@@ -45,13 +38,13 @@ Here are the details for each step.
 
 ## 1. Join the correct group
 
-[Follow the instructions on this page](accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
+[Follow the instructions on this page](../accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
 ## 2. Organize files for bulk upload
 
-The upload tools will use the names of the directories and files (ie, folders) to determine what kind of files you are uploading and which metadata records to attach them to.
+The upload tools will use the names of the directories (i.e., folders) and files to determine what kind of files you are uploading and which metadata records to attach them to.
 
-### 2.1. Supported file types
+### 2.1. Supported file types (sequencing)
 
 The following sequencing data file types are supported for uploading to the ATLAS-D2K repository:
 
@@ -123,8 +116,6 @@ In the example below, we use the _Biological Replicate Number_ and _Technical Re
 *Both* file naming conventions will be accepted by the client tool.
 
 See actual examples of metadata and files in [the NPC_stability Study](https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=Q-Y4GW).
-
-<div class="page-break"></div>
 
 ```
 $userid
@@ -225,7 +216,7 @@ $userid
 
 DERIVA Client is a suite of tools that include DERIVA Upload and DERIVA Auth.
 
-Download and install the [latest version of DERIVA Client here](https://github.com/informatics-isi-edu/deriva-client). There are pre-packaged installers available for Mac or Windows desktops or you can install `deriva-client` from pip for Linux desktops or remote servers/clusters.
+Download and install the [latest version of DERIVA Client here](https://github.com/informatics-isi-edu/deriva-client#installer-packages-for-windows-and-macosx). There are pre-packaged installers available for Mac or Windows desktops or you can install `deriva-client` from pip for Linux desktops or remote servers/clusters.
 
 * DERIVA Upload - Allows you to choose a directory and upload all of the files within it.
 * DERIVA Auth - Authenticates your submission if you are using DERIVA Upload on a remote server.
@@ -242,36 +233,35 @@ Launch the DERIVA-Upload app (through the Applications menu for Windows or MacOS
 
 The first time you launch it, the tool will ask you if you want to add a server configuration.
 
-Click "Yes" to bring up the "Options" screen. You can also do this at any time by clicking the "Options" button at the top of the page.
+1. Launch the Deriva Upload Utility through the applications menu on Windows or MacOS.
 
-![Initial server configuration window](wiki_images/submitting-data/sequencing_uploader/server-config.blank.png)
+2. The tool will ask you if you want to add a server configuration. Click "yes" to bring up the "Options" screen (you can also do this at any time by clicking the "Options" button at the top of the page).
 
-Click `Add` to bring up the "Server Configuration" form and enter these values:
-- Host: `www.atlas-d2k.org`
-- Description: `GUDMAP` or `RBK`
-- Catalog ID: 2
+3. Click `Add` to bring up the "Server Configuration" form and enter these values:
 
-Check the "Set as Default" and "Confirm configuration updates" buttons, and click "OK".
+```
+Host: www.atlas-d2k.org
+Description: ATLAS-D2K
+Catalog ID: 2
+```
 
-![Server configuration window](wiki_images/submitting-data/sequencing_uploader/server-config.gudmap.png)
+4. Check the "Set as Default" and "Confirm configuration updates" fields, and click "OK".
+
+5. Then click "OK" again on the Options window.
+
+![Server configuration window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/server-config.atlas.png" | relative_url }})
 
 ### 4.2. Upload files
 
-In the main DERIVA Upload window, click the "Login" button at the top to log in. This will pop up a login dialog window.
+1. In the main DERIVA Upload window, click the "Login" button at the top to log in. This will pop up a login dialog window.
 
-Once you've logged in, you may see a window notifying you that an updated configuration is available and asking if you'd like to apply it. Click "Yes" to update your configuration and dismiss the window.
+2. Once you've logged in, you may see a window notifying you that an updated configuration is available and asking if you'd like to apply it. Click "Yes" to update your configuration and dismiss the window.
 
-![Configuration update window](wiki_images/submitting-data/sequencing_uploader/update-config.png)
+3. In the main DERIVA-Upload window, click the "Browse" button.
 
-In the main DERIVA-Upload window, click the "Browse" button.
+4. Select the `deriva` directory you created above. You'll see all the files in your directory structure listed as "Pending".
 
-![Before upload](wiki_images/submitting-data/sequencing_uploader/browse.png)
-
-Select the `deriva` directory you created above. You'll see all the files in your directory structure listed as "Pending".
-
-![Before upload](wiki_images/submitting-data/sequencing_uploader/pending.png)
-
-Click the "Upload" button to start the upload process. The status of each file will change as it is uploaded. For successful uploads, the status will change from "Pending" to "Complete".
+5. Click the "Upload" button to start the upload process. The status of each file will change as it is uploaded. For successful uploads, the status will change from "Pending" to "Complete".
 
 If for some reason, your upload is interrupted (ie, a network outage), DERIVA-Upload will re-try uploading a few times. If the upload is terminated, you can click the "Upload" button again and the system will automatically know which files were already uploaded successfully and skip them.
 
@@ -287,30 +277,30 @@ Using the command-line interface on a remote server is a bit more complicated. F
 
 The uploader requires an authentication token to communicate with the server.
 
-Launch the DERIVA-Auth tool on your desktop (through the Applications menu on Windows or Mac, or with `deriva-auth` on Linux) to bring up an authentication window similar to the one used in the data browser.
+1. Launch the DERIVA-Auth tool on your desktop (through the Applications menu on Windows or Mac, or with `deriva-auth` on Linux) to bring up an authentication window similar to the one used in the data browser.
 
 The first time you log in, you'll see a mostly-empty window:
 
-![Initial DERIVA-Auth run](wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png)
+![Initial DERIVA-Auth run]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png" | relative_url }})
 
-In the "Server:" area, type in the name of the target server (`www.atlas-d2k.org`) and click on `Add`. You should now see something that looks similar to the data browser login screen
+2. In the "Server:" area, type in the name of the target server (`www.atlas-d2k.org`) and click on `Add`. You should now see something that looks similar to the data browser login screen
 
-![Login window](wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png)
+![Login window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png" | relative_url }})
 
 Note: In subsequent runs, DERIVA-Auth might take you directly to this window (skipping the blank screen at the beginning). It's always a good idea to look at the server URL before you log in.
 
-After logging in, you'll see an "Authentication Successful" message. Click the "Show Token" button.
+3. After logging in, you'll see an "Authentication Successful" message. Click the "Show Token" button.
 
 This will bring up another dialog box to verify that you really want to view the token. Click on "Show Details" to display the token. Copy and store for use in the upload command.
 
-!["Show Details" window](wiki_images/submitting-data/sequencing_uploader/show-details.png)
+!["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
 
 ### 5.2. Upload files with `deriva-upload-cli`
 
 On the server, run the command:
-
-`deriva-upload-cli` --catalog 2 --token _token_ --catalog 2 _host_ _/path/to/_/deriva
-
+```
+deriva-upload-cli --catalog 2 --token _token_ --catalog 2 _host_ _/path/to/_/deriva
+```
 where:
 * _token_ is the token copy-and-pasted from your DERIVA-Auth session
 * _host_ is `www.atlas-d2k.org`, and

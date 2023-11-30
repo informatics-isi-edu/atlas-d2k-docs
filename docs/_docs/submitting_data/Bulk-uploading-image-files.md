@@ -52,7 +52,7 @@ Where:
 * Note that a hyphen (`-`) is used to separate the `{internal_id}` and the `{image-type}` in the image filename.
 
 ## Step 3: Upload the files
-Follow [these instructions](../uploading-files-using-deriva-client-tools/) to upload your file, pointing the uploader at the `images` subfolder.
+Follow [these instructions](../bulk-upload-with-deriva-client-tools/) to upload your file, pointing the uploader at the `images` subfolder.
 
 ## Step 4: Fill in any missing data
 Follow the instructions at [Submitting Specimen Data](../specimen-v2/) to add anatomical sites, antibodies, etc.

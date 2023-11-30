@@ -143,7 +143,7 @@ This is a very secure and stable service, and if the job is interrupted, the pro
 
 If your directory structure and naming convention are correct, the files will be automatically attached to the correct Replicate records.
 
-For full instructions, go to [Bulk Uploading Files with DERIVA Client Tools](../uploading-files-using-deriva-client-tools/).
+For full instructions, go to [Bulk Uploading Files with DERIVA Client Tools](../bulk-upload-with-deriva-client-tools/).
 
 ## 6. Export for GEO submission
 

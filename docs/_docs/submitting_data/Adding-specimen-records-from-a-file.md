@@ -44,7 +44,7 @@ After you've saved your spreadsheet as an xlsx file, save another copy as CSV (t
 In this picture, both the CSV and Excel file are in the Gene_Expression folder; only the CSV file is necessary, but it's convenient to keep them together.
 
 ## Step 3: Upload the CSV file
-Follow [these instructions](../uploading-files-using-deriva-client-tools) to upload your file, pointing the uploader at the `records` subfolder.
+Follow [these instructions](../bulk-upload-with-deriva-client-tools) to upload your file, pointing the uploader at the `records` subfolder.
 
 ## Step 4: Upload images
 To upload them one at a time through the browser, follow the instructions at [Submitting Specimen Data](../specimen-v2/). To upload them in bulk, follow the instructions at [Bulk uploading image files](../bulk-uploading-image-files).

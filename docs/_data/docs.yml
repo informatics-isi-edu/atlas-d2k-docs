@@ -35,8 +35,6 @@
 #      url: sequencing-metabolomics-imc-data
 #    - sectionTitle: Uploading sequencing workflow files
 #      url: uploading-sequencing-workflow-files
-    - sectionTitle: Bulk Uploading Files with DERIVA Client Tools
-      url: uploading-files-using-deriva-client-tools
     - sectionTitle: Submitting Single Cell Visualization Files
       url: single-cell-visualization-files
 
@@ -46,8 +44,8 @@
   docs:
     - sectionTitle: Submitting Specimen Records
       url: specimen-v2
-    - sectionTitle: Bulk Uploading Image Files
-      url: bulk-uploading-image-files
+#    - sectionTitle: Bulk Uploading Image Files
+#      url: bulk-uploading-image-files
     - sectionTitle: Adding Specimen Records From a File (DRAFT)
       url: adding-specimen-records-from-a-file
     - sectionTitle: Annotating images
@@ -60,7 +58,7 @@
       url: available-video-platforms
 
 # Section 5
-- title: Submitting Resources
+- title: Submitting Other Resources
   docs:
     - sectionTitle: Antibodies
       url: antibodies
