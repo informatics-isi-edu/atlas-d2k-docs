@@ -281,9 +281,7 @@ Using the command-line interface on a remote server is a bit more complicated. F
 
 The uploader requires an authentication token to communicate with the server.
 
-1. Launch the DERIVA-Auth tool on your desktop (through the Applications menu on Windows or Mac, or with `deriva-auth` on Linux) to bring up an authentication window similar to the one used in the data browser.
-
-The first time you log in, you'll see a mostly-empty window:
+1. Launch the DERIVA-Auth tool on your desktop (through the Applications menu on Windows or Mac, or with `deriva-auth` on Linux) to bring up an authentication window similar to the one used in the data browser. The first time you log in, you'll see a mostly-empty window:
 
     ![Initial DERIVA-Auth run]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png" | relative_url }})
 
@@ -291,11 +289,11 @@ The first time you log in, you'll see a mostly-empty window:
 
     ![Login window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png" | relative_url }})
 
-Note: In subsequent runs, DERIVA-Auth might take you directly to this window (skipping the blank screen at the beginning). It's always a good idea to look at the server URL before you log in.
+    Note: In subsequent runs, DERIVA-Auth might take you directly to this window (skipping the blank screen at the beginning). It's always a good idea to look at the server URL before you log in.
 
 3. After logging in, you'll see an "Authentication Successful" message. Click the "Show Token" button.
 
-This will bring up another dialog box to verify that you really want to view the token. Click on "Show Details" to display the token. Copy and store for use in the upload command.
+    This will bring up another dialog box to verify that you really want to view the token. Click on "Show Details" to display the token. Copy and store for use in the upload command.
 
     !["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
 
