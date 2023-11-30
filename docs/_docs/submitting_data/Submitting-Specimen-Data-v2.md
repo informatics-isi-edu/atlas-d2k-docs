@@ -7,28 +7,28 @@ This guide will walk you through the steps to submit specimen and imaging data t
 
 ## Table of Contents
 
-- [Data Model for Specimen Records](#data-model-for-specimen-records)
+- [Metadata Model for Specimen Records](#metadata-model-for-specimen-records)
 - [1. Joining the Globus Group](#1-joining-the-globus-group)
 - [2. Creating a Specimen Record](#2-creating-a-specimen-record)
 - [3. Adding the Anatomical Source](#3-adding-the-anatomical-source)
   - [3.1. Adding Anatomical Source to Multiple Records](#31-to-add-the-same-anatomical-source-to-several-specimen-records)
 - [4. Uploading Image Records](#4-upload-image-records)
   - [4.1. CZI File Processing](#41-processing-czi-files)
-  - [4.2. Batch Upload Image Records](#42-batch-add-image-records)
+  - [4.2. Batch Upload Image Records](#42-batch-upload-image-records)
     - [4.2.1 Clone Records](#421-clone-records)
     - [4.2.2. Use DERIVA Client Tools](#422-use-deriva-client-tools)
-- [5. Add a new Human Reference Atlas (HRA) 3D coordinate](#5-add-a-new-human-reference-atlas-hra-3d-coordinate)
+- [5. Adding a new Human Reference Atlas (HRA) 3D coordinate](#5-adding-a-new-human-reference-atlas-hra-3d-coordinate)
   - [5.1 Editing an existing HRA 3D coordinate](#51-editing-an-existing-hra-3d-coordinate)
-- [6. Add an Antibody Record](#6-add-an-antibody-record)
-- [7. Associating Probes to Genes](#7-add-specimen-probe-association)
-- [8. Documenting Gene Expression Scores](#8-add-specimen-expression-record)
-- [9. Documenting Stages for Human Organoids](#9-stagestiming-for-human-organoid-specimens)
+- [6. Adding an Antibody Record](#6-adding-an-antibody-record)
+- [7. Associating Probes to Genes](#7-associating-probes-to-genes)
+- [8. Documenting Gene Expression Scores](#8-documenting-gene-expression-scores)
+- [9. Documenting Stages for Human Organoids](#9-documenting-stages-for-human-organoids)
 - [10. Finalizing Your Submission](#10-submitting-your-data-for-review-and-release)
 
 
 Follow the steps outlined to enhance the discoverability of your specimen and imaging data. The more details you provide, the greater is the ease of discovery.
 
-## Metadata Model for Specimen Data
+## Metadata Model for Specimen Records
 
 [![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)
 
@@ -120,9 +120,11 @@ If you need to upload multiple image records simultaneously through the web inte
 
 If you have many files or your files are very large (over 5GB), then you may need to use our client tools for uploading files programmatically. See [Bulk Uploading Image Files](../bulk-uploading-image-files/) for more details.
 
-## 5. Add a new Human Reference Atlas (HRA) 3D coordinate
+## 5. Adding a new Human Reference Atlas (HRA) 3D coordinate
 
 If your specimen record is for human data, please use the following directions to register it with HuBMAP's RUI tool integrated into ATLAS-D2K. The Registration User Interface (RUI) supports spatially registering human tissue blocks to a 3D reference organ in the HRA using the Common Coordinate Framework (CCF) Registration User Interface (RUI) from HuBMAP.
+
+You can find the [**video tutorial** for using this tool here](https://www.youtube.com/watch?v=gY3_-LIoKaU).
 
 ![Linking accounts page]({{ "/assets/img/rui-start-registration.jpg" | relative_url }})
 _The "Start registration" page_
@@ -154,7 +156,7 @@ You can now click on the Save button to save your changes. If there weren’t an
 6. In the opened Specimen record page, you should see the "HRA 3D Coordinate" field. Click on the field value, which is a link to the HRA 3D Coordinate record.
 7. In the opened HRA 3D Coordinate record page, use the Edit button to navigate to the edit mode.
 
-## 6. Add an Antibody Record
+## 6. Adding an Antibody Record
 
 If the slide was stained with an antibody, it's essential to record this data.
 
@@ -164,7 +166,7 @@ The important thing to fill out here is the *Antibody RID* to indicate the compa
 
 If you do not see the antibody company listed, click the **Create New** button to add it.
 
-## 7. Add Specimen Probe Association
+## 7. Associating Probes to Genes
 
 For associating genes with specimens, populate the Specimen Probe Association table.
 
@@ -172,9 +174,9 @@ For associating genes with specimens, populate the Specimen Probe Association ta
 
 Go to the *Specimen Probe Association* section and click the `Add record` link.
 
-## 8. Add Specimen Expression Record
+## 8. Documenting Gene Expression Scores
 
-For In Situ Hybridization data, make sure to add scored expression regions.
+For In Situ Hybridization (ISH) data, make sure to add scored expression regions.
 
 Go to the *Specimen Expression* table and click `Add record`.
 
@@ -186,7 +188,7 @@ Click the `Expression Region` field to choose the anatomical region.
 
 Click the `Strength` field to choose from *uncertain*, *present*, and *not detected*.
 
-## 9. Stages/Timing for Human Organoid Specimens
+## 9. Documenting Stages for Human Organoids
 
 Documenting the organoid development stages ensures data uniformity and comprehension.
 
@@ -202,7 +204,7 @@ Each protocol may vary in the rate of formation subsequent to induction, thus th
 
 >Morizane R, Lam AQ, Freedman BS, Kishi S, Valerius MT, Bonventre JV, 2015. Nephron organoids derived from human pluripotent stem cells model kidney development and injury. Nat Biotechnol 33, 1193–1200. PMCID: PMC4747858
 
-## 10. Submitting Your Data for Review and Release
+## 10. Finalizing Your Submission
 
 Upon finalizing your records and internal reviews, submit them to the Hub by editing the Specimen record and change the *Curation Status* field to *Submitted*.
 

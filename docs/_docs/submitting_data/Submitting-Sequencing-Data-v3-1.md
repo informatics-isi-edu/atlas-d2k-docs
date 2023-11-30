@@ -7,19 +7,19 @@ permalink: /docs/submitting-sequencing-data-v3-1/
 - [Introduction](#introduction)
 - [1. Join the Correct Group](#1-join-the-correct-group)
 - [2. Organize Your Data](#2-organize-your-data)
-- [3. Add Specimen Records](#3-add-specimen-records)
+- [3. Create Specimen Records](#3-create-specimen-records)
 - [4. Create Metadata Records](#4-create-metadata-records)
     - [4.1. Create Study Records](#41-create-study-records)
     - [4.2. Create Experiment Records](#42-create-experiment-records)
     - [4.3. Create Replicate Records](#43-create-replicate-records)
-    - [4.4. Record and Curation Status Notes](#44-notes-about-record-status-and-curation-status)
-- [5. Upload Files](#5-upload-sequencing-and-analysis-files)
+    - [4.4. Record Status and Curation Status Fields](#44-record-status-and-curation-status-fields)
+- [5. Upload Files](#5-upload-files)
     - [5.1. Review Supported File Extensions](#51-review-supported-file-extensions)
-    - [5.2. Browser Upload Method](#52-upload-files-through-the-browser)
-    - [5.3. Bulk Upload with Client Tools](#53-bulk-upload-through-our-client-tools)
+    - [5.2. Browser Upload Method](#52-browser-upload-method)
+    - [5.3. Bulk Upload with Client Tools](#53-bulk-upload-with-client-tools)
 - [6. Export for GEO Submission](#6-export-for-geo-submission)    
-- [7. Review and Submit](#6-review-internally-and-then-submit-to-the-hub)
-    - [7.1. Data Submission Dashboard](#61-data-submission-dashboard)
+- [7. Review and Submit](#7-review-and-submit)
+    - [7.1. Data Submission Dashboard](#71-data-submission-dashboard)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 ## Introduction
@@ -91,14 +91,13 @@ To describe the relationships between slides and sections of slides, use the *Pa
     * **Files**: If you are only adding a few data files, scroll down to the **Files** table and click `Add`. To upload multiple files at the same time, you can click the plus sign (+) to add more forms. If you are uploading many or very large files, we recommend using the bulk upload method [described below](#53-bulk-upload-through-our-client-tools).
     * **Single Cell Metrics**: For single cell RNASeq data, scroll down to the **Single Cell Metrics** table and click `Add record` to include this information.
 
-### 4.4. Record Status and Curation Status Notes
+### 4.4. Record Status and Curation Status Fields
 
-Remember:
+Here is helpful information about the *Record Status* and *Curation Status* fields:
 - Incomplete records will indicate missing required information. The *Record Status* field will list which information is missing.
 - The default value for the *Curation Status* field is "In preparation" and is not publicly available.
-- Once you are finished with your data, switch status to "Submitted" for review. Upon approval, the status will change to "Release", making the data publicly available.
-- All records (e.g. Replicates, Specimen, Files) associated with an Experiment inherit the same *Curation Status* as their Experiment. Once the Experiment is released, all the related records will also be released.
-- Data submitters can control the Curation Status of a Study and Experiments within a Study; a Study that is released can have both Experiments that are released and ones that are not.  
+- Once you are finished with your data, change the status to "Submitted" for biocurator review (it's a good idea to send the [ATLAS-D2K Center](mailto:help@atlas-d2k.org) a quick email to let you know it's ready for review). Upon approval, we will change the status to "Release", at which point the data is now publicly available.
+- All records (e.g. Experiments, Replicates, Specimen, Files) associated with study inherit the same *Curation Status* as their Study. Once the Study is released, all the related records will also be released.
 
 ## 5. Upload Files
 
