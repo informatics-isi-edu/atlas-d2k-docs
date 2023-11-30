@@ -44,9 +44,9 @@ Here are the details for each step.
 
 The upload tools will use the names of the directories (i.e., folders) and files to determine what kind of files you are uploading and which metadata records to attach them to.
 
-### 2.1. Supported file types (sequencing)
+### 2.1. Supported file types
 
-The following sequencing data file types are supported for uploading to the ATLAS-D2K repository:
+The following **sequencing data** file types are supported for uploading to the ATLAS-D2K repository:
 
 | Extension | File Type | Description (will appear in file caption) | mandatory |
 |---|---|---|---|
@@ -57,6 +57,8 @@ The following sequencing data file types are supported for uploading to the ATLA
 | bw | bigWig | visualization track | optional |
 | rpkm.txt | txt | expression value | optional |
 | tpm.txt | txt | expression value | optional |
+
+We will add supported file types for imaging data soon.
 
 ### 2.2. Set up the directories
 
