@@ -239,11 +239,11 @@ The first time you launch it, the tool will ask you if you want to add a server 
 
 3. Click `Add` to bring up the "Server Configuration" form and enter these values:
 
-```
-Host: www.atlas-d2k.org
-Description: ATLAS-D2K
-Catalog ID: 2
-```
+    ```
+    Host: www.atlas-d2k.org
+    Description: ATLAS-D2K
+    Catalog ID: 2
+    ```
 
 4. Check the "Set as Default" and "Confirm configuration updates" fields, and click "OK".
 
@@ -259,7 +259,11 @@ Catalog ID: 2
 
 3. In the main DERIVA-Upload window, click the "Browse" button.
 
+    ![Server configuration window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/browse.png" | relative_url }})
+
 4. Select the `deriva` directory you created above. You'll see all the files in your directory structure listed as "Pending".
+
+    ![Server configuration window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/pending.png" | relative_url }})
 
 5. Click the "Upload" button to start the upload process. The status of each file will change as it is uploaded. For successful uploads, the status will change from "Pending" to "Complete".
 
@@ -281,11 +285,11 @@ The uploader requires an authentication token to communicate with the server.
 
 The first time you log in, you'll see a mostly-empty window:
 
-![Initial DERIVA-Auth run]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png" | relative_url }})
+    ![Initial DERIVA-Auth run]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-empty.png" | relative_url }})
 
 2. In the "Server:" area, type in the name of the target server (`www.atlas-d2k.org`) and click on `Add`. You should now see something that looks similar to the data browser login screen
 
-![Login window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png" | relative_url }})
+    ![Login window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/deriva-auth-globus.png" | relative_url }})
 
 Note: In subsequent runs, DERIVA-Auth might take you directly to this window (skipping the blank screen at the beginning). It's always a good idea to look at the server URL before you log in.
 
@@ -293,7 +297,7 @@ Note: In subsequent runs, DERIVA-Auth might take you directly to this window (sk
 
 This will bring up another dialog box to verify that you really want to view the token. Click on "Show Details" to display the token. Copy and store for use in the upload command.
 
-!["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
+    !["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
 
 ### 5.2. Upload files with `deriva-upload-cli`
 
