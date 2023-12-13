@@ -74,7 +74,7 @@
       url: requirements-for-creating-schematics
 
 # Section 6
-- title: Data Citation
+- title: Citing Data
   docs:
     - sectionTitle: Create Citable Datasets
       url: create-citable-datasets
