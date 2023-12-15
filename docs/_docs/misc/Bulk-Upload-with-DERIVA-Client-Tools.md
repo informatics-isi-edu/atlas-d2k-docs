@@ -273,7 +273,7 @@ If for some reason, your upload is interrupted (ie, a network outage), DERIVA-Up
 
 ### 4.3. Log out
 
-Authentication tokens expire after 30 minutes of activity but if you want to log out explicitly, click the "Logout" button at the top of the window.
+Authentication tokens expire after 30 minutes of inactivity but if you want to log out explicitly, click the "Logout" button at the top of the window.
 
 ## 5. Using the `deriva-upload-cli` command on a remote server
 
