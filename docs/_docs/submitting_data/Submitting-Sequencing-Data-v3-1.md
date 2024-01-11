@@ -53,7 +53,7 @@ Our system structures **metadata records** for efficient data discovery. They ar
 
 ### 2.1 Metadata Model for Sequencing Data
 
-[![Chart of data model](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/sequencing/Sequencing_Data_Model_V3.png)
+![Chart of Data Model for Study records]({{ "/assets/wiki_images/submitting-data/Sequencing_Data_Model_V3.png" | relative_url }})
 
 * Green boxes are the records directly related to this assay type.
 * Yellow boxes indicate links to other assay types (in this case _Specimen_ and _Antibody_, which have their own metadata requirements).
