@@ -53,7 +53,7 @@ Our system structures **metadata records** for efficient data discovery. They ar
 
 ### 2.1 Metadata Model for Sequencing Data
 
-![Chart of Data Model for Study records]({{ "/assets/wiki_images/submitting-data/Sequencing_Data_Model_V3.png" | relative_url }})
+![Chart of Data Model for Study records]({{ "/assets/wiki_images/submitting-data/ATLAS-Data-Model-Sequencing.jpg" | relative_url }})
 
 * Green boxes are the records directly related to this assay type.
 * Yellow boxes indicate links to other assay types (in this case _Specimen_ and _Antibody_, which have their own metadata requirements).
