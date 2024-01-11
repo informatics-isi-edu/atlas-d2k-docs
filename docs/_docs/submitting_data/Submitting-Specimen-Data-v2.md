@@ -30,7 +30,7 @@ Follow the steps outlined to enhance the discoverability of your specimen and im
 
 ## Metadata Model for Specimen Records
 
-![Chart of Data Model for Specimen records]({{ "/assets/wiki_images/submitting-data/specimen/ATLAS_Data_Model_Specimen.jpg" | relative_url }})
+![Chart of Data Model for Specimen records]({{ "/assets/wiki_images/submitting-data/ATLAS_Data_Model_Specimen.jpg" | relative_url }})
 
 ## 1. Joining the Globus Group
 
