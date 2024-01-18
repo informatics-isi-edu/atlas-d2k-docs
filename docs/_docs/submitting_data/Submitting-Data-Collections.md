@@ -46,32 +46,15 @@ A collection is useful anytime you want to group data under one DOI or citation.
     * Readers can unambiguously obtain data referred in the paper → **repeatable experiments!**
 * Collaboration
     * Create a specific set of data to be used for further discussion or collaboration.
-<!--
-## Permanent ID (DOI)
 
-* Digital Object Identifier (DOI)
-    * DOI: 10.25548/BURB-6P44
-    * DOI URL: https://doi.org/10.25548/BURB-6P44
-* DOI issuance process
-    * The collection metadata (Title, Description, PI, Consortium) is registered with the DOI registry which  means your data set is searchable no matter if the website URL changes.
-    * The collection URL (our permalink URL) is registered with the DOI.   
-* When is a DOI issued? When
-    * _Require DOI?_ field equals "true"; and
-    * _Curation Status_ field equals "Released"
-    -->
-
-<div class="page-break"></div>
 
 ## 1. Create the base Collections record
 
-* Go to the Collection page and click the "Create" button:
 
-![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collection-create-update.png)
+* Go to [www.atlas-d2k.org](https://www.atlas-d2k.org/) and log in.
+* On the top-level menu, click "*Internal*" and then choose "*Data Collections*" to go to the metadata entry form:
 
-  The `Create new Collection` form appears in a new browser tab.
-
-  ![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collection-create-form-update.png)
-
+![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collection-create-form-update.png)
 
 * Select the values for each relevant field. The required fields are:
   * _Title_
@@ -79,17 +62,15 @@ A collection is useful anytime you want to group data under one DOI or citation.
   * _Require DOI?_: Set this to **true** in order to generate a permanent identifier for this collection (Please set this to true for collections related to publications).
   * _Curation Status_:
       * While you're working on the record, choose either _In Preparation_ (still drafting) or _PI Review_ (if your lab wants to indicate the PI should review it).
-      * When you are ready to submit to the Hub, change this to _Submitted_ and send email to the Hub that it is ready for review.
-      * If you want to delay release of the Collection (ie, until the related paper is published), change this to _Embargoed_.
-      * Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
+      * When you are ready to submit to the ATLAS-D2K Center, change this to _Submitted_ and send email to the Center that it is ready for review at [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
+      * If you want to delay the release of the Collection (ie, until the related paper is published), change this field to _Embargoed_.
+      * Your data will **not** be viewable publicly until approved for _Release_ by the Center. [For a complete description of the Curation Process, click here.](../curation-workflow/)
   * _Principal Investigator_: Choose the name of your project's contact PI.
   * _Data Provider_: Choose your institution.
   * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
 * Click _Save_ (scroll to the top of the page) to save the record.
 
 **You can come back at any time and click "Edit" in the record header to modify this record.**
-
-<div class="page-break"></div>
 
 ## 2. Add your data records
 
@@ -107,8 +88,6 @@ Once the base Collection record is created, now you can add the related data. To
 
 * Click _Save_ to add them to the Collection record.  
 
-<div class="page-break"></div>
-
 ## 3. Reviewing and Submitting Data Collections
 
 Here is how to find your project's data with a Curation Status of "In Preparation" or "PI Review"**
@@ -122,9 +101,6 @@ Here is how to find your project's data with a Curation Status of "In Preparatio
     * Under **Principal Investigator**, choose your project's PI. Now you should see the data you need to review.
 
 * When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)).
-
-
-<div class="page-break"></div>
 
 ## 4. Deleting Data Collections
 
