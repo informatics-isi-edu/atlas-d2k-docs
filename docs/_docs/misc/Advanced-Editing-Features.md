@@ -3,7 +3,7 @@ title: Advanced Editing Features
 permalink: /docs/advanced-editing-features/
 ---
 
-The following are some very useful features of editing in the Data Browser that can make data entry much faster and easier.
+The following are some very useful features of editing in the Data Browser that can make data entry much faster and easier. Note you must be logged in to take advantage of these features.
 
 - [1. Clone](#1-clone)
 - [2. Bulk Edit](#2-bulk-edit)
@@ -13,7 +13,7 @@ The following are some very useful features of editing in the Data Browser that 
 
 ## 1. Clone
 
-Whenever you are on any "Create" or "Edit" form, you can click the Clone button in the upper right corner to create a duplicate of that form. You can keep clicking "Clone" to create another duplicate, or enter a number in the "Qty" field.
+Whenever you are on any "Create" or "Edit" form, you can click the _Clone_ button in the upper right corner to create a duplicate of that form. You can keep clicking "Clone" to create another duplicate, or enter a number in the _Qty_ field and then click _Clone_.
 
 ![Screenshot of the multi-create buttons](wiki_images/advanced/multi-create-buttons.png)
 
@@ -23,15 +23,16 @@ What's especially helpful is that when you click either button, the new entries 
 
 ## 2. Bulk Edit
 
-You can filter your search to display records that you want to change and edit the values for the same field across all of the records at the same time. 
+You can change and edit the values for the same field across multiple records at the same time. 
 
 To edit records in bulk:
 1. Filter data to pull up a search for the records you want to change.
-2. In the upper right corner above the search results, click _Bulk Edit_. All of the records in the search results will now be displayed in editing mode. (You will not see this option unless you are logged in.)
+2. In the upper right corner above the search results, click _Bulk Edit_. All of the records in the search results will now be displayed in editing mode.
 3. Find the field you want to change across all of the records and click the pencil icon to the left of the field.
-4. Enter the new value and click `Apply All`. You also have the option to `Clear All` or `Cancel` the operation.
+4. Enter the new value and click `Apply`. You also have the option to `Clear All` or `Cancel` the operation.
+5. Click the _Save_ button at the upper right corner of the page to save your changes.
 
-If you make a mistake, you can click the _Reset_ button and it will take you back to the initial state of the forms.
+Before you click _Save_, if you make a mistake, you can click the _Reset_ button and it will take you back to the initial state of the forms.
 
 ## 3. Copy
 
