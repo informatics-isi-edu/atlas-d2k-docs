@@ -94,7 +94,7 @@ Here is how to find your project's data with a Curation Status of "In Preparatio
 
 * Make sure you are logged in.
 
-* Go to the [Collections search page](https://www.atlas-d2k.org/chaise/record/#2/Common:Collection/).
+* Go to the [Collections search page](https://www.atlas-d2k.org/chaise/recordset/#2/Common:Collection).
 
 * In the faceting sidebar on the left, choose the following filters:
     * Under **Curation Status**, choose _PI Review_ and _In Preparation_.
