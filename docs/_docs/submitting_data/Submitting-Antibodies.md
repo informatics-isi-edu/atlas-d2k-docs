@@ -62,7 +62,7 @@ Other related tables include:
 
 ## 1. Search for the antibody you're working on
 
-* Go to [https://www.atlas-d2k.org/chaise/recordset/#2/Antibody:Antibodies@sort(Protein_Target,RID)](https://www.atlas-d2k.org/chaise/recordset/#2/Antibody:Antibodies@sort(Protein_Target,RID)) and log in.
+* Go to [https://www.atlas-d2k.org/chaise/recordset/#2/Antibody:Antibodies](https://www.atlas-d2k.org/chaise/recordset/#2/Antibody:Antibodies) and log in.
 
 * This will take you to the antibody search page, which you can use to find out if the antibody you're working on is already listed in our database. Start typing the name of the antibody in the search field or use the filtering sidebar on the left to narrow down the results.
 
@@ -97,7 +97,7 @@ If you did find the antibody, move on to the next step.
     * _Submitted_ (ready for Hub review). Your data will **not** be viewable publicly until approved for _Release_ by the Hub. [For a complete description of the Curation Process, click here.](/docs/curation-workflow)
   * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K Consortium.
 
-* When finished, click `Submit Data` to save your new antibody record. You can now close this tab.
+* When finished, click `Save` to save your new antibody record. You can now close this tab.
 
 ### What if my antibody is not from a vendor?
 
@@ -125,13 +125,11 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
   * _Principal Investigator_: Choose the name of your project's contact PI.
   * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
 
-* Note: If you are creating multiple antibody test records, you may click the `+` button (under the `Submit Data` button) to copy over the record form. Each time you click `+` will display a copy of the most recent form that you can edit as needed.
+* Note: If you are creating multiple antibody test records, you may click the `Clone` button (under the `Save` button) to copy over the record form. Each time you click `Clone` will display a copy of the most recent form that you can edit as needed. You can also add a number to the Qty field to clone more than one record at a time.
 
-![Screenshot of the multiple antibody test records]({{ "/assets/wiki_images/submitting-data/create-antibody-test-batch.png" | relative_url }})
+* When finished, click `Save` to save your new antibody test record(s).
 
-* When finished, click `Submit Data` to save your new antibody test record(s).
-
-* If you are not finished with your submission, you may still save your work by clicking the `Submit Data` button. Then you may go back to the record, log in and click `Edit` to resume filling it out.
+* If you are not finished with your submission, you may still save your work by clicking the `Save` button. Then you may go back to the record, log in and click `Edit` to resume filling it out.
 
 ![Screenshot of the Edit button]({{ "/assets/wiki_images/submitting-data/general-record-header-edit.png" | relative_url }})
 
@@ -158,7 +156,7 @@ If your antibody is not from a vendor (ie, it's a donated reagent), then you may
 
 * Click `Select a value`
 * Click the checkmark to the left of your desired distribution value.
-* Click `Submit Data` to add the distribution.
+* Click `Save` to add the distribution.
 * Repeat for as many distributions as desired.
 
 <div class="page-break"></div>
@@ -216,11 +214,11 @@ To add a test-related files:
       * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
       * _Description_: This is not required - however, this field is useful for test images if you want to describe what different colors represent, etc.
 
-* Click `Submit Data` to complete the upload.
+* Click `Save` to complete the upload.
 
 * Go back to the browser tab of your Antibody Test Record and select your newly-uploaded image from the `Choose Antibody Media Files` window.
 
-* Click `Submit Data` to link your image or PDF to the antibody test. Note you may need to refresh the page to see the results.
+* Click `Save` to link your image or PDF to the antibody test. Note you may need to refresh the page to see the results.
 
 
 <div class="page-break"></div>
@@ -237,7 +235,7 @@ If you've done several tests that are mostly the same (e.g., two tests that diff
 
 ![Screenshot of the Copy button]({{ "/assets/wiki_images/submitting-data/antibody-test-example-base-copy.png" | relative_url }})
 
-* Make the desired changes to the new record and click the `Submit Data` button.
+* Make the desired changes to the new record and click the `Save` button.
 -->
 
 ## 6. Reviewing and Submitting Antibody Data
