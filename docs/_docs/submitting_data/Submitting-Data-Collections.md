@@ -57,19 +57,20 @@ A collection is useful anytime you want to group data under one DOI or citation.
 <!--
 ![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collection-create-form-update.png)
 -->
-* Select the values for each relevant field. The required fields are:
-  * _Title_
-  * _Description_: Try to give a good description of what the data is related to (ie, "This collection includes the original images for figures in XYZ paper")
-  * _Require DOI?_: Set this to **true** in order to generate a permanent identifier for this collection (Please set this to true for collections related to publications).
-  * _Curation Status_:
-      * While you're working on the record, choose either _In Preparation_ (still drafting).
-      * When you are ready to submit to the ATLAS-D2K Center, change this to _Submitted_ and send email to the Center that it is ready for review at [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
-      * If you want to delay the release of the Collection (ie, until the related paper is published), change this field to _Embargoed_.
-      * Your data will **not** be viewable publicly until approved for _Release_ by the Center. [For a complete description of the Curation Process, click here.](../curation-workflow/)
-  * _Principal Investigator_: Choose the name of your project's contact PI.
-  * _Data Provider_: Choose your institution.
-  * _Consortium_: Make sure you indicate whether this is from the ATLAS-D2K consortium.
-* Click _Save_ (scroll to the top of the page) to save the record.
+* Select the values for each relevant field.
+
+| Field                  | Description                                                                                                                                                                                                                       | Required or Optional |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+| Title                  | Provide the title of the Collection (this could be the title of your publication)                                                                                                                                                 | Required             |
+| Description            | Provide a useful description of the Collection (for example this could be the abstract of your publication)                                                                                                                       | Required             |
+| Details                | Use this field if there are other details you'd like to include.                                                                                                                                                                  | Optional             |
+| Require DOI?           | This indicates to the Hub to generate a DOI for this Collection. Highly recommended for citing in your publication.                                                                                                               | Optional             |
+| Curation Status        | Indicates if this record is still being worked on, is being reviewed, is embargoed until publication or has been released to the public. For a complete description of the Curation Process, click here.](../curation-workflow/)  | Required             |
+| Principal Investigator | Use the primary Principal Investigator for this collection of data. You may only indicate one PI.                                                                                                                                 | Required             |
+| Data Provider          | Use the institution of the Principle Investigator.                                                                                                                                                                                | Required             |
+| Consortium             | Indicate the Consortium (GUDMAP, RBK, etc).                                                                                                                                                                                       | Required             |
+
+* Click _Save_ to save your changes.
 
 **You can come back at any time and click "Edit" in the record header to modify this record.**
 
