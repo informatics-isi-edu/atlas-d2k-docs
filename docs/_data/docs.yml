@@ -27,40 +27,15 @@
       url: reviewing-data-for-release
 
 # Section 3
-- title: Submitting Sequencing Records (For Omics data)
+- title: Submitting Data
   docs:
-    - sectionTitle: Submitting Sequencing Data
+    - sectionTitle: Data Collections
+      url: data-collections
+    - sectionTitle: Sequencing Data (Studies)
       url: submitting-sequencing-data-v3-1
-#    - sectionTitle: Sequencing/Metabolomics/IMC Data
-#      url: sequencing-metabolomics-imc-data
-#    - sectionTitle: Uploading sequencing workflow files
-#      url: uploading-sequencing-workflow-files
-    - sectionTitle: Submitting Single Cell Visualization Files
-      url: single-cell-visualization-files
-
-
-# Section 4
-- title: Submitting Specimen Records (For imaging data - and metadata about bio-specimens)
-  docs:
-    - sectionTitle: Submitting Specimen Records
+    - sectionTitle: Specimen Records (For imaging data and metadata about bio-specimens)
       url: specimen-v2
-#    - sectionTitle: Bulk Uploading Image Files
-#      url: bulk-uploading-image-files
-    - sectionTitle: Adding Specimen Records From a File (DRAFT)
-      url: adding-specimen-records-from-a-file
-    - sectionTitle: Annotating images
-      url: annotating-images
-    - sectionTitle: Color palette for image annotation
-      url: color-palette-for-image-annotation
-    - sectionTitle: Thumbnail creation guideline
-      url: thumbnail-creation-guideline
-    - sectionTitle: Available Video Platforms
-      url: available-video-platforms
-
-# Section 5
-- title: Submitting Other Resources
-  docs:
-    - sectionTitle: Antibodies
+    - sectionTitle: Antibodies and Antibody Validation
       url: antibodies
     - sectionTitle: Cell Lines
       url: cell-lines
@@ -68,10 +43,10 @@
       url: protocols
     - sectionTitle: Entries for the Functional Assay Handbook
       url: entries-for-the-functional-assay-handbook
-    - sectionTitle: Data Collections
-      url: data-collections
-    - sectionTitle: Requirements for Creating Schematics
-      url: requirements-for-creating-schematics
+    - sectionTitle: Single Cell Visualization Files
+      url: single-cell-visualization-files
+    - sectionTitle: Register Human Adult Data with HRA
+      url: register-human-atlas-reference
 
 # Section 6
 - title: Citing Data
@@ -84,10 +59,10 @@
 # Section 7
 - title: Editing and Uploading Tools and Features
   docs:
-    - sectionTitle: Advanced Editing Features
-      url: advanced-editing-features
     - sectionTitle: Bulk Upload with DERIVA Client Tools
       url: bulk-upload-with-deriva-client-tools
+    - sectionTitle: Advanced Editing Features
+      url: advanced-editing-features
     - sectionTitle: Commandlines and Libraries
       url: command-lines-and-libraries
     - sectionTitle: Tips for Submitting Large or Complex Data
@@ -115,3 +90,47 @@
     url: faqs
   - sectionTitle: Formatting with Markdown
     url: formatting-with-markdown
+
+# Old sidebar organization
+# Section 3
+# - title: Submitting Sequencing Records (For Omics data)
+#   docs:
+#     - sectionTitle: Submitting Sequencing Data
+#       url: submitting-sequencing-data-v3-1
+#     - sectionTitle: Submitting Single Cell Visualization Files
+#       url: single-cell-visualization-files
+
+
+# Section 4
+# - title: Submitting Specimen Records (For imaging data - and metadata about bio-specimens)
+#   docs:
+#     - sectionTitle: Submitting Specimen Records
+#       url: specimen-v2
+#    - sectionTitle: Bulk Uploading Image Files
+#      url: bulk-uploading-image-files
+#    - sectionTitle: Adding Specimen Records From a File (DRAFT)
+#      url: adding-specimen-records-from-a-file
+#     - sectionTitle: Annotating images
+#       url: annotating-images
+#     - sectionTitle: Color palette for image annotation
+#       url: color-palette-for-image-annotation
+#     - sectionTitle: Thumbnail creation guideline
+#       url: thumbnail-creation-guideline
+#     - sectionTitle: Available Video Platforms
+#       url: available-video-platforms
+
+# Section 5
+# - title: Submitting Other Resources
+#   docs:
+#     - sectionTitle: Antibodies
+#       url: antibodies
+#     - sectionTitle: Cell Lines
+#       url: cell-lines
+#     - sectionTitle: Protocols
+#       url: protocols
+#     - sectionTitle: Entries for the Functional Assay Handbook
+#       url: entries-for-the-functional-assay-handbook
+#     - sectionTitle: Data Collections
+#       url: data-collections
+#     - sectionTitle: Requirements for Creating Schematics
+#       url: requirements-for-creating-schematics
