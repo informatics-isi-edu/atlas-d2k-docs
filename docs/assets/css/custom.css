@@ -159,3 +159,7 @@ form.navbar-form.navbar-left {
 .tt-selectable:hover:not(:first-child):before {
     outline: none;
 }
+
+.required {
+    color: red;
+  }

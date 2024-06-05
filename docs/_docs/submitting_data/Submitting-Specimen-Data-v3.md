@@ -52,7 +52,7 @@ To get editing access, join the relevant Globus group. Email [help@atlas-d2k.org
 
 ## 2. What is a Specimen Record?
 
-A *Specimen* record describes the tissue from an organism (e.g., human, mice, organoid) used in your experiments. In ATLAS-D2K, these records host your imaging data and are linked to related [sequencing studies](../Submitting-Sequencing-Data-v3-1/).
+A *Specimen* record describes the tissue from an organism (e.g., human, mice, organoid) used in your experiments. In ATLAS-D2K, these records host your imaging data and are linked to related [sequencing studies](../submitting-sequencing-data-v3-1/).
 
 Specimen records also house information such as antibodies that were used, expression scores and probes (among others).
 
@@ -76,23 +76,27 @@ The purpose of Specimen records and using a hierarchy is to make sure that in do
 
 An example of such a hierarchy is if an original tissue sample (Specimen A) is dissected into different samples for an experiment. Let’s say there are two of these samples, one for Histology imaging (Specimen B) and one for a Sequencing assay (Specimen C). In this case, you would first create a Specimen record for the original tissue (Specimen A) and this would be considered the Parent Specimen. Then Samples B and C would be Child Specimen records. These relationships are determined by the "Parent Specimen" field in the Specimen metadata (see section 3.1 below).
 
-[ADD GRAPHIC HERE]
+[TODO: ADD GRAPHIC HERE]
 
 ## 3. Submit Metadata Fields
 
-* [Use this link to log in and create a Specimen](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen). Alternatively, from atlas-d2k.org, in the top-level menu, click *Internal*, then *Specimen*. If you are on a Specimen page and logged in, you can also click the `Create` button.
+* [Use this link to log in and create a Specimen](https://www.atlas-d2k.org/chaise/recordedit/#2/Gene_Expression:Specimen). Alternatively, from atlas-d2k.org,:
+    - In the top-level menu, click *Internal*, then *Specimen*.
+    - From a Specimen page, you can also click the `Create` button (you must be logged in to see this button).
 
 * At a minimum, fill out the essential fields marked with a red asterisk (*). However, filling out more fields enhances data discoverability.
 
 * Upon completion, click `Save`.
 
+![Screenshot of the Create Specimen form]({{ "/assets/wiki_images/submitting-data/create-specimen-form.png" | relative_url }})
+
 ### 3.1. Fields for Specimen Records
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Internal ID</td>
@@ -102,7 +106,7 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
   <tr>
     <td>Species</td>
     <td>e.g., Homo sapiens, Mus musculus.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Stage</td>
@@ -117,12 +121,12 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
   <tr>
     <td>Assay type</td>
     <td>The imaging related types are IHC, ISH, and Histology.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Preparation, Fixation and Embedding</td>
     <td>These fields describe how the sample was prepared.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Background Strain, Wild Type, Phenotype, Sex, Passage, Cell Line</td>
@@ -157,17 +161,17 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
   <tr>
     <td>Curation Status</td>
     <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see Curation Workflow.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Principal Investigator</td>
     <td>Choose the appropriate Principal Investigator. If your PI is not on the list, click the plus sign just to the top right of the list to create a new record for them.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Consortium</td>
     <td>Select GUDMAP or RBK.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
 </table>
 
@@ -176,9 +180,11 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
 
 From the Specimen record, link to at least one *Anatomical Source* from our list of ontology terms (from GUDMAP EMAPA or UBERON). This is **_required_**.
 
-[New screenshot]
+In the **Sections** list (left sidebar), look for the **Anatomical Source** and click the link. The field will scroll to the top of the page.
 
-In the **Sections** list (left sidebar), look for the **Anatomical Source** and click the link. The field will scroll to the top of the page. To the right of the field, click the `Link record` button. Start typing a term and choose your term from the list of available ontological terms.
+![Anatomical Source field is highlighted in this screenshot]({{ "/assets/wiki_images/submitting-data/specimen-anatomical-source.png" | relative_url }})
+
+To the right of the field, click the `Link record` button. Start typing a term and choose your term from the list of available ontological terms.
 
 * To indicate stem cell lines, search for "iPSC" or "hiPSC".
 
@@ -202,7 +208,7 @@ This shortcut is handy if many Specimen records require the same Anatomical Sour
 
 From the Specimen record, link to the related publication. In the **Sections** list (left sidebar), look for **Publication** and click the link. To the right of the field, click the `Link records` button.
 
-[New screenshot]
+![Anatomical Source field is highlighted in this screenshot]({{ "/assets/wiki_images/submitting-data/specimen-publication-field.png" | relative_url }})
 
 If you know your publication has already been entered, search for the title and then click to link to the publication.
 
@@ -212,14 +218,14 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Title</td>
     <td>Title of the publication</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Authors list</td>
@@ -234,7 +240,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
   <tr>
     <td>Publication venue</td>
     <td>Name of the journal or publication venue. If this is not available, you may click `Create new` to add an entry for the venue.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Month</td>
@@ -244,7 +250,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
   <tr>
     <td>Year</td>
     <td>Publication year.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Volume</td>
@@ -262,7 +268,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
     <td>Optional</td>
   </tr>
   <tr>
-    <td>PubMed ID </td>
+    <td>PubMed ID</td>
     <td>The PubMed ID of the publication.</td>
     <td>Optional</td>
   </tr>
@@ -277,7 +283,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Publisher Item Identifier </td>
+    <td>Publisher Item Identifier</td>
     <td>A unique identifier, used by scientific journal publishers, to identify documents.</td>
     <td>Optional</td>
   </tr>
@@ -289,19 +295,20 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
   <tr>
     <td>Curation Status</td>
     <td>Keep the default value of Submitted.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Principal Investigator</td>
     <td>The lead principal investigator of the publication.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Consortium</td>
     <td>Indicate GUDMAP or RBK.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
 </table>
+
 
 ## 6. Upload Image Files
 
@@ -313,6 +320,8 @@ You can upload 2D images and 3D images. Check the accepted [image file formats o
 
 3. Fill out the fields and then click `Save`.
 
+![Screenshot of Create Image form]({{ "/assets/wiki_images/submitting-data/image-record-form.png" | relative_url }})
+
 We highly recommend uploading a thumbnail file for the Image records. [Read this doc for our thumbnail guidelines.](../thumbnail-creation-guideline/).
 
 **Note:** 3D image files were previously uploaded in a separate section. Those files are still avaiable in the section labeled *Image 3D (Legacy)*.
@@ -323,24 +332,24 @@ Although there are few required fields, the more fields you fill out, the more F
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Image Dimension</td>
     <td>Choose 2D or 3D.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Media Type</td>
     <td>Select the format of the file. If a type is missing, please contact help@atlas-d2k.org.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Original File</td>
     <td>Use this field to select your file locally. If you have many files, they are especially large (> then 10GB) or are only accessible remotely, use see "Batch Upload Image Records" below)</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Pixels per Meter</td>
@@ -374,10 +383,11 @@ Although there are few required fields, the more fields you fill out, the more F
   </tr>
   <tr>
     <td>Acknowledgements</td>
-    <td>Add the name and role of people who captured this data. </td>
+    <td>Add the name and role of people who captured this data.</td>
     <td>Optional</td>
   </tr>
 </table>
+
 
 ### 6.2. Uploading Several Images
 
@@ -388,7 +398,7 @@ If you need to upload multiple image records simultaneously through the web inte
 - Fill in the values of the field in the form that will be common across multiple records.
 - Click the `Clone` button to create additional forms and edit individual ones as needed.
 
-[SCREENSHOT]
+![Screenshot of a cloned image record form]({{ "/assets/wiki_images/submitting-data/image-record-cloned.png" | relative_url }})
 
 #### 6.2.2. Use DERIVA Client Tools
 
@@ -396,9 +406,7 @@ If you have many files or your files are very large (over 5GB), then you may nee
 
 ### 6.3 Add Image Channels
 
-For imaging data with multiple channels, you can designate their colors via the** Image Channel**** **field that is now visible on the new Image record. Historically, this information was entered in the free text **Notes** field and that is also an option.
-
-[SCREENSHOT - image–record-page-image-channel]
+For imaging data with multiple channels, you can designate their colors via the **Image Channel** field on the Image record. Historically, this information was entered in the free text **Notes** field and that is also an option.
 
 To add Image Channels:
 
@@ -406,13 +414,15 @@ To add Image Channels:
 
 2. Fill out the fields and click `Save` when finished.
 
+![Screenshot of a create image channel form]({{ "/assets/wiki_images/submitting-data/add-image-create-channel.png" | relative_url }})
+
 #### 6.3.1 Fields for Image Channels
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Legacy Color</td>
@@ -422,7 +432,7 @@ To add Image Channels:
   <tr>
     <td>Name</td>
     <td>This is the channel name (name of the gene/protein displayed on the channel.)</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Image URL</td>
@@ -476,29 +486,29 @@ You can also upload videos. Use these links to learn the accepted [video file fo
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Title</td>
     <td>Provide the title describing the video.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>File URL</td>
     <td>Use this field to select your file locally.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Media Type</td>
     <td>Select the format of the file. If a type is missing, please contact help@atlas-d2k.org.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Data Provider</td>
     <td>This is your lab's institution. If you need to add an institution, please contact help@atlas-d2k.org.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
 </table>
 
@@ -520,8 +530,8 @@ The following tables guide you to details on the more common types of informatio
 
 <table>
   <tr>
-    <td>If…</td>
-    <td>Add records to these sections:</td>
+    <th>If…</th>
+    <th>Add records to these sections:</th>
   </tr>
   <tr>
     <td>the slide was stained with an antibody</td>
@@ -544,14 +554,14 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Antibody RID</td>
     <td>Choose from the list of existing companies in our Antibody Listings.  If you do not see the antibody company listed, click the Create New button to add it.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Dilution</td>
@@ -585,14 +595,14 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Probe RID</td>
     <td>Choose from the list of existing probes.  If you do not see the probe listed, click the Create New button to add it.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Strain</td>
@@ -641,8 +651,8 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
   </tr>
   <tr>
     <td>Curation Status</td>
-    <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see [Curation Workflow](../Curation-Workflow/).</td>
-    <td>Required</td>
+    <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see <a href="../Curation-Workflow/">Curation Workflow</a>).</td>
+    <td class="required">Required</td>
   </tr>
 </table>
 
@@ -653,19 +663,19 @@ For In Situ Hybridization (ISH) data, make sure to add scored expression regions
 
 <table>
   <tr>
-    <td>Field</td>
-    <td>Description</td>
-    <td>Required/Optional</td>
+    <th>Field</th>
+    <th>Description</th>
+    <th>Required/Optional</th>
   </tr>
   <tr>
     <td>Expression Region</td>
     <td>Indicate the anatomical region by searching through ontology terms.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Strength</td>
     <td>Select a value to indicate the strength of expression in that region. Choose from uncertain, present, and not detected.</td>
-    <td>Required</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td>Strength Modifier</td>
@@ -709,17 +719,14 @@ For In Situ Hybridization (ISH) data, make sure to add scored expression regions
   </tr>
 </table>
 
-
-[SCREENSHOT]
-
 ## 10. Other Information
 
 The following are additional types of information that may be added to a Specimen record:
 
 <table>
   <tr>
-    <td>Section</td>
-    <td>Description</td>
+    <th>Section</th>
+    <th>Description</th>
   </tr>
   <tr>
     <td>Derived Specimen</td>
