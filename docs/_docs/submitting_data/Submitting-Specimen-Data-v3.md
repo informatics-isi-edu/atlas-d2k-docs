@@ -106,7 +106,7 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
     <td>Optional (but highly recommended)</td>
   </tr>
   <tr>
-    <td>Species</td>
+    <td class="required">Species</td>
     <td>e.g., Homo sapiens, Mus musculus.</td>
     <td class="required">Required</td>
   </tr>
@@ -121,12 +121,12 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Assay type</td>
+    <td class="required">Assay type</td>
     <td>The imaging related types are IHC, ISH, and Histology.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Preparation, Fixation and Embedding</td>
+    <td class="required">Preparation, Fixation and Embedding</td>
     <td>These fields describe how the sample was prepared.</td>
     <td class="required">Required</td>
   </tr>
@@ -161,17 +161,17 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Curation Status</td>
+    <td class="required">Curation Status</td>
     <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see Curation Workflow.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Principal Investigator</td>
+    <td class="required">Principal Investigator</td>
     <td>Choose the appropriate Principal Investigator. If your PI is not on the list, click the plus sign just to the top right of the list to create a new record for them.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Consortium</td>
+    <td class="required">Consortium</td>
     <td>Select GUDMAP or RBK.</td>
     <td class="required">Required</td>
   </tr>
@@ -228,7 +228,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Title</td>
+    <td class="required">Title</td>
     <td>Title of the publication</td>
     <td class="required">Required</td>
   </tr>
@@ -243,7 +243,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Publication venue</td>
+    <td class="required">Publication venue</td>
     <td>Name of the journal or publication venue. If this is not available, you may click `Create new` to add an entry for the venue.</td>
     <td class="required">Required</td>
   </tr>
@@ -253,7 +253,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Year</td>
+    <td class="required">Year</td>
     <td>Publication year.</td>
     <td class="required">Required</td>
   </tr>
@@ -298,17 +298,17 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Curation Status</td>
+    <td class="required">Curation Status</td>
     <td>Keep the default value of Submitted.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Principal Investigator</td>
+    <td class="required">Principal Investigator</td>
     <td>The lead principal investigator of the publication.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Consortium</td>
+    <td class="required">Consortium</td>
     <td>Indicate GUDMAP or RBK.</td>
     <td class="required">Required</td>
   </tr>
@@ -342,17 +342,17 @@ Although there are few required fields, the more fields you fill out, the more F
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Image Dimension</td>
+    <td class="required">Image Dimension</td>
     <td>Choose 2D or 3D.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Media Type</td>
+    <td class="required">Media Type</td>
     <td>Select the format of the file. If a type is missing, please contact help@atlas-d2k.org.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Original File</td>
+    <td class="required">Original File</td>
     <td>Use this field to select your file locally. If you have many files, they are especially large (> then 10GB) or are only accessible remotely, use see "Batch Upload Image Records" below)</td>
     <td class="required">Required</td>
   </tr>
@@ -435,7 +435,7 @@ To add Image Channels:
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Name</td>
+    <td class="required">Name</td>
     <td>This is the channel name (name of the gene/protein displayed on the channel.)</td>
     <td class="required">Required</td>
   </tr>
@@ -496,22 +496,22 @@ You can also upload videos. Use these links to learn the accepted [video file fo
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Title</td>
+    <td class="required">Title</td>
     <td>Provide the title describing the video.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>File URL</td>
+    <td class="required">File URL</td>
     <td>Use this field to select your file locally.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Media Type</td>
+    <td class="required">Media Type</td>
     <td>Select the format of the file. If a type is missing, please contact help@atlas-d2k.org.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Data Provider</td>
+    <td class="required">Data Provider</td>
     <td>This is your lab's institution. If you need to add an institution, please contact help@atlas-d2k.org.</td>
     <td class="required">Required</td>
   </tr>
@@ -564,7 +564,7 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Antibody RID</td>
+    <td class="required">Antibody RID</td>
     <td>Choose from the list of existing companies in our Antibody Listings.  If you do not see the antibody company listed, click the Create New button to add it.</td>
     <td class="required">Required</td>
   </tr>
@@ -605,7 +605,7 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Probe RID</td>
+    <td class="required">Probe RID</td>
     <td>Choose from the list of existing probes.  If you do not see the probe listed, click the Create New button to add it.</td>
     <td class="required">Required</td>
   </tr>
@@ -655,7 +655,7 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
     <td>Optional</td>
   </tr>
   <tr>
-    <td>Curation Status</td>
+    <td class="required">Curation Status</td>
     <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see <a href="../curation-workflow/">Curation Workflow</a>).</td>
     <td class="required">Required</td>
   </tr>
@@ -673,12 +673,12 @@ For In Situ Hybridization (ISH) data, make sure to add scored expression regions
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Expression Region</td>
+    <td class="required">Expression Region</td>
     <td>Indicate the anatomical region by searching through ontology terms.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Strength</td>
+    <td class="required">Strength</td>
     <td>Select a value to indicate the strength of expression in that region. Choose from uncertain, present, and not detected.</td>
     <td class="required">Required</td>
   </tr>
