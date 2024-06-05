@@ -177,6 +177,9 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
   </tr>
 </table>
 
+Once you have saved the form, you will see a new Specimen record much like the following example:
+
+![Screenshot of a Specimen record]({{ "/assets/wiki_images/submitting-data/specimen-record-page.png" | relative_url }})
 
 ## 4. Link to Anatomy or Cell Type Terms
 
@@ -653,7 +656,7 @@ Note: The *Probe* section will display details of the probe(s) you chose - you d
   </tr>
   <tr>
     <td>Curation Status</td>
-    <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see <a href="../Curation-Workflow/">Curation Workflow</a>).</td>
+    <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see <a href="../curation-workflow/">Curation Workflow</a>).</td>
     <td class="required">Required</td>
   </tr>
 </table>
