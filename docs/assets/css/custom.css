@@ -161,5 +161,6 @@ form.navbar-form.navbar-left {
 }
 
 .required {
-    color: red;
+    color: #c7254e;
+    font-weight: bold;
   }

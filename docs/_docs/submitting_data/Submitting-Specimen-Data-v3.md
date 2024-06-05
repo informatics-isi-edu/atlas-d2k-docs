@@ -58,15 +58,17 @@ Specimen records also house information such as antibodies that were used, expre
 
 ### 2.1 Overview for completing a Specimen record
 
-* **Submit metadata**. When you first create a Specimen record, you will fill out a form to submit metadata about the bio-tissue used in your experiment(s).
+* [**Submit metadata**](#3-submit-metadata-fields). When you first create a Specimen record, you will fill out a form to submit metadata about the bio-tissue used in your experiment(s).
 
-* **Link to ontologies**. From the newly created Specimen record, you will link to an anatomy ontology term via the *Anatomical Source* field. Depending on the data, you may also link to a cell type ontology via the *Specimen Cell Type* field.
+* [**Link to ontologies**](#4-link-to-anatomy-or-cell-type-terms). From the newly created Specimen record, you will link to an anatomy ontology term via the *Anatomical Source* field. Depending on the data, you may also link to a cell type ontology via the *Specimen Cell Type* field.
 
-* **Link to your publication.**
+* [**Link to your publication**](#5-link-to-a-publication).
 
-* **Add data files.** This is when you upload your 2D and/or 3D image files.
+* [**Add image files.**](#6-upload-image-files) This is when you upload your 2D and/or 3D image files ([we also accept videos](#7-upload-video-files)).
 
-* **Add/Link to Antibodies, Probes, Gene Expression Scores**. Depending on your experiments, you may also provide further information in these sections.
+* [**Add image channels**](#6.3-add-image-channels). If your images have multiple channels, you can describe them with Image Channels.
+
+* [**Add/Link to Antibodies, Probes, Gene Expression Scores**](#9-add-antibodies,-probes,-gene-expression-scores). Depending on your experiments, you may also provide further information in these sections.
 
 ### 2.2 Organizing Specimen records (Parent/Child)
 
@@ -182,7 +184,7 @@ From the Specimen record, link to at least one *Anatomical Source* from our list
 
 In the **Sections** list (left sidebar), look for the **Anatomical Source** and click the link. The field will scroll to the top of the page.
 
-![Anatomical Source field is highlighted in this screenshot]({{ "/assets/wiki_images/submitting-data/specimen-anatomical-source.png" | relative_url }})
+![Anatomical Source field is highlighted in this screenshot]({{ "/assets/wiki_images/submitting-data/specimen-antomical-source.png" | relative_url }})
 
 To the right of the field, click the `Link record` button. Start typing a term and choose your term from the list of available ontological terms.
 
@@ -320,11 +322,11 @@ You can upload 2D images and 3D images. Check the accepted [image file formats o
 
 3. Fill out the fields and then click `Save`.
 
-![Screenshot of Create Image form]({{ "/assets/wiki_images/submitting-data/image-record-form.png" | relative_url }})
-
 We highly recommend uploading a thumbnail file for the Image records. [Read this doc for our thumbnail guidelines.](../thumbnail-creation-guideline/).
 
 **Note:** 3D image files were previously uploaded in a separate section. Those files are still avaiable in the section labeled *Image 3D (Legacy)*.
+
+![Screenshot of Create Image form]({{ "/assets/wiki_images/submitting-data/image-record-form.png" | relative_url }})
 
 ### 6.1. Fields for Image Records
 
