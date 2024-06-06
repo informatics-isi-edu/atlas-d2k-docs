@@ -430,9 +430,14 @@ To add Image Channels:
     <th>Required/Optional</th>
   </tr>
   <tr>
-    <td>Legacy Color</td>
-    <td>This is an older way of adding color information but may be used if you only know the common name for the color.</td>
-    <td>Optional</td>
+    <td class="required">Image</td>
+    <td>This should already be set to the related Image record associated with this channel.</td>
+    <td class="required">Required</td>
+  </tr>
+  <tr>
+    <td class="required">Channel Number</td>
+    <td>This number indicates the order of this channel in the image file. Channel number starts with 0.</td>
+    <td class="required">Required</td>
   </tr>
   <tr>
     <td class="required">Name</td>
@@ -440,28 +445,8 @@ To add Image Channels:
     <td class="required">Required</td>
   </tr>
   <tr>
-    <td>Image URL</td>
-    <td>The image url for this channel. Only used with certain formats.</td>
-    <td>Optional</td>
-  </tr>
-  <tr>
-    <td>Notes</td>
-    <td>This is a Markdown-formatted text field available for any additional information you want to provide.</td>
-    <td>Optional</td>
-  </tr>
-  <tr>
     <td>Pseudo Color</td>
     <td>The hexadecimal code for the channel color. You may either enter the code in the field or click the down arrow to use a color picker.</td>
-    <td>Optional</td>
-  </tr>
-  <tr>
-    <td>Is RGB</td>
-    <td>Choose Yes or No to indicate whether this channel is in RGB format.</td>
-    <td>Optional</td>
-  </tr>
-  <tr>
-    <td>Config</td>
-    <td>Use this plain text field to enter any configuration parameters.</td>
     <td>Optional</td>
   </tr>
   <tr>
@@ -474,6 +459,13 @@ To add Image Channels:
     <td>Use this plain text field to indicate what this channel represents (e.g., rhodopsin, virus).</td>
     <td>Optional</td>
   </tr>
+
+  <tr>
+    <td>Notes</td>
+    <td>This is a Markdown-formatted text field available for any additional information you want to provide.</td>
+    <td>Optional</td>
+  </tr>
+
 </table>
 
 ## 7. Upload Video Files
