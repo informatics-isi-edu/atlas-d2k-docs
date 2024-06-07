@@ -123,21 +123,23 @@ See actual examples of metadata and files in [the NPC_stability Study](https://w
 $userid
   \- deriva
     \- Seq
-      \- NPC_stability  
-        \- mNPC_RNA
-          \- 1_1.R1.fastq.gz
-          \- 1_1.R2.fastq.gz
-          \- 1_1_sorted.bed
-          \- 1_1_normalized_profile.bw
-          \- 1_1.kpm.txt
-          \- ...
+      \- NPC_stability
         \- mNPC_ATAC
-          \- Q-Y5CC.R1.fastq.gz
-          \- Q-Y5CC.R2.fastq.gz
-          \- Q-Y5CC_sorted.bed
-          \- Q-Y5CC_normalized_profile.bw
-          \- Q-Y5CC.kpm.txt
-          \- ...
+         \- Q-Y5CC_rep1
+           \- rep1_seq_file.R1.fastq.gz
+           \- rep1_seq_file.R2.fastq.gz
+           \- rep1_seq_file_sorted.bed
+           \- rep1_seq_file_normalized_profile.bw
+           \- rep1_seq_file.kpm.txt
+           \- ...
+        \- mNPC_RNA
+          \- 1_1_rep1
+           \- rep1_seq_file.R1.fastq.gz
+           \- rep1_seq_file.R2.fastq.gz
+           \- rep1_seq_file_sorted.bed
+           \- rep1_seq_file_normalized_profile.bw
+           \- rep1_seq_file.kpm.txt
+           \- ...
 ```
 
 **Example 2:**
@@ -164,19 +166,20 @@ $userid
     \- Seq
       \- mouse_SC_RNASeq  
         \- m1_e11_cortex
-          \- 1_1.R1.fastq.gz
-          \- 1_1.R2.fastq.gz
-          \- 1_1_sorted.bed
-          \- 1_1_normalized_profile.bw
-          \- 1_1.kpm.txt
-          \- ...
-        \- m2_p0_cortex
-          \- Q-Y4HM.R1.fastq.gz
-          \- Q-Y4HM.R2.fastq.gz
-          \- Q-Y4HM_sorted.bed
-          \- Q-Y4HM_normalized_profile.bw
-          \- Q-Y4HM.kpm.txt
-          \- ...
+         \- Q-Y4HM_rep1
+           \- rep1_seq_file_R1_000.fastq.gz
+           \- rep1_seq_file_R2_000.fastq.gz
+           \- rep1_seq_file_sorted.bed
+           \- rep1_seq_file_normalized_profile.bw
+           \- rep1_seq_file.kpm.txt
+           \- ...
+         \- 1_1_rep1
+           \- rep1_seq_file_R1_000.fastq.gz
+           \- rep1_seq_file_R2_000.fastq.gz
+           \- rep1_seq_file_sorted.bed
+           \- rep1_seq_file_normalized_profile.bw
+           \- rep1_seq_file.kpm.txt
+           \- ...
 ```
 
 ### 2.4. Choose naming conventions for study-level files
@@ -281,7 +284,9 @@ Using the command-line interface on a remote server is a bit more complicated. F
 
 ### 5.1. Get an authentication token from DERIVA Auth
 
-The uploader requires an authentication token to communicate with the server.
+The uploader requires an authentication token to communicate with the server. There are two options to authenticate to the server.
+
+#### 5.1.1. Authentication using GUI
 
 1. Launch the DERIVA-Auth tool on your desktop (through the Applications menu on Windows or Mac, or with `deriva-auth` on Linux) to bring up an authentication window similar to the one used in the data browser. The first time you log in, you'll see a mostly-empty window:
 
@@ -299,11 +304,33 @@ The uploader requires an authentication token to communicate with the server.
 
     !["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
 
+#### 5.1.2. Authentication using CLI
+On the client machine to be used for uploading the files, run the command:
+```
+deriva-globus-auth-utils login --host _host_  --refresh --no-browser
+```
+where: 
+* _host_ is `www.atlas-d2k.org`
+* --refresh indicates that the login session should be automatically refreshed. Without this flag, the session will expire after 24 hours.
+* --no-browser is used when the upload activity is done on the server and there is no graphic interface support to launch the auentication UI. This parameter will provide a URL for user to cut and paste to their browser on a local machine to use for authentication. Upon a successful authentication, the user interface will display a token string that need to be pasted into the waiting prompt of this command. 
+
+For example: 
+```
+# authentication with UI support
+> deriva-globus-auth-utils login --host www.atlas-d2k.org  --refresh
+
+# authentication without UI support
+> deriva-globus-auth-utils login --host www.atlas-d2k.org  --refresh --no-browser
+https://auth.globus.org/v2/oauth2/authorize?client_id=8ef15ba9-2b4a-469c-a163-7fd910c9d111&redirect_uri=https%3A%2F%2Fauth.globus.org%2Fv2%2Fweb%2Fauth-code&scope=urn%3Aglobus%3Aauth%3Ascope%3Agroups.api.globus.org%3Aview_my_groups_and_memberships+https%3A%2F%2Fauth.globus.org%2Fscopes%2Fstaging.atlas-d2k.org%2Fderiva_all+openid&state=_default&response_type=code&code_challenge=vxiCuV8LHysGxePaG7DFsOfKCFHUEYwPMRB9AaU2jTY&code_challenge_method=S256&access_type=online&prefill_named_grant=Login+from+deriva-client+on+ravine.lan+%5BLinux-6.8.9-100.fc38.x86_64-x86_64-with-glibc2.37%5D+to+hosts+%5Bstaging.atlas-d2k.org%5D+with+requested+scopes+%5Burn%3Aglobus%3Aauth%3Ascope%3Agroups.api.globus.org%3Aview_my_groups_and_memberships%2C+https%3A%2F%2Fauth.globus.org%2Fscopes%2Fstaging.atlas-d2k.org%2Fderiva_all%2C+openid%5D+
+Please Paste your Auth Code Below: <PASTE THE TOKEN HERE>
+```
+  
+
 ### 5.2. Upload files with `deriva-upload-cli`
 
 On the server, run the command:
 ```
-deriva-upload-cli --catalog 2 --token _token_ --catalog 2 _host_ _/path/to/_/deriva
+> deriva-upload-cli --catalog 2 --token _token_ --catalog 2 _host_ _/path/to/_/deriva
 ```
 where:
 * _token_ is the token copy-and-pasted from your DERIVA-Auth session
@@ -312,9 +339,14 @@ where:
 
 For example:
 ```
-deriva-upload-cli --catalog 2 --token xXXxxxxXXxxxxXxXXXxXxxxX www.atlas-d2k.org $HOME/deriva
+> deriva-upload-cli --catalog 2 --token xXXxxxxXXxxxxXxXXXxXxxxX www.atlas-d2k.org $HOME/deriva
 ```
 
 ### 5.3 Log out
 
-Authentication tokens expire after 30 minutes of activity but if you want to log out from DERIVA Auth explicitly, click the "Logout" button at the top of the window.
+Authentication tokens expire after 30 minutes of activity but if you want to log out from DERIVA Auth explicitly, click the "Logout" button at the top of the window or logout through command line. 
+
+```
+> deriva-globus-auth-utils logout 
+```
+
