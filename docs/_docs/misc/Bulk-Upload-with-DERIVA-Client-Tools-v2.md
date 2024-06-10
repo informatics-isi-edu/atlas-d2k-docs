@@ -104,8 +104,6 @@ You may also use either directory naming convention between different experiment
 
 The full directory structure therefore is:
 
-**Using Replicate RIDs:**
-
 ```
     \- deriva
       \- Seq
@@ -121,7 +119,7 @@ OR
       \- Seq
         \- <Study Internal ID>     
           \- <Experiment Internal ID>
-             \- <Replicate RID>_<custom> OR <Biological Replicate Number>_<Technical Replicate Number>_<Custom Text>/
+             \- <Biological Replicate Number>_<Technical Replicate Number>_<Custom Text>/
                 <related files>
 ```   
 
