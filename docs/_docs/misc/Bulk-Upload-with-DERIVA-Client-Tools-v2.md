@@ -309,7 +309,7 @@ Then you'll run the command-line tool on the remote server.
 
 The uploader requires an authentication token to communicate with the server. There are two options to authenticate to the server.
 
-#### 5.1.1. Authentication using GUI
+#### 5.1.1. Authentication using the GUI
 
 1. Launch the DERIVA-Auth tool on your desktop (through the Applications menu on Windows or Mac, or with `deriva-auth` on Linux) to bring up an authentication window similar to the one used in the data browser. The first time you log in, you'll see a mostly-empty window:
 
@@ -327,7 +327,7 @@ The uploader requires an authentication token to communicate with the server. Th
 
     !["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
 
-#### 5.1.2. Authentication using CLI
+#### 5.1.2. Authentication with `deriva-globus-auth-utils`
 
 If you are uploading files from a remote server, use this method. From the remote server, run the following command:
 
@@ -342,11 +342,14 @@ where:
 
 For example:
 ```
-# authentication with UI support
+# authentication with UI support:
+
 > deriva-globus-auth-utils login --host www.atlas-d2k.org  --refresh
 
-# authentication without UI support
+# authentication without UI support:
+
 > deriva-globus-auth-utils login --host www.atlas-d2k.org  --refresh --no-browser
+
 https://auth.globus.org/v2/oauth2/authorize?client_id=8ef15ba9-2b4a-469c-a163-7fd910c9d111&redirect_uri=https%3A%2F%2Fauth.globus.org%2Fv2%2Fweb%2Fauth-code&scope=urn%3Aglobus%3Aauth%3Ascope%3Agroups.api.globus.org%3Aview_my_groups_and_memberships+https%3A%2F%2Fauth.globus.org%2Fscopes%2Fstaging.atlas-d2k.org%2Fderiva_all+openid&state=_default&response_type=code&code_challenge=vxiCuV8LHysGxePaG7DFsOfKCFHUEYwPMRB9AaU2jTY&code_challenge_method=S256&access_type=online&prefill_named_grant=Login+from+deriva-client+on+ravine.lan+%5BLinux-6.8.9-100.fc38.x86_64-x86_64-with-glibc2.37%5D+to+hosts+%5Bstaging.atlas-d2k.org%5D+with+requested+scopes+%5Burn%3Aglobus%3Aauth%3Ascope%3Agroups.api.globus.org%3Aview_my_groups_and_memberships%2C+https%3A%2F%2Fauth.globus.org%2Fscopes%2Fstaging.atlas-d2k.org%2Fderiva_all%2C+openid%5D+
 Please Paste your Auth Code Below: <PASTE THE TOKEN HERE>
 ```
