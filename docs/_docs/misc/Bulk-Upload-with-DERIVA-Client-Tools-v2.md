@@ -120,7 +120,7 @@ OR
         \- <Study Internal ID>     
           \- <Experiment Internal ID>
              \- <Biological Replicate Number>_<Technical Replicate Number>_<Custom Text>/
-                <related files>
+                <add related files>
 ```   
 
 **Example 1:**
