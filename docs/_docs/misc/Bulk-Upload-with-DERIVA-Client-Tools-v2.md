@@ -357,10 +357,14 @@ Please Paste your Auth Code Below: <PASTE THE TOKEN HERE>
 
 ### 5.2. Upload files with `deriva-upload-cli`
 
-On the server, run the command:
+Once you are authenticated, you can upload the files.
+
+On the server, run the following command:
+
 ```
 > deriva-upload-cli --catalog 2 --token _token_ --catalog 2 _host_ _/path/to/_/deriva
 ```
+
 where:
 * _token_ is the token copy-and-pasted from your DERIVA-Auth session
 * _host_ is `www.atlas-d2k.org`, and
