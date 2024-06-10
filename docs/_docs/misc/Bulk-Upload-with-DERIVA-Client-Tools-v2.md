@@ -299,7 +299,11 @@ Authentication tokens expire after 30 minutes of inactivity but if you want to l
 
 ## 5. Using the `deriva-upload-cli` command on a remote server
 
-Using the command-line interface on a remote server is a bit more complicated. First, you'll need to get an authentication token by running the DERIVA-Auth tool locally on your desktop. Then you'll run the command-line tool on the remote server.
+Using the command-line interface on a remote server is a bit more complicated.
+
+First, you'll need to get an authentication token by running the DERIVA-Auth tool locally on your desktop (we provide instructions for using the GUI or the command-line tool).
+
+Then you'll run the command-line tool on the remote server.
 
 ### 5.1. Get an authentication token from DERIVA Auth
 
@@ -324,14 +328,17 @@ The uploader requires an authentication token to communicate with the server. Th
     !["Show Details" window]({{ "/assets/wiki_images/submitting-data/sequencing_uploader/show-details.png" | relative_url }})
 
 #### 5.1.2. Authentication using CLI
-On the client machine to be used for uploading the files, run the command:
+
+If you are uploading files from a remote server, use this method. From the remote server, run the following command:
+
 ```
 deriva-globus-auth-utils login --host _host_  --refresh --no-browser
 ```
+
 where:
 * _host_ is `www.atlas-d2k.org`
-* --refresh indicates that the login session should be automatically refreshed. Without this flag, the session will expire after 24 hours.
-* --no-browser is used when the upload activity is done on the server and there is no graphic interface support to launch the auentication UI. This parameter will provide a URL for user to cut and paste to their browser on a local machine to use for authentication. Upon a successful authentication, the user interface will display a token string that need to be pasted into the waiting prompt of this command.
+* _--refresh_ indicates that the login session should be automatically refreshed. Without this flag, the session will expire after 24 hours.
+* _--no-browser_ is used when the upload activity is done on the server and there is no graphic interface support to launch the authentication user interface. This parameter will provide a URL you can use to copy and paste into your browser on a local machine to use for authentication. Once authentication is complete, the user interface will display a token string to copy and paste into the waiting prompt of this command.
 
 For example:
 ```
