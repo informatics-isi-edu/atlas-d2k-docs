@@ -44,7 +44,7 @@ Follow the steps outlined to enhance the discoverability of your specimen and da
 
 ![Chart of Data Model for Specimen records]({{ "/assets/wiki_images/submitting-data/ATLAS_Data_Model_Specimen.jpg" | relative_url }})
 
-*Add caption that describes this chart and what the colors mean*
+<!-- TBD: Add caption that describes this chart and what the colors mean -->
 
 ## 1. Joining the Globus Group
 
