@@ -80,7 +80,9 @@ where
 
 ### 2.3. Choose naming conventions for replicate-level directories
 
-Within each experiment directory, you will add replicate subdirectories that will contain the data files. You may choose from two naming conventions for these directories.
+Within each experiment directory, you will add replicate subdirectories that will contain the data files. Note that the tool will only upload files in these subdirectories that have the approved file extensions listed in the section [2.1. Supported file types](#21-supported-file-types).  
+
+You may choose from two naming conventions for these directories.
 
 Note: Remember we need a replicate for each unit of tissue used in an experiment. For example, three kidney biopsies from a single person would be three replicates from a single kidney of that person.
 
