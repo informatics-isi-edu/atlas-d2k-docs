@@ -536,9 +536,9 @@ The following tables guide you to details on the more common types of informatio
   </tr>
   <tr>
     <td>you are associating probes to genes</td>
-    <td>Specimen Probe Association
+    <td>Specimen Probe Association<br/><br/>
 
-Note: The *Probe* section will display details of the probe(s) you chose - you do not manually add any records to this section.</td>
+Note: The <em>Probe</em> section will display details of the probe(s) you chose - you do not manually add any records to this section.</td>
   </tr>
   <tr>
     <td>you are submitting In Situ Hybridization (ISH) data</td>
