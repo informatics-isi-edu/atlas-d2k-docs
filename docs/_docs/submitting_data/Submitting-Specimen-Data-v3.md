@@ -187,13 +187,13 @@ From the Specimen record, link to at least one *Anatomical Source* from our list
 
 In the **Sections** list (left sidebar), look for the **Anatomical Source** and click the link. The field will scroll to the top of the page.
 
-![Anatomical Source field is highlighted in this screenshot]({{ "/assets/wiki_images/submitting-data/specimen-antomical-source.png" | relative_url }})
-
 To the right of the field, click the `Link record` button. Start typing a term and choose your term from the list of available ontological terms.
 
 * To indicate stem cell lines, search for "iPSC" or "hiPSC".
 
 * You may enter more than one anatomical source, for example, if you entered iPSC or hiPSC, add another anatomical source and search for "podocyte", “kidney organoid”, etc.
+
+![Anatomical Source field is highlighted in this screenshot]({{ "/assets/wiki_images/submitting-data/specimen-antomical-source.png" | relative_url }})
 
 * To enter the cell line, click `Edit` for the Specimen record, scroll down to the **Cell Line** field and click the dropdown field to show available lines. Search for the cell line. If it is not available, you can click `Create new`, fill in the form and click `Save` to add it to the list.
 
