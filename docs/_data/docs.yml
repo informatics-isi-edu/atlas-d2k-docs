@@ -1,8 +1,8 @@
 # Section 1
 - title: Using ATLAS-D2K
   docs:
-    - sectionTitle: Using the ATLAS-D2K Data Browser
-      url: using-the-atlas-d2k-data-browser
+#    - sectionTitle: Using the ATLAS-D2K Data Browser
+#      url: using-the-atlas-d2k-data-browser
     - sectionTitle: Querying the ATLAS-D2K Data Browser
       url: querying-the-atlas-d2k-data-browser
     - sectionTitle: Batch Querying Data

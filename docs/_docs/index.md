@@ -8,9 +8,9 @@ This is the home of public documentation for the ATLAS-D2K Center, which publish
 - [help@atlas-d2k.org](mailto:help@atlas-d2k.org)
 
 ## Accessing the ATLAS-D2K Data
-- Data Browser: Here are links to the videos about [using the data browser](../using-the-atlas-d2k-data-browser).
+- Data Browser: Here is a doc describing [using the data browser](../querying-the-atlas-d2k-data-browser/).
   - Note, that the description is focusing on the GUDMAP site right now, but the instructions for the Data Browser are the same for the ATLAS-D2K website.
-- [Accessing protected human sequencing data (fastq and bam)](../accessing-human-sequencing-data)
+- [Policy for accessing protected human sequencing data (fastq and bam)](../accessing-human-sequencing-data)
 - [Command lines and libraries](../command-lines-and-libraries)
 
 ## Exporting Data
