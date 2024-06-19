@@ -41,9 +41,11 @@ Here are the details for each step.
 
 [Follow the instructions on this page](../accessing-gudmap-and-rbk-resources/). If you're not sure which group you need to join, please contact [help@atlas-d2k.org](help@atlas-d2k.org).
 
-## 2. Organize files for bulk upload
+## 2. Organize files for bulk upload (For Sequencing Study)
 
 The upload tools will use the names of the directories (i.e., folders) and files to determine what kind of files you are uploading and which metadata records to attach them to.
+
+For instructions on organizing files and directories for uploading imaging data (in Specimen records) please see [Bulk Uploading Image Files](../bulk-uploading-image-files/).
 
 ### 2.1. Supported file types
 
