@@ -26,14 +26,14 @@ In order for the upload tool to find your image files, you'll need to organize y
 ```
 
 Where:
-* `{internal_id}` is the same as the `Internal_ID` value of the corresponding specimen
+* `{internal_id}` is exactly the same as the `Internal_ID` value of the corresponding specimen
 * `{number}` is a number; if you have a specimen with multiple images, this will control the order in which they're displayed (if you only have one image per specimen, just use "1").
 * `{suffix}` is the suffix, indicating the file type (`czi`, `jpeg`, `tiff`, etc.)
 * Note that a hyphen (`-`) is used to separate the `{internal_id}` and the `{number}` in the image filename.
 
 For example:
 
-![Relationships between specimen Internal_ID values and image file names](https://raw.githubusercontent.com/wiki/informatics-isi-edu/gudmap-rbk/specimen-imgs/specimen-record-internal-id-tool.png)
+![Relationships between specimen Internal_ID values and image file names](specimen-imgs/specimen-record-internal-id-tool.png)
 
 ### For 3D files:
 
