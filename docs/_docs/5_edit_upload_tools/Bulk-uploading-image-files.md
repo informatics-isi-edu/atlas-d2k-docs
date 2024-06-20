@@ -33,7 +33,7 @@ Where:
 
 For example:
 
-![Relationships between specimen Internal_ID values and image file names](specimen-imgs/specimen-record-internal-id-tool.png)
+![Relationships between specimen Internal_ID values and image file names]({{ "/assets/specimen-imgs/specimen-record-internal-id-tool.png" | relative_url }})
 
 ### For 3D files:
 
