@@ -31,9 +31,9 @@
   docs:
     - sectionTitle: Data Collections
       url: data-collections
-    - sectionTitle: Sequencing Data
+    - sectionTitle: Sequencing and Multiomics
       url: sequencing
-    - sectionTitle: Specimen Records
+    - sectionTitle: Specimen and Imaging
       url: specimen
     - sectionTitle: Antibodies and Antibody Validation
       url: antibodies
@@ -41,8 +41,8 @@
       url: cell-lines
     - sectionTitle: Protocols
       url: protocols
-    - sectionTitle: Entries for the Functional Assay Handbook
-      url: entries-for-the-functional-assay-handbook
+    - sectionTitle: Functional Assays Handbook
+      url: functional-assay-handbook
     - sectionTitle: Single Cell Visualization Files
       url: single-cell-visualization-files
     - sectionTitle: Register Human Adult Data with HRA

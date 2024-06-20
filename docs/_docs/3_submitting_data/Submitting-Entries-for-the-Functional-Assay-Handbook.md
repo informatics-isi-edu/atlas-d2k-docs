@@ -1,8 +1,16 @@
 ---
-title: Submitting Entries for the Functional Assay Handbook
-permalink: /docs/entries-for-the-functional-assay-handbook/
+title: Submitting Entries for the Functional Assays Handbook
+permalink: /docs/functional-assay-handbook/
 ---
 
+The [RBK Consortium](https://www.atlas-d2k.org/rebuildingakidney/) has developed the foundation for a collection of functional assays (with a current focus on physiological assays) that are both:
+
+- critical for achieving our consortium mission - for glomerular function, tubular function and absorption, AND
+- as transferable as possible for other labs in the consortium.
+
+You can learn more about this resource here: [Functional Assays Handbook](https://www.atlas-d2k.org/resources/functional-assays/)
+
+The following are instructions for updating this Handbook.
 
 ## Requirement:
 
