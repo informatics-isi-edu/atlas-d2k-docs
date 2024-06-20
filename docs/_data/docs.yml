@@ -31,9 +31,9 @@
   docs:
     - sectionTitle: Data Collections
       url: data-collections
-    - sectionTitle: Sequencing Data (Studies)
-      url: submitting-sequencing-data-v3-1
-    - sectionTitle: Specimen Records (For imaging data and metadata about bio-specimens)
+    - sectionTitle: Sequencing Data
+      url: sequencing
+    - sectionTitle: Specimen Records
       url: specimen
     - sectionTitle: Antibodies and Antibody Validation
       url: antibodies

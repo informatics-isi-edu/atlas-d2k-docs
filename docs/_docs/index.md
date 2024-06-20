@@ -25,8 +25,8 @@ For members of ATLAS-D2K (specifically members of GUDMAP and RBK) to submit data
 
 **To add or edit data:**
 - [Standard files and formats for submission](../standard-files-and-formats-for-submission)
-- [Imaging Data (Specimen)](../specimen-v2)
-- [Sequencing, Metabolomics, and Image Mass Cytometry Data (Study)](../submitting-sequencing-data-v3-1)
+- [Imaging Data (Specimen)](../specimen)
+- [Sequencing, Metabolomics, and Image Mass Cytometry Data (Study)](../sequencing)
 - [Antibodies](../antibodies)
 - [Cell Lines](../cell-lines)
 - [Data Collections (esp for publications!)](../data-collections)

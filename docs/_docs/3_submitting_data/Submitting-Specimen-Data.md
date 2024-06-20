@@ -3,7 +3,7 @@ title: Submitting Specimen Data
 permalink: /docs/specimen/
 ---
 
-This guide will walk you through the steps to submit specimen and imaging data to the ATLAS-D2K Data Explorer. If you have any queries, please reach out to [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
+This guide will walk you through the steps to submit **biospecimen** and **imaging** data to the ATLAS-D2K Data Explorer. If you have any queries, please reach out to [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 ## Table of Contents
 
@@ -51,7 +51,7 @@ To get editing access, join the relevant Globus group. Email [help@atlas-d2k.org
 
 ## 2. What is a Specimen Record?
 
-A *Specimen* record describes the tissue from an organism (e.g., human, mice, organoid) used in your experiments. In ATLAS-D2K, these records host your imaging data and are linked to related [sequencing studies](../submitting-sequencing-data-v3-1/).
+A *Specimen* record describes the tissue from an organism (e.g., human, mice, organoid) used in your experiments. In ATLAS-D2K, these records host your imaging data and are linked to related [sequencing studies](../sequencing/).
 
 Specimen records also house information such as antibodies that were used, expression scores and probes (among others).
 
