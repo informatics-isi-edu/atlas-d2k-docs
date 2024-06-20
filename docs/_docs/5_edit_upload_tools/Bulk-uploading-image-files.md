@@ -3,12 +3,12 @@ title: Bulk Uploading Image Files
 permalink: /docs/bulk-uploading-image-files/
 ---
 
-The easiest way to add imaging data is via the web interface, using the method described in [Submitting Specimen Data](../specimen-v3/). If you have many files to upload, however, it may be more convenient to use the DERIVA bulk uploader tool.
+The easiest way to add imaging data is via the web interface, using the method described in [Submitting Specimen Data](../specimen/). If you have many files to upload, however, it may be more convenient to use the DERIVA bulk uploader tool.
 
-If you're not already familiar with the concepts and steps described in the [Submitting Specimen Data](../specimen-v3/) page, please review them. The bulk upload tool is a replacement for *6. Upload Image Files** from that page.
+If you're not already familiar with the concepts and steps described in the [Submitting Specimen Data](../specimen/) page, please review them. The bulk upload tool is a replacement for *6. Upload Image Files** from that page.
 
 ## Step 1: Create Specimen records
-Create specimen records using either the the web interface, as described in [Submitting Specimen Data](../specimen-v3/), or the CSV process described in [Adding specimen records from a file](../adding-specimen-records-from-a-file/).
+Create specimen records as described in [Submitting Specimen Data](../specimen/).
 
 **Make sure you assign each record a unique Internal ID**; the Internal ID is used to link image files with the corresponding Specimen records.
 
@@ -28,7 +28,7 @@ In order for the upload tool to find your image files, you'll need to organize y
 Where:
 * `{internal_id}` is exactly the same as the `Internal_ID` value of the corresponding specimen
 * `{number}` is a number; if you have a specimen with multiple images, this will control the order in which they're displayed (if you only have one image per specimen, just use "1").
-* `{suffix}` is the suffix, indicating the file type (`czi`, `jpeg`, `tiff`, etc.)
+* `{suffix}` is the suffix, indicating the file type (`czi`, `jpeg`, `jpg`, `tif`, etc.)
 * Note that a hyphen (`-`) is used to separate the `{internal_id}` and the `{number}` in the image filename.
 
 For example:
@@ -55,7 +55,7 @@ Where:
 Follow [these instructions](../bulk-upload-with-deriva-client-tools/) to upload your file, pointing the uploader at the `images` subfolder.
 
 ## Step 4: Fill in any missing data
-Follow the instructions at [Submitting Specimen Data](../specimen-v3/) to add anatomical sites, antibodies, etc.
+Follow the instructions at [Submitting Specimen Data](../specimen/) to add anatomical sites, antibodies, etc.
 
 ## Step 5: Update the curation status
 Your new records will initially be marked "In Preparation" and will be visible only to consortium members. Change the Specimen records' status to "Submitted" to forward them on to the Biocurator for review and release.

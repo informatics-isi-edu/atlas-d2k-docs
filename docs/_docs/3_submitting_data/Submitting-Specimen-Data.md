@@ -1,8 +1,7 @@
 ---
-title: Submitting Specimen Data (v3)
-permalink: /docs/specimen-v3/
+title: Submitting Specimen Data
+permalink: /docs/specimen/
 ---
-*This is a DRAFT version of the documentation*
 
 This guide will walk you through the steps to submit specimen and imaging data to the ATLAS-D2K Data Explorer. If you have any queries, please reach out to [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 

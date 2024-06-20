@@ -34,7 +34,7 @@
     - sectionTitle: Sequencing Data (Studies)
       url: submitting-sequencing-data-v3-1
     - sectionTitle: Specimen Records (For imaging data and metadata about bio-specimens)
-      url: specimen-v2
+      url: specimen
     - sectionTitle: Antibodies and Antibody Validation
       url: antibodies
     - sectionTitle: Cell Lines
