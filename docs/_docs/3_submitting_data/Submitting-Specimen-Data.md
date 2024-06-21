@@ -362,7 +362,12 @@ Although there are few required fields, the more fields you fill out, the more F
   </tr>
   <tr>
     <td>Thumbnail</td>
-    <td></td>
+    <td>Use this field to upload a small represenative image (for the search results). <a href="../thumbnail-creation-guideline/">Please read our brief guidelines for thumbnails here.</a></td>
+    <td>Optional</td>
+  </tr>
+  <tr>
+    <td>Imaging Mode</td>
+    <td>Indicate how the mode used when the image was captured.</td>
     <td>Optional</td>
   </tr>
   <tr>
