@@ -48,7 +48,7 @@
     - sectionTitle: Register Human Adult Data with HRA
       url: register-human-atlas-reference
 
-# Section 6
+# Section 4
 - title: Citing Data
   docs:
     - sectionTitle: Create Citable Datasets
@@ -56,11 +56,13 @@
     - sectionTitle: Shortcut URLs for Citation and Sharing
       url: shortcut-urls-for-citation-and-sharing
 
-# Section 7
+# Section 5
 - title: Editing and Uploading Tools and Features
   docs:
     - sectionTitle: Bulk Upload with DERIVA Client Tools
-      url: bulk-upload-with-deriva-client-tools
+      url: bulk-upload-with-deriva-client-tools-v2
+    - sectionTitle: Bulk Upload of Images
+      url: bulk-uploading-image-files
     - sectionTitle: Advanced Editing Features
       url: advanced-editing-features
     - sectionTitle: Commandlines and Libraries
@@ -68,20 +70,8 @@
     - sectionTitle: Tips for Submitting Large or Complex Data
       url: tips-for-submitting-large-or-complex-data
 
-# Section 8 - these are truly internal docs and should only be on the github wiki
-#- title: Editing and Uploading Tools and Features
-#  docs:
-#    - sectionTitle: Data Submission Dashboards (Internal only)
-#      url: data-submission-dashboards-internal-only
-#    - sectionTitle: User testing scenarios
-#      url: user-testing-scenarios
-#    - sectionTitle: GUDMAP Requirements Sessions
-#      url: gudmap-requirements-sessions
-#    - sectionTitle: Release Notes (Data Browser)
-#      url: release-notes-data-browser
 
-
-# Section 9
+# Section 6
 - title: Reference
   docs:
   - sectionTitle: Educational tutorials
@@ -90,47 +80,3 @@
     url: faqs
   - sectionTitle: Formatting with Markdown
     url: formatting-with-markdown
-
-# Old sidebar organization
-# Section 3
-# - title: Submitting Sequencing Records (For Omics data)
-#   docs:
-#     - sectionTitle: Submitting Sequencing Data
-#       url: submitting-sequencing-data-v3-1
-#     - sectionTitle: Submitting Single Cell Visualization Files
-#       url: single-cell-visualization-files
-
-
-# Section 4
-# - title: Submitting Specimen Records (For imaging data - and metadata about bio-specimens)
-#   docs:
-#     - sectionTitle: Submitting Specimen Records
-#       url: specimen-v2
-#    - sectionTitle: Bulk Uploading Image Files
-#      url: bulk-uploading-image-files
-#    - sectionTitle: Adding Specimen Records From a File (DRAFT)
-#      url: adding-specimen-records-from-a-file
-#     - sectionTitle: Annotating images
-#       url: annotating-images
-#     - sectionTitle: Color palette for image annotation
-#       url: color-palette-for-image-annotation
-#     - sectionTitle: Thumbnail creation guideline
-#       url: thumbnail-creation-guideline
-#     - sectionTitle: Available Video Platforms
-#       url: available-video-platforms
-
-# Section 5
-# - title: Submitting Other Resources
-#   docs:
-#     - sectionTitle: Antibodies
-#       url: antibodies
-#     - sectionTitle: Cell Lines
-#       url: cell-lines
-#     - sectionTitle: Protocols
-#       url: protocols
-#     - sectionTitle: Entries for the Functional Assay Handbook
-#       url: entries-for-the-functional-assay-handbook
-#     - sectionTitle: Data Collections
-#       url: data-collections
-#     - sectionTitle: Requirements for Creating Schematics
-#       url: requirements-for-creating-schematics
