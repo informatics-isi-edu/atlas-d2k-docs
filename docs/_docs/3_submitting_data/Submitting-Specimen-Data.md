@@ -28,7 +28,7 @@ This guide will walk you through the steps to submit **biospecimen** and **imagi
 - [7. Upload Video Files](#7-upload-video-files)
     - [7.1. Field Descriptions for Video records](#71-field-descriptions-for-video-records)
 - [8. Adding a new Human Reference Atlas (HRA) 3D coordinate (Human Adult Data Only)](#8-adding-a-new-human-reference-atlas-hra-3d-coordinate-human-adult-data-only)
-- [9. Add Antibodies, Probes, Gene Expression Scores](9-add-antibodies-probes-gene-expression-scores)
+- [9. Add Antibodies, Probes, Gene Expression Scores](#9-add-antibodies-probes-gene-expression-scores)
     - [9.1 Fields for *Specimen Antibody* records](#91-fields-for-specimen-antibody-records)
     - [9.2 Fields for *Specimen Probe Association* records](#92-fields-for-specimen-probe-association-records)
     - [9.3 Fields for *Specimen Expression* records](#93-fields-for-specimen-expression-records)
