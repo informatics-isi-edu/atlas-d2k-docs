@@ -61,7 +61,7 @@
   docs:
     - sectionTitle: Bulk Upload with DERIVA Client Tools
       url: bulk-upload-with-deriva-client-tools-v2
-    - sectionTitle: Bulk Upload of Images
+    - sectionTitle: Bulk Uploading Images
       url: bulk-uploading-image-files
     - sectionTitle: Advanced Editing Features
       url: advanced-editing-features
