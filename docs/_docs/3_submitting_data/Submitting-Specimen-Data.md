@@ -11,13 +11,13 @@ This guide will walk you through the steps to submit **biospecimen** and **imagi
 - [1. Joining the Globus Group](#1-joining-the-globus-group)
 - [2. What is a Specimen Record?](#2-what-is-a-specimen-record)
     - [2.1 Overview for completing a Specimen record](#21-overview-for-completing-a-specimen-record)
-    - [2.2 Organizing a Hierarchy of Specimen records](#22-organizing-a-hierarchy-of-specimen-records)
+    - [2.2 Organizing a Hierarchy of Specimen records (Parent/Child)](#22-organizing-a-hierarchy-of-specimen-records-parentchild)
 - [3. Submit Metadata Fields](#3-submit-metadata-fields)
     - [3.1. Fields for Specimen Records](#31-fields-for-specimen-records)
 - [4. Link to Anatomy or Cell Type Terms](#4-link-to-anatomy-or-cell-type-terms)
     - [4.1. To Add the Same Anatomical Source to Several Specimen Records](#41-to-add-the-same-anatomical-source-to-several-specimen-records)
 - [5. Link to a Publication](#5-link-to-a-publication)
-    - [5.1 Fields for Publication Records:](#51-fields-for-publication-records:)
+    - [5.1 Fields for Publication Records](#51-fields-for-publication-records)
 - [6. Upload Image Files](#6-upload-image-files)
     - [6.1. Fields for Image Records](#61-fields-for-image-records)
     - [6.2. Uploading Several Images](#62-uploading-several-images)
@@ -28,7 +28,7 @@ This guide will walk you through the steps to submit **biospecimen** and **imagi
 - [7. Upload Video Files](#7-upload-video-files)
     - [7.1. Field Descriptions for Video records](#71-field-descriptions-for-video-records)
 - [8. Adding a new Human Reference Atlas (HRA) 3D coordinate (Human Adult Data Only)](#8-adding-a-new-human-reference-atlas-hra-3d-coordinate-human-adult-data-only)
-- [9. Add Antibodies, Probes, Gene Expression Scores](#9-add-antibodies,-probes,-gene-expression-scores)
+- [9. Add Antibodies, Probes, Gene Expression Scores](9-add-antibodies-probes-gene-expression-scores)
     - [9.1 Fields for *Specimen Antibody* records](#91-fields-for-specimen-antibody-records)
     - [9.2 Fields for *Specimen Probe Association* records](#92-fields-for-specimen-probe-association-records)
     - [9.3 Fields for *Specimen Expression* records](#93-fields-for-specimen-expression-records)
@@ -789,7 +789,7 @@ Each protocol may vary in the rate of formation subsequent to induction, thus th
 
 ## 12. Finalizing Your Submission
 
-Once you are finished with your internal review, submit your records to the Hub by editing the Specimen record and change the **Curation Status** field to **Submitted**.
+Once you are finished with your internal review, submit your records to the Hub by editing the Specimen record and change the **Curation Status** field to **Submitted**. Send email to [help@atlas-d2k.org](mailto:help@atlas-d2k.org) to let them know of the status change.
 
 The Biocurator will review your submission and may have more questions for improving the quality of your submission.
 
