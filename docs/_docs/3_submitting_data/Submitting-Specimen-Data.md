@@ -161,7 +161,7 @@ An example of such a hierarchy is if an original tissue sample (Specimen A) is d
   </tr>
   <tr>
     <td class="required">Curation Status</td>
-    <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see Curation Workflow.</td>
+    <td>The default value is In Preparation which means this record is in draft mode and will only be viewable by other Consortium members who are logged in. For more information, see <a href="../curation-workflow/">Curation Workflow</a>.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
@@ -243,7 +243,7 @@ Otherwise, click the `Create new` button and fill out the fields with informatio
   </tr>
   <tr>
     <td class="required">Publication venue</td>
-    <td>Name of the journal or publication venue. If this is not available, you may click `Create new` to add an entry for the venue.</td>
+    <td>Name of the journal or publication venue. If this is not available, you may click <code class="language-plaintext highlighter-rouge">Create new</code> to add an entry for the venue.</td>
     <td class="required">Required</td>
   </tr>
   <tr>
