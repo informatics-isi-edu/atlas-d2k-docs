@@ -3,26 +3,12 @@ title: Submitting Data Collections
 permalink: /docs/data-collections/
 ---
 
-<!-- uncomment when generating PDF in Atom
-# Submitting Collections
--->
-<!-- comment out when generating PDF in Atom
-**[PDF version](/docs/data-collections.pdf)**
--->
-
 This page provides instructions for citing data by submitting Data Collections to the ATLAS-D2K Data Explorer.
 
 If you have any questions or feedback, please send them to your consortium's help email: [help@atlas-d2k.org](mailto:help@atlas-d2k.org).
 
 **If you are creating a Collection for an upcoming paper, please make sure you are citing it correctly!** You may find citation instructions here: [https://www.atlas-d2k.org/citing/](https://www.atlas-d2k.org/citing/)
 
-<!--
-We also have the following training materials available:
-* [Webinar Slides](https://docs.google.com/presentation/d/1cJBcdiuF67ze1qMSIOykghA569t8gdcALPRR22C5R7s/edit?usp=sharing)
-* [Webinar Replay 02/08/2018 (17:06)](https://youtu.be/OCHq4GwzEFc)
--->
-
-## Table of Contents
 
 ## Table of Contents
 
@@ -139,9 +125,7 @@ Adding data Collections involves the following steps:
    </tr>
 </table>
 
-Once you have saved the form, you will see a new Collection record much like the following example:
-
-![Screenshot of a Specimen record]({{ "/assets/wiki_images/submitting-data/TBD.png" | relative_url }})
+Once you have saved the form, you will see a new Collection record.
 
 **You can come back at any time and click "Edit" in the record header to modify this record.**
 
@@ -270,9 +254,9 @@ Once the base Collection record is created, now you can add the related data. To
 <!--
 [![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collections-record-blank-update.png)](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collections-record-blank-update.png)
 -->
-* In each relevant section, click `+ Link records` to the right of the section header.
+* In each relevant section, click `Link records` to the right of the section header.
 
-* Browse or search for the records you want to add and then click the checkboxes to select them.
+* Browse or search for the records you want to add and then click to select them.
 <!--
 ![Screenshot of the Create Collection Record form](https://raw.githubusercontent.com/informatics-isi-edu/gudmap-rbk/master/wiki_images/submitting-data/collection-record-blank-select-update.png)
 -->
@@ -280,7 +264,7 @@ Once the base Collection record is created, now you can add the related data. To
 
 ## 7. Reviewing and Submitting Data Collections
 
-Here is how to find your project's data with a Curation Status of "In Preparation":
+Once you have completed the above fields, here is how the PI can review the Collection (assuming it still has a Curation Status of "In Preparation"):
 
 * Make sure you are logged in.
 
@@ -288,7 +272,7 @@ Here is how to find your project's data with a Curation Status of "In Preparatio
 
 * In the faceting sidebar on the left, choose the following filters:
     * Under **Curation Status**, choose _In Preparation_.
-    * Under **Principal Investigator**, choose your project's PI. Now you should see the data you need to review.
+    * Under **Principal Investigator**, choose your name. Now you should see the data you need to review.
 
 * When your record is approved internally, change _Curation Status_ to _Submitted_ to send it to the Hub (click here for the full [Curation Workflow](/docs/curation-workflow)).
 
