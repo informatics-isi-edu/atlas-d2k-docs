@@ -60,7 +60,7 @@ Adding data Collections involves the following steps:
 
 * [**Provide protocols and contributors**](#5-provide-protocols-and-contributors). To provide more complete transparency, reproducibility and provenance, you will link to the protocols used to capture the data in this collection and document the people who handled the data.
 
-* [**Link toy our data records**](#6-link-to-your-data-records). This is where you connect this Collection to the data records you are organizing.
+* [**Link to our data records**](#6-link-to-your-data-records). This is where you connect this Collection to the data records you are organizing.
 
 
 ## 3. Submit Metadata Fields
