@@ -440,12 +440,12 @@ To add Image Channels:
   </tr>
   <tr>
     <td class="required">Channel Number</td>
-    <td>This number indicates the order of this channel in the image file. Channel number starts with 0.</td>
+    <td>Use this field to enter a number that indicates the order of this channel in the image file. <strong>Channel number starts with 0.</strong></td>
     <td class="required">Required</td>
   </tr>
   <tr>
     <td class="required">Name</td>
-    <td>This is the channel name (name of the gene/protein displayed on the channel.)</td>
+    <td>Provide a name for the Image Channel. The name should reflect what is displayed on the channel (gene, protein, antibody, etc.)</td>
     <td class="required">Required</td>
   </tr>
   <tr>
