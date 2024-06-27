@@ -39,10 +39,10 @@ For example:
 
 * Create a folder called `deriva`.
 * Within `deriva`, create a folder called `image_3d`
-* Within `image_3d`, save your image files, using filenames with the following naming convention, where `image_type` is either `volume` or `surface`, depending on the type of data:
+* Within `image_3d`, save your image files, using filenames with the following naming convention:
 
 ```
-{internal_id}-{image-type}.{suffix}
+{internal_id}-{number}.{suffix}
 ```
 
 Where:
