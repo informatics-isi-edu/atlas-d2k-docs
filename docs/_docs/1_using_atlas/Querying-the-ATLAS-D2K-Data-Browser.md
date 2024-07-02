@@ -3,7 +3,21 @@ title: Querying the ATLAS-D2K Data Browser
 permalink: /docs/querying-the-atlas-d2k-data-browser/
 ---
 
-This section describes how to use the filtering/faceting sidebar to search ATLAS-D2K data by gene, anatomy and data attributes.
+This section describes many ways to search ATLAS-D2K data:
+
+## Table of Contents
+
+- [What is a data record in ATLAS-D2K?](#what-is-a-data-record-in-atlas-d2k)
+- [Query by Gene](#query-by-gene)
+  - [Multiple genes (Batch Query)](#multiple-genes-batch-query)
+- [Query by Anatomy](#query-by-anatomy)
+  - [Searching by Anatomy Tree (for mouse anatomy)](#searching-by-anatomy-tree-for-mouse-anatomy)
+  - [Anatomy: Faceted Search](#anatomy-faceted-search)
+  - [Anatomy record page](#anatomy-record-page)
+    - [To search for genes annotated with expression *present*, *uncertain* or *not detected* in a given structure(s)](#to-search-for-genes-annotated-with-expression-present-uncertain-or-not-detected-in-a-given-structures)
+  - [Notes on searching by anatomical terms](#notes-on-searching-by-anatomical-terms)
+  - [Inferred annotation](#inferred-annotation)
+- [Boolean Anatomy Search](#boolean-anatomy-search)
 
 ## What is a data record in ATLAS-D2K?
 
@@ -13,7 +27,7 @@ For microarray, a data record encompasses the expression data for many genes sam
 
 ## Query by Gene
 
-Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.atlas-d2k.org](https://www.atlas-d2k.org)) or by using the menu navigation (_Data > Gene_).
+Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.atlas-d2k.org](https://www.atlas-d2k.org)) or by using the top-level menu navigation (_Data > Gene_).
 
 The results include records that contain information about the expression of the gene or genes of interest. The column "Available Expression Data" indicates the presence of *Expression Scoring*, *Array Data* or *Imaging* data from specimen (in situ, etc). The *Imaging* column includes representative thumbnails of the imaging data.
 
@@ -143,54 +157,4 @@ The search allows combinations of structures and developmental stages and differ
 
 For example, to retrieve only genes expressed in a structure, or to compare expression in the same structure at different stages.
 
-For more details, please go to the Boolean Anatomy Search Help Page (LINK).
-
-## Query by Accession ID
-
-Is this still relevant?
-
-In the **Specimens** search ([https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen) or *Search* > *Specimens* in the top menu navigation) you may type in a variety of different accession IDs in the main search bar to view all GUDMAP entries that contain information about the expression relating to that ID.
-
-![image alt text](wiki_images/querying_6.png)
-
-Accession ID's supported by ATLAS-D2K:
-
-* GUDMAP entry ID's (e.g. GUDMAP:8200, GUDMAP:7720). Worked in Specimens search only
-
-* Ensembl ID (e.g. ENSMUSG00000016458). Worked on Gene search only
-
-* MGI ID (e.g. MGI:98968). Worked on Gene search only
-
-* MA probe ID (e.g. maprobe:4427). Doesn’t seem to be supported anymore
-
-Queries using multiple accession IDs can be performed by separating terms with a pipe character (|) with no spaces (e.g. GUDMAP:7200|MGI:98957). Delete unless we get all access IDs searchable from same recordset
-
-Notes:
-
-* The prefix is not required when using this search. If no prefix is specified then the search will be performed across all accession types.
-
-* When searching using an ID other than GUDMAP ID, only in-situ (ISH & IHC) entries will be returned.
-
-## Query by function (?)
-
-Are we doing this?
-
-The query by function text box on the GUDMAP Gene Expression page can be used to search for genes and probes annotated with a Gene Ontology (GO) Molecular Function,  Biological Process, or Subcellular Location term. This search addresses all in situ expression data in GUDMAP.
-
-The query-string entered into the text box will be used to search the GO ontology for occurrences of this term. For each of the GO terms found a check is done to find all gene products annotated with these terms. A nice explanation of the methods and types of annotation used by GO is the GO Evidence Decision Tree.
-
-The list of gene products gives a list of gene symbols that can then be used to search the GUDMAP database find entries that contain information about the expression of these genes.
-
-NOTE: Searching by function will only return ISH or IHC entries.
-
-## Query by disease (coming soon)
-
-The GUDMAP disease resource is accessible by clicking on Query > Disease or via the Disease menu bar item on the top of the page. This searchable database of associations between genes and diseases of the urogenital system can be queried :
-
-* by **Disease-gene** associations: Select a disease to find genes associated with this condition or select a gene to search for potential diseases associated with it.
-
-* by **Phenotype-gene** associations: Select a phenotype to find associated genes or select a gene to search for potential phenotypes associated with it.
-
-For detailed examples on finding genes associated with disease and their location and expression in the genitourinary system, please look at the using GUDMAP tutorial and the GUDMAP demos .
-
-Links to GATACA and ToppGene can be found in the left side bar of the GUDMAP disease resource pages.
+For more details, please go to the [Boolean Anatomy Search page](../boolean-anatomy-search/).

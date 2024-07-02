@@ -7,6 +7,8 @@
       url: querying-the-atlas-d2k-data-browser
     - sectionTitle: Batch Querying Data
       url: batch-query
+    - sectionTitle: Boolean Anatomy Search
+      url: boolean-anatomy-search
     - sectionTitle: Exporting Data
       url: exporting-data
     - sectionTitle: Policy for Accessing Human Sequencing Data
