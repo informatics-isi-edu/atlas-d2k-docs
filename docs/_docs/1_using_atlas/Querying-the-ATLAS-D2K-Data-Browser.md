@@ -135,17 +135,17 @@ Choose "Specimen Expression Rollup" in the *Sections* list. This table includes 
 
 ### Notes on searching by anatomical terms
 
-Structures are often referred to with a variety of different terms. The predictive text in the "Tissue (Anatomical Source)" filter on the Specimen page will help you enter the correct term. (Where is this in the current browser? Specimen page)
+Structures are often referred to with a variety of different terms. The predictive text in the "Tissue (Anatomical Source)" filter on the [Specimen search page](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen) will help you enter the correct term.
 
-However, some structures have common names that begin with different text from the ontology name. For example, "proximal tubule" is represented by the term ‘renal proximal tubule’ in the ontology.  You can easily find the ontology term for a structure by viewing the interactive anatomy ontology tree on the left side of the Boolean Anatomy Search page. This tree is supported by a text string search that will find terms containing a given string. For example, typing ‘proximal’ in the ‘find anatomy component’ box will highlight ‘renal proximal tubule’ in the tree.  If you wish to use a term in the anatomy query on the GUDMAP Gene Expression page, for convenience click on the desired term in the anatomy tree; this will be presented in red on the right; copy the term from here and paste into the anatomy query box on the GUDMAP Gene Expression page. The anatomy query on the GUDMAP Gene Expression page will use this term simply as a text string; this is in contrast to the more advanced Boolean search which distinguishes different items in the tree with the same name as different entities (see help for Boolean Anatomy Search).
+However, some structures have common names that begin with different text from the ontology name. For example, **proximal tubule** is represented by the term **renal proximal tubule** in the ontology.  You can easily find the ontology term for a structure by viewing the interactive anatomy ontology tree on the left side of the [Boolean Anatomy Search page](../boolean-anatomy-search/). This tree is supported by a text string search that will find terms containing a given string. For example, typing **proximal** in the "find anatomy component" box will highlight **renal proximal tubule** in the tree.  
 
-Queries can be performed for multiple components by entering terms separated by a pipe (|) character with no space in between (e.g. kidney|ovary). Predictive text is available only for the first term in the list but other valid ontology terms can be added by typing on, using | to separate terms.  Queries with multiple terms are treated as A OR B OR C…
+Queries can be performed for multiple components by entering terms separated by a pipe (|) character with no space in between (e.g. **kidney|ovary**). Predictive text is available only for the first term in the list but other valid ontology terms can be added by typing on, using the pipe character to separate terms.  Queries with multiple terms are treated as **A OR B OR C**.
 
 ### Inferred annotation
 
-Suppose, for example, the anatomical term 'superficial cellular layer' has been annotated as expression *present* for a particular gene.
+Suppose, for example, the anatomical term "superficial cellular layer" has been annotated as expression *present* for a particular gene.
 
-As a consequence, the anatomical term 'urothelium' has 'inferred present' annotation (even though it has not been annotated directly) because 'superficial cellular layer' is a part of the 'urothelium'. Equally, if 'urothelium' was annotated as 'not detected' then its parts, including 'superficial cellular layer' would have 'inferred not detected' annotation.
+As a consequence, the anatomical term "urothelium" has the *inferred present* annotation (even though it has not been annotated directly) because "superficial cellular layer" is a part of the urothelium. Equally, if urothelium was annotated as *not detected* then its parts, including superficial cellular layer would have the *inferred not detected* annotation.
 
 The original annotations and original expression images are displayed on the page for the corresponding database entry.
 

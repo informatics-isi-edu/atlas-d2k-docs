@@ -17,7 +17,7 @@ Use the [*Boolean Anatomy Search* application](https://www.atlas-d2k.org/deriva-
 
 ## Getting to know the Boolean Anatomy Search app
 
-![Annotated view of the Boolean Anatomy Search app](boolean-anatomy-search-page.png){:.screenshot}
+![Annotated view of the Boolean Anatomy Search app]({{ "/assets/img/boolean-anatomy-search-page.png" | relative_url }}){:.screenshot}
 
 | &nbsp;   |  &nbsp;      |
 |---------- |-------------------|
