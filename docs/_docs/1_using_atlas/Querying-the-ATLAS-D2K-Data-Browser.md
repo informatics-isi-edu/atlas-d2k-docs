@@ -139,7 +139,7 @@ Structures are often referred to with a variety of different terms. The predicti
 
 However, some structures have common names that begin with different text from the ontology name. For example, **proximal tubule** is represented by the term **renal proximal tubule** in the ontology.  You can easily find the ontology term for a structure by viewing the interactive anatomy ontology tree on the left side of the [Boolean Anatomy Search page](../boolean-anatomy-search/). This tree is supported by a text string search that will find terms containing a given string. For example, typing **proximal** in the "find anatomy component" box will highlight **renal proximal tubule** in the tree.  
 
-Queries can be performed for multiple components by entering terms separated by a pipe (|) character with no space in between (e.g. **kidney|ovary**). Predictive text is available only for the first term in the list but other valid ontology terms can be added by typing on, using the pipe character to separate terms.  Queries with multiple terms are treated as **A OR B OR C**.
+Queries can be performed for multiple components by entering terms separated by a pipe `|` character with no space in between (e.g. `kidney|ovary`). Predictive text is available only for the first term in the list but other valid ontology terms can be added by typing on, using the pipe character to separate terms.  Queries with multiple terms are treated as **A OR B OR C**.
 
 ### Inferred annotation
 
