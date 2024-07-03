@@ -7,6 +7,7 @@ Use the [*Boolean Anatomy Search* application](https://www.atlas-d2k.org/deriva-
 
 ## Table of Contents
 
+- [Finding the Boolean Anatomy Search](#finding-the-boolean-anatomy-search)
 - [Getting to know the Boolean Anatomy Search app](#getting-to-know-the-boolean-anatomy-search-app)
 - [Using the graphical user interface (GUI)](#using-the-graphical-user-interface-gui)
   - [Example of building a query with the GUI](#example-of-building-a-query-with-the-gui)
@@ -14,6 +15,14 @@ Use the [*Boolean Anatomy Search* application](https://www.atlas-d2k.org/deriva-
   - [Search syntax](#search-syntax)
   - [Example search strings](#example-search-strings)
 - [Troubleshooting](#troubleshooting)
+
+## Finding the Boolean Anatomy Search
+
+From the top-level of the ATLAS-D2K website, click _Data > Anatomy > Anatomy: Boolean Search_.
+
+![Annotated view of the Boolean Anatomy Search app]({{ "/assets/img/navigating-boolean-anatomy-search.png" | relative_url }}){:.screenshot}
+
+You can also bookmark this link: [https://www.atlas-d2k.org/deriva-webapps/boolean-search/](https://www.atlas-d2k.org/deriva-webapps/boolean-search/)
 
 ## Getting to know the Boolean Anatomy Search app
 
