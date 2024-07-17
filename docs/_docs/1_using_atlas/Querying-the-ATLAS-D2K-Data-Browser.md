@@ -147,7 +147,7 @@ You can easily find the ontology term for a structure by viewing the interactive
 
 ### Inferred annotation
 
-We support **inferred annotation**, that is, we indicate a region inherits the annotation of a related region.
+We support **inferred annotation**, that is, we indicate if a region inherits the annotation of a related region.
 
 Suppose, for example, the anatomical term "superficial cellular layer" has been annotated as expression *present* for a particular gene.
 
