@@ -14,8 +14,8 @@ This section describes many ways to search ATLAS-D2K data:
   - [Searching by Anatomy Tree (for mouse anatomy)](#searching-by-anatomy-tree-for-mouse-anatomy)
   - [Anatomy: Faceted Search](#anatomy-faceted-search)
   - [Anatomy record page](#anatomy-record-page)
-    - [To search for genes annotated with expression *present*, *uncertain* or *not detected* in a given structure(s)](#to-search-for-genes-annotated-with-expression-present-uncertain-or-not-detected-in-a-given-structures)
-  - [Notes on searching by anatomical terms](#notes-on-searching-by-anatomical-terms)
+    - [Search for genes annotated with expression *present*, *uncertain* or *not detected*](#search-for-genes-annotated-with-expression-present-uncertain-or-not-detected)
+  - [Challenges on searching by anatomical terms](#challenges-on-searching-by-anatomical-terms)
   - [Inferred annotation](#inferred-annotation)
 - [Boolean Anatomy Search](#boolean-anatomy-search)
 
@@ -121,9 +121,11 @@ On the *Sections* sidebar to the right side of the page, you’ll see a list of 
 
 The numbers to the right of the names indicate how many instances of these types of data are available.
 
-#### To search for genes annotated with expression *present*, *uncertain* or *not detected* in a given structure(s)
+#### Search for genes annotated with expression *present*, *uncertain* or *not detected*
 
-Choose "Specimen Expression Rollup" in the *Sections* list. This table includes ATLAS-D2K entries that include annotated in situ expression data and microarray data.
+You can search sequencing data for annotations on expression strength.
+
+From an Anatomy record page, choose "Specimen Expression Rollup" in the *Sections* list. This table includes entries that include annotated in situ expression data and microarray data.
 
 * For **Specimen (ISH/IHC)** that contain either a **direct annotation** for the anatomical term specified (whether it is *present*, *uncertain* or *possible*) or an **inferred annotation** for the anatomical term (see below).
 
@@ -131,17 +133,21 @@ Choose "Specimen Expression Rollup" in the *Sections* list. This table includes 
 
 * For **Microarray** where the anatomical term specified is the sample material or where sub-components of the anatomical term have been used as sample material.
 
-  For example, using the term ‘maturing nephron’ for the query will return database entries where the sample was the ‘early proximal tubule’ and entries where the sample was ‘maturing renal corpuscle’. Both these structures are part of the maturing nephron.
+  For example, using the term ‘maturing nephron’ for the query will return database entries where the sample was the ‘early proximal tubule’ and entries where the sample was ‘maturing renal corpuscle’. Both structures are part of the maturing nephron.
 
-### Notes on searching by anatomical terms
+### Challenges on searching by anatomical terms
 
-Structures are often referred to with a variety of different terms. The predictive text in the "Tissue (Anatomical Source)" filter on the [Specimen search page](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen) will help you enter the correct term.
+Structures are often referred to with a variety of different terms. The **predictive text in the "Tissue (Anatomical Source)" filter** on the [Specimen search page](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen) will help you enter the correct term.
 
-However, some structures have common names that begin with different text from the ontology name. For example, **proximal tubule** is represented by the term **renal proximal tubule** in the ontology.  You can easily find the ontology term for a structure by viewing the interactive anatomy ontology tree on the left side of the [Boolean Anatomy Search page](../boolean-anatomy-search/). This tree is supported by a text string search that will find terms containing a given string. For example, typing **proximal** in the "find anatomy component" box will highlight **renal proximal tubule** in the tree.  
+However, some structures have common names that begin with different text from the ontology name. For example, **proximal tubule** is represented by the term **renal proximal tubule** in the ontology.  
 
-Queries can be performed for multiple components by entering terms separated by a pipe `|` character with no space in between (e.g. `kidney|ovary`). Predictive text is available only for the first term in the list but other valid ontology terms can be added by typing on, using the pipe character to separate terms.  Queries with multiple terms are treated as **A OR B OR C**.
+You can easily find the ontology term for a structure by viewing the interactive anatomy ontology tree on the left side of the [Boolean Anatomy Search page](../boolean-anatomy-search/). This tree is supported by a text string search that will find terms containing a given string. For example, typing **proximal** in the "find anatomy component" box will highlight **renal proximal tubule** in the tree.  
+
+**Queries can be performed for multiple components** by entering terms separated by a pipe `|` character with no space in between (e.g. `kidney|ovary`). Predictive text is available only for the first term in the list but other valid ontology terms can be added by typing on, using the pipe character to separate terms.  Queries with multiple terms are treated as **A OR B OR C**.
 
 ### Inferred annotation
+
+We support **inferred annotation**, that is, we indicate a region inherits the annotation of a related region.
 
 Suppose, for example, the anatomical term "superficial cellular layer" has been annotated as expression *present* for a particular gene.
 
