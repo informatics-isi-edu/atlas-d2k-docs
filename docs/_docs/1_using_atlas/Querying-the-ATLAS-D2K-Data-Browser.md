@@ -83,11 +83,15 @@ Go to the [Anatomy Tree view](https://www.atlas-d2k.org/deriva-webapps/treeview/
 
 This option provides a tree structure view of anatomical terms that conform to the GUDMAP Ontology.
 
-Start typing an anatomical region in the search field. In the example below, we're typing "prostate". You may also use the dropdown button to specify a Theiler stage and the tree will highlight corresponding term(s). In the following screenshot you'll see part of the tree with all terms related to "prostate".
+Start by choosing an Age Stage in the dropdown field and then typing an anatomical region in the search field.
+
+In the example below, we chose "All Stages" and typed "prostate". **If there are results**, the tree will highlight corresponding term(s) and scroll down to the first instance:
 
 ![image alt text]({{ "/assets/wiki_images/querying_3.png" | relative_url }})
 
-Click a term to go to the corresponding Anatomy records page (we have more details on this page further down the page).
+Click a term to go to the corresponding Anatomy record page (we have more details on this page in the next section):
+
+![Anatomy page for prostate gland]({{ "/assets/wiki_images/querying_3_page.png" | relative_url }})
 
 ### Anatomy: Faceted Search
 
