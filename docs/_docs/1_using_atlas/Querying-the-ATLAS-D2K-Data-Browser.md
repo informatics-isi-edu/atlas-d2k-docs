@@ -8,6 +8,8 @@ This section describes many ways to search ATLAS-D2K data:
 ## Table of Contents
 
 - [What is a data record in ATLAS-D2K?](#what-is-a-data-record-in-atlas-d2k)
+  - [Specimen records (Imaging data)](#specimen-records-imaging-data)
+  - [Study records (Sequencing/Omics data)](#study-records-sequencingomics-data)
 - [Query by Gene](#query-by-gene)
   - [Multiple genes (Batch Query)](#multiple-genes-batch-query)
 - [Query by Anatomy](#query-by-anatomy)
@@ -21,13 +23,48 @@ This section describes many ways to search ATLAS-D2K data:
 
 ## What is a data record in ATLAS-D2K?
 
+A data record in ATLAS-D2K represents the metadata and links to the data files and other related records. Instead of just providing a title, abstract and files, ATLAS-D2K data records are organized into hierarchies based on the concepts used in research studies: Specimen, Study, Experiments and Replicates.
+
+Every data record throughout ATLAS-D2K data has its own Resource IDentifier (**RID**). This is a permanent, citable, globally unique identifier displayed for every data record, much like an Accession Number.
+
+The main top-level points of entry for most data in ATLAS-D2K are through the **Specimen** and **Study** records, described below.
+
+#### Specimen records (Imaging data)
+
+A **Specimen** record describes the biological tissue from an organism (e.g., human, mice, organoid) used in experiments. In ATLAS-D2K, these records host imaging data and are linked to related sequencing studies (through **Replicate** records).
+
+Specimen records also house information such as antibodies that were used, expression scores and probes (among others).
+
+<!--
+Imaging types available in Specimen records include [Immunohistochemistry (IHC)](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA?pcid=navbar/record&ppid=1z9l2sm51epk28x71ulk1nx1), [In-situ Hybridization (ISH)](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA?pcid=navbar/record&ppid=1z9l2sm51epk28x71ulk1nx1) [Histology](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoAJbkiIoANigDm+48ZAA@sort(RCT::desc::,Stage_Ordinal,RID)), and [nanoCT](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoRIKAMIrDR40A@sort(RCT::desc::,Stage_Ordinal,RID)).
+-->
+
+![Example of a Specimen record]({{ "/assets/wiki_images/specimen-record-example.png" | relative_url }})
+
+#### Study records (Sequencing/Omics data)
+
+A **Study** is a group of **Experiments**, each of which consists of one or more **Replicates**, conducted for a specific scientific goal. *Sequencing* data is organized by Studies. The experiment types include -omic (e.g. transcriptomics, epigenomics, metabolomics) and Imaging Mass Cytometry (IMC). The data files can be found under individual Replicates or Studies. Legacy transcriptomics data can be found at Legacy Microarray and Legacy RNASeq.
+
+Study records are organized as below:
+- **Study**: The top layer, describes high-level objectives and overall design of the experiments. It may contain one or several Experiments. Study-level analysis files can be uploaded to the **Analysis Files** section.
+    - **Experiment**: Describes the protocols, procedures, and experiment settings done to a set of Replicates. Linked records could include antibodies, custom metadata, and settings.
+        - **Replicate**: Provides bio-sample details and both biological and technical replicate numbers. Replicates include:
+          * All of the replicate-specific experimental assays, such as sequencing and analysis files, are uploaded under the **File** section.
+          * A link to a **Specimen** record.  
+          * For single cell RNA-Seq, you may also add a **Single Cell Metrics** record summarizing the statistics of a Replicate.
+
+![Example of a Study record]({{ "/assets/wiki_images/study-record-example.png" | relative_url }})
+
+<!--
 For [ISH](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAJQCSAEUNCsACxTdcSSgEYAbAFoATJYBipoZGxkA?pcid=navbar/record&ppid=1z9l2sm51epk28x71ulk1nx1) and [IHC](https://www.atlas-d2k.org/chaise/recordset/#2/Gene_Expression:Specimen/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM6JHQBcAjdafEAcRwhwH0BRADwAcMckkBLFCEADQgAyqxxZuAW1r0AglzABPegBVFY+gDMA1jkUgAugF8hAOTDTDQrAAsU3XEkoBJABIBhQ0eNA?pcid=navbar/record&ppid=1z9l2sm51epk28x71ulk1nx1) specimen data, a data record contains the expression data for a single gene, assayed with a defined probe in a single mouse strain of a single mouse sex at a single stage or time in development. Sex can be unknown (e.g. [RID=N-GNB0](https://www.atlas-d2k.org/id/N-GNB0)).
 
 For microarray, a data record encompasses the expression data for many genes sampled from a single stage or time in development. Sex can be unknown (e.g. [RID=R-ZX6Y](https://www.atlas-d2k.org/id/R-ZX6Y)) or both. Each record relates to a single sample taken from a single microarray series within the database. So if you search by gene, you'll see all microarray entries that contain that gene on the chip.
-
+-->
 ## Query by Gene
 
 Enter a gene symbol/name (or synonym) in the search box on the homepage ([https://www.atlas-d2k.org](https://www.atlas-d2k.org)) or by using the top-level menu navigation (_Data > Gene_).
+
+![Shows the Gene search page]({{ "/assets/wiki_images/query-by-gene.png" | relative_url }})
 
 The results include records that contain information about the expression of the gene or genes of interest. The column "Available Expression Data" indicates the presence of *Expression Scoring*, *Array Data* or *Imaging* data from specimen (in situ, etc). The *Imaging* column includes representative thumbnails of the imaging data.
 
@@ -63,6 +100,11 @@ In the left sidebar of the results, you may filter results further by these cate
 
 The search automatically assumes a 'wildcard' at the end of the search string; therefore, typing in 'uro' will search for words/symbols beginning with 'uro', e.g. urothelium, urogenital, uroplakin, etc.
 
+![Shows the Gene search page]({{ "/assets/wiki_images/query-by-gene-apt6-search.png" | relative_url }})
+
+[![Shows results for APT6 Gene]({{ "/assets/wiki_images/query-by-gene-apt6-result-crop.png" | relative_url }})]({{ "/assets/wiki_images/query-by-gene-apt6-result.png" | relative_url }})
+
+
 ### Multiple genes (Batch Query)
 
 To search for multiple genes, use the [Batch Query](../batch-query) method. Use the search method described above but enter multiple genes separated with a pipe character ( &#124; ) with _no_ spaces in between. For example:
@@ -70,6 +112,21 @@ To search for multiple genes, use the [Batch Query](../batch-query) method. Use 
 > APT6&#124;COX1&#124;Six2
 
 This list may contain a mixture of different terms (e.g. MGI accession IDs and MCBI Gene Symbols).
+
+## Querying with the Filtering Sidebar
+
+This method guides your search through structured data by their classification or characteristics.
+
+Biomedical research involves experiments on a group of model organisms (mice, zebrafish, etc) with particular age stages, there’s at least one anatomical region of interest, and there are different assays (RNA-Seq, microCT, etc). These are examples of the different categories or “facets” of the data.
+
+When you perform a search in ATLAS-D2K, you’ll see the faceting navigation sidebar on the left, with the main search results on the right. As you explore the available facets and make choices, the main search results update to show what’s available with those combination of facets.
+
+For example, if you are interested in sequencing data, you can go to the Study link in the top-level menu (Data > Study) and see a page that looks like this:
+
+![Study search page]({{ "/assets/wiki_images/study-search-page.png" | relative_url }})
+
+You can do a freetext search in the field above the results. And you can use the filtering sidebar in the left to narrow down the results even further.
+
 
 ## Query by Anatomy
 
