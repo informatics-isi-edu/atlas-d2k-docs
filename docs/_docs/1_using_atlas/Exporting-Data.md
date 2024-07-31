@@ -50,17 +50,14 @@ A BDBAG consists of a hierarchical directory containing the data files and other
 To export the initial "BDBAG", go to the detail page with the data you want, click the *Export* button towards the upper right part of the screen and choose *BDBAG*.
 
 We'll use this study as an example: [https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M](https://www.atlas-d2k.org/chaise/record/#2/RNASeq:Study/RID=16-WW2M)
-<br />
-<br />
-<img src="/assets/wiki_images/export_data/export-button-new.png" alt="export button" width="750"/>
-<br />
-<br />
+
+![Export button]({{ "/assets/wiki_images/export_data/export-button-new.png" | relative_url }})
+
+
 A progress window appears saying that the BDBAG is being created.
-  <br/>
-  <br/>
-<img src="/assets/wiki_images/export_data/export_progress_bar_2.png" alt="export progress" width="750" />
-  <br/>
-  <br/>
+
+![Export progress bar]({{ "/assets/wiki_images/export_data/export_progress_bar_2.png" | relative_url }})
+
 Then a ZIP file downloads to your local environment with the metadata files describing the data (including appropriate MD5 checksums), e.g. `Study_16-WW2M.zip`. This will *not* include the actual data files themselves.
 
 **Make a note of the path to this file** - it will be used in the export tool to fetch the files.
@@ -90,11 +87,11 @@ To use the GUI:
 
 * In the Name column, use the arrows to traverse down your system directory to the folder with the BDBag you downloaded (ie, your *Downloads* folder). Select the BDBag zip file. The following screenshots provide a demonstration. But keep in mind that if you traverse to a folder with many files, it will take a while to scroll to the BDBag file. You may want to save it in a more "shallow" location.
 
-<img src="/assets/wiki_images/export_data/bdbag-gui.png" alt="BDBAG GUI" width="750"/>
+![BDBAG GUI]({{ "/assets/wiki_images/export_data/bdbag-gui.png" | relative_url }})
 
-<img src="/assets/wiki_images/export_data/bdbag-gui-callout.png" alt="export file unzipped" width="750"/>
+![BDBAG GUI Callout]({{ "/assets/wiki_images/export_data/bdbag-gui-callout.png" | relative_url }})
 
-<img src="/assets/wiki_images/export_data/bdbag-gui-select.png" alt="export file unzipped" width="750"/>
+![BDBAG GUI Select]({{ "/assets/wiki_images/export_data/bdbag-gui-select.png" | relative_url }})
 
 
 * Click **Materialize** to extract the folder from the zip file, download them to the same folder as the zip file and perform checksum validation to make sure there was no corruption in the transfer. The status field will indicate your progress.
@@ -114,27 +111,20 @@ Open the DERIVA Authentication application:
 * Linux: Run `deriva-auth`.
 
 The first time you log in, you'll see a mostly-empty window:
-  <br/>
-  <br/>
-<img src="/assets/wiki_images/export_data/login_deriva_auth_2.png" alt="deriva login page" width="750"/>
-  <br/>
-  <br/>
+
+![DERIVA Login Page]({{ "/assets/wiki_images/export_data/login_deriva_auth_2.png" | relative_url }})
+
 In the "Server:" field, type in `www.atlas-d2k.org` and click _Enter_ or click the _Add_ button.
 
 You should now see the following screen:
-  <br/>
-  <br/>
-<img src="/assets/wiki_images/export_data/blank-auth.png" alt="deriva login page" width="750"/>
-  <br/>
-  <br/>
+
+![DERIVA Login Page - initial authorization page]({{ "/assets/wiki_images/export_data/blank-auth.png" | relative_url }})
+
 Use the log in method of your choice (i.e., your institution's credentials if available).
 
 After logging in, you'll see an "Authentication Successful" message:
-  <br/>
-  <br/>
-<img src="/assets/wiki_images/export_data/login_deriva_success.PNG" alt="deriva login page" width="750"/>
-  <br/>
-  <br/>
+
+![DERIVA Success Page]({{ "/assets/wiki_images/export_data/login_deriva_success.PNG" | relative_url }})
 
 ### 3.3.2 Download the data files
 
