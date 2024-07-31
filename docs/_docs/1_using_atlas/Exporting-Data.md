@@ -9,7 +9,7 @@ permalink: /docs/exporting-data/
   - [1.1 What is a BDBAG?](#11-what-is-a-bdbag)
 - [2. Export the BDBAG](#2-export-the-bdbag)
 - [3. Export the data files](#3-export-the-data-files)
-  - [3.1 Download and install DERIVA Client](#31-download-and-install-deriva-client)
+  - [3.1 Download and install DERIVA Client tool](#31-download-and-install-deriva-client-tool)
   - [3.2 Exporting files using the GUI](#32-exporting-files-using-the-gui)
   - [3.3 Exporting files using the command line client](#33-exporting-files-using-the-command-line-client)
   - [3.3.1 Log in with DERIVA Authentication](#331-log-in-with-deriva-authentication)
@@ -21,7 +21,7 @@ permalink: /docs/exporting-data/
       - [3.3.3.2 Download only the missing files with a particular file extensions](#3332-download-only-the-missing-files-with-a-particular-file-extensions)
       - [3.3.3.3 Filter and download only files below a specific size](#3333-filter-and-download-only-files-below-a-specific-size)
     - [3.3.4 All `bdbag` command line options](#334-all-bdbag-command-line-options)
-- [4. Exporting to submit to GEO (for Data Submitters)](#4-exporting-to-submit-to-geo-for-data-submitters)
+- [4. Exporting to submit to GEO](#4-exporting-to-submit-to-geo-for-data-submitters)
   - [FTP files to GEO](#ftp-files-to-geo)
 - [5. Troubleshooting](#5-troubleshooting)
   - [5.1 If you used DERIVA Auth but are still getting an error that you are not allowed to download data](#51-if-you-used-deriva-auth-but-are-still-getting-an-error-that-you-are-not-allowed-to-download-data)
@@ -32,18 +32,18 @@ permalink: /docs/exporting-data/
 
 Available data files displayed on a page may be downloaded individually by clicking the link, but the "Export" button offers many more options:
 
-* * **This record (CSV)**: Available on every page, this option downloads a CSV file of the metadata. For search results, it will include metadata for all of the results, not just those visible on the current page.
-* **BDBAG**: Available only on detail pages. This option downloads a ZIP file with metadata and information about the files you want to download. This ZIP file is used with our tool (see below) to export the files to your desired location (locally or on a remote server). **This is recommended for many files or very large files.**
+* **This record (CSV)**: Available on every page, this option downloads a CSV file of the metadata. For search results, it will include metadata for all of the results, not just those visible on the current page.
+* **BDBAG**: Available only on detail pages. To download the data files, this must be used [with our tool](#3-export-the-data-files). This option downloads a ZIP file with metadata and information about the files you want to download. This ZIP file [must be used with our tool, see below](#3-export-the-data-files), to export the files to your desired location (locally or on a remote server). **This is recommended for many files or very large files.**
 * **GEO Excel**: Available on Study detail pages only, this option exports an Excel spreadsheet with metadata suitable for uploading to GEO.
-* **GEO BDBAG (GEO excel and sequencing files)**: Available on Study detail pages only, this option exports an Excel spreadsheet with metadata and a BDBAG (to be used with our tool, see below) that is suitable for uploading to GEO.
-
-**To use the "BDBAG" or "GEO BDBAG" option, follow the instructions on the rest of the page.**
+* **GEO BDBAG (GEO excel and sequencing files)**: Available on Study detail pages only, this option exports an Excel spreadsheet with metadata and a BDBAG ZIP file, [which must be used with our tool, see below](#3-export-the-data-files), that is suitable for uploading to GEO.
 
 ### 1.1 What is a BDBAG?
 
 **BDBAG (Big Data Bag)** is a program that allows for reliable transfer of a "bag" of digital content - in this context, a group of files that you want to export in bulk. It is available as a command-line client and a GUI client.
 
 A BDBAG consists of a hierarchical directory containing the data files and other accompanying metadata files that enable and document the **secure** transfer of the BDBAG to your chosen location. This provides **verification** that you have all the files you were trying to export AND that they were not corrupted in the process.
+
+**The rest of this document describes how to use the BDBAG export with our tool to export data to your desired destination.**
 
 ## 2. Export the BDBAG
 
@@ -71,7 +71,7 @@ Once you have downloaded and installed the client tools (see below), use our BDB
 
  You have the option of using a GUI for simple transfer of files to your local computer or the command-line client, which offers more options and may be used on a remote server.
 
-### 3.1 Download and install DERIVA Client
+### 3.1 Download and install DERIVA Client tool
 
 [DERIVA Client](https://github.com/informatics-isi-edu/deriva-client) is a set of software packages that includes the BDBag command line program (`bdbag`) and a GUI, either of which may be used for downloading the files, and `DERIVA Authentication Agent` for authenticating your downloads. (Note that there are other programs within this package that are useful for data submitters, such as the upload program.)
 
@@ -90,11 +90,12 @@ To use the GUI:
 
 * In the Name column, use the arrows to traverse down your system directory to the folder with the BDBag you downloaded (ie, your *Downloads* folder). Select the BDBag zip file. The following screenshots provide a demonstration. But keep in mind that if you traverse to a folder with many files, it will take a while to scroll to the BDBag file. You may want to save it in a more "shallow" location.
 
-<img src="https://raw.githubusercontent.com/informatics-isi-edu/facebase-curation/master/wiki-images/bdbag-gui.png" alt="export file unzipped" width="800"/>
+<img src="/assets/wiki_images/export_data/bdbag-gui.png" alt="BDBAG GUI" width="750"/>
 
-<img src="https://raw.githubusercontent.com/informatics-isi-edu/facebase-curation/master/wiki-images/bdbag-gui-callout.png" alt="export file unzipped" width="800"/>
+<img src="/assets/wiki_images/export_data/bdbag-gui-callout.png" alt="export file unzipped" width="750"/>
 
-<img src="https://raw.githubusercontent.com/informatics-isi-edu/facebase-curation/master/wiki-images/bdbag-gui-select.png" alt="export file unzipped" width="800"/>
+<img src="/assets/wiki_images/export_data/bdbag-gui-select.png" alt="export file unzipped" width="750"/>
+
 
 * Click **Materialize** to extract the folder from the zip file, download them to the same folder as the zip file and perform checksum validation to make sure there was no corruption in the transfer. The status field will indicate your progress.
 
@@ -223,7 +224,7 @@ bdbag --resolve-fetch all --fetch-filter 'length<=500000' download\path\Study_16
 
 You may find the complete list of command line options here:
 
-https://github.com/fair-research/bdbag/blob/master/doc/cli.md#bdbag-command-line-interface-cli
+[https://github.com/fair-research/bdbag/blob/master/doc/cli.md#bdbag-command-line-interface-cli](https://github.com/fair-research/bdbag/blob/master/doc/cli.md#bdbag-command-line-interface-cli)
 
 ## 4. Exporting to submit to GEO (for Data Submitters)
 
